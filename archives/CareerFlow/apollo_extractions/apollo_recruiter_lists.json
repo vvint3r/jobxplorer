@@ -1,0 +1,14 @@
+{
+  "TechnicalRecruitersPublic": {
+    "description": "US public-company technical recruiters (Net New via prospectedByCurrentTeam[]=no).",
+    "url": "https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationLocations[]=United%20States&organizationNumEmployeesRanges[]=101%2C200&organizationNumEmployeesRanges[]=201%2C500&organizationNumEmployeesRanges[]=10001&organizationNumEmployeesRanges[]=5001%2C10000&organizationNumEmployeesRanges[]=2001%2C5000&organizationNumEmployeesRanges[]=501%2C1000&organizationNumEmployeesRanges[]=1001%2C2000&organizationNumEmployeesRanges[]=51%2C100&organizationTradingStatus[]=public&sortAscending=false&sortByField=%5Bnone%5D&page=1&prospectedByCurrentTeam[]=no",
+    "output_stem": "apollo_recruiter_records_technical_public_net_new",
+    "output_dir": "apollo_recruiters/lists/TechnicalRecruitersPublic"
+  },
+  "TechnicalRecruitersTargetOrgs": {
+    "description": "Technical recruiters at specific target organization IDs (Net New).",
+    "url": "https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizationIds[]=54a1998674686949e7a2b400&organizationIds[]=54a1280069702d9b8b5fe100&organizationIds[]=5f55c37c2a079e00ffd677ec&organizationIds[]=5fcb120742e9e60001561802&organizationIds[]=54a11e3a69702d94a4753c01&organizationIds[]=55923de0736964186f02ef00&organizationIds[]=5f4a53d28fcdba0001468a04&organizationIds[]=54a1214169702d97c1a3d102&organizationIds[]=5fc910931803d100f6441cd1&organizationIds[]=54a12ae269702db648e84202&organizationIds[]=5d0a05c380f93e2e1b4cfc74&organizationIds[]=5f2987132c142600daf44da0&organizationIds[]=5b8380bff874f71d08f188f3&organizationIds[]=54a1233869702d8ed4ee5703&organizationIds[]=5f50a22da4560d00e3eddf31&organizationIds[]=54a11b7569702d918c7c3800&organizationIds[]=559226da736964191e149b00&organizationIds[]=5f4068ae2c39f70001b8b6fb&organizationIds[]=624ef8ac216531008d87847c&organizationIds[]=5d32ab3ea3ae613d2e3296d5&organizationIds[]=5fca22ab62ba9b00dad3db3a&organizationIds[]=556def3273696410a5050b00&organizationIds[]=57c4b974a6da98370bc96d12&organizationIds[]=5cb38113f651258170fd1438&organizationIds[]=5d09672680f93ed96b773354&organizationIds[]=623c83e5ccee7800e21cad95&organizationIds[]=5da70473cd17be0001b70dbb&organizationIds[]=5d366fa6f651251ecef89127&organizationIds[]=5fcdfa4f47de6b00daa4ee9e&organizationIds[]=5f5fa368134e120100e8fe6b&organizationIds[]=5e57b9571e1aa10001c23089&organizationIds[]=6279918b8850d6008dc3a5d2&organizationIds[]=5fcd2cf3ed78c700f9383e4e&organizationIds[]=54a11cd369702d77c27ae000&organizationIds[]=5d09cdcb80f93ee2e8e10adf&organizationIds[]=5fcb9468fe44810001e97eba&sortAscending=false&sortByField=%5Bnone%5D&page=1&prospectedByCurrentTeam[]=no",
+    "output_stem": "apollo_recruiter_records_technical_target_orgs_net_new",
+    "output_dir": "apollo_recruiters/lists/TechnicalRecruitersTargetOrgs"
+  }
+}

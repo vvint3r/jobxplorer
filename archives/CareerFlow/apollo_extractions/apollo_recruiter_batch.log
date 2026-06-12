@@ -1,0 +1,1481 @@
+=== Starting TechnicalRecruitersTargetOrgs at Sat May 30 06:15:44 PM UTC 2026 ===
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-05-30 18:15:45 - INFO - Starting recruiter extraction from page 1
+2026-05-30 18:15:45 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-05-30 18:15:45 - INFO - Virtual display started
+2026-05-30 18:15:45 - INFO - Using existing DISPLAY=:0
+2026-05-30 18:15:45 - INFO - Detected Chrome version: 141
+2026-05-30 18:15:45 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-05-30 18:15:48 - INFO - Created Chrome driver on port 9605 with profile dir /tmp/apollo_recruiters_9605
+2026-05-30 18:15:51 - INFO - Cookie file read successfully
+2026-05-30 18:15:51 - INFO - Successfully parsed 47 cookies
+2026-05-30 18:15:51 - INFO - Successfully loaded 47 cookies
+2026-05-30 18:16:08 - INFO - Cookies applied successfully
+2026-05-30 18:16:15 - INFO - Using saved-list URL mode (page=1)
+2026-05-30 18:16:15 - INFO - Navigating to filtered People page...
+2026-05-30 18:16:31 - INFO - Ensuring Net New view is selected...
+2026-05-30 18:16:40 - INFO - Net New view selected
+2026-05-30 18:16:40 - INFO - Detected total rows: 565, page size: 25, total pages: 23. Processing through page 23.
+2026-05-30 18:16:40 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersTargetOrgs/apollo_recruiter_records_technical_target_orgs_net_new_1.csv
+2026-05-30 18:16:40 - INFO - Created new CSV file with headers (run apollo_recruiter_records_technical_target_orgs_net_new_1.csv)
+2026-05-30 18:16:40 - INFO - Processing page 1 of 23 (1 - 25 of 565)
+
+==================================================
+Processing page 1 of 23
+Progress: 1 - 25 of 565
+==================================================
+
+2026-05-30 18:16:40 - INFO - Saved HTML for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260530_181640.html
+2026-05-30 18:16:40 - INFO - Saved screenshot for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260530_181640.png
+2026-05-30 18:16:40 - INFO - Found 25 records on page 1
+2026-05-30 18:16:42 - INFO - Clicked Access email for record 1
+2026-05-30 18:16:43 - INFO - Access email cleared for record 1; treating as prospected
+2026-05-30 18:16:51 - INFO - Collected record 1: John Clough | Technical Recruiter | Apple | N/A
+2026-05-30 18:16:55 - INFO - Clicked Access email for record 2
+2026-05-30 18:16:56 - INFO - Access email cleared for record 2; treating as prospected
+2026-05-30 18:17:11 - INFO - Collected record 2: Al Keogh | Tech Recruiter | MongoDB | N/A
+2026-05-30 18:17:15 - INFO - Clicked Access email for record 3
+2026-05-30 18:17:17 - INFO - Access email cleared for record 3; treating as prospected
+2026-05-30 18:17:31 - INFO - Collected record 3: Archita Kanoongo | Technical Recruiter | Intuit | N/A
+2026-05-30 18:17:36 - INFO - Clicked Access email for record 4
+2026-05-30 18:17:36 - INFO - Access email cleared for record 4; treating as prospected
+2026-05-30 18:17:44 - INFO - Collected record 4: Tom Stephan | Technical Recruiter | Apple | N/A
+2026-05-30 18:17:49 - INFO - Clicked Access email for record 5
+2026-05-30 18:17:50 - INFO - Access email cleared for record 5; treating as prospected
+2026-05-30 18:18:05 - INFO - Collected record 5: Kyle Flisher | Technical Recruiter | Meta | N/A
+2026-05-30 18:18:09 - INFO - Clicked Access email for record 6
+2026-05-30 18:18:11 - INFO - Access email cleared for record 6; treating as prospected
+2026-05-30 18:18:25 - INFO - Collected record 6: Amber Hawkins | Technical Recruiter | MongoDB | N/A
+2026-05-30 18:18:29 - INFO - Clicked Access email for record 7
+2026-05-30 18:18:31 - INFO - Access email cleared for record 7; treating as prospected
+2026-05-30 18:18:46 - INFO - Collected record 7: Delorian Bennett | Technical Recruiter | Meta | N/A
+2026-05-30 18:18:51 - INFO - Clicked Access email for record 8
+2026-05-30 18:18:52 - INFO - Access email cleared for record 8; treating as prospected
+2026-05-30 18:19:07 - INFO - Collected record 8: Jen Dolan | Technical Recruiter | NVIDIA | N/A
+2026-05-30 18:19:11 - INFO - Clicked Access email for record 9
+2026-05-30 18:19:12 - INFO - Access email cleared for record 9; treating as prospected
+2026-05-30 18:19:20 - INFO - Collected record 9: Morgan Rains | Technical Recruiter Click to View Match Details | Atlassian | N/A
+2026-05-30 18:19:24 - INFO - Clicked Access email for record 10
+2026-05-30 18:19:25 - INFO - Access email cleared for record 10; treating as prospected
+2026-05-30 18:19:40 - INFO - Collected record 10: Aditi Pawar | Technical Recruiter | Deloitte | N/A
+2026-05-30 18:19:45 - INFO - Clicked Access email for record 11
+2026-05-30 18:19:46 - INFO - Access email cleared for record 11; treating as prospected
+2026-05-30 18:20:01 - INFO - Collected record 11: Mike Galligan | Technical Recruiter | Gusto | N/A
+2026-05-30 18:20:05 - INFO - Clicked Access email for record 12
+2026-05-30 18:20:06 - INFO - Access email cleared for record 12; treating as prospected
+2026-05-30 18:20:21 - INFO - Collected record 12: Andrew Le | Technical Recruiter | Meta | N/A
+2026-05-30 18:20:26 - INFO - Clicked Access email for record 13
+2026-05-30 18:20:27 - INFO - Access email cleared for record 13; treating as prospected
+2026-05-30 18:20:35 - INFO - Collected record 13: Othman Mechkor | Technical Recruiter | Apple | N/A
+2026-05-30 18:20:40 - INFO - Clicked Access email for record 14
+2026-05-30 18:20:41 - INFO - Access email cleared for record 14; treating as prospected
+2026-05-30 18:20:56 - INFO - Collected record 14: Daniel Chin | Technical Recruiter | Databricks | N/A
+2026-05-30 18:21:00 - INFO - Clicked Access email for record 15
+2026-05-30 18:21:02 - INFO - Access email cleared for record 15; treating as prospected
+2026-05-30 18:21:17 - INFO - Collected record 15: Grace Yun | Technical Recruiter | Databricks | N/A
+2026-05-30 18:21:21 - INFO - Clicked Access email for record 16
+2026-05-30 18:21:22 - INFO - Access email cleared for record 16; treating as prospected
+2026-05-30 18:21:38 - INFO - Collected record 16: Stephanie Cai | Technical Recruiter | NVIDIA | N/A
+2026-05-30 18:21:43 - INFO - Clicked Access email for record 17
+2026-05-30 18:21:44 - INFO - Access email cleared for record 17; treating as prospected
+2026-05-30 18:21:59 - INFO - Collected record 17: Rechelle Lambert | Technical Recruiter | Meta | N/A
+2026-05-30 18:22:04 - INFO - Clicked Access email for record 18
+2026-05-30 18:22:06 - INFO - Access email cleared for record 18; treating as prospected
+2026-05-30 18:22:13 - INFO - Collected record 18: Ashley Rydberg | Technical Recruiter | Apple | N/A
+2026-05-30 18:22:18 - INFO - Clicked Access email for record 19
+2026-05-30 18:22:19 - INFO - Access email cleared for record 19; treating as prospected
+2026-05-30 18:22:35 - INFO - Collected record 19: Molly Gonzalez | Technical Recruiter | Meta | N/A
+2026-05-30 18:22:40 - INFO - Clicked Access email for record 20
+2026-05-30 18:22:41 - INFO - Access email cleared for record 20; treating as prospected
+2026-05-30 18:22:56 - INFO - Collected record 20: Molly Martin | Technical Recruiter | Meta | N/A
+2026-05-30 18:23:01 - INFO - Clicked Access email for record 21
+2026-05-30 18:23:02 - INFO - Access email cleared for record 21; treating as prospected
+2026-05-30 18:23:10 - INFO - Collected record 21: Trevor Moore | Technical Recruiter | Apple | N/A
+2026-05-30 18:23:15 - INFO - Clicked Access email for record 22
+2026-05-30 18:23:17 - INFO - Access email cleared for record 22; treating as prospected
+2026-05-30 18:23:33 - INFO - Collected record 22: Celena Badji | Technical Sourcer | Meta | N/A
+2026-05-30 18:23:37 - INFO - Clicked Access email for record 23
+2026-05-30 18:23:38 - INFO - Access email cleared for record 23; treating as prospected
+2026-05-30 18:23:53 - INFO - Collected record 23: Swaraj Jha | Technical Recruiter | Deloitte | N/A
+2026-05-30 18:23:58 - INFO - Clicked Access email for record 24
+2026-05-30 18:24:00 - INFO - Access email cleared for record 24; treating as prospected
+2026-05-30 18:24:15 - INFO - Collected record 24: Danielle Mendez | Technical Recruiter | Meta | N/A
+2026-05-30 18:24:20 - INFO - Clicked Access email for record 25
+2026-05-30 18:24:22 - INFO - Access email cleared for record 25; treating as prospected
+2026-05-30 18:24:37 - INFO - Collected record 25: Gary Ko | Technical Recruiter | Meta | N/A
+2026-05-30 18:24:38 - INFO - Missing fields on page 1: Email: 25, Industry: 15
+Missing fields on page 1: Email: 25, Industry: 15
+2026-05-30 18:24:38 - INFO - Page 1 complete - collected 25 recruiters (total: 25)
+Page 1 complete - collected 25 recruiters (total: 25)
+2026-05-30 18:24:55 - INFO - Successfully navigated to page 2
+2026-05-30 18:24:55 - INFO - Processing page 2 of 23 (26 - 50 of 565)
+
+==================================================
+Processing page 2 of 23
+Progress: 26 - 50 of 565
+==================================================
+
+2026-05-30 18:24:55 - INFO - Saved HTML for page 2 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_2_20260530_182455.html
+2026-05-30 18:24:56 - INFO - Saved screenshot for page 2 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_2_20260530_182455.png
+2026-05-30 18:24:56 - INFO - Found 25 records on page 2
+2026-05-30 18:25:11 - INFO - Collected record 1: Swaraj Jha | Technical Recruiter | Deloitte | N/A
+2026-05-30 18:25:15 - INFO - Clicked Access email for record 2
+2026-05-30 18:25:16 - INFO - Access email cleared for record 2; treating as prospected
+2026-05-30 18:25:31 - INFO - Collected record 2: Geetha D | Technical Recruiter | Verizon | N/A
+2026-05-30 18:25:35 - INFO - Clicked Access email for record 3
+2026-05-30 18:25:37 - INFO - Access email cleared for record 3; treating as prospected
+2026-05-30 18:25:45 - INFO - Collected record 3: Kyle Law | Technical Recruiter | Capital One | N/A
+2026-05-30 18:25:49 - INFO - Clicked Access email for record 4
+2026-05-30 18:25:50 - INFO - Access email cleared for record 4; treating as prospected
+2026-05-30 18:26:05 - INFO - Collected record 4: Agnieszka Pater | Technical Recruiter | NVIDIA | N/A
+2026-05-30 18:26:10 - INFO - Clicked Access email for record 5
+2026-05-30 18:26:10 - INFO - Access email cleared for record 5; treating as prospected
+2026-05-30 18:26:26 - INFO - Collected record 5: Raphaela Zepter | Tech Recruiter | Deloitte | N/A
+2026-05-30 18:26:30 - INFO - Clicked Access email for record 6
+2026-05-30 18:26:31 - INFO - Access email cleared for record 6; treating as prospected
+2026-05-30 18:26:39 - INFO - Collected record 6: Jenny Chiu | Technical Recruiter | Apple | N/A
+2026-05-30 18:26:42 - INFO - Clicked Access email for record 7
+2026-05-30 18:26:44 - INFO - Access email cleared for record 7; treating as prospected
+2026-05-30 18:26:51 - INFO - Collected record 7: Pearl T | Technical Recruiter | Capital One | N/A
+2026-05-30 18:26:56 - INFO - Clicked Access email for record 8
+2026-05-30 18:26:57 - INFO - Access email cleared for record 8; treating as prospected
+2026-05-30 18:27:05 - INFO - Collected record 8: Katherine Doan | Technical Recruiter | Apple | N/A
+2026-05-30 18:27:10 - INFO - Clicked Access email for record 9
+2026-05-30 18:27:10 - INFO - Access email cleared for record 9; treating as prospected
+2026-05-30 18:27:18 - INFO - Collected record 9: Lindzy McCarty | Technical Recruiter | Apple | N/A
+2026-05-30 18:27:23 - INFO - Clicked Access email for record 10
+2026-05-30 18:27:25 - INFO - Access email cleared for record 10; treating as prospected
+2026-05-30 18:27:40 - INFO - Collected record 10: Diego Ascencio | Technical Recruiter | PayPal | N/A
+2026-05-30 18:27:44 - INFO - Clicked Access email for record 11
+2026-05-30 18:27:45 - INFO - Access email cleared for record 11; treating as prospected
+2026-05-30 18:28:01 - INFO - Collected record 11: Joseph Folarin | Technical Recruiter | NVIDIA | N/A
+2026-05-30 18:28:06 - INFO - Clicked Access email for record 12
+2026-05-30 18:28:09 - INFO - Access email cleared for record 12; treating as prospected
+2026-05-30 18:28:23 - INFO - Collected record 12: Rashmi Venugopal | Technical Recruiter | Deloitte | N/A
+2026-05-30 18:28:28 - INFO - Clicked Access email for record 13
+2026-05-30 18:28:29 - INFO - Access email cleared for record 13; treating as prospected
+2026-05-30 18:28:45 - INFO - Collected record 13: Amie Box | Technical Recruiter | Meta | N/A
+2026-05-30 18:28:49 - INFO - Clicked Access email for record 14
+2026-05-30 18:28:51 - INFO - Access email cleared for record 14; treating as prospected
+2026-05-30 18:29:06 - INFO - Collected record 14: Kari Chachkes | Technical Recruiter | Meta | N/A
+2026-05-30 18:29:10 - INFO - Clicked Access email for record 15
+2026-05-30 18:29:12 - INFO - Access email cleared for record 15; treating as prospected
+2026-05-30 18:29:19 - INFO - Collected record 15: Clayton Kuhn | Technical Recruiter | Apple | N/A
+2026-05-30 18:29:24 - INFO - Clicked Access email for record 16
+2026-05-30 18:29:25 - INFO - Access email cleared for record 16; treating as prospected
+2026-05-30 18:29:33 - INFO - Collected record 16: Tina Nguyen | Technical Recruiter | Bank of America | N/A
+2026-05-30 18:29:37 - INFO - Clicked Access email for record 17
+2026-05-30 18:29:39 - INFO - Access email cleared for record 17; treating as prospected
+2026-05-30 18:29:54 - INFO - Collected record 17: Mani Maganti | Technical Recruiter | Meta | N/A
+2026-05-30 18:29:59 - INFO - Clicked Access email for record 18
+2026-05-30 18:30:01 - INFO - Access email cleared for record 18; treating as prospected
+2026-05-30 18:30:08 - INFO - Collected record 18: Dario Simon | Tech Recruiter | Capital One | N/A
+2026-05-30 18:30:13 - INFO - Clicked Access email for record 19
+2026-05-30 18:30:14 - INFO - Access email cleared for record 19; treating as prospected
+2026-05-30 18:30:28 - INFO - Collected record 19: Arushi More | Technical Recruiter | Meta | N/A
+2026-05-30 18:30:33 - INFO - Clicked Access email for record 20
+2026-05-30 18:30:35 - INFO - Access email cleared for record 20; treating as prospected
+2026-05-30 18:30:49 - INFO - Collected record 20: Vernita Hubbard | Technical Recruiter | Meta | N/A
+2026-05-30 18:30:54 - INFO - Clicked Access email for record 21
+2026-05-30 18:30:56 - INFO - Access email cleared for record 21; treating as prospected
+2026-05-30 18:31:11 - INFO - Collected record 21: Shanmukesh Mb | Technical Recruiter | Deloitte | N/A
+2026-05-30 18:31:16 - INFO - Clicked Access email for record 22
+2026-05-30 18:31:18 - INFO - Access email cleared for record 22; treating as prospected
+2026-05-30 18:31:26 - INFO - Collected record 22: Nicki Sterling | Technical Recruiter | Apple | N/A
+2026-05-30 18:31:30 - INFO - Clicked Access email for record 23
+2026-05-30 18:31:32 - INFO - Access email cleared for record 23; treating as prospected
+2026-05-30 18:31:47 - INFO - Collected record 23: Clarence Wilson | Technical Recruiter | DoorDash | N/A
+2026-05-30 18:31:52 - INFO - Clicked Access email for record 24
+2026-05-30 18:31:54 - INFO - Access email cleared for record 24; treating as prospected
+2026-05-30 18:32:08 - INFO - Collected record 24: Kunal Pal | Technical Recruiter | Deloitte | N/A
+2026-05-30 18:32:14 - INFO - Clicked Access email for record 25
+2026-05-30 18:32:15 - INFO - Access email cleared for record 25; treating as prospected
+2026-05-30 18:32:23 - INFO - Collected record 25: Seth W | Technical Recruiter | Apple | N/A
+2026-05-30 18:32:25 - INFO - Missing fields on page 2: Email: 25, Industry: 8
+Missing fields on page 2: Email: 25, Industry: 8
+2026-05-30 18:32:25 - INFO - Page 2 complete - collected 25 recruiters (total: 50)
+Page 2 complete - collected 25 recruiters (total: 50)
+2026-05-30 18:32:42 - INFO - Successfully navigated to page 3
+2026-05-30 18:32:43 - INFO - Processing page 3 of 23 (51 - 75 of 565)
+
+==================================================
+Processing page 3 of 23
+Progress: 51 - 75 of 565
+==================================================
+
+2026-05-30 18:32:43 - INFO - Saved HTML for page 3 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_3_20260530_183243.html
+2026-05-30 18:32:43 - INFO - Saved screenshot for page 3 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_3_20260530_183243.png
+2026-05-30 18:32:43 - INFO - Found 25 records on page 3
+2026-05-30 18:32:46 - INFO - Clicked Access email for record 1
+2026-05-30 18:32:48 - INFO - Access email cleared for record 1; treating as prospected
+2026-05-30 18:33:03 - INFO - Collected record 1: Drishti Shaw | Technical Recruiter | Deloitte | N/A
+2026-05-30 18:33:08 - INFO - Clicked Access email for record 2
+2026-05-30 18:33:10 - INFO - Access email cleared for record 2; treating as prospected
+2026-05-30 18:33:25 - INFO - Collected record 2: Jamie Jang | Technical Recruiter | Samsung Electronics | N/A
+2026-05-30 18:33:30 - INFO - Clicked Access email for record 3
+2026-05-30 18:33:31 - INFO - Access email cleared for record 3; treating as prospected
+2026-05-30 18:33:39 - INFO - Collected record 3: Ramya Shree | Technical Recruiter | Capital One | N/A
+2026-05-30 18:33:43 - INFO - Clicked Access email for record 4
+2026-05-30 18:33:45 - INFO - Access email cleared for record 4; treating as prospected
+2026-05-30 18:34:00 - INFO - Collected record 4: Alysa Sanchez | Technical Recruiter | Meta | N/A
+2026-05-30 18:34:04 - INFO - Clicked Access email for record 5
+2026-05-30 18:34:06 - INFO - Access email cleared for record 5; treating as prospected
+2026-05-30 18:34:21 - INFO - Collected record 5: Daehong Min | Tech Recruiter | Samsung Electronics | N/A
+2026-05-30 18:34:26 - INFO - Clicked Access email for record 6
+2026-05-30 18:34:28 - INFO - Access email cleared for record 6; treating as prospected
+2026-05-30 18:34:43 - INFO - Collected record 6: Michele S | Technical Recruiter | PayPal | N/A
+2026-05-30 18:34:48 - INFO - Clicked Access email for record 7
+2026-05-30 18:34:49 - INFO - Access email cleared for record 7; treating as prospected
+2026-05-30 18:35:04 - INFO - Collected record 7: Grace McGregor | Technical Recruiter | Meta | N/A
+2026-05-30 18:35:08 - INFO - Clicked Access email for record 8
+2026-05-30 18:35:10 - INFO - Access email cleared for record 8; treating as prospected
+2026-05-30 18:35:25 - INFO - Collected record 8: Maria Popa | Technical Recruiter | Deloitte | N/A
+2026-05-30 18:35:30 - INFO - Clicked Access email for record 9
+2026-05-30 18:35:31 - INFO - Access email cleared for record 9; treating as prospected
+2026-05-30 18:35:39 - INFO - Collected record 9: Gina Moreschini | Technical Recruiter | Apple | N/A
+2026-05-30 18:35:44 - INFO - Clicked Access email for record 10
+2026-05-30 18:35:46 - INFO - Access email cleared for record 10; treating as prospected
+2026-05-30 18:36:01 - INFO - Collected record 10: Katherine Turner | Technical Recruiter | Databricks | N/A
+2026-05-30 18:36:05 - INFO - Clicked Access email for record 11
+2026-05-30 18:36:06 - INFO - Access email cleared for record 11; treating as prospected
+2026-05-30 18:36:14 - INFO - Collected record 11: Matt Ragsdale | Technical Recruiter | Netflix | N/A
+2026-05-30 18:36:20 - INFO - Clicked Access email for record 12
+2026-05-30 18:36:22 - INFO - Access email cleared for record 12; treating as prospected
+2026-05-30 18:36:29 - INFO - Collected record 12: Jaclyn Nguyen | Technical Recruiter | Capital One | N/A
+2026-05-30 18:36:34 - INFO - Clicked Access email for record 13
+2026-05-30 18:36:36 - INFO - Access email cleared for record 13; treating as prospected
+2026-05-30 18:36:51 - INFO - Collected record 13: Prarena Bhat | Technical Recruiter | Deloitte | N/A
+2026-05-30 18:36:56 - INFO - Clicked Access email for record 14
+2026-05-30 18:36:57 - INFO - Access email cleared for record 14; treating as prospected
+2026-05-30 18:37:05 - INFO - Collected record 14: Gabriella Miller | Technical Recruiter | Netflix | N/A
+2026-05-30 18:37:09 - INFO - Clicked Access email for record 15
+2026-05-30 18:37:11 - INFO - Access email cleared for record 15; treating as prospected
+2026-05-30 18:37:19 - INFO - Collected record 15: Tristen Moretti | Technical Recruiter | Apple | N/A
+2026-05-30 18:37:24 - INFO - Clicked Access email for record 16
+2026-05-30 18:37:26 - INFO - Access email cleared for record 16; treating as prospected
+2026-05-30 18:37:40 - INFO - Collected record 16: Antoinette Lacson | Tech Recruiter | Meta | N/A
+2026-05-30 18:37:45 - INFO - Clicked Access email for record 17
+2026-05-30 18:37:47 - INFO - Access email cleared for record 17; treating as prospected
+2026-05-30 18:37:54 - INFO - Collected record 17: Mario Margain | Technical Recruiter | Capital One | N/A
+2026-05-30 18:37:59 - INFO - Clicked Access email for record 18
+2026-05-30 18:38:00 - INFO - Access email cleared for record 18; treating as prospected
+2026-05-30 18:38:15 - INFO - Collected record 18: Muskan Saxena | Technical Recruiter | Verizon | N/A
+2026-05-30 18:38:20 - INFO - Clicked Access email for record 19
+2026-05-30 18:38:21 - INFO - Access email cleared for record 19; treating as prospected
+2026-05-30 18:38:29 - INFO - Collected record 19: Mohammad Masoudi | Technical Recruiter | Atlassian | N/A
+2026-05-30 18:38:35 - INFO - Clicked Access email for record 20
+2026-05-30 18:38:37 - INFO - Access email cleared for record 20; treating as prospected
+2026-05-30 18:38:51 - INFO - Collected record 20: Raj Kumar | Technical Recruiter | Deloitte | N/A
+2026-05-30 18:38:56 - INFO - Clicked Access email for record 21
+2026-05-30 18:38:57 - INFO - Access email cleared for record 21; treating as prospected
+2026-05-30 18:39:12 - INFO - Collected record 21: Shefali Bayya | Technical Recruiter | Deloitte | N/A
+2026-05-30 18:39:17 - INFO - Clicked Access email for record 22
+2026-05-30 18:39:18 - INFO - Access email cleared for record 22; treating as prospected
+2026-05-30 18:39:33 - INFO - Collected record 22: Shreshth Gupta | Technical Recruiter | Deloitte | N/A
+2026-05-30 18:39:37 - INFO - Clicked Access email for record 23
+2026-05-30 18:39:40 - INFO - Access email cleared for record 23; treating as prospected
+2026-05-30 18:39:54 - INFO - Collected record 23: Kavita Dubey | Technical Recruiter | Deloitte | N/A
+2026-05-30 18:40:00 - INFO - Clicked Access email for record 24
+2026-05-30 18:40:02 - INFO - Access email cleared for record 24; treating as prospected
+2026-05-30 18:40:16 - INFO - Collected record 24: Suma Latha | Technical Recruiter | Verizon | N/A
+2026-05-30 18:40:20 - INFO - Clicked Access email for record 25
+2026-05-30 18:40:22 - INFO - Access email cleared for record 25; treating as prospected
+2026-05-30 18:40:37 - INFO - Collected record 25: Nicole Andrade | Technical Recruiter | Airbnb | N/A
+2026-05-30 18:40:39 - INFO - Missing fields on page 3: Email: 25, Location: 1, Industry: 10, Keywords: 2
+Missing fields on page 3: Email: 25, Location: 1, Industry: 10, Keywords: 2
+2026-05-30 18:40:39 - INFO - Page 3 complete - collected 25 recruiters (total: 75)
+Page 3 complete - collected 25 recruiters (total: 75)
+2026-05-30 18:40:56 - INFO - Successfully navigated to page 4
+2026-05-30 18:40:56 - INFO - Processing page 4 of 23 (76 - 100 of 565)
+
+==================================================
+Processing page 4 of 23
+Progress: 76 - 100 of 565
+==================================================
+
+2026-05-30 18:40:56 - INFO - Saved HTML for page 4 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_4_20260530_184056.html
+2026-05-30 18:40:57 - INFO - Saved screenshot for page 4 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_4_20260530_184056.png
+2026-05-30 18:40:57 - INFO - Found 25 records on page 4
+2026-05-30 18:41:00 - INFO - Clicked Access email for record 1
+2026-05-30 18:41:03 - INFO - Access email cleared for record 1; treating as prospected
+2026-05-30 18:41:10 - INFO - Collected record 1: Danielle Blohm | Technical Recruiter | Capital One | N/A
+2026-05-30 18:41:14 - INFO - Clicked Access email for record 2
+2026-05-30 18:41:15 - INFO - Access email cleared for record 2; treating as prospected
+2026-05-30 18:41:23 - INFO - Collected record 2: Don Degraff | Technical Recruiter | Bank of America | N/A
+2026-05-30 18:41:27 - INFO - Clicked Access email for record 3
+2026-05-30 18:41:28 - INFO - Access email cleared for record 3; treating as prospected
+2026-05-30 18:41:43 - INFO - Collected record 3: Ruchi Randhawa | Technical Recruiter | Deloitte | N/A
+2026-05-30 18:41:48 - INFO - Clicked Access email for record 4
+2026-05-30 18:41:49 - INFO - Access email cleared for record 4; treating as prospected
+2026-05-30 18:41:57 - INFO - Collected record 4: Danielle Mitchell | Technical Recruiter | Atlassian | N/A
+2026-05-30 18:42:01 - INFO - Clicked Access email for record 5
+2026-05-30 18:42:02 - INFO - Access email cleared for record 5; treating as prospected
+2026-05-30 18:42:17 - INFO - Collected record 5: Tieu Trang | Technical Recruiter | Samsung Electronics | N/A
+2026-05-30 18:42:21 - INFO - Clicked Access email for record 6
+2026-05-30 18:42:24 - INFO - Access email cleared for record 6; treating as prospected
+2026-05-30 18:42:39 - INFO - Collected record 6: Dae-Hong Min | Technical Recruiter | Samsung Electronics | N/A
+2026-05-30 18:42:43 - INFO - Clicked Access email for record 7
+2026-05-30 18:42:45 - INFO - Access email cleared for record 7; treating as prospected
+2026-05-30 18:43:00 - INFO - Collected record 7: Nick Munez | Technical Recruiter | Meta | N/A
+2026-05-30 18:43:04 - INFO - Clicked Access email for record 8
+2026-05-30 18:43:05 - INFO - Access email cleared for record 8; treating as prospected
+2026-05-30 18:43:21 - INFO - Collected record 8: Pandu Nag | Technical Recruiter | Deloitte | N/A
+2026-05-30 18:43:27 - INFO - Clicked Access email for record 9
+2026-05-30 18:43:29 - INFO - Access email cleared for record 9; treating as prospected
+2026-05-30 18:43:44 - INFO - Collected record 9: Mathieu Schricke | Technical Recruiter | Meta | N/A
+2026-05-30 18:43:48 - INFO - Clicked Access email for record 10
+2026-05-30 18:43:49 - INFO - Access email cleared for record 10; treating as prospected
+2026-05-30 18:44:04 - INFO - Collected record 10: Maykon Leung | Technical Recruiter | Deloitte | N/A
+2026-05-30 18:44:09 - INFO - Clicked Access email for record 11
+2026-05-30 18:44:10 - INFO - Access email cleared for record 11; treating as prospected
+2026-05-30 18:44:26 - INFO - Collected record 11: Anna Morgeili | Technical Recruiter | Databricks | N/A
+2026-05-30 18:44:31 - INFO - Clicked Access email for record 12
+2026-05-30 18:44:33 - INFO - Access email cleared for record 12; treating as prospected
+2026-05-30 18:44:48 - INFO - Collected record 12: Anh Qu?Nh | Technical Recruiter | Gartner | N/A
+2026-05-30 18:44:53 - INFO - Clicked Access email for record 13
+2026-05-30 18:44:55 - INFO - Access email cleared for record 13; treating as prospected
+2026-05-30 18:45:10 - INFO - Collected record 13: V Lassyah | Technical Recruiter | Verizon | N/A
+2026-05-30 18:45:14 - INFO - Clicked Access email for record 14
+2026-05-30 18:45:16 - INFO - Access email cleared for record 14; treating as prospected
+2026-05-30 18:45:23 - INFO - Collected record 14: Akash Baidya | Technical Recruiter | Bank of America | N/A
+2026-05-30 18:45:27 - INFO - Clicked Access email for record 15
+2026-05-30 18:45:29 - INFO - Access email cleared for record 15; treating as prospected
+2026-05-30 18:45:43 - INFO - Collected record 15: Jeremy A | Technical Recruiter | Deloitte | N/A
+2026-05-30 18:45:48 - INFO - Clicked Access email for record 16
+2026-05-30 18:45:50 - INFO - Access email cleared for record 16; treating as prospected
+2026-05-30 18:46:06 - INFO - Collected record 16: Diana Taylor | Technical Recruiter | Deloitte | N/A
+2026-05-30 18:46:10 - INFO - Clicked Access email for record 17
+2026-05-30 18:46:12 - INFO - Access email cleared for record 17; treating as prospected
+2026-05-30 18:46:27 - INFO - Collected record 17: Vikrant W | Technical Recruiter | Deloitte | N/A
+2026-05-30 18:46:32 - INFO - Clicked Access email for record 18
+2026-05-30 18:46:34 - INFO - Access email cleared for record 18; treating as prospected
+2026-05-30 18:46:48 - INFO - Collected record 18: Sudhir Kumar | US IT Recruiter/Technical Recruiter | Deloitte | N/A
+2026-05-30 18:46:53 - INFO - Clicked Access email for record 19
+2026-05-30 18:46:56 - INFO - Access email cleared for record 19; treating as prospected
+2026-05-30 18:47:11 - INFO - Collected record 19: Aju John | Staff Technical Recruiter | Intuit | N/A
+2026-05-30 18:47:15 - INFO - Clicked Access email for record 20
+2026-05-30 18:47:17 - INFO - Access email cleared for record 20; treating as prospected
+2026-05-30 18:47:32 - INFO - Collected record 20: Adam Rabinovitch | Staff Technical Recruiter | Databricks | N/A
+2026-05-30 18:47:37 - INFO - Clicked Access email for record 21
+2026-05-30 18:47:39 - INFO - Access email cleared for record 21; treating as prospected
+2026-05-30 18:47:47 - INFO - Collected record 21: Shweta Menon | Global Tech Recruiter | Atlassian | N/A
+2026-05-30 18:47:52 - INFO - Clicked Access email for record 22
+2026-05-30 18:47:54 - INFO - Access email cleared for record 22; treating as prospected
+2026-05-30 18:48:02 - INFO - Collected record 22: Patrycja Wojciuk | Tech Recruiter, CEE | Netflix | N/A
+2026-05-30 18:48:07 - INFO - Clicked Access email for record 23
+2026-05-30 18:48:10 - INFO - Access email cleared for record 23; treating as prospected
+2026-05-30 18:48:25 - INFO - Collected record 23: Shaswati Sen | Staff Tech Recruiter | Databricks | N/A
+2026-05-30 18:48:30 - INFO - Clicked Access email for record 24
+2026-05-30 18:48:33 - INFO - Access email cleared for record 24; treating as prospected
+2026-05-30 18:48:48 - INFO - Collected record 24: Glenn Galbaugh | Staff Technical Recruiter | Databricks | N/A
+2026-05-30 18:48:53 - INFO - Clicked Access email for record 25
+2026-05-30 18:48:55 - INFO - Access email cleared for record 25; treating as prospected
+2026-05-30 18:49:04 - INFO - Collected record 25: Ben Lal | Hardware Technical Recruiter | Apple | N/A
+2026-05-30 18:49:05 - INFO - Missing fields on page 4: Email: 25, Industry: 10, Keywords: 1
+Missing fields on page 4: Email: 25, Industry: 10, Keywords: 1
+2026-05-30 18:49:05 - INFO - Page 4 complete - collected 25 recruiters (total: 100)
+Page 4 complete - collected 25 recruiters (total: 100)
+2026-05-30 18:49:24 - INFO - Successfully navigated to page 5
+2026-05-30 18:49:24 - INFO - Processing page 5 of 23 (101 - 125 of 565)
+
+==================================================
+Processing page 5 of 23
+Progress: 101 - 125 of 565
+==================================================
+
+2026-05-30 18:49:24 - INFO - Saved HTML for page 5 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_5_20260530_184924.html
+2026-05-30 18:49:25 - INFO - Saved screenshot for page 5 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_5_20260530_184924.png
+2026-05-30 18:49:25 - INFO - Found 25 records on page 5
+2026-05-30 18:49:33 - INFO - Collected record 1: Ben Lal | Hardware Technical Recruiter | Apple | N/A
+2026-05-30 18:49:37 - INFO - Clicked Access email for record 2
+2026-05-30 18:49:40 - INFO - Access email cleared for record 2; treating as prospected
+2026-05-30 18:49:47 - INFO - Collected record 2: Ryan Hosfelt | Technical Recruiter - AIML | Apple | N/A
+2026-05-30 18:49:51 - INFO - Clicked Access email for record 3
+2026-05-30 18:49:53 - INFO - Access email cleared for record 3; treating as prospected
+2026-05-30 18:50:08 - INFO - Collected record 3: Swathi Gorla | Technical Recruiter/ Sourcer | Meta | N/A
+2026-05-30 18:50:12 - INFO - Clicked Access email for record 4
+2026-05-30 18:50:14 - INFO - Access email cleared for record 4; treating as prospected
+2026-05-30 18:50:29 - INFO - Collected record 4: Jon Moon | Staff Technical Recruiter | Databricks | N/A
+2026-05-30 18:50:35 - INFO - Clicked Access email for record 5
+2026-05-30 18:50:37 - INFO - Access email cleared for record 5; treating as prospected
+2026-05-30 18:50:52 - INFO - Collected record 5: Pierina Cabrera | Staff Technical Recruiter | Databricks | N/A
+2026-05-30 18:50:57 - INFO - Clicked Access email for record 6
+2026-05-30 18:51:00 - INFO - Access email cleared for record 6; treating as prospected
+2026-05-30 18:51:15 - INFO - Collected record 6: Kristin Berkowitz | Staff Technical Recruiter | Intuit | N/A
+2026-05-30 18:51:20 - INFO - Clicked Access email for record 7
+2026-05-30 18:51:21 - INFO - Access email cleared for record 7; treating as prospected
+2026-05-30 18:51:29 - INFO - Collected record 7: Helen Adesina | Emeia Tech Recruiter | Apple | N/A
+2026-05-30 18:51:34 - INFO - Clicked Access email for record 8
+2026-05-30 18:51:36 - INFO - Access email cleared for record 8; treating as prospected
+2026-05-30 18:51:51 - INFO - Collected record 8: Karen Victorio | Tech Recruiter SAP | Deloitte | N/A
+2026-05-30 18:51:56 - INFO - Clicked Access email for record 9
+2026-05-30 18:51:58 - INFO - Access email cleared for record 9; treating as prospected
+2026-05-30 18:52:12 - INFO - Collected record 9: Alexa Johnson | PhD Technical Recruiter | NVIDIA | N/A
+2026-05-30 18:52:17 - INFO - Clicked Access email for record 10
+2026-05-30 18:52:20 - INFO - Access email cleared for record 10; treating as prospected
+2026-05-30 18:52:35 - INFO - Collected record 10: Genea Johns | Technical Recruiter, TPM | Meta | N/A
+2026-05-30 18:52:39 - INFO - Clicked Access email for record 11
+2026-05-30 18:52:41 - INFO - Access email cleared for record 11; treating as prospected
+2026-05-30 18:52:56 - INFO - Collected record 11: Silvia Oliveira | Tech Recruiter Especialista | Deloitte | N/A
+2026-05-30 18:53:01 - INFO - Clicked Access email for record 12
+2026-05-30 18:53:02 - INFO - Access email cleared for record 12; treating as prospected
+2026-05-30 18:53:17 - INFO - Collected record 12: Thais Leite | Tech Recruiter Junior | Deloitte | N/A
+2026-05-30 18:53:21 - INFO - Clicked Access email for record 13
+2026-05-30 18:53:24 - INFO - Access email cleared for record 13; treating as prospected
+2026-05-30 18:53:32 - INFO - Collected record 13: Maggie Scott | Technical Recruiter - Dexian | Capital One | N/A
+2026-05-30 18:53:36 - INFO - Clicked Access email for record 14
+2026-05-30 18:53:38 - INFO - Access email cleared for record 14; treating as prospected
+2026-05-30 18:53:46 - INFO - Collected record 14: Vanessa Min | Technical Recruiter - Specialty | Atlassian | N/A
+2026-05-30 18:53:50 - INFO - Clicked Access email for record 15
+2026-05-30 18:53:52 - INFO - Access email cleared for record 15; treating as prospected
+2026-05-30 18:54:07 - INFO - Collected record 15: Robyn Kwon | Principal Technical Recruiter | Meta | N/A
+2026-05-30 18:54:12 - INFO - Clicked Access email for record 16
+2026-05-30 18:54:14 - INFO - Access email cleared for record 16; treating as prospected
+2026-05-30 18:54:29 - INFO - Collected record 16: Niall Duffy | Senior Technical Recruiter | MongoDB | N/A
+2026-05-30 18:54:34 - INFO - Clicked Access email for record 17
+2026-05-30 18:54:37 - INFO - Access email cleared for record 17; treating as prospected
+2026-05-30 18:54:44 - INFO - Collected record 17: Manrit Walia | Senior Technical Recruiter | Atlassian | N/A
+2026-05-30 18:54:49 - INFO - Clicked Access email for record 18
+2026-05-30 18:54:51 - INFO - Access email cleared for record 18; treating as prospected
+2026-05-30 18:55:06 - INFO - Collected record 18: Shilpa Singh | Senior Technical Recruiter | PayPal | N/A
+2026-05-30 18:55:11 - INFO - Clicked Access email for record 19
+2026-05-30 18:55:13 - INFO - Access email cleared for record 19; treating as prospected
+2026-05-30 18:55:21 - INFO - Collected record 19: Esha Gandotra | Senior Technical Recruiter | Atlassian | N/A
+2026-05-30 18:55:26 - INFO - Clicked Access email for record 20
+2026-05-30 18:55:27 - INFO - Access email cleared for record 20; treating as prospected
+2026-05-30 18:55:43 - INFO - Collected record 20: DD Smith | Senior Technical Recruiter | Meta | N/A
+2026-05-30 18:55:47 - INFO - Clicked Access email for record 21
+2026-05-30 18:55:51 - INFO - Access email cleared for record 21; treating as prospected
+2026-05-30 18:55:58 - INFO - Collected record 21: Nishanth Bezugam | Lead Technical Recruiter | DigitalOcean | N/A
+2026-05-30 18:56:03 - INFO - Clicked Access email for record 22
+2026-05-30 18:56:06 - INFO - Access email cleared for record 22; treating as prospected
+2026-05-30 18:56:14 - INFO - Collected record 22: Matthew Smith | Lead Technical Recruiter | Capital One | N/A
+2026-05-30 18:56:18 - INFO - Clicked Access email for record 23
+2026-05-30 18:56:20 - INFO - Access email cleared for record 23; treating as prospected
+2026-05-30 18:56:35 - INFO - Collected record 23: Lacey Cherry | Senior Technical Recruiter | NVIDIA | N/A
+2026-05-30 18:56:40 - INFO - Clicked Access email for record 24
+2026-05-30 18:56:41 - INFO - Access email cleared for record 24; treating as prospected
+2026-05-30 18:56:49 - INFO - Collected record 24: Courtney Morgan | Senior Technical Recruiter | Capital One | N/A
+2026-05-30 18:56:54 - INFO - Clicked Access email for record 25
+2026-05-30 18:56:57 - INFO - Access email cleared for record 25; treating as prospected
+2026-05-30 18:57:12 - INFO - Collected record 25: Nadine Roos | Sr. Technical Recruiter | NVIDIA | N/A
+2026-05-30 18:57:14 - INFO - Missing fields on page 5: Email: 25, Industry: 9
+Missing fields on page 5: Email: 25, Industry: 9
+2026-05-30 18:57:14 - INFO - Page 5 complete - collected 25 recruiters (total: 125)
+Page 5 complete - collected 25 recruiters (total: 125)
+2026-05-30 18:57:32 - INFO - Successfully navigated to page 6
+2026-05-30 18:57:32 - INFO - Processing page 6 of 23 (126 - 150 of 565)
+
+==================================================
+Processing page 6 of 23
+Progress: 126 - 150 of 565
+==================================================
+
+2026-05-30 18:57:32 - INFO - Saved HTML for page 6 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_6_20260530_185732.html
+2026-05-30 18:57:33 - INFO - Saved screenshot for page 6 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_6_20260530_185732.png
+2026-05-30 18:57:33 - INFO - Found 25 records on page 6
+2026-05-30 18:57:36 - INFO - Clicked Access email for record 1
+2026-05-30 18:57:38 - INFO - Access email cleared for record 1; treating as prospected
+2026-05-30 18:57:46 - INFO - Collected record 1: Emily Castro-Knightley | Lead Technical Recruiter | Atlassian | N/A
+2026-05-30 18:57:50 - INFO - Clicked Access email for record 2
+2026-05-30 18:57:52 - INFO - Access email cleared for record 2; treating as prospected
+2026-05-30 18:58:07 - INFO - Collected record 2: Shivangi Swain | Sr. Technical Recruiter | Deloitte | N/A
+2026-05-30 18:58:12 - INFO - Clicked Access email for record 3
+2026-05-30 18:58:16 - INFO - Access email cleared for record 3; treating as prospected
+2026-05-30 18:58:23 - INFO - Collected record 3: Angel Chartrand | Technical Recruiter - Hardware Technology | Apple | N/A
+2026-05-30 18:58:29 - INFO - Clicked Access email for record 4
+2026-05-30 18:58:31 - INFO - Access email cleared for record 4; treating as prospected
+2026-05-30 18:58:39 - INFO - Collected record 4: Harpreet Ratra | Senior Technical Recruiter | Atlassian | N/A
+2026-05-30 18:58:44 - INFO - Clicked Access email for record 5
+2026-05-30 18:58:46 - INFO - Access email cleared for record 5; treating as prospected
+2026-05-30 18:58:54 - INFO - Collected record 5: Anagha Kulkarni | Senior Technical Recruiter | Atlassian | N/A
+2026-05-30 18:58:59 - INFO - Clicked Access email for record 6
+2026-05-30 18:59:01 - INFO - Access email cleared for record 6; treating as prospected
+2026-05-30 18:59:09 - INFO - Collected record 6: Bella Miranda | Senior Technical Recruiter | Capital One | N/A
+2026-05-30 18:59:13 - INFO - Clicked Access email for record 7
+2026-05-30 18:59:15 - INFO - Access email cleared for record 7; treating as prospected
+2026-05-30 18:59:23 - INFO - Collected record 7: Richard Vincent | Senior Technical Recruiter | Atlassian | N/A
+2026-05-30 18:59:27 - INFO - Clicked Access email for record 8
+2026-05-30 18:59:31 - INFO - Access email cleared for record 8; treating as prospected
+2026-05-30 18:59:39 - INFO - Collected record 8: Baron Ford | Senior Technical Recruiter | Capital One | N/A
+2026-05-30 18:59:43 - INFO - Clicked Access email for record 9
+2026-05-30 18:59:46 - INFO - Access email cleared for record 9; treating as prospected
+2026-05-30 19:00:01 - INFO - Collected record 9: Jeremy Murdy | Lead Technical Recruiter | Gusto | N/A
+2026-05-30 19:00:06 - INFO - Clicked Access email for record 10
+2026-05-30 19:00:08 - INFO - Access email cleared for record 10; treating as prospected
+2026-05-30 19:00:23 - INFO - Collected record 10: Filipe Pimentel | Senior Technical Recruiter | DoorDash | N/A
+2026-05-30 19:00:27 - INFO - Clicked Access email for record 11
+2026-05-30 19:00:29 - INFO - Access email cleared for record 11; treating as prospected
+2026-05-30 19:00:36 - INFO - Collected record 11: Donald Kelly | Senior Technical Recruiter | Capital One | N/A
+2026-05-30 19:00:41 - INFO - Clicked Access email for record 12
+2026-05-30 19:00:44 - INFO - Access email cleared for record 12; treating as prospected
+2026-05-30 19:00:52 - INFO - Collected record 12: Eric Williams | Principal Technical Recruiter | Capital One | N/A
+2026-05-30 19:00:57 - INFO - Clicked Access email for record 13
+2026-05-30 19:00:59 - INFO - Access email cleared for record 13; treating as prospected
+2026-05-30 19:01:14 - INFO - Collected record 13: Salim Hamid | Senior Technical Recruiter | DoorDash | N/A
+2026-05-30 19:01:19 - INFO - Clicked Access email for record 14
+2026-05-30 19:01:21 - INFO - Access email cleared for record 14; treating as prospected
+2026-05-30 19:01:36 - INFO - Collected record 14: Lauren Schiro | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:01:42 - INFO - Clicked Access email for record 15
+2026-05-30 19:01:44 - INFO - Access email cleared for record 15; treating as prospected
+2026-05-30 19:01:59 - INFO - Collected record 15: Tamara Novkovic | Senior Technical Recruiter | Databricks | N/A
+2026-05-30 19:02:03 - INFO - Clicked Access email for record 16
+2026-05-30 19:02:07 - INFO - Access email cleared for record 16; treating as prospected
+2026-05-30 19:02:22 - INFO - Collected record 16: Aubrey Khaleel | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:02:27 - INFO - Clicked Access email for record 17
+2026-05-30 19:02:29 - INFO - Access email cleared for record 17; treating as prospected
+2026-05-30 19:02:36 - INFO - Collected record 17: Robert Desrosiers | Senior Technical Recruiter | Apple | N/A
+2026-05-30 19:02:41 - INFO - Clicked Access email for record 18
+2026-05-30 19:02:44 - INFO - Access email cleared for record 18; treating as prospected
+2026-05-30 19:02:59 - INFO - Collected record 18: Intan Lilyana | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:03:03 - INFO - Clicked Access email for record 19
+2026-05-30 19:03:05 - INFO - Access email cleared for record 19; treating as prospected
+2026-05-30 19:03:20 - INFO - Collected record 19: Dayna Wu | Sr. Technical Recruiter | NVIDIA | N/A
+2026-05-30 19:03:25 - INFO - Clicked Access email for record 20
+2026-05-30 19:03:28 - INFO - Access email cleared for record 20; treating as prospected
+2026-05-30 19:03:43 - INFO - Collected record 20: Lara Portugal | Senior Technical Recruiter | DoorDash | N/A
+2026-05-30 19:03:48 - INFO - Clicked Access email for record 21
+2026-05-30 19:03:50 - INFO - Access email cleared for record 21; treating as prospected
+2026-05-30 19:04:05 - INFO - Collected record 21: Vladimir Cabrera | Senior Technical Recruiter | Airbnb | N/A
+2026-05-30 19:04:10 - INFO - Clicked Access email for record 22
+2026-05-30 19:04:12 - INFO - Access email cleared for record 22; treating as prospected
+2026-05-30 19:04:27 - INFO - Collected record 22: Dominique Segatti | Senior Technical Recruiter | Databricks | N/A
+2026-05-30 19:04:32 - INFO - Clicked Access email for record 23
+2026-05-30 19:04:36 - INFO - Access email cleared for record 23; treating as prospected
+2026-05-30 19:04:52 - INFO - Collected record 23: Rose Fadawi | Senior Technical Recruiter | Gusto | N/A
+2026-05-30 19:04:55 - INFO - Clicked Access email for record 24
+2026-05-30 19:04:58 - INFO - Access email cleared for record 24; treating as prospected
+2026-05-30 19:05:13 - INFO - Collected record 24: Shira Oatis | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:05:19 - INFO - Clicked Access email for record 25
+2026-05-30 19:05:21 - INFO - Access email cleared for record 25; treating as prospected
+2026-05-30 19:05:36 - INFO - Collected record 25: Archana Heda | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:05:38 - INFO - Missing fields on page 6: Email: 25, Industry: 13
+Missing fields on page 6: Email: 25, Industry: 13
+2026-05-30 19:05:38 - INFO - Page 6 complete - collected 25 recruiters (total: 150)
+Page 6 complete - collected 25 recruiters (total: 150)
+2026-05-30 19:05:56 - INFO - Successfully navigated to page 7
+2026-05-30 19:05:56 - INFO - Processing page 7 of 23 (151 - 175 of 565)
+
+==================================================
+Processing page 7 of 23
+Progress: 151 - 175 of 565
+==================================================
+
+2026-05-30 19:05:56 - INFO - Saved HTML for page 7 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_7_20260530_190556.html
+2026-05-30 19:05:56 - INFO - Saved screenshot for page 7 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_7_20260530_190556.png
+2026-05-30 19:05:56 - INFO - Found 25 records on page 7
+2026-05-30 19:06:12 - INFO - Collected record 1: Lara Portugal | Senior Technical Recruiter | DoorDash | N/A
+2026-05-30 19:06:17 - INFO - Clicked Access email for record 2
+2026-05-30 19:06:20 - INFO - Access email cleared for record 2; treating as prospected
+2026-05-30 19:06:28 - INFO - Collected record 2: Joe Griffith | Sr. Technical Recruiter | Netflix | N/A
+2026-05-30 19:06:33 - INFO - Clicked Access email for record 3
+2026-05-30 19:06:35 - INFO - Access email cleared for record 3; treating as prospected
+2026-05-30 19:06:50 - INFO - Collected record 3: Adrienne Atchley | Technical Recruiter-III | DoorDash | N/A
+2026-05-30 19:06:56 - INFO - Clicked Access email for record 4
+2026-05-30 19:06:57 - INFO - Access email cleared for record 4; treating as prospected
+2026-05-30 19:07:13 - INFO - Collected record 4: Samantha Dymant | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:07:17 - INFO - Clicked Access email for record 5
+2026-05-30 19:07:19 - INFO - Access email cleared for record 5; treating as prospected
+2026-05-30 19:07:34 - INFO - Collected record 5: Sara Mikol | Senior Technical Recruiter | NVIDIA | N/A
+2026-05-30 19:07:38 - INFO - Clicked Access email for record 6
+2026-05-30 19:07:42 - INFO - Access email cleared for record 6; treating as prospected
+2026-05-30 19:07:57 - INFO - Collected record 6: Julia Cavalcanti | Tech Recruiter PL | Deloitte | N/A
+2026-05-30 19:08:02 - INFO - Clicked Access email for record 7
+2026-05-30 19:08:04 - INFO - Access email cleared for record 7; treating as prospected
+2026-05-30 19:08:18 - INFO - Collected record 7: Heran Bisrat | Senior Technical Recruiter | Mozilla | N/A
+2026-05-30 19:08:23 - INFO - Clicked Access email for record 8
+2026-05-30 19:08:25 - INFO - Access email cleared for record 8; treating as prospected
+2026-05-30 19:08:40 - INFO - Collected record 8: Jason Dovalina | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:08:44 - INFO - Clicked Access email for record 9
+2026-05-30 19:08:48 - INFO - Access email cleared for record 9; treating as prospected
+2026-05-30 19:09:03 - INFO - Collected record 9: Jaqueline Gross | Senior Technical Recruiter | Databricks | N/A
+2026-05-30 19:09:09 - INFO - Clicked Access email for record 10
+2026-05-30 19:09:11 - INFO - Access email cleared for record 10; treating as prospected
+2026-05-30 19:09:26 - INFO - Collected record 10: Ellison Decastro | Lead Technical Recruiter | Gusto | N/A
+2026-05-30 19:09:30 - INFO - Clicked Access email for record 11
+2026-05-30 19:09:33 - INFO - Access email cleared for record 11; treating as prospected
+2026-05-30 19:09:48 - INFO - Collected record 11: Nadila Alimu | Senior Technical Recruiter | NVIDIA | N/A
+2026-05-30 19:10:04 - INFO - Collected record 12: Shira Oatis | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:10:09 - INFO - Clicked Access email for record 13
+2026-05-30 19:10:14 - INFO - Access email cleared for record 13; treating as prospected
+2026-05-30 19:10:21 - INFO - Collected record 13: Clayton Eaton | Principal Tech Recruiter | Atlassian | N/A
+2026-05-30 19:10:26 - INFO - Clicked Access email for record 14
+2026-05-30 19:10:28 - INFO - Access email cleared for record 14; treating as prospected
+2026-05-30 19:10:43 - INFO - Collected record 14: Deepali Joshi | Sr Technical Recruiter | Meta | N/A
+2026-05-30 19:10:48 - INFO - Clicked Access email for record 15
+2026-05-30 19:10:50 - INFO - Access email cleared for record 15; treating as prospected
+2026-05-30 19:10:57 - INFO - Collected record 15: Gabby Domanski | Sr. Technical Recruiter | Crunchyroll | N/A
+2026-05-30 19:11:03 - INFO - Clicked Access email for record 16
+2026-05-30 19:11:05 - INFO - Access email cleared for record 16; treating as prospected
+2026-05-30 19:11:20 - INFO - Collected record 16: Nico Watson | Senior Technical Recruiter | Gusto | N/A
+2026-05-30 19:11:25 - INFO - Clicked Access email for record 17
+2026-05-30 19:11:29 - INFO - Access email cleared for record 17; treating as prospected
+2026-05-30 19:11:44 - INFO - Collected record 17: Christina Fischer | Senior Technical Recruiter | Intuit | N/A
+2026-05-30 19:11:48 - INFO - Clicked Access email for record 18
+2026-05-30 19:11:50 - INFO - Access email cleared for record 18; treating as prospected
+2026-05-30 19:11:59 - INFO - Collected record 18: Cathal Rogers | Senior Technical Recruiter | Atlassian | N/A
+2026-05-30 19:12:03 - INFO - Clicked Access email for record 19
+2026-05-30 19:12:06 - INFO - Access email cleared for record 19; treating as prospected
+2026-05-30 19:12:13 - INFO - Collected record 19: Rosie O'Callaghan | Senior Technical Recruiter | Apple | N/A
+2026-05-30 19:12:18 - INFO - Clicked Access email for record 20
+2026-05-30 19:12:21 - INFO - Access email cleared for record 20; treating as prospected
+2026-05-30 19:12:36 - INFO - Collected record 20: Isadora Vasconcelos | Tech Recruiter Senior | Deloitte | N/A
+2026-05-30 19:12:41 - INFO - Clicked Access email for record 21
+2026-05-30 19:12:45 - INFO - Access email cleared for record 21; treating as prospected
+2026-05-30 19:13:00 - INFO - Collected record 21: Abby Wagner | Lead Technical Recruiter | Gusto | N/A
+2026-05-30 19:13:04 - INFO - Clicked Access email for record 22
+2026-05-30 19:13:06 - INFO - Access email cleared for record 22; treating as prospected
+2026-05-30 19:13:14 - INFO - Collected record 22: Nithya Kalangi | Senior Technical Recruiter | DigitalOcean | N/A
+2026-05-30 19:13:19 - INFO - Clicked Access email for record 23
+2026-05-30 19:13:22 - INFO - Access email cleared for record 23; treating as prospected
+2026-05-30 19:13:37 - INFO - Collected record 23: Megan Weaver | Lead Technical Recruiter | DoorDash | N/A
+2026-05-30 19:13:42 - INFO - Clicked Access email for record 24
+2026-05-30 19:13:45 - INFO - Access email cleared for record 24; treating as prospected
+2026-05-30 19:13:52 - INFO - Collected record 24: Karah Duke | Senior Technical Recruiter | Capital One | N/A
+2026-05-30 19:13:58 - INFO - Clicked Access email for record 25
+2026-05-30 19:14:01 - INFO - Access email cleared for record 25; treating as prospected
+2026-05-30 19:14:17 - INFO - Collected record 25: Belinda Bass | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:14:19 - INFO - Missing fields on page 7: Email: 25, Industry: 14, Keywords: 1
+Missing fields on page 7: Email: 25, Industry: 14, Keywords: 1
+2026-05-30 19:14:19 - INFO - Page 7 complete - collected 25 recruiters (total: 175)
+Page 7 complete - collected 25 recruiters (total: 175)
+2026-05-30 19:14:19 - INFO - Taking random cooldown break for 22s after page 7.
+2026-05-30 19:15:00 - INFO - Successfully navigated to page 8
+2026-05-30 19:15:00 - INFO - Processing page 8 of 23 (176 - 200 of 565)
+
+==================================================
+Processing page 8 of 23
+Progress: 176 - 200 of 565
+==================================================
+
+2026-05-30 19:15:00 - INFO - Saved HTML for page 8 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_8_20260530_191500.html
+2026-05-30 19:15:01 - INFO - Saved screenshot for page 8 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_8_20260530_191500.png
+2026-05-30 19:15:01 - INFO - Found 25 records on page 8
+2026-05-30 19:15:04 - INFO - Clicked Access email for record 1
+2026-05-30 19:15:08 - INFO - Access email cleared for record 1; treating as prospected
+2026-05-30 19:15:24 - INFO - Collected record 1: Lorraine Young | Senior Technical Recruiter | Intuit | N/A
+2026-05-30 19:15:28 - INFO - Clicked Access email for record 2
+2026-05-30 19:15:30 - INFO - Access email cleared for record 2; treating as prospected
+2026-05-30 19:15:45 - INFO - Collected record 2: Jordan Edwards | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:15:49 - INFO - Clicked Access email for record 3
+2026-05-30 19:15:53 - INFO - Access email cleared for record 3; treating as prospected
+2026-05-30 19:16:08 - INFO - Collected record 3: Michelle Kempner | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:16:13 - INFO - Clicked Access email for record 4
+2026-05-30 19:16:17 - INFO - Access email cleared for record 4; treating as prospected
+2026-05-30 19:16:32 - INFO - Collected record 4: Priyanka Chittoria | IT Recruiter | Deloitte | N/A
+2026-05-30 19:16:37 - INFO - Clicked Access email for record 5
+2026-05-30 19:16:39 - INFO - Access email cleared for record 5; treating as prospected
+2026-05-30 19:16:54 - INFO - Collected record 5: Neeki McCune | Senior Technical Recruiter | DoorDash | N/A
+2026-05-30 19:16:59 - INFO - Clicked Access email for record 6
+2026-05-30 19:17:01 - INFO - Access email cleared for record 6; treating as prospected
+2026-05-30 19:17:16 - INFO - Collected record 6: Vanessa Bacorn | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:17:21 - INFO - Clicked Access email for record 7
+2026-05-30 19:17:25 - INFO - Access email cleared for record 7; treating as prospected
+2026-05-30 19:17:40 - INFO - Collected record 7: Molly Gildea | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:17:45 - INFO - Clicked Access email for record 8
+2026-05-30 19:17:47 - INFO - Access email cleared for record 8; treating as prospected
+2026-05-30 19:18:02 - INFO - Collected record 8: Ruby Barry | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:18:07 - INFO - Clicked Access email for record 9
+2026-05-30 19:18:09 - INFO - Access email cleared for record 9; treating as prospected
+2026-05-30 19:18:23 - INFO - Collected record 9: Amanda Moore | Tech Recruiting @ Intuit | Intuit | N/A
+2026-05-30 19:18:28 - INFO - Clicked Access email for record 10
+2026-05-30 19:18:32 - INFO - Access email cleared for record 10; treating as prospected
+2026-05-30 19:18:39 - INFO - Collected record 10: James Leonard | Sr Technical Recruiter | Capital One | N/A
+2026-05-30 19:18:44 - INFO - Clicked Access email for record 11
+2026-05-30 19:18:46 - INFO - Access email cleared for record 11; treating as prospected
+2026-05-30 19:19:01 - INFO - Collected record 11: Jacquelyn Tondo-Steele | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:19:18 - INFO - Collected record 12: Nico Watson | Senior Technical Recruiter | Gusto | N/A
+2026-05-30 19:19:22 - INFO - Clicked Access email for record 13
+2026-05-30 19:19:25 - INFO - Access email cleared for record 13; treating as prospected
+2026-05-30 19:19:40 - INFO - Collected record 13: Kevin Aguila | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:19:45 - INFO - Clicked Access email for record 14
+2026-05-30 19:19:48 - INFO - Access email cleared for record 14; treating as prospected
+2026-05-30 19:20:03 - INFO - Collected record 14: Charles Brennan | Senior Technical Recruiter | MongoDB | N/A
+2026-05-30 19:20:08 - INFO - Clicked Access email for record 15
+2026-05-30 19:20:11 - INFO - Access email cleared for record 15; treating as prospected
+2026-05-30 19:20:18 - INFO - Collected record 15: Jesse Sanborn | Sr. Technical Recruiter | Zillow | N/A
+2026-05-30 19:20:23 - INFO - Clicked Access email for record 16
+2026-05-30 19:20:26 - INFO - Access email cleared for record 16; treating as prospected
+2026-05-30 19:20:34 - INFO - Collected record 16: Stephanie Rivenburg | Senior Technical Recruiter | Capital One | N/A
+2026-05-30 19:20:39 - INFO - Clicked Access email for record 17
+2026-05-30 19:20:41 - INFO - Access email cleared for record 17; treating as prospected
+2026-05-30 19:20:49 - INFO - Collected record 17: Oxana Rojcova | Senior Technical Recruiter | Atlassian | N/A
+2026-05-30 19:20:54 - INFO - Clicked Access email for record 18
+2026-05-30 19:20:59 - INFO - Access email cleared for record 18; treating as prospected
+2026-05-30 19:21:14 - INFO - Collected record 18: Maloase Mogodi | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:21:19 - INFO - Clicked Access email for record 19
+2026-05-30 19:21:21 - INFO - Access email cleared for record 19; treating as prospected
+2026-05-30 19:21:36 - INFO - Collected record 19: Quinn Miller | Senior Technical Recruiter | Instacart | N/A
+2026-05-30 19:21:40 - INFO - Clicked Access email for record 20
+2026-05-30 19:21:43 - INFO - Access email cleared for record 20; treating as prospected
+2026-05-30 19:21:58 - INFO - Collected record 20: Mitchell Peralta | Senior Technical Recruiter | NVIDIA | N/A
+2026-05-30 19:22:03 - INFO - Clicked Access email for record 21
+2026-05-30 19:22:08 - INFO - Access email cleared for record 21; treating as prospected
+2026-05-30 19:22:15 - INFO - Collected record 21: Jose Rodriguez | Senior Technical Recruiter | Capital One | N/A
+2026-05-30 19:22:19 - INFO - Clicked Access email for record 22
+2026-05-30 19:22:22 - INFO - Access email cleared for record 22; treating as prospected
+2026-05-30 19:22:30 - INFO - Collected record 22: Monique Brady | Senior Technical Recruiter | Apple | N/A
+2026-05-30 19:22:35 - INFO - Clicked Access email for record 23
+2026-05-30 19:22:38 - INFO - Access email cleared for record 23; treating as prospected
+2026-05-30 19:22:46 - INFO - Collected record 23: Arielle Schacht | Senior Technical Recruiter Click to View Match Details | Atlassian | N/A
+2026-05-30 19:22:50 - INFO - Clicked Access email for record 24
+2026-05-30 19:22:53 - INFO - Access email cleared for record 24; treating as prospected
+2026-05-30 19:23:08 - INFO - Collected record 24: JL Ivory | Senior Technical Recruiter | DoorDash | N/A
+2026-05-30 19:23:12 - INFO - Clicked Access email for record 25
+2026-05-30 19:23:16 - INFO - Access email cleared for record 25; treating as prospected
+2026-05-30 19:23:24 - INFO - Collected record 25: Stewart Vaughan | Sourcing Lead, Specialized Tech & Product | Zillow | N/A
+2026-05-30 19:23:25 - INFO - Missing fields on page 8: Email: 25, Industry: 15
+Missing fields on page 8: Email: 25, Industry: 15
+2026-05-30 19:23:25 - INFO - Page 8 complete - collected 25 recruiters (total: 200)
+Page 8 complete - collected 25 recruiters (total: 200)
+2026-05-30 19:24:17 - INFO - Successfully navigated to page 9
+2026-05-30 19:24:17 - INFO - Processing page 9 of 23 (201 - 225 of 565)
+
+==================================================
+Processing page 9 of 23
+Progress: 201 - 225 of 565
+==================================================
+
+2026-05-30 19:24:17 - INFO - Saved HTML for page 9 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_9_20260530_192417.html
+2026-05-30 19:24:17 - INFO - Saved screenshot for page 9 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_9_20260530_192417.png
+2026-05-30 19:24:17 - INFO - Found 25 records on page 9
+2026-05-30 19:24:21 - INFO - Clicked Access email for record 1
+2026-05-30 19:24:26 - INFO - Access email cleared for record 1; treating as prospected
+2026-05-30 19:24:33 - INFO - Collected record 1: Cecil Tanner | Senior Technical Recruiter | Atlassian | N/A
+2026-05-30 19:24:38 - INFO - Clicked Access email for record 2
+2026-05-30 19:24:40 - INFO - Access email cleared for record 2; treating as prospected
+2026-05-30 19:24:48 - INFO - Collected record 2: Luis Aguayo | Principal Technical Recruiter | Capital One | N/A
+2026-05-30 19:24:54 - INFO - Clicked Access email for record 3
+2026-05-30 19:24:56 - INFO - Access email cleared for record 3; treating as prospected
+2026-05-30 19:25:04 - INFO - Collected record 3: Tenzing Khampa | Senior Technical Recruiter | Atlassian | N/A
+2026-05-30 19:25:08 - INFO - Clicked Access email for record 4
+2026-05-30 19:25:11 - INFO - Access email cleared for record 4; treating as prospected
+2026-05-30 19:25:19 - INFO - Collected record 4: Ryan Gore | Senior Technical Recruiter | Capital One | N/A
+2026-05-30 19:25:24 - INFO - Clicked Access email for record 5
+2026-05-30 19:25:29 - INFO - Access email cleared for record 5; treating as prospected
+2026-05-30 19:25:44 - INFO - Collected record 5: Mercina Francis | Senior Technical Recruiter | Deloitte | N/A
+2026-05-30 19:25:48 - INFO - Clicked Access email for record 6
+2026-05-30 19:25:50 - INFO - Access email cleared for record 6; treating as prospected
+2026-05-30 19:26:06 - INFO - Collected record 6: Jen Serluco | Senior Technical Recruiter | Intuit | N/A
+2026-05-30 19:26:11 - INFO - Clicked Access email for record 7
+2026-05-30 19:26:13 - INFO - Access email cleared for record 7; treating as prospected
+2026-05-30 19:26:21 - INFO - Collected record 7: Liza Karras | Lead Technical Recruiter | Capital One | N/A
+2026-05-30 19:26:25 - INFO - Clicked Access email for record 8
+2026-05-30 19:26:27 - INFO - Access email cleared for record 8; treating as prospected
+2026-05-30 19:26:42 - INFO - Collected record 8: Noria Telwar | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:26:47 - INFO - Clicked Access email for record 9
+2026-05-30 19:26:53 - INFO - Access email cleared for record 9; treating as prospected
+2026-05-30 19:27:07 - INFO - Collected record 9: Alison Leavy | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:27:13 - INFO - Clicked Access email for record 10
+2026-05-30 19:27:15 - INFO - Access email cleared for record 10; treating as prospected
+2026-05-30 19:27:30 - INFO - Collected record 10: Bryam Rodas | Information Technology Recruiter | DoorDash | N/A
+2026-05-30 19:27:35 - INFO - Clicked Access email for record 11
+2026-05-30 19:27:37 - INFO - Access email cleared for record 11; treating as prospected
+2026-05-30 19:27:45 - INFO - Collected record 11: Andie Sunwoo | Senior Technical Recruiter | Apple | N/A
+2026-05-30 19:27:50 - INFO - Clicked Access email for record 12
+2026-05-30 19:27:55 - INFO - Access email cleared for record 12; treating as prospected
+2026-05-30 19:28:10 - INFO - Collected record 12: Courtney Hui | Senior Technical Recruiter | Instacart | N/A
+2026-05-30 19:28:20 - INFO - Collected record 13: Arielle Schacht | Senior Technical Recruiter Click to View Match Details | Atlassian | N/A
+2026-05-30 19:28:24 - INFO - Clicked Access email for record 14
+2026-05-30 19:28:27 - INFO - Access email cleared for record 14; treating as prospected
+2026-05-30 19:28:42 - INFO - Collected record 14: Harini P | Senior Technical Recruiter | Deloitte | N/A
+2026-05-30 19:28:47 - INFO - Clicked Access email for record 15
+2026-05-30 19:28:50 - INFO - Access email cleared for record 15; treating as prospected
+2026-05-30 19:29:05 - INFO - Collected record 15: Tyler Basti | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:29:11 - INFO - Clicked Access email for record 16
+2026-05-30 19:29:15 - INFO - Access email cleared for record 16; treating as prospected
+2026-05-30 19:29:30 - INFO - Collected record 16: Brian Hill | Sr. Technical Recruiter | Intuit | N/A
+2026-05-30 19:29:36 - INFO - Clicked Access email for record 17
+2026-05-30 19:29:39 - INFO - Access email cleared for record 17; treating as prospected
+2026-05-30 19:29:47 - INFO - Collected record 17: Emma Stewart | Senior Technical Recruiter | Capital One | N/A
+2026-05-30 19:29:52 - INFO - Clicked Access email for record 18
+2026-05-30 19:29:54 - INFO - Access email cleared for record 18; treating as prospected
+2026-05-30 19:30:09 - INFO - Collected record 18: Eric Vargas | Sr. Technical Recruiter | NVIDIA | N/A
+2026-05-30 19:30:13 - INFO - Clicked Access email for record 19
+2026-05-30 19:30:19 - INFO - Access email cleared for record 19; treating as prospected
+2026-05-30 19:30:34 - INFO - Collected record 19: Molly Gigantino | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:30:40 - INFO - Clicked Access email for record 20
+2026-05-30 19:30:43 - INFO - Access email cleared for record 20; treating as prospected
+2026-05-30 19:30:58 - INFO - Collected record 20: Justin Williams | Sr. Technical Recruiter | Intuit | N/A
+2026-05-30 19:31:03 - INFO - Clicked Access email for record 21
+2026-05-30 19:31:06 - INFO - Access email cleared for record 21; treating as prospected
+2026-05-30 19:31:21 - INFO - Collected record 21: Saili Karpe | Sr. Technical Recruiter | Airbnb | N/A
+2026-05-30 19:31:25 - INFO - Clicked Access email for record 22
+2026-05-30 19:31:32 - INFO - Access email cleared for record 22; treating as prospected
+2026-05-30 19:31:46 - INFO - Collected record 22: Kevin Fitzgerald | Senior Technical Recruiter | MongoDB | N/A
+2026-05-30 19:31:52 - INFO - Clicked Access email for record 23
+2026-05-30 19:31:54 - INFO - Access email cleared for record 23; treating as prospected
+2026-05-30 19:32:02 - INFO - Collected record 23: Chicho Varghese | Senior Technical Recruiter | Capital One | N/A
+2026-05-30 19:32:07 - INFO - Clicked Access email for record 24
+2026-05-30 19:32:10 - INFO - Access email cleared for record 24; treating as prospected
+2026-05-30 19:32:26 - INFO - Collected record 24: Kaitlyn S | Senior Technical Recruiter | DoorDash | N/A
+2026-05-30 19:32:31 - INFO - Clicked Access email for record 25
+2026-05-30 19:32:36 - INFO - Access email cleared for record 25; treating as prospected
+2026-05-30 19:32:52 - INFO - Collected record 25: Lauren Trevino | Senior Technical Recruiter | PayPal | N/A
+2026-05-30 19:32:53 - INFO - Missing fields on page 9: Email: 25, Industry: 13
+Missing fields on page 9: Email: 25, Industry: 13
+2026-05-30 19:32:53 - INFO - Page 9 complete - collected 25 recruiters (total: 225)
+Page 9 complete - collected 25 recruiters (total: 225)
+2026-05-30 19:33:47 - INFO - Successfully navigated to page 10
+2026-05-30 19:33:47 - INFO - Processing page 10 of 23 (226 - 250 of 565)
+
+==================================================
+Processing page 10 of 23
+Progress: 226 - 250 of 565
+==================================================
+
+2026-05-30 19:33:48 - INFO - Saved HTML for page 10 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_10_20260530_193347.html
+2026-05-30 19:33:48 - INFO - Saved screenshot for page 10 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_10_20260530_193348.png
+2026-05-30 19:33:48 - INFO - Found 25 records on page 10
+2026-05-30 19:33:51 - INFO - Clicked Access email for record 1
+2026-05-30 19:33:56 - INFO - Access email cleared for record 1; treating as prospected
+2026-05-30 19:34:03 - INFO - Collected record 1: Crystal Tan | Senior Technical Recruiter | Atlassian | N/A
+2026-05-30 19:34:08 - INFO - Clicked Access email for record 2
+2026-05-30 19:34:10 - INFO - Access email cleared for record 2; treating as prospected
+2026-05-30 19:34:18 - INFO - Collected record 2: Mary Vivier | Senior Technical Recruiter Click to View Match Details | Atlassian | N/A
+2026-05-30 19:34:23 - INFO - Clicked Access email for record 3
+2026-05-30 19:34:26 - INFO - Access email cleared for record 3; treating as prospected
+2026-05-30 19:34:34 - INFO - Collected record 3: Reggie Miller | Principal Technical Recruiter | Capital One | N/A
+2026-05-30 19:34:40 - INFO - Clicked Access email for record 4
+2026-05-30 19:34:42 - INFO - Access email cleared for record 4; treating as prospected
+2026-05-30 19:34:58 - INFO - Collected record 4: Shriya Deshpande | Sr.Technical Recruiter | Intuit | N/A
+2026-05-30 19:35:04 - INFO - Clicked Access email for record 5
+2026-05-30 19:35:09 - INFO - Access email cleared for record 5; treating as prospected
+2026-05-30 19:35:17 - INFO - Collected record 5: Chelsea Elwood | Senior Technical Recruiter | Apple | N/A
+2026-05-30 19:35:21 - INFO - Clicked Access email for record 6
+2026-05-30 19:35:24 - INFO - Access email cleared for record 6; treating as prospected
+2026-05-30 19:35:40 - INFO - Collected record 6: John Skridell | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:35:44 - INFO - Clicked Access email for record 7
+2026-05-30 19:35:47 - INFO - Access email cleared for record 7; treating as prospected
+2026-05-30 19:35:54 - INFO - Collected record 7: Vantey Ryazanov | IT Recruiter | Vanguard | N/A
+2026-05-30 19:35:59 - INFO - Clicked Access email for record 8
+2026-05-30 19:36:02 - INFO - Access email cleared for record 8; treating as prospected
+2026-05-30 19:36:10 - INFO - Collected record 8: Jake Lussier | Senior Technical Recruiter | Capital One | N/A
+2026-05-30 19:36:16 - INFO - Clicked Access email for record 9
+2026-05-30 19:36:21 - INFO - Access email cleared for record 9; treating as prospected
+2026-05-30 19:36:29 - INFO - Collected record 9: Rachel Zimmerman | Senior Technical Recruiter | Apple | N/A
+2026-05-30 19:36:34 - INFO - Clicked Access email for record 10
+2026-05-30 19:36:37 - INFO - Access email cleared for record 10; treating as prospected
+2026-05-30 19:36:45 - INFO - Collected record 10: Reed Cook | Technical Recruiter | Hardware Technology | Apple | N/A
+2026-05-30 19:36:50 - INFO - Clicked Access email for record 11
+2026-05-30 19:36:52 - INFO - Access email cleared for record 11; treating as prospected
+2026-05-30 19:37:08 - INFO - Collected record 11: Ryan Cleek | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:37:13 - INFO - Clicked Access email for record 12
+2026-05-30 19:37:16 - INFO - Access email cleared for record 12; treating as prospected
+2026-05-30 19:37:32 - INFO - Collected record 12: David Castellanos | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:37:38 - INFO - Clicked Access email for record 13
+2026-05-30 19:37:44 - INFO - Access email cleared for record 13; treating as prospected
+2026-05-30 19:37:59 - INFO - Collected record 13: Kathleen O'Brien | Lead Technical Recruiter | Deloitte | N/A
+2026-05-30 19:38:04 - INFO - Clicked Access email for record 14
+2026-05-30 19:38:06 - INFO - Access email cleared for record 14; treating as prospected
+2026-05-30 19:38:22 - INFO - Collected record 14: Naveen Kumar | IT Recruiter | Deloitte | N/A
+2026-05-30 19:38:27 - INFO - Clicked Access email for record 15
+2026-05-30 19:38:30 - INFO - Access email cleared for record 15; treating as prospected
+2026-05-30 19:38:46 - INFO - Collected record 15: Dennis Miller | Operations & Technology Recruiter | U.S. Bank | N/A
+2026-05-30 19:38:52 - INFO - Clicked Access email for record 16
+2026-05-30 19:38:58 - INFO - Access email cleared for record 16; treating as prospected
+2026-05-30 19:39:14 - INFO - Collected record 16: Larissa Amorim | Tech Recruiter PL | Deloitte | N/A
+2026-05-30 19:39:18 - INFO - Clicked Access email for record 17
+2026-05-30 19:39:22 - INFO - Access email cleared for record 17; treating as prospected
+2026-05-30 19:39:30 - INFO - Collected record 17: Rubi Adams | Principal Recruiter | Zillow | N/A
+2026-05-30 19:39:36 - INFO - Clicked Access email for record 18
+2026-05-30 19:39:40 - INFO - Access email cleared for record 18; treating as prospected
+2026-05-30 19:39:48 - INFO - Collected record 18: Ximena Flores | Senior Technical Recruiter | Square | N/A
+2026-05-30 19:39:53 - INFO - Clicked Access email for record 19
+2026-05-30 19:39:56 - INFO - Access email cleared for record 19; treating as prospected
+2026-05-30 19:40:12 - INFO - Collected record 19: Zarina Wencel | Sr. Technical Recruiter | Samsung Electronics | N/A
+2026-05-30 19:40:17 - INFO - Clicked Access email for record 20
+2026-05-30 19:40:23 - INFO - Access email cleared for record 20; treating as prospected
+2026-05-30 19:40:39 - INFO - Collected record 20: Julia Wilkins | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:40:43 - INFO - Clicked Access email for record 21
+2026-05-30 19:40:48 - INFO - Access email cleared for record 21; treating as prospected
+2026-05-30 19:41:04 - INFO - Collected record 21: Katharine Kwon | Senior Technical Recruiter | Deloitte | N/A
+2026-05-30 19:41:09 - INFO - Clicked Access email for record 22
+2026-05-30 19:41:13 - INFO - Access email cleared for record 22; treating as prospected
+2026-05-30 19:41:21 - INFO - Collected record 22: Holly Jones | Senior Technical Recruiter | Capital One | N/A
+2026-05-30 19:41:25 - INFO - Clicked Access email for record 23
+2026-05-30 19:41:31 - INFO - Access email cleared for record 23; treating as prospected
+2026-05-30 19:41:39 - INFO - Collected record 23: Franklin Andoh | Senior Technical Recruiter | Apple | N/A
+2026-05-30 19:41:44 - INFO - Clicked Access email for record 24
+2026-05-30 19:41:48 - INFO - Access email cleared for record 24; treating as prospected
+2026-05-30 19:42:04 - INFO - Collected record 24: Jessica Sanroman | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:42:09 - INFO - Clicked Access email for record 25
+2026-05-30 19:42:13 - INFO - Access email cleared for record 25; treating as prospected
+2026-05-30 19:42:22 - INFO - Collected record 25: Jeff Dehart | Sr. Technical Recruiter | Apple | N/A
+2026-05-30 19:42:23 - INFO - Missing fields on page 10: Email: 25, Industry: 7
+Missing fields on page 10: Email: 25, Industry: 7
+2026-05-30 19:42:23 - INFO - Page 10 complete - collected 25 recruiters (total: 250)
+Page 10 complete - collected 25 recruiters (total: 250)
+2026-05-30 19:43:19 - INFO - Successfully navigated to page 11
+2026-05-30 19:43:19 - INFO - Processing page 11 of 23 (251 - 275 of 565)
+
+==================================================
+Processing page 11 of 23
+Progress: 251 - 275 of 565
+==================================================
+
+2026-05-30 19:43:19 - INFO - Saved HTML for page 11 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_11_20260530_194319.html
+2026-05-30 19:43:20 - INFO - Saved screenshot for page 11 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_11_20260530_194319.png
+2026-05-30 19:43:20 - INFO - Found 25 records on page 11
+2026-05-30 19:43:23 - INFO - Clicked Access email for record 1
+2026-05-30 19:43:28 - INFO - Access email cleared for record 1; treating as prospected
+2026-05-30 19:43:44 - INFO - Collected record 1: Jhon Bagnes | Senior Technical Recruiter | Samsung Electronics | N/A
+2026-05-30 19:43:50 - INFO - Clicked Access email for record 2
+2026-05-30 19:43:54 - INFO - Access email cleared for record 2; treating as prospected
+2026-05-30 19:44:09 - INFO - Collected record 2: Robbie Bobay | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:44:14 - INFO - Clicked Access email for record 3
+2026-05-30 19:44:17 - INFO - Access email cleared for record 3; treating as prospected
+2026-05-30 19:44:25 - INFO - Collected record 3: Reshma Tandon | Senior Technical Recruiter | Bank of America | N/A
+2026-05-30 19:44:42 - INFO - Collected record 4: Jessica Sanroman | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:44:46 - INFO - Clicked Access email for record 5
+2026-05-30 19:44:52 - INFO - Access email cleared for record 5; treating as prospected
+2026-05-30 19:45:01 - INFO - Collected record 5: Heather Grave | Senior Technical Recruiter | Apple | N/A
+2026-05-30 19:45:05 - INFO - Clicked Access email for record 6
+2026-05-30 19:45:08 - INFO - Access email cleared for record 6; treating as prospected
+2026-05-30 19:45:23 - INFO - Collected record 6: Jacob Stern | Senior Technical Recruiter | NVIDIA | N/A
+2026-05-30 19:45:28 - INFO - Clicked Access email for record 7
+2026-05-30 19:45:31 - INFO - Access email cleared for record 7; treating as prospected
+2026-05-30 19:45:47 - INFO - Collected record 7: Marcelina Biniek-Ryplewicz | IT Recruiter | Deloitte | N/A
+2026-05-30 19:45:51 - INFO - Clicked Access email for record 8
+2026-05-30 19:45:57 - INFO - Access email cleared for record 8; treating as prospected
+2026-05-30 19:46:12 - INFO - Collected record 8: Sam Zeeshan | Information Technology Recruiter | Meta | N/A
+2026-05-30 19:46:17 - INFO - Clicked Access email for record 9
+2026-05-30 19:46:21 - INFO - Access email cleared for record 9; treating as prospected
+2026-05-30 19:46:37 - INFO - Collected record 9: Minal Patil | Information Technology Recruiter | Deloitte | N/A
+2026-05-30 19:46:41 - INFO - Clicked Access email for record 10
+2026-05-30 19:46:44 - INFO - Access email cleared for record 10; treating as prospected
+2026-05-30 19:47:02 - INFO - Collected record 10: Kimberly Seyr | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:47:07 - INFO - Clicked Access email for record 11
+2026-05-30 19:47:13 - INFO - Access email cleared for record 11; treating as prospected
+2026-05-30 19:47:30 - INFO - Collected record 11: Paul Campbell | Senior Technical Recruiter | U.S. Bank | N/A
+2026-05-30 19:47:36 - INFO - Clicked Access email for record 12
+2026-05-30 19:47:39 - INFO - Access email cleared for record 12; treating as prospected
+2026-05-30 19:47:54 - INFO - Collected record 12: Jennifer Butchen | Senior Technical Recruiter | Deloitte | N/A
+2026-05-30 19:48:00 - INFO - Clicked Access email for record 13
+2026-05-30 19:48:04 - INFO - Access email cleared for record 13; treating as prospected
+2026-05-30 19:48:20 - INFO - Collected record 13: Kris Lead/Manager | Senior Technical Recruiter | Deloitte | N/A
+2026-05-30 19:48:24 - INFO - Clicked Access email for record 14
+2026-05-30 19:48:31 - INFO - Access email cleared for record 14; treating as prospected
+2026-05-30 19:48:48 - INFO - Collected record 14: Jonathan Liu | Senior Technical Recruiter | Airbnb | N/A
+2026-05-30 19:48:52 - INFO - Clicked Access email for record 15
+2026-05-30 19:48:57 - INFO - Access email cleared for record 15; treating as prospected
+2026-05-30 19:49:12 - INFO - Collected record 15: Dawn Keibals | IT Recruiter | Deloitte | N/A
+2026-05-30 19:49:17 - INFO - Clicked Access email for record 16
+2026-05-30 19:49:21 - INFO - Access email cleared for record 16; treating as prospected
+2026-05-30 19:49:38 - INFO - Collected record 16: Wesley Hawkins | Senior Technical Recruiter | Meta | N/A
+2026-05-30 19:49:43 - INFO - Clicked Access email for record 17
+2026-05-30 19:49:50 - INFO - Access email cleared for record 17; treating as prospected
+2026-05-30 19:49:58 - INFO - Collected record 17: Robert Park | Lead Technical Recruiter | Atlassian | N/A
+2026-05-30 19:50:03 - INFO - Clicked Access email for record 18
+2026-05-30 19:50:06 - INFO - Access email cleared for record 18; treating as prospected
+2026-05-30 19:50:15 - INFO - Collected record 18: Karl Jagora | Senior Technical Recruiter | Apple | N/A
+2026-05-30 19:50:21 - INFO - Clicked Access email for record 19
+2026-05-30 19:50:24 - INFO - Access email cleared for record 19; treating as prospected
+2026-05-30 19:50:33 - INFO - Collected record 19: Dongqi Wang | Senior Technical Recruiter | Capital One | N/A
+2026-05-30 19:50:37 - INFO - Clicked Access email for record 20
+2026-05-30 19:50:41 - INFO - Access email cleared for record 20; treating as prospected
+2026-05-30 19:50:58 - INFO - Collected record 20: Chameera Dinesh | IT Recruiter | Airbnb | N/A
+2026-05-30 19:51:05 - INFO - Clicked Access email for record 21
+2026-05-30 19:51:12 - INFO - Access email cleared for record 21; treating as prospected
+2026-05-30 19:51:20 - INFO - Collected record 21: Veena Persaud | Senior Technical Recruiter | Apple | N/A
+2026-05-30 19:51:25 - INFO - Clicked Access email for record 22
+2026-05-30 19:51:30 - INFO - Access email cleared for record 22; treating as prospected
+2026-05-30 19:51:39 - INFO - Collected record 22: Jordan Bradley | Senior Technical Recruiter | Capital One | N/A
+2026-05-30 19:51:44 - INFO - Clicked Access email for record 23
+2026-05-30 19:51:49 - INFO - Access email cleared for record 23; treating as prospected
+2026-05-30 19:52:06 - INFO - Collected record 23: Holly Marston-Weston | Technical Recruiter - Leadership / Executive | Meta | N/A
+2026-05-30 19:52:11 - INFO - Clicked Access email for record 24
+2026-05-30 19:52:20 - INFO - Access email cleared for record 24; treating as prospected
+2026-05-30 19:52:32 - INFO - Collected record 24: Alice Ho | Technical Recruiter | Hardware Technologies | Apple | N/A
+2026-05-30 19:52:37 - INFO - Clicked Access email for record 25
+2026-05-30 19:52:44 - INFO - Access email cleared for record 25; treating as prospected
+2026-05-30 19:52:54 - INFO - Collected record 25: Katelyn Beckley | AI/ ML+ Recruiting | Talent Acquisition @ Netflix | Netflix | N/A
+2026-05-30 19:52:55 - INFO - Missing fields on page 11: Email: 25, Location: 1, Industry: 9, Keywords: 1
+Missing fields on page 11: Email: 25, Location: 1, Industry: 9, Keywords: 1
+2026-05-30 19:52:55 - INFO - Page 11 complete - collected 25 recruiters (total: 275)
+Page 11 complete - collected 25 recruiters (total: 275)
+2026-05-30 19:53:57 - INFO - Successfully navigated to page 12
+2026-05-30 19:53:57 - INFO - Processing page 12 of 23 (276 - 300 of 565)
+
+==================================================
+Processing page 12 of 23
+Progress: 276 - 300 of 565
+==================================================
+
+2026-05-30 19:53:58 - INFO - Saved HTML for page 12 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_12_20260530_195357.html
+2026-05-30 19:53:58 - INFO - Saved screenshot for page 12 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_12_20260530_195358.png
+2026-05-30 19:53:58 - INFO - Found 25 records on page 12
+2026-05-30 19:54:01 - INFO - Clicked Access email for record 1
+2026-05-30 19:54:07 - INFO - Access email cleared for record 1; treating as prospected
+2026-05-30 19:54:24 - INFO - Collected record 1: Bobby Nerbonne | Technical Recruiter - Early Careers | NVIDIA | N/A
+2026-05-30 19:54:29 - INFO - Clicked Access email for record 2
+2026-05-30 19:54:32 - INFO - Access email cleared for record 2; treating as prospected
+2026-05-30 19:54:40 - INFO - Collected record 2: Joseph Verdugo | Technical Recruiter - Hardware Engineering | Apple | N/A
+2026-05-30 19:54:45 - INFO - Clicked Access email for record 3
+2026-05-30 19:54:49 - INFO - Access email cleared for record 3; treating as prospected
+2026-05-30 19:55:05 - INFO - Collected record 3: Aditya Saxena | Technical Recruiter (Talent Acquisition) | Deloitte | N/A
+2026-05-30 19:55:10 - INFO - Clicked Access email for record 4
+2026-05-30 19:55:17 - INFO - Access email cleared for record 4; treating as prospected
+2026-05-30 19:55:25 - INFO - Collected record 4: Tarek Cotran | Technical Recruiter, Product Engineering | Netflix | N/A
+2026-05-30 19:55:30 - INFO - Clicked Access email for record 5
+2026-05-30 19:55:33 - INFO - Access email cleared for record 5; treating as prospected
+2026-05-30 19:55:49 - INFO - Collected record 5: John Puts | Recruiting Lead, Technical Recruiter | Meta | N/A
+2026-05-30 19:55:55 - INFO - Clicked Access email for record 6
+2026-05-30 19:55:59 - INFO - Access email cleared for record 6; treating as prospected
+2026-05-30 19:56:15 - INFO - Collected record 6: Alvin Ye | Technical Recruiter - Product & Design | Gusto | N/A
+2026-05-30 19:56:20 - INFO - Clicked Access email for record 7
+2026-05-30 19:56:27 - INFO - Access email cleared for record 7; treating as prospected
+2026-05-30 19:56:35 - INFO - Collected record 7: Mariah Mansuo | North America Technical Recruiter | Zillow | N/A
+2026-05-30 19:56:41 - INFO - Clicked Access email for record 8
+2026-05-30 19:56:45 - INFO - Access email cleared for record 8; treating as prospected
+2026-05-30 19:56:53 - INFO - Collected record 8: Blake Bouffard | Technical Recruiter - Hardware Tech (SEG) | Apple | N/A
+2026-05-30 19:56:58 - INFO - Clicked Access email for record 9
+2026-05-30 19:57:02 - INFO - Access email cleared for record 9; treating as prospected
+2026-05-30 19:57:18 - INFO - Collected record 9: Ann Tran | Technical Recruiter, Product & Design | Gusto | N/A
+2026-05-30 19:57:23 - INFO - Clicked Access email for record 10
+2026-05-30 19:57:28 - INFO - Access email cleared for record 10; treating as prospected
+2026-05-30 19:57:36 - INFO - Collected record 10: Trenton Shelby | Technical Recruiter (Via Talentful) | Atlassian | N/A
+2026-05-30 19:57:42 - INFO - Clicked Access email for record 11
+2026-05-30 19:57:49 - INFO - Access email cleared for record 11; treating as prospected
+2026-05-30 19:58:06 - INFO - Collected record 11: Mahima Saxena | Senior Technical Recruiter - APJ | Databricks | N/A
+2026-05-30 19:58:11 - INFO - Clicked Access email for record 12
+2026-05-30 19:58:16 - INFO - Access email cleared for record 12; treating as prospected
+2026-05-30 19:58:32 - INFO - Collected record 12: Parvine Rahami | Senior Technical Recruiter - Cybersecurity | Meta | N/A
+2026-05-30 19:58:37 - INFO - Clicked Access email for record 13
+2026-05-30 19:58:41 - INFO - Access email cleared for record 13; treating as prospected
+2026-05-30 19:58:59 - INFO - Collected record 13: Minhaj Kashif | Senior IT Recruiter | Deloitte | N/A
+2026-05-30 19:59:05 - INFO - Clicked Access email for record 14
+2026-05-30 19:59:14 - INFO - Access email cleared for record 14; treating as prospected
+2026-05-30 19:59:30 - INFO - Collected record 14: Gil Pena | Senior IT Recruiter | Deloitte | N/A
+2026-05-30 19:59:37 - INFO - Clicked Access email for record 15
+2026-05-30 19:59:41 - INFO - Access email cleared for record 15; treating as prospected
+2026-05-30 19:59:56 - INFO - Collected record 15: Emma Bergmann | Senior Technical Recruiter (Design) | DoorDash | N/A
+2026-05-30 20:00:03 - INFO - Clicked Access email for record 16
+2026-05-30 20:00:09 - INFO - Access email cleared for record 16; treating as prospected
+2026-05-30 20:00:25 - INFO - Collected record 16: Damian Favela Rico | Experienced Information Technology Recruiter | Deloitte | N/A
+2026-05-30 20:00:31 - INFO - Clicked Access email for record 17
+2026-05-30 20:00:39 - INFO - Access email cleared for record 17; treating as prospected
+2026-05-30 20:00:58 - INFO - Collected record 17: La Payne | Senior Technical Recruiter - GTMT | DoorDash | N/A
+2026-05-30 20:01:03 - INFO - Clicked Access email for record 18
+2026-05-30 20:01:10 - INFO - Access email cleared for record 18; treating as prospected
+2026-05-30 20:01:26 - INFO - Collected record 18: Denise Fernandez | Sr. IT Recruiter | Deloitte | N/A
+2026-05-30 20:01:32 - INFO - Clicked Access email for record 19
+2026-05-30 20:01:38 - INFO - Access email cleared for record 19; treating as prospected
+2026-05-30 20:01:54 - INFO - Collected record 19: Annamaria Illes | Senior Technical Recruiter - EMEA | NVIDIA | N/A
+2026-05-30 20:02:00 - INFO - Clicked Access email for record 20
+2026-05-30 20:02:08 - INFO - Access email cleared for record 20; treating as prospected
+2026-05-30 20:02:17 - INFO - Collected record 20: Ashley Gregory | Principal Technical Recruiter, Product | Atlassian | N/A
+2026-05-30 20:02:24 - INFO - Clicked Access email for record 21
+2026-05-30 20:02:29 - INFO - Access email cleared for record 21; treating as prospected
+2026-05-30 20:02:46 - INFO - Collected record 21: Maggie Desmarais | Senior Technical Recruiter, Leadership | Meta | N/A
+2026-05-30 20:02:53 - INFO - Clicked Access email for record 22
+2026-05-30 20:02:58 - INFO - Access email cleared for record 22; treating as prospected
+2026-05-30 20:03:18 - INFO - Collected record 22: Lilian Fairchild | Senior Technical Recruiter - Contract | Intuit | N/A
+2026-05-30 20:03:24 - INFO - Clicked Access email for record 23
+2026-05-30 20:03:37 - INFO - Access email cleared for record 23; treating as prospected
+2026-05-30 20:03:56 - INFO - Collected record 23: Titi Ademokun | Lead Technical Recruiter Sourcer | Meta | N/A
+2026-05-30 20:04:03 - INFO - Clicked Access email for record 24
+2026-05-30 20:04:11 - INFO - Access email cleared for record 24; treating as prospected
+2026-05-30 20:04:33 - INFO - Collected record 24: Ritu Sharma | EMEA Senior Technical Recruiter | Meta | N/A
+2026-05-30 20:04:40 - INFO - Clicked Access email for record 25
+2026-05-30 20:04:54 - INFO - Access email cleared for record 25; treating as prospected
+2026-05-30 20:05:07 - INFO - Collected record 25: Cary Brown | Students and Grads Tech Recruiter | Capital One | N/A
+2026-05-30 20:05:08 - INFO - Missing fields on page 12: Email: 25, Industry: 11, Keywords: 1
+Missing fields on page 12: Email: 25, Industry: 11, Keywords: 1
+2026-05-30 20:05:08 - INFO - Page 12 complete - collected 25 recruiters (total: 300)
+Page 12 complete - collected 25 recruiters (total: 300)
+2026-05-30 20:06:10 - INFO - Successfully navigated to page 13
+2026-05-30 20:06:10 - INFO - Processing page 13 of 23 (301 - 325 of 565)
+
+==================================================
+Processing page 13 of 23
+Progress: 301 - 325 of 565
+==================================================
+
+2026-05-30 20:06:10 - INFO - Saved HTML for page 13 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_13_20260530_200610.html
+2026-05-30 20:06:10 - INFO - Saved screenshot for page 13 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_13_20260530_200610.png
+2026-05-30 20:06:11 - INFO - Found 25 records on page 13
+2026-05-30 20:06:15 - INFO - Clicked Access email for record 1
+2026-05-30 20:06:23 - INFO - Access email cleared for record 1; treating as prospected
+2026-05-30 20:06:40 - INFO - Collected record 1: Josh Dubinsky | Senior Information Technology Recruiter | Gartner | N/A
+2026-05-30 20:06:45 - INFO - Clicked Access email for record 2
+2026-05-30 20:06:51 - INFO - Access email cleared for record 2; treating as prospected
+2026-05-30 20:06:59 - INFO - Collected record 2: Jill-Annette Aviles | Principal Associate, Technical Recruiter | Capital One | N/A
+2026-05-30 20:07:04 - INFO - Clicked Access email for record 3
+2026-05-30 20:07:10 - INFO - Access email cleared for record 3; treating as prospected
+2026-05-30 20:07:18 - INFO - Collected record 3: Jazmin Ramirez | Students & Grads Tech Recruiter | Capital One | N/A
+2026-05-30 20:07:24 - INFO - Clicked Access email for record 4
+2026-05-30 20:07:32 - INFO - Access email cleared for record 4; treating as prospected
+2026-05-30 20:07:41 - INFO - Collected record 4: Natalie Curda | Students & Grads Tech Recruiter | Capital One | N/A
+2026-05-30 20:07:47 - INFO - Clicked Access email for record 5
+2026-05-30 20:07:53 - INFO - Access email cleared for record 5; treating as prospected
+2026-05-30 20:08:11 - INFO - Collected record 5: Samaiyah Melton | Senior Technical Recruiter, Leadership | Meta | N/A
+2026-05-30 20:08:18 - INFO - Clicked Access email for record 6
+2026-05-30 20:08:24 - INFO - Access email cleared for record 6; treating as prospected
+2026-05-30 20:08:42 - INFO - Collected record 6: Matthew Williams | Experienced Hire Technical Recruiter | Deloitte | N/A
+2026-05-30 20:08:48 - INFO - Clicked Access email for record 7
+2026-05-30 20:09:03 - INFO - Access email cleared for record 7; treating as prospected
+2026-05-30 20:09:20 - INFO - Collected record 7: Aiyana Felder | Lead Specialist, Technical Recruiter | Deloitte | N/A
+2026-05-30 20:09:28 - INFO - Clicked Access email for record 8
+2026-05-30 20:09:34 - INFO - Access email cleared for record 8; treating as prospected
+2026-05-30 20:09:43 - INFO - Collected record 8: Omkar M | Lead Information Technology Recruiter | Apple | N/A
+2026-05-30 20:09:48 - INFO - Clicked Access email for record 9
+2026-05-30 20:09:54 - INFO - Access email cleared for record 9; treating as prospected
+2026-05-30 20:10:12 - INFO - Collected record 9: Mary Arciaga | Lead Sr. Technical Recruiter | Samsung Electronics | N/A
+2026-05-30 20:10:19 - INFO - Clicked Access email for record 10
+2026-05-30 20:10:29 - INFO - Access email cleared for record 10; treating as prospected
+2026-05-30 20:10:40 - INFO - Collected record 10: Megan Jennings | Lead Technical Recruiter - Card Tech+ | Capital One | N/A
+2026-05-30 20:10:46 - INFO - Clicked Access email for record 11
+2026-05-30 20:10:53 - INFO - Access email cleared for record 11; treating as prospected
+2026-05-30 20:11:09 - INFO - Collected record 11: Mandira Thakkar | Snr. IT Recruiter | Deloitte | N/A
+2026-05-30 20:11:14 - INFO - Clicked Access email for record 12
+2026-05-30 20:11:21 - INFO - Access email cleared for record 12; treating as prospected
+2026-05-30 20:11:38 - INFO - Collected record 12: Gosia Olejniczak | Talent Acquisition - Lead Technical Recruiter | Meta | N/A
+2026-05-30 20:11:44 - INFO - Clicked Access email for record 13
+2026-05-30 20:11:56 - INFO - Access email cleared for record 13; treating as prospected
+2026-05-30 20:12:14 - INFO - Collected record 13: Hann Abendroth | Senior Information Technology Recruiter | Deloitte | N/A
+2026-05-30 20:12:21 - INFO - Clicked Access email for record 14
+2026-05-30 20:12:27 - INFO - Access email cleared for record 14; treating as prospected
+2026-05-30 20:12:43 - INFO - Collected record 14: Jeff Whitaker | Executive Principal/Staff Technical Recruiter | Meta | N/A
+2026-05-30 20:12:49 - INFO - Clicked Access email for record 15
+2026-05-30 20:12:55 - INFO - Access email cleared for record 15; treating as prospected
+2026-05-30 20:13:13 - INFO - Collected record 15: Mike Coe | Technical Recruiter - AI Research | Meta | N/A
+2026-05-30 20:13:20 - INFO - Clicked Access email for record 16
+2026-05-30 20:13:32 - INFO - Access email cleared for record 16; treating as prospected
+2026-05-30 20:13:52 - INFO - Collected record 16: Eden Tessler | Technical Recruiter / Talent Acquisition Partner | NVIDIA | N/A
+2026-05-30 20:13:58 - INFO - Clicked Access email for record 17
+2026-05-30 20:14:06 - INFO - Access email cleared for record 17; treating as prospected
+2026-05-30 20:14:23 - INFO - Collected record 17: Zeshan Nusrat | Technical Recruiter, AI Research | Meta | N/A
+2026-05-30 20:14:30 - INFO - Clicked Access email for record 18
+2026-05-30 20:14:41 - INFO - Access email cleared for record 18; treating as prospected
+2026-05-30 20:15:00 - INFO - Collected record 18: Vyshnavi Karike | US IT Recruiter | Deloitte | N/A
+2026-05-30 20:15:07 - INFO - Clicked Access email for record 19
+2026-05-30 20:15:25 - INFO - Access email cleared for record 19; treating as prospected
+2026-05-30 20:15:51 - INFO - Collected record 19: P Colbert | Senior Information Technology Recruiter | Samsung Electronics | N/A
+2026-05-30 20:15:57 - INFO - Clicked Access email for record 20
+2026-05-30 20:16:12 - INFO - Access email cleared for record 20; treating as prospected
+2026-05-30 20:16:21 - INFO - Collected record 20: Qiara G | Tech Recruiter, Students & Grads Programs | Capital One | N/A
+2026-05-30 20:16:29 - INFO - Clicked Access email for record 21
+2026-05-30 20:16:37 - INFO - Access email cleared for record 21; treating as prospected
+2026-05-30 20:16:59 - INFO - Collected record 21: Leonardo Comodini | Senior Technical Recruiter/Sourcer, Engineering | DoorDash | N/A
+2026-05-30 20:17:07 - INFO - Clicked Access email for record 22
+2026-05-30 20:17:21 - INFO - Access email cleared for record 22; treating as prospected
+2026-05-30 20:17:36 - INFO - Collected record 22: Kingsten Jones | Senior Tech Recruiter - R&D | Atlassian | N/A
+2026-05-30 20:17:45 - INFO - Clicked Access email for record 23
+2026-05-30 20:17:58 - INFO - Access email cleared for record 23; treating as prospected
+2026-05-30 20:18:18 - INFO - Collected record 23: Anu D | Senior Technical Recruiter & Talent Intelligence | Meta | N/A
+2026-05-30 20:18:29 - INFO - Clicked Access email for record 24
+2026-05-30 20:18:47 - INFO - Access email cleared for record 24; treating as prospected
+2026-05-30 20:19:01 - INFO - Collected record 24: Mathi Narayan | Senior Technical Recruiter (Full Cycle) | Capital One | N/A
+2026-05-30 20:19:12 - INFO - Clicked Access email for record 25
+2026-05-30 20:19:25 - INFO - Access email cleared for record 25; treating as prospected
+2026-05-30 20:19:53 - INFO - Collected record 25: Dania Reed | Senior Technical Recruiter | Airbnb | N/A
+2026-05-30 20:19:55 - INFO - Missing fields on page 13: Email: 25, Industry: 10
+Missing fields on page 13: Email: 25, Industry: 10
+2026-05-30 20:19:55 - INFO - Page 13 complete - collected 25 recruiters (total: 325)
+Page 13 complete - collected 25 recruiters (total: 325)
+2026-05-30 20:20:59 - INFO - Successfully navigated to page 14
+2026-05-30 20:21:00 - INFO - Processing page 14 of 23 (326 - 350 of 565)
+
+==================================================
+Processing page 14 of 23
+Progress: 326 - 350 of 565
+==================================================
+
+2026-05-30 20:21:00 - INFO - Saved HTML for page 14 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_14_20260530_202100.html
+2026-05-30 20:21:01 - INFO - Saved screenshot for page 14 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_14_20260530_202100.png
+2026-05-30 20:21:01 - INFO - Found 25 records on page 14
+2026-05-30 20:21:05 - INFO - Clicked Access email for record 1
+2026-05-30 20:21:13 - INFO - Access email cleared for record 1; treating as prospected
+2026-05-30 20:21:21 - INFO - Collected record 1: Zac Nimke | Sr. Technical Recruiter, Software Engineering | Apple | N/A
+2026-05-30 20:21:27 - INFO - Clicked Access email for record 2
+2026-05-30 20:21:32 - INFO - Access email cleared for record 2; treating as prospected
+2026-05-30 20:21:50 - INFO - Collected record 2: Mark Pelka | Senior Technical Recruiter, Talent Acquisition | General Motors | N/A
+2026-05-30 20:21:56 - INFO - Clicked Access email for record 3
+2026-05-30 20:22:02 - INFO - Access email cleared for record 3; treating as prospected
+2026-05-30 20:22:20 - INFO - Collected record 3: Nate Valdez | Sr. Technical Recruiter: Software Engineering | Meta | N/A
+2026-05-30 20:22:25 - INFO - Clicked Access email for record 4
+2026-05-30 20:22:36 - INFO - Access email cleared for record 4; treating as prospected
+2026-05-30 20:22:54 - INFO - Collected record 4: Baby S | Senior Analyst IT Recruiter | Deloitte | N/A
+2026-05-30 20:23:02 - INFO - Clicked Access email for record 5
+2026-05-30 20:23:08 - INFO - Access email cleared for record 5; treating as prospected
+2026-05-30 20:23:17 - INFO - Collected record 5: Neha Sovani | Principal Technical Recruiter, Director + Recruiting | Capital One | N/A
+2026-05-30 20:23:21 - INFO - Clicked Access email for record 6
+2026-05-30 20:23:29 - INFO - Access email cleared for record 6; treating as prospected
+2026-05-30 20:23:37 - INFO - Collected record 6: Mariana Gozalo | Senior Tech Recruiter - Student & Grads | Capital One | N/A
+2026-05-30 20:23:43 - INFO - Clicked Access email for record 7
+2026-05-30 20:23:53 - INFO - Access email cleared for record 7; treating as prospected
+2026-05-30 20:24:13 - INFO - Collected record 7: Megan Smith | Sr. Staff Technical Recruiter - Product | Databricks | N/A
+2026-05-30 20:24:19 - INFO - Clicked Access email for record 8
+2026-05-30 20:24:25 - INFO - Access email cleared for record 8; treating as prospected
+2026-05-30 20:24:33 - INFO - Collected record 8: Lauren Genetti | Senior Technical Recruiter I Sourcer | Apple | N/A
+2026-05-30 20:24:39 - INFO - Clicked Access email for record 9
+2026-05-30 20:24:46 - INFO - Access email cleared for record 9; treating as prospected
+2026-05-30 20:25:00 - INFO - Collected record 9: Alina Muntean | Technical Recruiter - Hardware Technology at Apple EMEA | Apple | N/A
+2026-05-30 20:25:06 - INFO - Clicked Access email for record 10
+2026-05-30 20:25:20 - INFO - Access email cleared for record 10; treating as prospected
+2026-05-30 20:25:38 - INFO - Collected record 10: Ram Soni | Senior IT Recruiter - Europe | Meta | N/A
+2026-05-30 20:25:44 - INFO - Clicked Access email for record 11
+2026-05-30 20:25:51 - INFO - Access email cleared for record 11; treating as prospected
+2026-05-30 20:26:09 - INFO - Collected record 11: Sofia-Fani Sakkou | HR Consultant | Tech Recruiter | Deloitte | N/A
+2026-05-30 20:26:15 - INFO - Clicked Access email for record 12
+2026-05-30 20:26:29 - INFO - Access email cleared for record 12; treating as prospected
+2026-05-30 20:26:38 - INFO - Collected record 12: Alexis Misael Ronderos | IT Recruiter/Sourcer Sr. | Capital One | N/A
+2026-05-30 20:26:43 - INFO - Clicked Access email for record 13
+2026-05-30 20:26:51 - INFO - Access email cleared for record 13; treating as prospected
+2026-05-30 20:27:12 - INFO - Collected record 13: Allyssa Hernandez | Staff Technical Recruiter, Intuit AI | Intuit | N/A
+2026-05-30 20:27:22 - INFO - Clicked Access email for record 14
+2026-05-30 20:27:28 - INFO - Access email cleared for record 14; treating as prospected
+2026-05-30 20:27:37 - INFO - Collected record 14: Vicki Ray | VP-Sr. Technical Recruiter | Bank of America | N/A
+2026-05-30 20:27:42 - INFO - Clicked Access email for record 15
+2026-05-30 20:28:00 - INFO - Access email cleared for record 15; treating as prospected
+2026-05-30 20:28:08 - INFO - Collected record 15: James Fry | Senior Technical Recruiter (R&D) | Apple | N/A
+2026-05-30 20:28:16 - INFO - Clicked Access email for record 16
+2026-05-30 20:28:25 - INFO - Access email cleared for record 16; treating as prospected
+2026-05-30 20:28:43 - INFO - Collected record 16: Jeff Rothstein | Senior Technical Recruiter - Global Technology Solutions | Verizon | N/A
+2026-05-30 20:28:52 - INFO - Clicked Access email for record 17
+2026-05-30 20:29:31 - INFO - Access email cleared for record 17; treating as prospected
+2026-05-30 20:30:09 - INFO - Collected record 17: Sara Heays | Senior Technical Recruiter - Talent Acquisition | Atlassian | N/A
+2026-05-30 20:30:38 - INFO - Clicked Access email for record 18
+2026-05-30 20:31:20 - INFO - Access email cleared for record 18; treating as prospected
+2026-05-30 20:31:44 - INFO - Collected record 18: Samantha Lam | Technical Recruiter, Hardware Technologies & Silicon Engineering | Apple | N/A
+2026-05-30 20:31:56 - INFO - Clicked Access email for record 19
+2026-05-30 20:32:17 - INFO - Access email cleared for record 19; treating as prospected
+2026-05-30 20:32:52 - INFO - Collected record 19: Anourack Hardin | Senior Technical Recruiter, Software Engineering | Apple | N/A
+2026-05-30 20:33:18 - INFO - Clicked Access email for record 20
+2026-05-30 20:34:15 - INFO - Access email cleared for record 20; treating as prospected
+2026-05-30 20:34:50 - INFO - Collected record 20: Maria Victoria Carmona | Lawyer | Poder Judicial de la Provincia de Buenos Aires | N/A
+2026-05-30 20:35:16 - INFO - Clicked Access email for record 21
+2026-05-30 20:36:00 - INFO - Access email cleared for record 21; treating as prospected
+2026-05-30 20:37:03 - INFO - Collected record 21: Tristan O'Gorman | Senior Technical Recruiter, Early in Career | Meta | N/A
+2026-05-30 20:37:30 - INFO - Clicked Access email for record 22
+2026-05-30 20:38:04 - INFO - Access email cleared for record 22; treating as prospected
+2026-05-30 20:39:01 - INFO - Collected record 22: Michael McGovern | Senior Technical Recruiter, International Data Center | Meta | N/A
+2026-05-30 20:39:26 - INFO - Clicked Access email for record 23
+2026-05-30 20:40:16 - INFO - Access email cleared for record 23; treating as prospected
+2026-05-30 20:41:58 - INFO - Collected record 23: Amy Agostoni | Sr. Tech Recruiter - Reality Labs Research | Meta | N/A
+2026-05-30 20:42:35 - INFO - Clicked Access email for record 24
+2026-05-30 20:44:04 - INFO - Access email cleared for record 24; treating as prospected
+2026-05-30 20:45:52 - INFO - Collected record 24: Serena Sundarajan | Sr. Technical Recruiter | Specialized Business Tech & Sales | Meta | N/A
+2026-05-30 20:46:37 - INFO - Clicked Access email for record 25
+2026-05-30 20:47:49 - INFO - Access email cleared for record 25; treating as prospected
+2026-05-30 20:49:30 - INFO - Collected record 25: Sammy Maher | Sr. Technical Recruiter - SWE & Product Design | Meta | N/A
+2026-05-30 20:49:31 - INFO - Missing fields on page 14: Email: 25, Industry: 10, Keywords: 1
+Missing fields on page 14: Email: 25, Industry: 10, Keywords: 1
+2026-05-30 20:49:31 - INFO - Page 14 complete - collected 25 recruiters (total: 350)
+Page 14 complete - collected 25 recruiters (total: 350)
+2026-05-30 20:49:31 - INFO - Taking random cooldown break for 39s after page 14.
+2026-05-30 20:51:45 - INFO - Successfully navigated to page 15
+2026-05-30 20:51:46 - INFO - Processing page 15 of 23 (351 - 375 of 565)
+
+==================================================
+Processing page 15 of 23
+Progress: 351 - 375 of 565
+==================================================
+
+2026-05-30 20:51:46 - INFO - Saved HTML for page 15 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_15_20260530_205146.html
+2026-05-30 20:51:46 - INFO - Saved screenshot for page 15 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_15_20260530_205146.png
+2026-05-30 20:51:46 - INFO - Found 25 records on page 15
+2026-05-30 20:51:52 - INFO - Clicked Access email for record 1
+2026-05-30 20:52:12 - INFO - Access email cleared for record 1; treating as prospected
+2026-05-30 20:52:33 - INFO - Collected record 1: James Blumire | Senior Recruiter | Snowflake | N/A
+2026-05-30 20:52:46 - INFO - Clicked Access email for record 2
+2026-05-30 20:53:01 - INFO - Access email cleared for record 2; treating as prospected
+2026-05-30 20:53:22 - INFO - Collected record 2: Alice Liu | Senior Technical Recruiter, US R&D | Atlassian | N/A
+2026-05-30 20:53:32 - INFO - Clicked Access email for record 3
+2026-05-30 20:53:59 - INFO - Access email cleared for record 3; treating as prospected
+2026-05-30 20:54:35 - INFO - Collected record 3: Jack Wu | Senior Technical Recruiter - Core Engineering (APAC) | Atlassian | N/A
+2026-05-30 20:54:54 - INFO - Clicked Access email for record 4
+2026-05-30 20:55:22 - INFO - Access email cleared for record 4; treating as prospected
+2026-05-30 20:56:14 - INFO - Collected record 4: Kekeli Bokor | Lead Technical Recruiter - Engineering, Customer Engineering & Product - APAC | MongoDB | N/A
+2026-05-30 20:56:35 - INFO - Clicked Access email for record 5
+2026-05-30 20:57:05 - INFO - Access email cleared for record 5; treating as prospected
+2026-05-30 20:57:59 - INFO - Collected record 5: Shawn Bryant | Senior Technical Recruiter, AI/ML | Meta | N/A
+2026-05-30 20:58:21 - INFO - Clicked Access email for record 6
+2026-05-30 20:58:52 - INFO - Access email cleared for record 6; treating as prospected
+2026-05-30 20:59:35 - INFO - Collected record 6: Eli Guenduez | Principal Technical Recruiter & TA AI Enablement | Atlassian | N/A
+2026-05-30 20:59:58 - INFO - Clicked Access email for record 7
+2026-05-30 21:00:32 - INFO - Access email cleared for record 7; treating as prospected
+2026-05-30 21:01:20 - INFO - Collected record 7: Ja'najai Jackson | Senior Technical Recruiter - Intelligence Foundations and Experiences (IFX) | Capital One | N/A
+2026-05-30 21:01:44 - INFO - Clicked Access email for record 8
+2026-05-30 21:02:13 - INFO - Access email cleared for record 8; treating as prospected
+2026-05-30 21:03:19 - INFO - Collected record 8: Katrina Cervantes | Technical Recruiter - Hardware: Infrastructure Silicon & Reality Labs | Meta | N/A
+2026-05-30 21:03:50 - INFO - Clicked Access email for record 9
+2026-05-30 21:04:35 - INFO - Access email cleared for record 9; treating as prospected
+2026-05-30 21:05:42 - INFO - Collected record 9: Nina Strauss | Senior Technical Recruiter - Data & AI, EMEA | Databricks | N/A
+2026-05-30 21:06:08 - INFO - Clicked Access email for record 10
+2026-05-30 21:06:54 - INFO - Access email cleared for record 10; treating as prospected
+2026-05-30 21:08:01 - INFO - Collected record 10: Gianni Boscarato | Senior Technical Recruiter, SWE Leadership Recruiting (EMEA) | Meta | N/A
+2026-05-30 21:08:29 - INFO - Clicked Access email for record 11
+2026-05-30 21:09:23 - INFO - Access email cleared for record 11; treating as prospected
+2026-05-30 21:10:30 - INFO - Collected record 11: Sandhya Sachan | Senior Technical Recruiter- ML & SWE (EMEA) | Meta | N/A
+2026-05-30 21:10:54 - INFO - Clicked Access email for record 12
+2026-05-30 21:11:50 - INFO - Access email cleared for record 12; treating as prospected
+2026-05-30 21:12:56 - INFO - Collected record 12: Ana Oliveira | Analista de Recrutamento & Seleção / Talent Acquisition / Tech Recruiter | Deloitte | N/A
+2026-05-30 21:13:29 - INFO - Clicked Access email for record 13
+2026-05-30 21:14:25 - INFO - Access email cleared for record 13; treating as prospected
+2026-05-30 21:15:35 - INFO - Collected record 13: Danisha Simon | Regional Talent Acquisition Business Partner - SEA (Tech Recruiter) | Deloitte | N/A
+2026-05-30 21:16:05 - INFO - Clicked Access email for record 14
+2026-05-30 21:17:08 - INFO - Access email cleared for record 14; treating as prospected
+2026-05-30 21:18:31 - INFO - Collected record 14: Ashley Burbick | Principal Executive Technical Recruiter I Analytics & Data Science | Meta | N/A
+2026-05-30 21:19:04 - INFO - Clicked Access email for record 15
+2026-05-30 21:20:04 - INFO - Access email cleared for record 15; treating as prospected
+2026-05-30 21:21:21 - INFO - Collected record 15: Ryan Long | Senior Technical Recruiter (contract at Intuit Through Randstad) | Intuit | N/A
+2026-05-30 21:21:54 - INFO - Clicked Access email for record 16
+2026-05-30 21:22:56 - INFO - Access email cleared for record 16; treating as prospected
+2026-05-30 21:24:13 - INFO - Collected record 16: Lauren Traurig | Technical Leadership Recruiter | Meta | N/A
+2026-05-30 21:24:38 - INFO - Clicked Access email for record 17
+2026-05-30 21:25:43 - INFO - Access email cleared for record 17; treating as prospected
+2026-05-30 21:27:10 - INFO - Collected record 17: Jack Kelleway | Technical Leadership Recruiter | Meta | N/A
+2026-05-30 21:27:45 - INFO - Clicked Access email for record 18
+2026-05-30 21:29:22 - INFO - Access email cleared for record 18; treating as prospected
+2026-05-30 21:31:22 - INFO - Collected record 18: Gil Gorham | Senior Technical Recruiter - World Wide Field Operations (wwfo)+latam | NVIDIA | N/A
+2026-05-30 21:32:06 - INFO - Clicked Access email for record 19
+2026-05-30 21:33:19 - INFO - Access email cleared for record 19; treating as prospected
+2026-05-30 21:35:07 - INFO - Collected record 19: Gabrielle Letalon | Sr Technical Recruiter (via Matchr): Machine Learning and Data Science | PayPal | N/A
+2026-05-30 21:35:42 - INFO - Clicked Access email for record 20
+2026-05-30 21:36:51 - INFO - Access email cleared for record 20; treating as prospected
+2026-05-30 21:38:34 - INFO - Collected record 20: Joe Riordan | Senior Technical Recruiter (FLC) - AI/ML & Autonomy | DoorDash | N/A
+2026-05-30 21:39:14 - INFO - Clicked Access email for record 21
+2026-05-30 21:41:18 - INFO - Access email cleared for record 21; treating as prospected
+2026-05-30 21:42:46 - INFO - Collected record 21: Lena Nguyen | Sr. Full Life Cycle Technical Recruiter, Confluence & Enterprise Cloud | Atlassian | N/A
+2026-05-30 21:43:58 - INFO - Clicked Access email for record 22
+2026-05-30 21:45:41 - INFO - Access email cleared for record 22; treating as prospected
+2026-05-30 21:47:46 - INFO - Collected record 22: Jazmine Spears | Lead Tech Recruiter | AI & Engineering + Cyber | Experienced Hire | Deloitte | N/A
+2026-05-30 21:48:36 - INFO - Clicked Access email for record 23
+2026-05-30 21:50:21 - INFO - Access email cleared for record 23; treating as prospected
+2026-05-30 21:52:03 - INFO - Collected record 23: George Bongco | Senior Technical Recruiter - AI & Machine Learning Team - AIML | Apple | N/A
+2026-05-30 21:52:50 - INFO - Clicked Access email for record 24
+2026-05-30 21:54:19 - INFO - Access email cleared for record 24; treating as prospected
+2026-05-30 21:56:30 - INFO - Collected record 24: Aditya Mehrotra | Technology/Engineering Recruiter | Deloitte | N/A
+2026-05-30 21:58:17 - INFO - Clicked Access email for record 25
+2026-05-30 22:00:23 - INFO - Access email cleared for record 25; treating as prospected
+2026-05-30 22:02:09 - INFO - Collected record 25: Isha Desai | Technical Recruiter Related to Search Terms in Your Query | Squarespace | N/A
+2026-05-30 22:02:10 - INFO - Missing fields on page 15: Email: 25, Industry: 12
+Missing fields on page 15: Email: 25, Industry: 12
+2026-05-30 22:02:10 - INFO - Page 15 complete - collected 25 recruiters (total: 375)
+Page 15 complete - collected 25 recruiters (total: 375)
+2026-05-30 22:05:51 - INFO - Successfully navigated to page 16
+2026-05-30 22:06:57 - INFO - Processing page 16 of 23 (376 - 400 of 565)
+
+==================================================
+Processing page 16 of 23
+Progress: 376 - 400 of 565
+==================================================
+
+2026-05-30 22:07:11 - INFO - Saved HTML for page 16 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_16_20260530_220657.html
+2026-05-30 22:07:26 - INFO - Saved screenshot for page 16 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_16_20260530_220711.png
+2026-05-30 22:07:46 - INFO - Found 25 records on page 16
+2026-05-30 22:13:19 - INFO - Clicked Access email for record 1
+2026-05-30 22:15:49 - INFO - Access email cleared for record 1; treating as prospected
+2026-05-30 22:18:39 - INFO - Collected record 1: Britt Ryan | Senior Full Cycle Technical Recruiter, Data Science & Competitive Intelligence | Meta | N/A
+2026-05-30 22:19:55 - INFO - Clicked Access email for record 2
+2026-05-30 22:21:17 - INFO - Access email cleared for record 2; treating as prospected
+2026-05-30 22:24:03 - INFO - Collected record 2: Ilissa Suss | Talent Acquisition Specialist - Technical Recruiter - People Connector - Come Build Community | Meta | N/A
+2026-05-30 22:25:21 - INFO - Clicked Access email for record 3
+2026-05-30 22:26:55 - INFO - Access email cleared for record 3; treating as prospected
+2026-05-30 22:28:49 - INFO - Collected record 3: Kateryna Nesterenko | Recruiter - Hardware Technology | Apple | N/A
+2026-05-30 22:30:01 - INFO - Clicked Access email for record 4
+2026-05-30 22:31:11 - INFO - Access email cleared for record 4; treating as prospected
+2026-05-30 22:34:08 - INFO - Collected record 4: Shivani Sharma | Senior Recruiter - Technology | Gartner | N/A
+2026-05-30 22:35:36 - INFO - Clicked Access email for record 5
+2026-05-30 22:37:14 - INFO - Access email cleared for record 5; treating as prospected
+2026-05-30 22:39:14 - INFO - Collected record 5: Justin Thompson | Technical Sourcing Recruiter | NVIDIA | N/A
+2026-05-30 22:39:52 - INFO - Clicked Access email for record 6
+2026-05-30 22:41:09 - INFO - Access email cleared for record 6; treating as prospected
+2026-05-30 22:42:36 - INFO - Collected record 6: Abe Chong | Principal Recruiter, Tech | Airbnb | N/A
+2026-05-30 22:43:15 - INFO - Clicked Access email for record 7
+2026-05-30 22:44:34 - INFO - Access email cleared for record 7; treating as prospected
+2026-05-30 22:46:20 - INFO - Collected record 7: Laura Naw-Crisostomo | Staff Recruiter, Tech | Databricks | N/A
+2026-05-30 22:47:01 - INFO - Clicked Access email for record 8
+2026-05-30 22:48:31 - INFO - Access email cleared for record 8; treating as prospected
+2026-05-30 22:49:45 - INFO - Collected record 8: Enzo Pavia | Technical, Design & Creative Recruiter | Apple | N/A
+2026-05-30 22:50:07 - INFO - Clicked Access email for record 9
+2026-05-30 22:51:29 - INFO - Access email cleared for record 9; treating as prospected
+2026-05-30 22:53:10 - INFO - Collected record 9: Katerina Lakka | Technical Sourcing Recruiter | Databricks | N/A
+2026-05-30 22:53:48 - INFO - Clicked Access email for record 10
+2026-05-30 22:55:08 - INFO - Access email cleared for record 10; treating as prospected
+2026-05-30 22:56:36 - INFO - Collected record 10: Cherry Daniels | Senior Technical Recruiter (Design, Research & Insights, Engineering, Product, & Program Management) | Zillow | N/A
+2026-05-30 22:56:57 - INFO - Clicked Access email for record 11
+2026-05-30 22:58:32 - INFO - Access email cleared for record 11; treating as prospected
+2026-05-30 22:59:40 - INFO - Collected record 11: Tatiana Suriano | Lead Recruiter, Specialized Tech | DoorDash | N/A
+2026-05-30 23:00:19 - INFO - Clicked Access email for record 12
+2026-05-30 23:01:41 - INFO - Access email cleared for record 12; treating as prospected
+2026-05-30 23:03:14 - INFO - Collected record 12: Krizia Doyle | Technical Full Cycle Recruiter | Meta | N/A
+2026-05-30 23:03:44 - INFO - Clicked Access email for record 13
+2026-05-30 23:05:07 - INFO - Access email cleared for record 13; treating as prospected
+2026-05-30 23:06:25 - INFO - Collected record 13: Katie Beynon | Recruiter - Hardware Technology | Apple | N/A
+2026-05-30 23:07:15 - INFO - Clicked Access email for record 14
+2026-05-30 23:09:03 - INFO - Access email cleared for record 14; treating as prospected
+2026-05-30 23:10:59 - INFO - Collected record 14: Daniel Hernandez | Talent Acquisition | Databricks | N/A
+2026-05-30 23:11:24 - INFO - Clicked Access email for record 15
+2026-05-30 23:13:25 - INFO - Access email cleared for record 15; treating as prospected
+2026-05-30 23:15:30 - INFO - Collected record 15: Tamara Garlett | Staff Technical Recruiter (AI/ML, Engineering, GTM, G&A) | Mozilla | N/A
+2026-05-30 23:16:09 - INFO - Clicked Access email for record 16
+2026-05-30 23:17:44 - INFO - Access email cleared for record 16; treating as prospected
+2026-05-30 23:19:38 - INFO - Collected record 16: Dina Hussain | Staff Technical Recruiter, Team Lead - EMEA (Data, Cloud & AI) - Field Engineering (Pre-sales) | Databricks | N/A
+2026-05-30 23:20:37 - INFO - Clicked Access email for record 17
+2026-05-30 23:22:23 - INFO - Access email cleared for record 17; treating as prospected
+2026-05-30 23:24:57 - INFO - Collected record 17: Sumeet Malik | Specialized Engineering Leadership Technical Recruiter, AI/ML, Ar/vr/mr, Networking | Meta | N/A
+2026-05-30 23:25:43 - INFO - Clicked Access email for record 18
+2026-05-30 23:27:30 - INFO - Access email cleared for record 18; treating as prospected
+2026-05-30 23:29:26 - INFO - Collected record 18: Maria Jose Dada | Senior Recruiter | Product & Tech | Capital One | N/A
+2026-05-30 23:30:10 - INFO - Clicked Access email for record 19
+2026-05-30 23:34:04 - INFO - Access email cleared for record 19; treating as prospected
+2026-05-30 23:36:22 - INFO - Collected record 19: Amulya Bhatt | Senior Recruiter, Tech and Products | Airbnb | N/A
+2026-05-30 23:37:16 - INFO - Clicked Access email for record 20
+2026-05-30 23:39:41 - INFO - Access email cleared for record 20; treating as prospected
+2026-05-30 23:42:06 - INFO - Collected record 20: Tatiana Rincon | Recruiter, Business and Technology Insights | Gartner | N/A
+2026-05-30 23:43:19 - INFO - Clicked Access email for record 21
+2026-05-30 23:45:55 - INFO - Access email cleared for record 21; treating as prospected
+2026-05-30 23:48:09 - INFO - Collected record 21: Tina Fehrenbach | Senior Technical Sourcing Recruiter | Apple | N/A
+2026-05-30 23:49:34 - INFO - Clicked Access email for record 22
+=== RESTART TargetOrgs from page 16 at Sat May 30 11:50:06 PM UTC 2026 ===
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-05-30 23:50:06 - INFO - Starting recruiter extraction from page 16
+2026-05-30 23:50:06 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-05-30 23:50:06 - INFO - Virtual display started
+2026-05-30 23:50:06 - INFO - Using existing DISPLAY=:1
+2026-05-30 23:50:06 - INFO - Detected Chrome version: 141
+2026-05-30 23:50:07 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-05-30 23:50:11 - INFO - Created Chrome driver on port 9530 with profile dir /tmp/apollo_recruiters_9530
+2026-05-30 23:50:14 - INFO - Cookie file read successfully
+2026-05-30 23:50:14 - INFO - Successfully parsed 47 cookies
+2026-05-30 23:50:14 - INFO - Successfully loaded 47 cookies
+2026-05-30 23:50:31 - INFO - Cookies applied successfully
+2026-05-30 23:50:37 - INFO - Using saved-list URL mode (page=16)
+2026-05-30 23:50:37 - INFO - Navigating to filtered People page...
+2026-05-30 23:50:52 - INFO - Ensuring Net New view is selected...
+2026-05-30 23:50:59 - INFO - Net New view selected
+2026-05-30 23:50:59 - INFO - Detected total rows: 565, page size: 25, total pages: 23. Processing through page 23.
+2026-05-30 23:50:59 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersTargetOrgs/apollo_recruiter_records_technical_target_orgs_net_new_1.csv
+2026-05-30 23:50:59 - INFO - Resuming into existing CSV (apollo_recruiter_records_technical_target_orgs_net_new_1.csv)
+2026-05-30 23:50:59 - INFO - Processing page 16 of 23 (376 - 400 of 565)
+
+==================================================
+Processing page 16 of 23
+Progress: 376 - 400 of 565
+==================================================
+
+2026-05-30 23:50:59 - INFO - Saved HTML for page 16 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_16_20260530_235059.html
+2026-05-30 23:51:00 - INFO - Saved screenshot for page 16 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_16_20260530_235059.png
+2026-05-30 23:51:00 - INFO - Found 25 records on page 16
+2026-05-30 23:51:02 - INFO - Clicked Access email for record 1
+2026-05-30 23:51:03 - INFO - Access email cleared for record 1; treating as prospected
+2026-05-30 23:51:18 - INFO - Collected record 1: Britt Ryan | Senior Full Cycle Technical Recruiter, Data Science & Competitive Intelligence | Meta | N/A
+2026-05-30 23:51:22 - INFO - Clicked Access email for record 2
+2026-05-30 23:51:23 - INFO - Access email cleared for record 2; treating as prospected
+2026-05-30 23:51:38 - INFO - Collected record 2: Ilissa Suss | Talent Acquisition Specialist - Technical Recruiter - People Connector - Come Build Community | Meta | N/A
+2026-05-30 23:51:44 - INFO - Clicked Access email for record 3
+2026-05-30 23:51:45 - INFO - Access email cleared for record 3; treating as prospected
+2026-05-30 23:51:53 - INFO - Collected record 3: Kateryna Nesterenko | Recruiter - Hardware Technology | Apple | N/A
+2026-05-30 23:51:57 - INFO - Clicked Access email for record 4
+2026-05-30 23:51:58 - INFO - Access email cleared for record 4; treating as prospected

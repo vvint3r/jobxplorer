@@ -1,0 +1,525 @@
+List mode: MajorCompanies
+URL: https://app.apollo.io/#/companies?sortAscending=false&sortByField=%5Bnone%5D&page=1&organizationLocations[]=United%20States&organizationNumEmployeesRanges[]=101%2C200&organizationNumEmployeesRanges[]=201%2C500&organizationNumEmployeesRanges[]=10001&organizationNumEmployeesRanges[]=5001%2C10000&organizationNumEmployeesRanges[]=2001%2C5000&organizationNumEmployeesRanges[]=501%2C1000&organizationNumEmployeesRanges[]=1001%2C2000&organizationNumEmployeesRanges[]=51%2C100&organizationTradingStatus[]=public&prospectedByCurrentTeam[]=no
+Output stem: apollo_records_majorcompanies_net_new
+Log file: apollo_list_majorcompanies_net_new.log
+
+2026-05-31 21:45:27 - INFO - Starting extraction from page 51
+2026-05-31 21:45:27 - INFO - Tip: run 'python3 check_progress.py --pipeline companies' to see resume guidance.
+2026-05-31 21:45:27 - INFO - Virtual display started
+2026-05-31 21:45:27 - INFO - Using existing DISPLAY=:3
+2026-05-31 21:45:27 - INFO - Detected Chrome version: 141
+2026-05-31 21:45:28 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-05-31 21:45:30 - INFO - Created Chrome driver on port 9717 with profile dir /tmp/apollo_companies_9717
+2026-05-31 21:45:31 - INFO - Cookie file read successfully
+2026-05-31 21:45:31 - INFO - Successfully parsed 47 cookies
+2026-05-31 21:45:31 - INFO - Successfully loaded 47 cookies
+2026-05-31 21:45:49 - INFO - Cookies applied successfully
+2026-05-31 21:45:56 - INFO - Using saved-list URL mode (page=51)
+2026-05-31 21:45:56 - INFO - Navigating to Companies page...
+2026-05-31 21:46:12 - INFO - Ensuring Net New view is selected...
+2026-05-31 21:46:19 - INFO - Net New view selected
+2026-05-31 21:46:19 - INFO - Detected total rows: 1517, page size: 25, total pages: 61. Processing through page 61.
+2026-05-31 21:46:19 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/companies/lists/MajorCompanies/apollo_records_majorcompanies_net_new_2.csv
+2026-05-31 21:46:19 - INFO - Created new CSV file with headers (run apollo_records_majorcompanies_net_new_2.csv)
+2026-05-31 21:46:19 - INFO - Progress: 1251 - 1275 of 1,517
+2026-05-31 21:46:19 - INFO - Processing page 51 of 61... (1251 - 1275 of 1,517)
+
+==================================================
+Processing page 51 of 61
+Progress: 1251 - 1275 of 1,517
+==================================================
+
+2026-05-31 21:46:19 - INFO - Saved HTML for page 51 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_majorcompanies_net_new_page_51_20260531_214619.html
+2026-05-31 21:46:19 - INFO - Found 25 records on page 51
+
+******************** STARTING DATA COLLECTION ********************
+Found 25 records to process on page 51
+************************************************************
+
+2026-05-31 21:46:21 - INFO - Clicked Save for record 0
+2026-05-31 21:46:23 - INFO - Clicked Save for record 1
+2026-05-31 21:46:26 - INFO - Clicked Save for record 2
+2026-05-31 21:46:29 - INFO - Clicked Save for record 3
+2026-05-31 21:46:32 - INFO - Clicked Save for record 4
+2026-05-31 21:46:34 - INFO - Clicked Save for record 5
+2026-05-31 21:46:37 - INFO - Clicked Save for record 6
+2026-05-31 21:46:40 - INFO - Clicked Save for record 7
+2026-05-31 21:46:43 - INFO - Clicked Save for record 8
+2026-05-31 21:46:46 - INFO - Clicked Save for record 9
+2026-05-31 21:46:49 - INFO - Clicked Save for record 10
+2026-05-31 21:46:51 - INFO - Clicked Save for record 11
+2026-05-31 21:46:55 - INFO - Clicked Save for record 12
+2026-05-31 21:46:58 - INFO - Clicked Save for record 13
+2026-05-31 21:47:08 - INFO - Clicked Save for record 14
+2026-05-31 21:47:11 - INFO - Clicked Save for record 15
+2026-05-31 21:47:14 - INFO - Clicked Save for record 16
+2026-05-31 21:47:17 - INFO - Clicked Save for record 17
+2026-05-31 21:47:20 - INFO - Clicked Save for record 18
+2026-05-31 21:47:23 - INFO - Clicked Save for record 19
+2026-05-31 21:47:26 - INFO - Clicked Save for record 20
+2026-05-31 21:47:29 - INFO - Clicked Save for record 21
+2026-05-31 21:47:32 - INFO - Clicked Save for record 22
+2026-05-31 21:47:35 - INFO - Clicked Save for record 23
+2026-05-31 21:47:38 - INFO - Clicked Save for record 24
+2026-05-31 21:47:38 - INFO - Missing fields on page 51: Industry: 17, Keywords: 25
+Missing fields on page 51: Industry: 17, Keywords: 25
+2026-05-31 21:47:38 - INFO - Page 51 complete - 1251 - 1275 of 1,517 - Collected 25 companies (Total: 25)
+Page 51 complete - 1251 - 1275 of 1,517 - Collected 25 companies (Total: 25)
+2026-05-31 21:47:50 - INFO - Successfully navigated to page 52
+2026-05-31 21:47:50 - INFO - Progress: 1276 - 1300 of 1,517
+2026-05-31 21:47:50 - INFO - Processing page 52 of 61... (1276 - 1300 of 1,517)
+
+==================================================
+Processing page 52 of 61
+Progress: 1276 - 1300 of 1,517
+==================================================
+
+2026-05-31 21:47:50 - INFO - Saved HTML for page 52 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_majorcompanies_net_new_page_52_20260531_214750.html
+2026-05-31 21:47:50 - INFO - Found 25 records on page 52
+
+******************** STARTING DATA COLLECTION ********************
+Found 25 records to process on page 52
+************************************************************
+
+2026-05-31 21:47:53 - INFO - Clicked Save for record 0
+2026-05-31 21:48:04 - INFO - Clicked Save for record 1
+2026-05-31 21:48:14 - INFO - Clicked Save for record 2
+2026-05-31 21:48:25 - INFO - Clicked Save for record 3
+2026-05-31 21:48:28 - INFO - Clicked Save for record 4
+2026-05-31 21:48:31 - INFO - Clicked Save for record 5
+2026-05-31 21:48:42 - INFO - Clicked Save for record 6
+2026-05-31 21:48:52 - INFO - Clicked Save for record 7
+2026-05-31 21:48:55 - INFO - Clicked Save for record 8
+2026-05-31 21:49:06 - INFO - Clicked Save for record 9
+2026-05-31 21:49:09 - INFO - Clicked Save for record 10
+2026-05-31 21:49:12 - INFO - Clicked Save for record 11
+2026-05-31 21:49:22 - INFO - Clicked Save for record 12
+2026-05-31 21:49:25 - INFO - Clicked Save for record 13
+2026-05-31 21:49:35 - INFO - Clicked Save for record 14
+2026-05-31 21:49:46 - INFO - Clicked Save for record 15
+2026-05-31 21:49:56 - INFO - Clicked Save for record 16
+2026-05-31 21:49:59 - INFO - Clicked Save for record 17
+2026-05-31 21:50:02 - INFO - Clicked Save for record 18
+2026-05-31 21:50:14 - INFO - Clicked Save for record 19
+2026-05-31 21:50:17 - INFO - Clicked Save for record 20
+2026-05-31 21:50:28 - INFO - Clicked Save for record 21
+2026-05-31 21:50:31 - INFO - Clicked Save for record 22
+2026-05-31 21:50:34 - INFO - Clicked Save for record 23
+2026-05-31 21:50:37 - INFO - Clicked Save for record 24
+2026-05-31 21:50:45 - INFO - Missing fields on page 52: LinkedIn URL: 22, Industry: 22, Keywords: 15
+Missing fields on page 52: LinkedIn URL: 22, Industry: 22, Keywords: 15
+2026-05-31 21:50:45 - INFO - Page 52 complete - 1276 - 1300 of 1,517 - Collected 25 companies (Total: 50)
+Page 52 complete - 1276 - 1300 of 1,517 - Collected 25 companies (Total: 50)
+2026-05-31 21:50:56 - INFO - Successfully navigated to page 53
+2026-05-31 21:50:56 - INFO - Progress: 1301 - 1325 of 1,517
+2026-05-31 21:50:56 - INFO - Processing page 53 of 61... (1301 - 1325 of 1,517)
+
+==================================================
+Processing page 53 of 61
+Progress: 1301 - 1325 of 1,517
+==================================================
+
+2026-05-31 21:50:56 - INFO - Saved HTML for page 53 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_majorcompanies_net_new_page_53_20260531_215056.html
+2026-05-31 21:50:56 - INFO - Found 25 records on page 53
+
+******************** STARTING DATA COLLECTION ********************
+Found 25 records to process on page 53
+************************************************************
+
+2026-05-31 21:50:59 - INFO - Clicked Save for record 0
+2026-05-31 21:51:09 - INFO - Clicked Save for record 1
+2026-05-31 21:51:12 - INFO - Clicked Save for record 2
+2026-05-31 21:51:24 - INFO - Clicked Save for record 3
+2026-05-31 21:51:27 - INFO - Clicked Save for record 4
+2026-05-31 21:51:38 - INFO - Clicked Save for record 5
+2026-05-31 21:51:41 - INFO - Clicked Save for record 6
+2026-05-31 21:51:45 - INFO - Clicked Save for record 7
+2026-05-31 21:51:48 - INFO - Clicked Save for record 8
+2026-05-31 21:51:58 - INFO - Clicked Save for record 9
+2026-05-31 21:52:08 - INFO - Clicked Save for record 10
+2026-05-31 21:52:12 - INFO - Clicked Save for record 11
+2026-05-31 21:52:22 - INFO - Clicked Save for record 12
+2026-05-31 21:52:33 - INFO - Clicked Save for record 13
+2026-05-31 21:52:36 - INFO - Clicked Save for record 14
+2026-05-31 21:52:39 - INFO - Clicked Save for record 15
+2026-05-31 21:52:42 - INFO - Clicked Save for record 16
+2026-05-31 21:52:45 - INFO - Clicked Save for record 17
+2026-05-31 21:52:49 - INFO - Clicked Save for record 18
+2026-05-31 21:52:52 - INFO - Clicked Save for record 19
+2026-05-31 21:52:55 - INFO - Clicked Save for record 20
+2026-05-31 21:52:59 - INFO - Clicked Save for record 21
+2026-05-31 21:53:02 - INFO - Clicked Save for record 22
+2026-05-31 21:53:13 - INFO - Clicked Save for record 23
+2026-05-31 21:53:16 - INFO - Clicked Save for record 24
+2026-05-31 21:53:23 - INFO - Missing fields on page 53: LinkedIn URL: 21, Industry: 23, Keywords: 18
+Missing fields on page 53: LinkedIn URL: 21, Industry: 23, Keywords: 18
+2026-05-31 21:53:23 - INFO - Page 53 complete - 1301 - 1325 of 1,517 - Collected 25 companies (Total: 75)
+Page 53 complete - 1301 - 1325 of 1,517 - Collected 25 companies (Total: 75)
+2026-05-31 21:53:33 - INFO - Successfully navigated to page 54
+2026-05-31 21:53:34 - INFO - Progress: 1326 - 1350 of 1,517
+2026-05-31 21:53:34 - INFO - Processing page 54 of 61... (1326 - 1350 of 1,517)
+
+==================================================
+Processing page 54 of 61
+Progress: 1326 - 1350 of 1,517
+==================================================
+
+2026-05-31 21:53:34 - INFO - Saved HTML for page 54 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_majorcompanies_net_new_page_54_20260531_215334.html
+2026-05-31 21:53:34 - INFO - Found 25 records on page 54
+
+******************** STARTING DATA COLLECTION ********************
+Found 25 records to process on page 54
+************************************************************
+
+2026-05-31 21:53:37 - INFO - Clicked Save for record 0
+2026-05-31 21:53:40 - INFO - Clicked Save for record 1
+2026-05-31 21:53:51 - INFO - Clicked Save for record 2
+2026-05-31 21:53:54 - INFO - Clicked Save for record 3
+2026-05-31 21:53:58 - INFO - Clicked Save for record 4
+2026-05-31 21:54:01 - INFO - Clicked Save for record 5
+2026-05-31 21:54:04 - INFO - Clicked Save for record 6
+2026-05-31 21:54:15 - INFO - Clicked Save for record 7
+2026-05-31 21:54:18 - INFO - Clicked Save for record 8
+2026-05-31 21:54:22 - INFO - Clicked Save for record 9
+2026-05-31 21:54:25 - INFO - Clicked Save for record 10
+2026-05-31 21:54:36 - INFO - Clicked Save for record 11
+2026-05-31 21:54:41 - INFO - Clicked Save for record 12
+2026-05-31 21:54:45 - INFO - Clicked Save for record 13
+2026-05-31 21:54:48 - INFO - Clicked Save for record 14
+2026-05-31 21:54:52 - INFO - Clicked Save for record 15
+2026-05-31 21:55:02 - INFO - Clicked Save for record 16
+2026-05-31 21:55:05 - INFO - Clicked Save for record 17
+2026-05-31 21:55:09 - INFO - Clicked Save for record 18
+2026-05-31 21:55:12 - INFO - Clicked Save for record 19
+2026-05-31 21:55:15 - INFO - Clicked Save for record 20
+2026-05-31 21:55:19 - INFO - Clicked Save for record 21
+2026-05-31 21:55:23 - INFO - Clicked Save for record 22
+2026-05-31 21:55:26 - INFO - Clicked Save for record 23
+2026-05-31 21:55:29 - INFO - Clicked Save for record 24
+2026-05-31 21:55:36 - INFO - Missing fields on page 54: LinkedIn URL: 24, Industry: 22, Keywords: 21
+Missing fields on page 54: LinkedIn URL: 24, Industry: 22, Keywords: 21
+2026-05-31 21:55:36 - INFO - Page 54 complete - 1326 - 1350 of 1,517 - Collected 25 companies (Total: 100)
+Page 54 complete - 1326 - 1350 of 1,517 - Collected 25 companies (Total: 100)
+2026-05-31 21:55:45 - INFO - Successfully navigated to page 55
+2026-05-31 21:55:45 - INFO - Progress: 1351 - 1375 of 1,517
+2026-05-31 21:55:45 - INFO - Processing page 55 of 61... (1351 - 1375 of 1,517)
+
+==================================================
+Processing page 55 of 61
+Progress: 1351 - 1375 of 1,517
+==================================================
+
+2026-05-31 21:55:45 - INFO - Saved HTML for page 55 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_majorcompanies_net_new_page_55_20260531_215545.html
+2026-05-31 21:55:45 - INFO - Found 25 records on page 55
+
+******************** STARTING DATA COLLECTION ********************
+Found 25 records to process on page 55
+************************************************************
+
+2026-05-31 21:55:49 - INFO - Clicked Save for record 0
+2026-05-31 21:55:52 - INFO - Clicked Save for record 1
+2026-05-31 21:56:03 - INFO - Clicked Save for record 2
+2026-05-31 21:56:07 - INFO - Clicked Save for record 3
+2026-05-31 21:56:10 - INFO - Clicked Save for record 4
+2026-05-31 21:56:14 - INFO - Clicked Save for record 5
+2026-05-31 21:56:17 - INFO - Clicked Save for record 6
+2026-05-31 21:56:21 - INFO - Clicked Save for record 7
+2026-05-31 21:56:25 - INFO - Clicked Save for record 8
+2026-05-31 21:56:28 - INFO - Clicked Save for record 9
+2026-05-31 21:56:32 - INFO - Clicked Save for record 10
+2026-05-31 21:56:35 - INFO - Clicked Save for record 11
+2026-05-31 21:56:39 - INFO - Clicked Save for record 12
+2026-05-31 21:56:42 - INFO - Clicked Save for record 13
+2026-05-31 21:56:46 - INFO - Clicked Save for record 14
+2026-05-31 21:56:50 - INFO - Clicked Save for record 15
+2026-05-31 21:56:54 - INFO - Clicked Save for record 16
+2026-05-31 21:56:58 - INFO - Clicked Save for record 17
+2026-05-31 21:57:01 - INFO - Clicked Save for record 18
+2026-05-31 21:57:05 - INFO - Clicked Save for record 19
+2026-05-31 21:57:09 - INFO - Clicked Save for record 20
+2026-05-31 21:57:13 - INFO - Clicked Save for record 21
+2026-05-31 21:57:16 - INFO - Clicked Save for record 22
+2026-05-31 21:57:19 - INFO - Clicked Save for record 23
+2026-05-31 21:57:23 - INFO - Clicked Save for record 24
+2026-05-31 21:57:23 - INFO - Missing fields on page 55: LinkedIn URL: 1, Industry: 20, Keywords: 24
+Missing fields on page 55: LinkedIn URL: 1, Industry: 20, Keywords: 24
+2026-05-31 21:57:23 - INFO - Page 55 complete - 1351 - 1375 of 1,517 - Collected 25 companies (Total: 125)
+Page 55 complete - 1351 - 1375 of 1,517 - Collected 25 companies (Total: 125)
+2026-05-31 21:57:23 - INFO - Taking random cooldown break for 51s after page 55.
+2026-05-31 21:58:26 - INFO - Successfully navigated to page 56
+2026-05-31 21:58:26 - INFO - Progress: 1376 - 1400 of 1,517
+2026-05-31 21:58:26 - INFO - Processing page 56 of 61... (1376 - 1400 of 1,517)
+
+==================================================
+Processing page 56 of 61
+Progress: 1376 - 1400 of 1,517
+==================================================
+
+2026-05-31 21:58:27 - INFO - Saved HTML for page 56 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_majorcompanies_net_new_page_56_20260531_215826.html
+2026-05-31 21:58:27 - INFO - Found 25 records on page 56
+
+******************** STARTING DATA COLLECTION ********************
+Found 25 records to process on page 56
+************************************************************
+
+2026-05-31 21:58:31 - INFO - Clicked Save for record 0
+2026-05-31 21:58:36 - INFO - Clicked Save for record 1
+2026-05-31 21:58:40 - INFO - Clicked Save for record 2
+2026-05-31 21:58:44 - INFO - Clicked Save for record 3
+2026-05-31 21:58:47 - INFO - Clicked Save for record 4
+2026-05-31 21:58:58 - INFO - Clicked Save for record 5
+2026-05-31 21:59:02 - INFO - Clicked Save for record 6
+2026-05-31 21:59:05 - INFO - Clicked Save for record 7
+2026-05-31 21:59:09 - INFO - Clicked Save for record 8
+2026-05-31 21:59:13 - INFO - Clicked Save for record 9
+2026-05-31 21:59:17 - INFO - Clicked Save for record 10
+2026-05-31 21:59:20 - INFO - Clicked Save for record 11
+2026-05-31 21:59:23 - INFO - Clicked Save for record 12
+2026-05-31 21:59:35 - INFO - Clicked Save for record 13
+2026-05-31 21:59:39 - INFO - Clicked Save for record 14
+2026-05-31 21:59:43 - INFO - Clicked Save for record 15
+2026-05-31 21:59:47 - INFO - Clicked Save for record 16
+2026-05-31 21:59:51 - INFO - Clicked Save for record 17
+2026-05-31 21:59:54 - INFO - Clicked Save for record 18
+2026-05-31 21:59:58 - INFO - Clicked Save for record 19
+2026-05-31 22:00:02 - INFO - Clicked Save for record 20
+2026-05-31 22:00:06 - INFO - Clicked Save for record 21
+2026-05-31 22:00:10 - INFO - Clicked Save for record 22
+2026-05-31 22:00:14 - INFO - Clicked Save for record 23
+2026-05-31 22:00:17 - INFO - Clicked Save for record 24
+2026-05-31 22:00:18 - INFO - Missing fields on page 56: LinkedIn URL: 2, Industry: 21, Keywords: 23
+Missing fields on page 56: LinkedIn URL: 2, Industry: 21, Keywords: 23
+2026-05-31 22:00:18 - INFO - Page 56 complete - 1376 - 1400 of 1,517 - Collected 25 companies (Total: 150)
+Page 56 complete - 1376 - 1400 of 1,517 - Collected 25 companies (Total: 150)
+2026-05-31 22:00:29 - INFO - Successfully navigated to page 57
+2026-05-31 22:00:29 - INFO - Progress: 1401 - 1425 of 1,517
+2026-05-31 22:00:29 - INFO - Processing page 57 of 61... (1401 - 1425 of 1,517)
+
+==================================================
+Processing page 57 of 61
+Progress: 1401 - 1425 of 1,517
+==================================================
+
+2026-05-31 22:00:29 - INFO - Saved HTML for page 57 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_majorcompanies_net_new_page_57_20260531_220029.html
+2026-05-31 22:00:29 - INFO - Found 25 records on page 57
+
+******************** STARTING DATA COLLECTION ********************
+Found 25 records to process on page 57
+************************************************************
+
+2026-05-31 22:00:33 - INFO - Clicked Save for record 0
+2026-05-31 22:00:38 - INFO - Clicked Save for record 1
+2026-05-31 22:00:42 - INFO - Clicked Save for record 2
+2026-05-31 22:00:46 - INFO - Clicked Save for record 3
+2026-05-31 22:00:50 - INFO - Clicked Save for record 4
+2026-05-31 22:00:53 - INFO - Clicked Save for record 5
+2026-05-31 22:00:57 - INFO - Clicked Save for record 6
+2026-05-31 22:01:01 - INFO - Clicked Save for record 7
+2026-05-31 22:01:05 - INFO - Clicked Save for record 8
+2026-05-31 22:01:09 - INFO - Clicked Save for record 9
+2026-05-31 22:01:12 - INFO - Clicked Save for record 10
+2026-05-31 22:01:17 - INFO - Clicked Save for record 11
+2026-05-31 22:01:20 - INFO - Clicked Save for record 12
+2026-05-31 22:01:24 - INFO - Clicked Save for record 13
+2026-05-31 22:01:28 - INFO - Clicked Save for record 14
+2026-05-31 22:01:31 - INFO - Clicked Save for record 15
+2026-05-31 22:01:35 - INFO - Clicked Save for record 16
+2026-05-31 22:01:39 - INFO - Clicked Save for record 17
+2026-05-31 22:01:43 - INFO - Clicked Save for record 18
+2026-05-31 22:01:48 - INFO - Clicked Save for record 19
+2026-05-31 22:01:51 - INFO - Clicked Save for record 20
+2026-05-31 22:01:55 - INFO - Clicked Save for record 21
+2026-05-31 22:01:59 - INFO - Clicked Save for record 22
+2026-05-31 22:02:03 - INFO - Clicked Save for record 23
+2026-05-31 22:02:07 - INFO - Clicked Save for record 24
+2026-05-31 22:02:08 - INFO - Missing fields on page 57: LinkedIn URL: 5, Industry: 22, Keywords: 25
+Missing fields on page 57: LinkedIn URL: 5, Industry: 22, Keywords: 25
+2026-05-31 22:02:08 - INFO - Page 57 complete - 1401 - 1425 of 1,517 - Collected 25 companies (Total: 175)
+Page 57 complete - 1401 - 1425 of 1,517 - Collected 25 companies (Total: 175)
+2026-05-31 22:02:20 - INFO - Successfully navigated to page 58
+2026-05-31 22:02:20 - INFO - Progress: 1426 - 1450 of 1,517
+2026-05-31 22:02:20 - INFO - Processing page 58 of 61... (1426 - 1450 of 1,517)
+
+==================================================
+Processing page 58 of 61
+Progress: 1426 - 1450 of 1,517
+==================================================
+
+2026-05-31 22:02:20 - INFO - Saved HTML for page 58 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_majorcompanies_net_new_page_58_20260531_220220.html
+2026-05-31 22:02:20 - INFO - Found 25 records on page 58
+
+******************** STARTING DATA COLLECTION ********************
+Found 25 records to process on page 58
+************************************************************
+
+2026-05-31 22:02:24 - INFO - Clicked Save for record 0
+2026-05-31 22:02:28 - INFO - Clicked Save for record 1
+2026-05-31 22:02:32 - INFO - Clicked Save for record 2
+2026-05-31 22:02:36 - INFO - Clicked Save for record 3
+2026-05-31 22:02:40 - INFO - Clicked Save for record 4
+2026-05-31 22:02:45 - INFO - Clicked Save for record 5
+2026-05-31 22:02:49 - INFO - Clicked Save for record 6
+2026-05-31 22:02:53 - INFO - Clicked Save for record 7
+2026-05-31 22:02:57 - INFO - Clicked Save for record 8
+2026-05-31 22:03:01 - INFO - Clicked Save for record 9
+2026-05-31 22:03:05 - INFO - Clicked Save for record 10
+2026-05-31 22:03:08 - INFO - Clicked Save for record 11
+2026-05-31 22:03:13 - INFO - Clicked Save for record 12
+2026-05-31 22:03:17 - INFO - Clicked Save for record 13
+2026-05-31 22:03:21 - INFO - Clicked Save for record 14
+2026-05-31 22:03:25 - INFO - Clicked Save for record 15
+2026-05-31 22:03:29 - INFO - Clicked Save for record 16
+2026-05-31 22:03:34 - INFO - Clicked Save for record 17
+2026-05-31 22:03:37 - INFO - Clicked Save for record 18
+2026-05-31 22:03:41 - INFO - Clicked Save for record 19
+2026-05-31 22:03:47 - INFO - Clicked Save for record 20
+2026-05-31 22:03:51 - INFO - Clicked Save for record 21
+2026-05-31 22:03:55 - INFO - Clicked Save for record 22
+2026-05-31 22:03:59 - INFO - Clicked Save for record 23
+2026-05-31 22:04:03 - INFO - Clicked Save for record 24
+2026-05-31 22:04:04 - INFO - Missing fields on page 58: LinkedIn URL: 13, Industry: 23, Keywords: 25
+Missing fields on page 58: LinkedIn URL: 13, Industry: 23, Keywords: 25
+2026-05-31 22:04:04 - INFO - Page 58 complete - 1426 - 1450 of 1,517 - Collected 25 companies (Total: 200)
+Page 58 complete - 1426 - 1450 of 1,517 - Collected 25 companies (Total: 200)
+2026-05-31 22:04:04 - INFO - Taking random cooldown break for 30s after page 58.
+2026-05-31 22:04:45 - INFO - Successfully navigated to page 59
+2026-05-31 22:04:45 - INFO - Progress: 1451 - 1475 of 1,517
+2026-05-31 22:04:45 - INFO - Processing page 59 of 61... (1451 - 1475 of 1,517)
+
+==================================================
+Processing page 59 of 61
+Progress: 1451 - 1475 of 1,517
+==================================================
+
+2026-05-31 22:04:45 - INFO - Saved HTML for page 59 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_majorcompanies_net_new_page_59_20260531_220445.html
+2026-05-31 22:04:45 - INFO - Found 25 records on page 59
+
+******************** STARTING DATA COLLECTION ********************
+Found 25 records to process on page 59
+************************************************************
+
+2026-05-31 22:04:50 - INFO - Clicked Save for record 0
+2026-05-31 22:05:03 - INFO - Clicked Save for record 1
+2026-05-31 22:05:06 - INFO - Clicked Save for record 2
+2026-05-31 22:05:18 - INFO - Clicked Save for record 3
+2026-05-31 22:05:23 - INFO - Clicked Save for record 4
+2026-05-31 22:05:27 - INFO - Clicked Save for record 5
+2026-05-31 22:05:31 - INFO - Clicked Save for record 6
+2026-05-31 22:05:35 - INFO - Clicked Save for record 7
+2026-05-31 22:05:39 - INFO - Clicked Save for record 8
+2026-05-31 22:05:43 - INFO - Clicked Save for record 9
+2026-05-31 22:05:47 - INFO - Clicked Save for record 10
+2026-05-31 22:05:52 - INFO - Clicked Save for record 11
+2026-05-31 22:05:57 - INFO - Clicked Save for record 12
+2026-05-31 22:06:01 - INFO - Clicked Save for record 13
+2026-05-31 22:06:05 - INFO - Clicked Save for record 14
+2026-05-31 22:06:09 - INFO - Clicked Save for record 15
+2026-05-31 22:06:13 - INFO - Clicked Save for record 16
+2026-05-31 22:06:17 - INFO - Clicked Save for record 17
+2026-05-31 22:06:21 - INFO - Clicked Save for record 18
+2026-05-31 22:06:25 - INFO - Clicked Save for record 19
+2026-05-31 22:06:30 - INFO - Clicked Save for record 20
+2026-05-31 22:06:34 - INFO - Clicked Save for record 21
+2026-05-31 22:06:38 - INFO - Clicked Save for record 22
+2026-05-31 22:06:42 - INFO - Clicked Save for record 23
+2026-05-31 22:06:46 - INFO - Clicked Save for record 24
+2026-05-31 22:06:46 - INFO - Missing fields on page 59: LinkedIn URL: 23, Industry: 22, Keywords: 23
+Missing fields on page 59: LinkedIn URL: 23, Industry: 22, Keywords: 23
+2026-05-31 22:06:46 - INFO - Page 59 complete - 1451 - 1475 of 1,517 - Collected 25 companies (Total: 225)
+Page 59 complete - 1451 - 1475 of 1,517 - Collected 25 companies (Total: 225)
+2026-05-31 22:06:59 - INFO - Successfully navigated to page 60
+2026-05-31 22:06:59 - INFO - Progress: 1476 - 1500 of 1,517
+2026-05-31 22:06:59 - INFO - Processing page 60 of 61... (1476 - 1500 of 1,517)
+
+==================================================
+Processing page 60 of 61
+Progress: 1476 - 1500 of 1,517
+==================================================
+
+2026-05-31 22:07:00 - INFO - Saved HTML for page 60 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_majorcompanies_net_new_page_60_20260531_220659.html
+2026-05-31 22:07:00 - INFO - Found 25 records on page 60
+
+******************** STARTING DATA COLLECTION ********************
+Found 25 records to process on page 60
+************************************************************
+
+2026-05-31 22:07:05 - INFO - Clicked Save for record 0
+2026-05-31 22:07:10 - INFO - Clicked Save for record 1
+2026-05-31 22:07:14 - INFO - Clicked Save for record 2
+2026-05-31 22:07:18 - INFO - Clicked Save for record 3
+2026-05-31 22:07:21 - INFO - Clicked Save for record 4
+2026-05-31 22:07:26 - INFO - Clicked Save for record 5
+2026-05-31 22:07:30 - INFO - Clicked Save for record 6
+2026-05-31 22:07:34 - INFO - Clicked Save for record 7
+2026-05-31 22:07:38 - INFO - Clicked Save for record 8
+2026-05-31 22:07:42 - INFO - Clicked Save for record 9
+2026-05-31 22:07:54 - INFO - Clicked Save for record 10
+2026-05-31 22:07:59 - INFO - Clicked Save for record 11
+2026-05-31 22:08:03 - INFO - Clicked Save for record 12
+2026-05-31 22:08:08 - INFO - Clicked Save for record 13
+2026-05-31 22:08:13 - INFO - Clicked Save for record 14
+2026-05-31 22:08:18 - INFO - Clicked Save for record 15
+2026-05-31 22:08:30 - INFO - Clicked Save for record 16
+2026-05-31 22:08:34 - INFO - Clicked Save for record 17
+2026-05-31 22:08:38 - INFO - Clicked Save for record 18
+2026-05-31 22:08:50 - INFO - Clicked Save for record 19
+2026-05-31 22:09:03 - INFO - Clicked Save for record 20
+2026-05-31 22:09:08 - INFO - Clicked Save for record 21
+2026-05-31 22:09:13 - INFO - Clicked Save for record 22
+2026-05-31 22:09:35 - INFO - Clicked Save for record 23
+2026-05-31 22:09:39 - INFO - Clicked Save for record 24
+2026-05-31 22:09:47 - INFO - Missing fields on page 60: LinkedIn URL: 22, Industry: 20, Keywords: 22
+Missing fields on page 60: LinkedIn URL: 22, Industry: 20, Keywords: 22
+2026-05-31 22:09:47 - INFO - Page 60 complete - 1476 - 1500 of 1,517 - Collected 25 companies (Total: 250)
+Page 60 complete - 1476 - 1500 of 1,517 - Collected 25 companies (Total: 250)
+2026-05-31 22:10:01 - INFO - Successfully navigated to page 61
+2026-05-31 22:10:01 - INFO - Progress: 1501 - 1517 of 1,517
+2026-05-31 22:10:01 - INFO - Processing page 61 of 61... (1501 - 1517 of 1,517)
+
+==================================================
+Processing page 61 of 61
+Progress: 1501 - 1517 of 1,517
+==================================================
+
+2026-05-31 22:10:01 - INFO - Saved HTML for page 61 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_majorcompanies_net_new_page_61_20260531_221001.html
+2026-05-31 22:10:01 - INFO - Found 17 records on page 61
+
+******************** STARTING DATA COLLECTION ********************
+Found 17 records to process on page 61
+************************************************************
+
+2026-05-31 22:10:06 - INFO - Clicked Save for record 0
+2026-05-31 22:10:27 - INFO - Clicked Save for record 1
+2026-05-31 22:10:33 - INFO - Clicked Save for record 2
+2026-05-31 22:10:38 - INFO - Clicked Save for record 3
+2026-05-31 22:10:50 - INFO - Clicked Save for record 4
+2026-05-31 22:10:55 - INFO - Clicked Save for record 5
+2026-05-31 22:10:59 - INFO - Clicked Save for record 6
+2026-05-31 22:11:04 - INFO - Clicked Save for record 7
+2026-05-31 22:11:16 - INFO - Clicked Save for record 8
+2026-05-31 22:11:30 - INFO - Clicked Save for record 9
+2026-05-31 22:11:44 - INFO - Clicked Save for record 10
+2026-05-31 22:11:49 - INFO - Clicked Save for record 11
+2026-05-31 22:11:53 - INFO - Clicked Save for record 12
+2026-05-31 22:11:58 - INFO - Clicked Save for record 13
+2026-05-31 22:12:17 - INFO - Clicked Save for record 14
+2026-05-31 22:12:22 - INFO - Clicked Save for record 15
+2026-05-31 22:12:26 - INFO - Clicked Save for record 16
+2026-05-31 22:12:42 - INFO - Missing fields on page 61: LinkedIn URL: 4, Industry: 7, Keywords: 10
+Missing fields on page 61: LinkedIn URL: 4, Industry: 7, Keywords: 10
+2026-05-31 22:12:42 - INFO - Page 61 complete - 1501 - 1517 of 1,517 - Collected 17 companies (Total: 267)
+Page 61 complete - 1501 - 1517 of 1,517 - Collected 17 companies (Total: 267)
+2026-05-31 22:12:42 - INFO - Total pages processed up to: 61
+2026-05-31 22:12:42 - INFO - Total records collected: 267
+2026-05-31 22:12:42 - INFO - Driver closed successfully
+2026-05-31 22:12:42 - INFO - Driver closed
+2026-05-31 22:12:42 - INFO - Virtual display stopped
+=== Scrape complete, running reparse merge ===
+Wrote 1516 deduped rows to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/companies/lists/MajorCompanies/apollo_records_majorcompanies_net_new_1.csv
+  Company: 1516/1516 populated
+  LinkedIn URL: 1378/1516 populated
+  Location: 1516/1516 populated
+  # Employees: 1516/1516 populated
+  Industry: 1251/1516 populated
+  Keywords: 1182/1516 populated
+=== Done ===

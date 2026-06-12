@@ -1,0 +1,112 @@
+[
+  {
+    "body": "success",
+    "status": 200,
+    "url": "https://api-sr.amplitude.com/sessions/v2/track?device_id=0e1880c8-bb4a-4308-bf89-3717c3ce12c7&session_id=1780229526977&type=replay"
+  },
+  {
+    "body": "success",
+    "status": 200,
+    "url": "https://api-sr.amplitude.com/sessions/v2/track?device_id=0e1880c8-bb4a-4308-bf89-3717c3ce12c7&session_id=1780229526977&type=replay"
+  },
+  {
+    "body": "{\"sample_accounts_in_dangerous_stages\":[],\"sample_dangerous_accounts_stages\":[],\"num_people_in_dangerous_account_stages\":0,\"show_warning\":false,\"num_total_dangerous_contacts\":0}",
+    "status": 200,
+    "url": "https://app.apollo.io/api/v1/mixed_people/safety_check"
+  },
+  {
+    "body": "{\"sample_accounts_in_dangerous_stages\":[],\"sample_dangerous_accounts_stages\":[],\"num_people_in_dangerous_account_stages\":0,\"show_warning\":false,\"num_total_dangerous_contacts\":0}",
+    "status": 200,
+    "url": "https://app.apollo.io/api/v1/mixed_people/safety_check"
+  },
+  {
+    "body": "{\"vid\":\"309ee0e3-f771-44d0-beb8-5d816a63980b\",\"questions\":[],\"delay\":null,\"locale\":\"en\",\"productConfig\":{\"framePosition\":\"bottomLeft\"},\"uuid\":\"309ee0e3-f771-44d0-beb8-5d816a63980b\",\"invalidPreviewKey\":false}",
+    "status": 200,
+    "url": "https://api.sprig.com/sdk/1/visitors/309ee0e3-f771-44d0-beb8-5d816a63980b/events"
+  },
+  {
+    "body": "{\"labels\":[],\"contact_ids\":[\"6a1c25bf313f73000c5190ef\"],\"num_prospected_people_this_billing_cycle\":4,\"dynamic_field_auto_enrichment_request_ids\":{\"contact_request_ids\":[],\"account_request_ids\":null,\"account_ids\":[],\"contact_ids\":[]},\"contacts\":[{\"contact_roles\":[],\"id\":\"6a1c25bf313f73000c5190ef\",\"first_name\":\"Vivek\",\"last_name\":\"Ranjan\",\"name\":\"Vivek Ranjan\",\"linkedin_url\":\"http://www.linkedin.com/in/vivek-ranjan-6b576596\",\"title\":\"Technical Recruiter\",\"contact_stage_id\":\"6725132cd7f29601b069517d\",\"owner_id\":\"5ec83e51eff3d6008c9419f6\",\"creator_id\":\"5ec83e51eff3d6008c9419f6\",\"person_id\":\"6304dcc20dd65e0001bf5b24\",\"email_needs_tickling\":true,\"organization_name\":\"eBay\",\"source\":\"search\",\"original_source\":\"search\",\"organization_id\":\"5ed25da907b0f800014a9565\",\"headline\":\"Technical Recruiter at eBay\",\"photo_url\":null,\"present_raw_address\":\"India\",\"linkedin_uid\":null,\"extrapolated_email_confidence\":null,\"salesforce_id\":null,\"salesforce_lead_id\":null,\"salesforce_contact_id\":null,\"salesforce_account_id\":null,\"crm_owner_id\":null,\"created_at\":\"2026-05-31T12:12:47.246Z\",\"emailer_campaign_ids\":[],\"direct_dial_status\":null,\"direct_dial_enrichment_failed_at\":null,\"email_status\":\"verified\",\"email_source\":\"emailer_message_inbound\",\"account_id\":\"672f59e158d64b0001898681\",\"last_activity_date\":null,\"hubspot_vid\":null,\"hubspot_company_id\":null,\"crm_id\":null,\"merged_crm_ids\":null,\"updated_at\":\"2026-05-31T12:12:47.246Z\",\"queued_for_crm_push\":null,\"suggested_from_rule_engine_config_id\":null,\"email_unsubscribed\":null,\"person_deleted\":null,\"call_opted_out\":null,\"godmode_apollo_creator\":null,\"sanitized_phone\":null,\"street_address\":\"\",\"city\":null,\"state\":null,\"country\":\"India\",\"postal_code\":null,\"formatted_address\":\"India\",\"time_zone\":\"Asia/Kolkata\",\"label_ids\":[],\"has_pending_email_arcgate_request\":false,\"has_email_arcgate_request\":false,\"existence_level\":\"full\",\"email\":\"vivranjan@ebay.com\",\"email_from_customer\":null,\"typed_custom_fields\":{},\"custom_field_errors\":{},\"crm_record_url\":null,\"email_status_unavailable_reason\":null,\"email_true_status\":\"Verifying\",\"updated_email_true_status\":true,\"source_display_name\":\"Requested from Apollo\",\"twitter_url\":null,\"facebook_url\":null,\"contact_campaign_statuses\":[],\"contact_emails\":[{\"email_md5\":\"4d6f9a242772f3ede9771c29e88ba2bb\",\"email_sha256\":\"daf1eb05577312a396c646bdea37e3848586142ce1761395a4d6d3ba79fbd316\",\"email_status\":\"verified\",\"extrapolated_email_confidence\":null,\"position\":0,\"email\":\"vivranjan@ebay.com\",\"free_domain\":false,\"source\":\"Apollo\",\"third_party_vendor_name\":null,\"vendor_validation_statuses\":[],\"email_needs_tickling\":true,\"email_true_status\":\"Verifying\",\"email_status_unavailable_reason\":null}],\"intent_strength\":null,\"show_intent\":false,\"phone_numbers\":[{\"raw_number\":\"+1 408-376-7400\",\"sanitized_number\":\"+14083767400\",\"type\":\"work_hq\",\"position\":0,\"status\":\"no_status\",\"dnc_status\":null,\"dnc_country_supported\":true,\"dnc_other_info\":{},\"dialer_flags\":null,\"source_name\":\"Apollo\",\"vendor_validation_statuses\":[],\"third_party_vendor_name\":null}],\"account_phone_note\":null,\"free_domain\":false,\"email_domain_catchall\":true}],\"people\":[{\"id\":\"6304dcc20dd65e0001bf5b24\",\"first_name\":\"Vivek\",\"last_name\":\"Ranjan\",\"name\":\"Vivek Ranjan\",\"linkedin_url\":\"http://www.linkedin.com/in/vivek-ranjan-6b576596\",\"title\":\"Technical Recruiter\",\"photo_url\":\"https://media.licdn.com/dms/image/v2/D5603AQGMCMsXTBfr2A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1727062944733?e=2147483647\\u0026v=beta\\u0026t=o8jnpICZx0v9k1wIhc23I2xDK1QXq7bRyo3q9Y804l8\",\"twitter_url\":null,\"github_url\":null,\"facebook_url\":null,\"extrapolated_email_confidence\":null,\"headline\":\"Technical Recruiter at eBay\",\"organization_id\":\"5ed25da907b0f800014a9565\",\"street_address\":\"\",\"city\":null,\"state\":null,\"country\":\"India\",\"postal_code\":null,\"formatted_address\":\"India\",\"time_zone\":\"Asia/Kolkata\",\"email\":\"vivranjan@ebay.com\",\"email_status\":\"verified\",\"contact_id\":\"6a1c25bf313f73000c5190ef\",\"contact\":{\"contact_roles\":[],\"id\":\"6a1c25bf313f73000c5190ef\",\"first_name\":\"Vivek\",\"last_name\":\"Ranjan\",\"name\":\"Vivek Ranjan\",\"linkedin_url\":\"http://www.linkedin.com/in/vivek-ranjan-6b576596\",\"title\":\"Technical Recruiter\",\"contact_stage_id\":\"6725132cd7f29601b069517d\",\"owner_id\":\"5ec83e51eff3d6008c9419f6\",\"creator_id\":\"5ec83e51eff3d6008c9419f6\",\"person_id\":\"6304dcc20dd65e0001bf5b24\",\"email_needs_tickling\":true,\"organization_name\":\"eBay\",\"source\":\"search\",\"original_source\":\"search\",\"organization_id\":\"5ed25da907b0f800014a9565\",\"headline\":\"Technical Recruiter at eBay\",\"photo_url\":null,\"present_raw_address\":\"India\",\"linkedin_uid\":null,\"extrapolated_email_confidence\":null,\"salesforce_id\":null,\"salesforce_lead_id\":null,\"salesforce_contact_id\":null,\"salesforce_account_id\":null,\"crm_owner_id\":null,\"created_at\":\"2026-05-31T12:12:47.246Z\",\"emailer_campaign_ids\":[],\"direct_dial_status\":null,\"direct_dial_enrichment_failed_at\":null,\"email_status\":\"verified\",\"email_source\":\"emailer_message_inbound\",\"account_id\":\"672f59e158d64b0001898681\",\"last_activity_date\":null,\"hubspot_vid\":null,\"hubspot_company_id\":null,\"crm_id\":null,\"merged_crm_ids\":null,\"updated_at\":\"2026-05-31T12:12:47.246Z\",\"queued_for_crm_push\":null,\"suggested_from_rule_engine_config_id\":null,\"email_unsubscribed\":null,\"person_deleted\":null,\"call_opted_out\":null,\"godmode_apollo_creator\":null,\"sanitized_phone\":null,\"street_address\":\"\",\"city\":null,\"state\":null,\"country\":\"India\",\"postal_code\":null,\"formatted_address\":\"India\",\"time_zone\":\"Asia/Kolkata\",\"label_ids\":[],\"has_pending_email_arcgate_request\":false,\"has_email_arcgate_request\":false,\"existence_level\":\"full\",\"email\":\"vivranjan@ebay.com\",\"email_from_customer\":null,\"typed_custom_fields\":{},\"custom_field_errors\":null,\"crm_record_url\":null,\"email_status_unavailable_reason\":null,\"email_true_status\":\"Verified\",\"updated_email_true_status\":false,\"source_display_name\":\"Requested from Apollo\",\"twitter_url\":null,\"facebook_url\":null,\"contact_emails\":[{\"email_md5\":\"4d6f9a242772f3ede9771c29e88ba2bb\",\"email_sha256\":\"daf1eb05577312a396c646bdea37e3848586142ce1761395a4d6d3ba79fbd316\",\"email_status\":\"verified\",\"extrapolated_email_confidence\":null,\"position\":0,\"email\":\"vivranjan@ebay.com\",\"free_domain\":false,\"source\":\"Apollo\",\"third_party_vendor_name\":null,\"vendor_validation_statuses\":[],\"email_needs_tickling\":true,\"email_status_unavailable_reason\":null}],\"phone_numbers\":[{\"raw_number\":\"+1 408-376-7400\",\"sanitized_number\":\"+14083767400\",\"type\":\"work_hq\",\"position\":0,\"status\":\"no_status\",\"dnc_status\":null,\"dnc_country_supported\":true,\"dnc_other_info\":{},\"dialer_flags\":null,\"source_name\":\"Apollo\",\"vendor_validation_statuses\":[],\"third_party_vendor_name\":null}],\"account_phone_note\":null,\"free_domain\":false},\"revealed_for_current_team\":true,\"account_id\":\"672f59e158d64b0001898681\",\"account\":{\"raw_address\":\"2025 hamilton avenue, san jose, ca 95125, us\",\"street_address\":\"2025 Hamilton Ave\",\"city\":\"San Jose\",\"state\":\"California\",\"country\":\"United States\",\"postal_code\":\"95125\",\"id\":\"672f59e158d64b0001898681\",\"domain\":\"ebayinc.com\",\"name\":\"eBay\",\"team_id\":\"5ec83e50eff3d6008c941977\",\"organization_id\":\"5ed25da907b0f800014a9565\",\"account_stage_id\":\"6725132cd7f29601b0695186\",\"source\":\"deployment\",\"original_source\":\"deployment\",\"creator_id\":\"5ec83e51eff3d6008c9419f6\",\"owner_id\":\"5ec83e51eff3d6008c9419f6\",\"created_at\":\"2024-11-09T12:47:29.582Z\",\"phone\":\"+1 408-376-7400\",\"phone_status\":\"no_status\",\"hubspot_id\":null,\"salesforce_id\":null,\"crm_owner_id\":null,\"parent_account_id\":null,\"linkedin_url\":null,\"suggested_from_rule_engine_config_id\":null,\"godmode_apollo_creator\":null,\"sanitized_phone\":\"+14083767400\",\"account_playbook_statuses\":[],\"existence_level\":\"full\",\"label_ids\":[],\"typed_custom_fields\":{},\"custom_field_errors\":null,\"modality\":\"account\",\"source_display_name\":\"Requested from Apollo\",\"crm_record_url\":null,\"twitter_url\":null,\"facebook_url\":null},\"intent_strength\":null,\"show_intent\":false,\"email_domain_catchall\":true}],\"signals_hash\":null}",
+    "status": 200,
+    "url": "https://app.apollo.io/api/v1/mixed_people/add_to_my_prospects"
+  },
+  {
+    "body": "{\"vid\":\"309ee0e3-f771-44d0-beb8-5d816a63980b\",\"questions\":[],\"delay\":null,\"locale\":\"en\",\"productConfig\":{\"framePosition\":\"bottomLeft\"},\"uuid\":\"309ee0e3-f771-44d0-beb8-5d816a63980b\",\"invalidPreviewKey\":false}",
+    "status": 200,
+    "url": "https://api.sprig.com/sdk/1/visitors/309ee0e3-f771-44d0-beb8-5d816a63980b/events"
+  },
+  {
+    "body": "{\"labels\":[],\"contact_ids\":[\"6a1c25bf313f73000c5190ef\"],\"num_prospected_people_this_billing_cycle\":4,\"dynamic_field_auto_enrichment_request_ids\":{\"contact_request_ids\":[],\"account_request_ids\":null,\"account_ids\":[],\"contact_ids\":[]},\"contacts\":[{\"contact_roles\":[],\"id\":\"6a1c25bf313f73000c5190ef\",\"first_name\":\"Vivek\",\"last_name\":\"Ranjan\",\"name\":\"Vivek Ranjan\",\"linkedin_url\":\"http://www.linkedin.com/in/vivek-ranjan-6b576596\",\"title\":\"Technical Recruiter\",\"contact_stage_id\":\"6725132cd7f29601b069517d\",\"owner_id\":\"5ec83e51eff3d6008c9419f6\",\"creator_id\":\"5ec83e51eff3d6008c9419f6\",\"person_id\":\"6304dcc20dd65e0001bf5b24\",\"email_needs_tickling\":true,\"organization_name\":\"eBay\",\"source\":\"search\",\"original_source\":\"search\",\"organization_id\":\"5ed25da907b0f800014a9565\",\"headline\":\"Technical Recruiter at eBay\",\"photo_url\":null,\"present_raw_address\":\"India\",\"linkedin_uid\":null,\"extrapolated_email_confidence\":null,\"salesforce_id\":null,\"salesforce_lead_id\":null,\"salesforce_contact_id\":null,\"salesforce_account_id\":null,\"crm_owner_id\":null,\"created_at\":\"2026-05-31T12:12:47.246Z\",\"emailer_campaign_ids\":[],\"direct_dial_status\":null,\"direct_dial_enrichment_failed_at\":null,\"email_status\":\"verified\",\"email_source\":\"emailer_message_inbound\",\"account_id\":\"672f59e158d64b0001898681\",\"last_activity_date\":null,\"hubspot_vid\":null,\"hubspot_company_id\":null,\"crm_id\":null,\"merged_crm_ids\":null,\"updated_at\":\"2026-05-31T12:12:47.246Z\",\"queued_for_crm_push\":null,\"suggested_from_rule_engine_config_id\":null,\"email_unsubscribed\":null,\"person_deleted\":null,\"call_opted_out\":null,\"godmode_apollo_creator\":null,\"sanitized_phone\":null,\"street_address\":\"\",\"city\":null,\"state\":null,\"country\":\"India\",\"postal_code\":null,\"formatted_address\":\"India\",\"time_zone\":\"Asia/Kolkata\",\"label_ids\":[],\"has_pending_email_arcgate_request\":false,\"has_email_arcgate_request\":false,\"existence_level\":\"full\",\"email\":\"vivranjan@ebay.com\",\"email_from_customer\":null,\"typed_custom_fields\":{},\"custom_field_errors\":{},\"crm_record_url\":null,\"email_status_unavailable_reason\":null,\"email_true_status\":\"Verifying\",\"updated_email_true_status\":true,\"source_display_name\":\"Requested from Apollo\",\"twitter_url\":null,\"facebook_url\":null,\"contact_campaign_statuses\":[],\"contact_emails\":[{\"email_md5\":\"4d6f9a242772f3ede9771c29e88ba2bb\",\"email_sha256\":\"daf1eb05577312a396c646bdea37e3848586142ce1761395a4d6d3ba79fbd316\",\"email_status\":\"verified\",\"extrapolated_email_confidence\":null,\"position\":0,\"email\":\"vivranjan@ebay.com\",\"free_domain\":false,\"source\":\"Apollo\",\"third_party_vendor_name\":null,\"vendor_validation_statuses\":[],\"email_needs_tickling\":true,\"email_true_status\":\"Verifying\",\"email_status_unavailable_reason\":null}],\"intent_strength\":null,\"show_intent\":false,\"phone_numbers\":[{\"raw_number\":\"+1 408-376-7400\",\"sanitized_number\":\"+14083767400\",\"type\":\"work_hq\",\"position\":0,\"status\":\"no_status\",\"dnc_status\":null,\"dnc_country_supported\":true,\"dnc_other_info\":{},\"dialer_flags\":null,\"source_name\":\"Apollo\",\"vendor_validation_statuses\":[],\"third_party_vendor_name\":null}],\"account_phone_note\":null,\"free_domain\":false,\"email_domain_catchall\":true}],\"people\":[{\"id\":\"6304dcc20dd65e0001bf5b24\",\"first_name\":\"Vivek\",\"last_name\":\"Ranjan\",\"name\":\"Vivek Ranjan\",\"linkedin_url\":\"http://www.linkedin.com/in/vivek-ranjan-6b576596\",\"title\":\"Technical Recruiter\",\"photo_url\":\"https://media.licdn.com/dms/image/v2/D5603AQGMCMsXTBfr2A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1727062944733?e=2147483647\\u0026v=beta\\u0026t=o8jnpICZx0v9k1wIhc23I2xDK1QXq7bRyo3q9Y804l8\",\"twitter_url\":null,\"github_url\":null,\"facebook_url\":null,\"extrapolated_email_confidence\":null,\"headline\":\"Technical Recruiter at eBay\",\"organization_id\":\"5ed25da907b0f800014a9565\",\"street_address\":\"\",\"city\":null,\"state\":null,\"country\":\"India\",\"postal_code\":null,\"formatted_address\":\"India\",\"time_zone\":\"Asia/Kolkata\",\"email\":\"vivranjan@ebay.com\",\"email_status\":\"verified\",\"contact_id\":\"6a1c25bf313f73000c5190ef\",\"contact\":{\"contact_roles\":[],\"id\":\"6a1c25bf313f73000c5190ef\",\"first_name\":\"Vivek\",\"last_name\":\"Ranjan\",\"name\":\"Vivek Ranjan\",\"linkedin_url\":\"http://www.linkedin.com/in/vivek-ranjan-6b576596\",\"title\":\"Technical Recruiter\",\"contact_stage_id\":\"6725132cd7f29601b069517d\",\"owner_id\":\"5ec83e51eff3d6008c9419f6\",\"creator_id\":\"5ec83e51eff3d6008c9419f6\",\"person_id\":\"6304dcc20dd65e0001bf5b24\",\"email_needs_tickling\":true,\"organization_name\":\"eBay\",\"source\":\"search\",\"original_source\":\"search\",\"organization_id\":\"5ed25da907b0f800014a9565\",\"headline\":\"Technical Recruiter at eBay\",\"photo_url\":null,\"present_raw_address\":\"India\",\"linkedin_uid\":null,\"extrapolated_email_confidence\":null,\"salesforce_id\":null,\"salesforce_lead_id\":null,\"salesforce_contact_id\":null,\"salesforce_account_id\":null,\"crm_owner_id\":null,\"created_at\":\"2026-05-31T12:12:47.246Z\",\"emailer_campaign_ids\":[],\"direct_dial_status\":null,\"direct_dial_enrichment_failed_at\":null,\"email_status\":\"verified\",\"email_source\":\"emailer_message_inbound\",\"account_id\":\"672f59e158d64b0001898681\",\"last_activity_date\":null,\"hubspot_vid\":null,\"hubspot_company_id\":null,\"crm_id\":null,\"merged_crm_ids\":null,\"updated_at\":\"2026-05-31T12:12:47.246Z\",\"queued_for_crm_push\":null,\"suggested_from_rule_engine_config_id\":null,\"email_unsubscribed\":null,\"person_deleted\":null,\"call_opted_out\":null,\"godmode_apollo_creator\":null,\"sanitized_phone\":null,\"street_address\":\"\",\"city\":null,\"state\":null,\"country\":\"India\",\"postal_code\":null,\"formatted_address\":\"India\",\"time_zone\":\"Asia/Kolkata\",\"label_ids\":[],\"has_pending_email_arcgate_request\":false,\"has_email_arcgate_request\":false,\"existence_level\":\"full\",\"email\":\"vivranjan@ebay.com\",\"email_from_customer\":null,\"typed_custom_fields\":{},\"custom_field_errors\":null,\"crm_record_url\":null,\"email_status_unavailable_reason\":null,\"email_true_status\":\"Verified\",\"updated_email_true_status\":false,\"source_display_name\":\"Requested from Apollo\",\"twitter_url\":null,\"facebook_url\":null,\"contact_emails\":[{\"email_md5\":\"4d6f9a242772f3ede9771c29e88ba2bb\",\"email_sha256\":\"daf1eb05577312a396c646bdea37e3848586142ce1761395a4d6d3ba79fbd316\",\"email_status\":\"verified\",\"extrapolated_email_confidence\":null,\"position\":0,\"email\":\"vivranjan@ebay.com\",\"free_domain\":false,\"source\":\"Apollo\",\"third_party_vendor_name\":null,\"vendor_validation_statuses\":[],\"email_needs_tickling\":true,\"email_status_unavailable_reason\":null}],\"phone_numbers\":[{\"raw_number\":\"+1 408-376-7400\",\"sanitized_number\":\"+14083767400\",\"type\":\"work_hq\",\"position\":0,\"status\":\"no_status\",\"dnc_status\":null,\"dnc_country_supported\":true,\"dnc_other_info\":{},\"dialer_flags\":null,\"source_name\":\"Apollo\",\"vendor_validation_statuses\":[],\"third_party_vendor_name\":null}],\"account_phone_note\":null,\"free_domain\":false},\"revealed_for_current_team\":true,\"account_id\":\"672f59e158d64b0001898681\",\"account\":{\"raw_address\":\"2025 hamilton avenue, san jose, ca 95125, us\",\"street_address\":\"2025 Hamilton Ave\",\"city\":\"San Jose\",\"state\":\"California\",\"country\":\"United States\",\"postal_code\":\"95125\",\"id\":\"672f59e158d64b0001898681\",\"domain\":\"ebayinc.com\",\"name\":\"eBay\",\"team_id\":\"5ec83e50eff3d6008c941977\",\"organization_id\":\"5ed25da907b0f800014a9565\",\"account_stage_id\":\"6725132cd7f29601b0695186\",\"source\":\"deployment\",\"original_source\":\"deployment\",\"creator_id\":\"5ec83e51eff3d6008c9419f6\",\"owner_id\":\"5ec83e51eff3d6008c9419f6\",\"created_at\":\"2024-11-09T12:47:29.582Z\",\"phone\":\"+1 408-376-7400\",\"phone_status\":\"no_status\",\"hubspot_id\":null,\"salesforce_id\":null,\"crm_owner_id\":null,\"parent_account_id\":null,\"linkedin_url\":null,\"suggested_from_rule_engine_config_id\":null,\"godmode_apollo_creator\":null,\"sanitized_phone\":\"+14083767400\",\"account_playbook_statuses\":[],\"existence_level\":\"full\",\"label_ids\":[],\"typed_custom_fields\":{},\"custom_field_errors\":null,\"modality\":\"account\",\"source_display_name\":\"Requested from Apollo\",\"crm_record_url\":null,\"twitter_url\":null,\"facebook_url\":null},\"intent_strength\":null,\"show_intent\":false,\"email_domain_catchall\":true}],\"signals_hash\":null}",
+    "status": 200,
+    "url": "https://app.apollo.io/api/v1/mixed_people/add_to_my_prospects"
+  },
+  {
+    "body": "{\"success\":true}",
+    "status": 200,
+    "url": "https://app.apollo.io/api/v1/habit_activation/record_action"
+  },
+  {
+    "body": "{\"code\":200,\"server_upload_time\":1780229567865,\"payload_size_bytes\":1548,\"events_ingested\":2}",
+    "status": 200,
+    "url": "https://www.apollo.io/amp-outbound2/"
+  },
+  {
+    "body": "{\"error\":\"Score not found\"}",
+    "status": 404,
+    "url": "https://app.apollo.io/api/v1/recommendations/load_scores"
+  },
+  {
+    "body": "{\"contacts\":[{\"id\":\"6a1c25bf313f73000c5190ef\",\"enrichment\":{\"job_change\":null,\"fields\":[]}}]}",
+    "status": 200,
+    "url": "https://app.apollo.io/api/v1/enrichment/search"
+  },
+  {
+    "body": "{\"success\":true}",
+    "status": 200,
+    "url": "https://app.apollo.io/api/v1/habit_activation/record_action"
+  },
+  {
+    "body": "{\"code\":200,\"server_upload_time\":1780229567865,\"payload_size_bytes\":1548,\"events_ingested\":2}",
+    "status": 200,
+    "url": "https://www.apollo.io/amp-outbound2/"
+  },
+  {
+    "body": "{\"error\":\"Score not found\"}",
+    "status": 404,
+    "url": "https://app.apollo.io/api/v1/recommendations/load_scores"
+  },
+  {
+    "body": "{\"contacts\":[{\"id\":\"6a1c25bf313f73000c5190ef\",\"enrichment\":{\"job_change\":null,\"fields\":[]}}]}",
+    "status": 200,
+    "url": "https://app.apollo.io/api/v1/enrichment/search"
+  },
+  {
+    "body": "{\"code\":200,\"server_upload_time\":1780229569425,\"payload_size_bytes\":1853,\"events_ingested\":1}",
+    "status": 200,
+    "url": "https://www.apollo.io/amp-outbound2/"
+  },
+  {
+    "body": "{\"code\":200,\"server_upload_time\":1780229569425,\"payload_size_bytes\":1853,\"events_ingested\":1}",
+    "status": 200,
+    "url": "https://www.apollo.io/amp-outbound2/"
+  },
+  {
+    "body": "success",
+    "status": 200,
+    "url": "https://api-sr.amplitude.com/sessions/v2/track?device_id=0e1880c8-bb4a-4308-bf89-3717c3ce12c7&session_id=1780229526977&type=replay"
+  },
+  {
+    "body": "success",
+    "status": 200,
+    "url": "https://api-sr.amplitude.com/sessions/v2/track?device_id=0e1880c8-bb4a-4308-bf89-3717c3ce12c7&session_id=1780229526977&type=replay"
+  },
+  {
+    "body": "{\"code\":200,\"server_upload_time\":1780229571811,\"payload_size_bytes\":889,\"events_ingested\":1}",
+    "status": 200,
+    "url": "https://www.apollo.io/amp-outbound2/"
+  },
+  {
+    "body": "{\"code\":200,\"server_upload_time\":1780229571811,\"payload_size_bytes\":889,\"events_ingested\":1}",
+    "status": 200,
+    "url": "https://www.apollo.io/amp-outbound2/"
+  }
+]

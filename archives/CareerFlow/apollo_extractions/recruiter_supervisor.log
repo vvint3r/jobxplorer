@@ -1,0 +1,36 @@
+2026-06-02 00:53:44 - ============================================================
+2026-06-02 00:53:44 - Recruiter supervisor start. list=TechnicalRecruitersTargetOrgs floor=19 hint_end=22 deadline=08:53
+2026-06-02 00:53:44 - Attempt 1: START_PAGE=19 (saved=19)
+2026-06-02 00:55:51 - Attempt 2: START_PAGE=19 (saved=19)
+2026-06-02 00:58:14 - No progress past page 19 across attempts; stopping.
+2026-06-02 00:58:14 - Supervisor finished at page 19.
+2026-06-02 00:59:24 - ============================================================
+2026-06-02 00:59:24 - Recruiter supervisor start. list=TechnicalRecruitersTargetOrgs floor=19 hint_end=22 deadline=08:59
+2026-06-02 00:59:24 - Attempt 1: START_PAGE=19 (saved_page=19, csv_rows=499)
+2026-06-02 01:00:51 - Attempt 2: START_PAGE=19 (saved_page=19, csv_rows=499)
+2026-06-02 01:03:32 - Attempt 3: START_PAGE=19 (saved_page=19, csv_rows=499)
+2026-06-02 01:05:48 - Attempt 4: START_PAGE=19 (saved_page=19, csv_rows=500)
+2026-06-02 01:06:46 - Attempt 5: START_PAGE=19 (saved_page=19, csv_rows=500)
+2026-06-02 01:07:42 - Attempt 6: START_PAGE=19 (saved_page=19, csv_rows=500)
+2026-06-02 01:08:37 - No CSV growth (500 rows) across 3 attempts; stopping.
+2026-06-02 01:08:37 - Supervisor finished at page 19.
+2026-06-02 01:47:56 - ============================================================
+2026-06-02 01:53:21 - ============================================================
+2026-06-02 01:53:21 - Recruiter supervisor start. list=TechnicalRecruitersTargetOrgs page-1 drain mode deadline=08:53
+2026-06-02 01:53:21 - Attempt 1: START_PAGE=1 (csv_rows=500)
+2026-06-02 02:01:03 - Attempt 2: START_PAGE=1 (csv_rows=525)
+2026-06-02 02:09:20 - Attempt 3: START_PAGE=1 (csv_rows=547)
+2026-06-02 02:21:27 - Attempt 4: START_PAGE=1 (csv_rows=555)
+2026-06-02 02:34:34 - Attempt 5: START_PAGE=1 (csv_rows=574)
+2026-06-02 02:43:07 - Attempt 6: START_PAGE=1 (csv_rows=594)
+2026-06-02 02:45:33 - Attempt 7: START_PAGE=1 (csv_rows=594)
+2026-06-02 02:48:26 - Attempt 8: START_PAGE=1 (csv_rows=595)
+2026-06-02 02:56:39 - Attempt 9: START_PAGE=1 (csv_rows=619)
+2026-06-02 03:04:25 - Attempt 10: START_PAGE=1 (csv_rows=644)
+2026-06-02 03:11:31 - Attempt 11: START_PAGE=1 (csv_rows=669)
+2026-06-02 03:18:45 - Attempt 12: START_PAGE=1 (csv_rows=694)
+2026-06-02 03:19:37 - Attempt 13: START_PAGE=1 (csv_rows=694)
+2026-06-02 03:20:27 - Attempt 14: START_PAGE=1 (csv_rows=694)
+2026-06-02 03:21:16 - Attempt 15: START_PAGE=1 (csv_rows=694)
+2026-06-02 03:22:08 - No CSV growth (694 rows) across 4 attempts; Net New drained. Stopping.
+2026-06-02 03:22:08 - Supervisor finished at page 19.

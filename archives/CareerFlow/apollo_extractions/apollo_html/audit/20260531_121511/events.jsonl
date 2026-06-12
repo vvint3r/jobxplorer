@@ -1,0 +1,10 @@
+{"ts": "2026-05-31 12:16:00.274707", "event": "page_start", "page": 1, "progress": "1 - 25 of 567"}
+{"ts": "2026-05-31 12:16:00.886525", "event": "row_html_saved", "page": 1, "row": 1, "label": "before_click", "path": "/home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/audit/20260531_121511/p1_r1_before_click.html"}
+{"ts": "2026-05-31 12:16:01.356270", "event": "prospect_start", "page": 1, "row": 1, "row_id": "table-row-0", "state": {"email": null, "cell_text": "Access email", "has_access_button": true, "has_verified_cell": false}}
+{"ts": "2026-05-31 12:16:01.672758", "event": "prospect_api_start", "page": 1, "row": 1, "person_id": "57d52d87a6da98537ed742ab"}
+{"ts": "2026-05-31 12:16:02.377928", "event": "prospect_api_response", "page": 1, "row": 1, "status": 200, "email": "kyleflisher@fb.com", "prospected_count": 7}
+{"ts": "2026-05-31 12:16:20.002761", "event": "row_html_saved", "page": 1, "row": 2, "label": "before_click", "path": "/home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/audit/20260531_121511/p1_r2_before_click.html"}
+{"ts": "2026-05-31 12:16:20.315219", "event": "prospect_start", "page": 1, "row": 2, "row_id": "table-row-1", "state": {"email": null, "cell_text": "Access email", "has_access_button": true, "has_verified_cell": false}}
+{"ts": "2026-05-31 12:16:20.599548", "event": "prospect_api_start", "page": 1, "row": 2, "person_id": "672f4e8996ee930001395558"}
+{"ts": "2026-05-31 12:16:21.176686", "event": "prospect_api_response", "page": 1, "row": 2, "status": 200, "email": "stom@apple.com", "prospected_count": 8}
+{"ts": "2026-05-31 12:16:31.466924", "event": "page_complete", "page": 1, "page_records": 2, "total_records": 2, "progress": "1 - 25 of 567"}

@@ -1,6 +1,7 @@
 py_env
 .vscode
 temp
+docs/html/
 .venv
 venv/
 downloaded_files

@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tmux new-session *)",
+      "Bash(claude remote-control *)",
+      "Bash(claude auth *)",
+      "Read(//home/wynt3r/.claude/**)",
+      "Bash(env)",
+      "Bash(tmux kill-session *)",
+      "WebFetch(domain:claude.com)",
+      "WebFetch(domain:thariqs.github.io)",
+      "WebFetch(domain:www.chatprd.ai)",
+      "Read(//home/wynt3r/**)",
+      "Bash(mkdir -p /home/wynt3r/.claude/skills/html-doc)",
+      "Edit(~/.claude/skills/html-doc/**)"
+    ],
+    "additionalDirectories": [
+      "/tmp",
+      "/home/wynt3r/.claude/skills"
+    ]
+  }
+}

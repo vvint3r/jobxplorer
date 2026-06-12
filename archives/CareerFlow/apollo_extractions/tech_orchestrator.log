@@ -1,0 +1,88 @@
+2026-06-02 00:34:50 - ======================================================================
+2026-06-02 00:34:50 - Tech orchestrator start. EMP_FLOOR=10001 deadline=01:34 max_hours=1.0
+2026-06-02 00:34:50 - Building partition plan (reading live counts)...
+2026-06-02 00:35:30 -   [10001-plus] total=120000
+2026-06-02 00:35:30 -   [10001-plus] >5000 but unsplittable -> desc+asc best effort
+2026-06-02 00:35:30 - Plan: 2 leaf passes, ~200 pages, covering ~120000 companies (pre-dedupe).
+2026-06-02 00:35:30 - Leaf 10001_plus_desc (emp 10001-None, desc, total=120000, expect 100 pages)
+2026-06-02 00:35:30 -   10001_plus_desc: attempt 1 START_PAGE=1 END_PAGE=100
+2026-06-02 00:38:16 -   10001_plus_desc: attempt 2 START_PAGE=11 END_PAGE=100
+2026-06-02 00:39:05 -   10001_plus_desc: attempt 3 START_PAGE=11 END_PAGE=100
+2026-06-02 00:39:50 -   10001_plus_desc: attempt 4 START_PAGE=11 END_PAGE=100
+2026-06-02 00:40:36 -   10001_plus_desc: attempt 5 START_PAGE=11 END_PAGE=100
+2026-06-02 00:41:22 -   10001_plus_desc: attempt 6 START_PAGE=11 END_PAGE=100
+2026-06-02 00:42:09 -   10001_plus_desc: PARTIAL (10/100 pages)
+2026-06-02 00:42:09 - Leaf 10001_plus_asc (emp 10001-None, asc, total=120000, expect 100 pages)
+2026-06-02 00:42:09 -   10001_plus_asc: attempt 1 START_PAGE=1 END_PAGE=100
+2026-06-02 00:47:07 - ======================================================================
+2026-06-02 00:47:07 - Tech orchestrator start. EMP_FLOOR=51 deadline=11:47 max_hours=11.0
+2026-06-02 00:47:07 - Building partition plan (reading live counts)...
+2026-06-02 00:47:55 -   [51-100] total=12917
+2026-06-02 00:48:14 -   [51-75] total=8217
+2026-06-02 00:48:34 -   [51-63] total=4988
+2026-06-02 00:48:53 -   [64-75] total=3229
+2026-06-02 00:49:13 -   [76-100] total=4700
+2026-06-02 00:49:30 -   [101-200] total=6433
+2026-06-02 00:49:50 -   [101-150] total=3889
+2026-06-02 00:50:07 -   [151-200] total=2544
+2026-06-02 00:50:24 -   [201-500] total=4776
+2026-06-02 00:50:42 -   [501-1000] total=2047
+2026-06-02 00:50:59 -   [1001-2000] total=937
+2026-06-02 00:51:16 -   [2001-5000] total=583
+2026-06-02 00:51:33 -   [5001-10000] total=207
+2026-06-02 00:51:54 -   [10001-plus] total=227
+2026-06-02 00:51:54 - Plan: 17 leaf passes, ~1131 pages, covering ~28127 companies (pre-dedupe).
+2026-06-02 00:51:54 - Leaf 10001_plus_desc (emp 10001-None, desc, total=227, expect 10 pages)
+2026-06-02 00:51:54 -   10001_plus_desc: complete (10/10 pages)
+2026-06-02 00:51:54 - Leaf 5001_10000_desc (emp 5001-10000, desc, total=207, expect 9 pages)
+2026-06-02 00:51:54 -   5001_10000_desc: attempt 1 START_PAGE=1 END_PAGE=9
+2026-06-02 00:54:27 -   5001_10000_desc: complete (9/9 pages)
+2026-06-02 00:54:27 - Leaf 2001_5000_desc (emp 2001-5000, desc, total=583, expect 24 pages)
+2026-06-02 00:54:27 -   2001_5000_desc: attempt 1 START_PAGE=1 END_PAGE=24
+2026-06-02 01:00:22 -   2001_5000_desc: complete (24/24 pages)
+2026-06-02 01:00:22 - Leaf 1001_2000_desc (emp 1001-2000, desc, total=937, expect 38 pages)
+2026-06-02 01:00:22 -   1001_2000_desc: attempt 1 START_PAGE=1 END_PAGE=38
+2026-06-02 01:12:31 -   1001_2000_desc: complete (38/38 pages)
+2026-06-02 01:12:31 - Leaf 501_1000_desc (emp 501-1000, desc, total=2047, expect 82 pages)
+2026-06-02 01:12:32 -   501_1000_desc: attempt 1 START_PAGE=1 END_PAGE=82
+2026-06-02 01:34:26 -   501_1000_desc: complete (82/82 pages)
+2026-06-02 01:34:26 - Leaf 201_500_desc (emp 201-500, desc, total=4776, expect 100 pages)
+2026-06-02 01:34:26 -   201_500_desc: attempt 1 START_PAGE=1 END_PAGE=100
+2026-06-02 01:59:48 -   201_500_desc: complete (100/100 pages)
+2026-06-02 01:59:48 - Leaf 201_500_asc (emp 201-500, asc, total=4776, expect 92 pages)
+2026-06-02 01:59:48 -   201_500_asc: attempt 1 START_PAGE=1 END_PAGE=92
+2026-06-02 02:20:38 -   201_500_asc: complete (92/92 pages)
+2026-06-02 02:20:38 - Leaf 151_200_desc (emp 151-200, desc, total=2544, expect 100 pages)
+2026-06-02 02:20:38 -   151_200_desc: attempt 1 START_PAGE=1 END_PAGE=100
+2026-06-02 02:44:51 -   151_200_desc: complete (100/100 pages)
+2026-06-02 02:44:51 - Leaf 151_200_asc (emp 151-200, asc, total=2544, expect 2 pages)
+2026-06-02 02:44:51 -   151_200_asc: attempt 1 START_PAGE=1 END_PAGE=2
+2026-06-02 02:45:50 -   151_200_asc: complete (2/2 pages)
+2026-06-02 02:45:50 - Leaf 101_150_desc (emp 101-150, desc, total=3889, expect 100 pages)
+2026-06-02 02:45:50 -   101_150_desc: attempt 1 START_PAGE=1 END_PAGE=100
+2026-06-02 03:09:47 -   101_150_desc: complete (100/100 pages)
+2026-06-02 03:09:47 - Leaf 101_150_asc (emp 101-150, asc, total=3889, expect 56 pages)
+2026-06-02 03:09:47 -   101_150_asc: attempt 1 START_PAGE=1 END_PAGE=56
+2026-06-02 04:39:47 -   101_150_asc: attempt 1 timed out after 5400s
+2026-06-02 04:39:52 -   101_150_asc: attempt 2 START_PAGE=35 END_PAGE=56
+2026-06-02 04:45:32 -   101_150_asc: complete (56/56 pages)
+2026-06-02 04:45:32 - Leaf 76_100_desc (emp 76-100, desc, total=4700, expect 100 pages)
+2026-06-02 04:45:32 -   76_100_desc: attempt 1 START_PAGE=1 END_PAGE=100
+2026-06-02 05:11:01 -   76_100_desc: complete (100/100 pages)
+2026-06-02 05:11:01 - Leaf 76_100_asc (emp 76-100, asc, total=4700, expect 88 pages)
+2026-06-02 05:11:01 -   76_100_asc: attempt 1 START_PAGE=1 END_PAGE=88
+2026-06-02 05:31:12 -   76_100_asc: complete (88/88 pages)
+2026-06-02 05:31:12 - Leaf 64_75_desc (emp 64-75, desc, total=3229, expect 100 pages)
+2026-06-02 05:31:12 -   64_75_desc: attempt 1 START_PAGE=1 END_PAGE=100
+2026-06-02 05:53:19 -   64_75_desc: complete (100/100 pages)
+2026-06-02 05:53:19 - Leaf 64_75_asc (emp 64-75, asc, total=3229, expect 30 pages)
+2026-06-02 05:53:19 -   64_75_asc: attempt 1 START_PAGE=1 END_PAGE=30
+2026-06-02 06:00:15 -   64_75_asc: complete (30/30 pages)
+2026-06-02 06:00:15 - Leaf 51_63_desc (emp 51-63, desc, total=4988, expect 100 pages)
+2026-06-02 06:00:15 -   51_63_desc: attempt 1 START_PAGE=1 END_PAGE=100
+2026-06-02 06:22:38 -   51_63_desc: complete (100/100 pages)
+2026-06-02 06:22:38 - Leaf 51_63_asc (emp 51-63, asc, total=4988, expect 100 pages)
+2026-06-02 06:22:38 -   51_63_asc: attempt 1 START_PAGE=1 END_PAGE=100
+2026-06-02 06:45:08 -   51_63_asc: complete (100/100 pages)
+2026-06-02 06:45:08 - Orchestrator pass finished: 17/17 leaves done.
+2026-06-02 06:45:08 - Run: python3 apollo_tech_reparse.py  to build the deduped CSV.

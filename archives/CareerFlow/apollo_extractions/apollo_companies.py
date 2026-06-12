@@ -1,10 +1,12 @@
 import sys
 import os
 
-# Add job_search to Python path for driver_utils - using workspace-relative path
-workspace_root = "/home/wynt3r/JobSearch"  # Hardcode the workspace root since we know it
-driver_utils_path = os.path.join(workspace_root, 'job_search/job_extraction')
-sys.path.append(driver_utils_path)
+# Add job_extraction to Python path for driver_utils
+script_dir = os.path.dirname(os.path.abspath(__file__))
+jobxplore_root = os.path.normpath(os.path.join(script_dir, '..', '..', '..'))
+driver_utils_path = os.path.join(jobxplore_root, 'src', 'job_extraction')
+if driver_utils_path not in sys.path:
+    sys.path.insert(0, driver_utils_path)
 
 try:
     from driver_utils import create_driver, cleanup_driver
@@ -25,6 +27,8 @@ import random
 import logging
 from datetime import datetime
 import json
+import re
+import math
 
 # Configure logging
 logging.basicConfig(
@@ -42,6 +46,28 @@ DEFAULT_TIMEOUT = 20
 SCROLL_PAUSE_TIME = 2
 PAGE_LOAD_WAIT = 5
 CLICK_WAIT = 0.5
+APOLLO_HTML_DIR = os.path.join(script_dir, 'apollo_html')
+DEFAULT_SEARCH_URL_TEMPLATE = (
+    "https://app.apollo.io/#/companies?"
+    "organizationNumEmployeesRanges[]=101%2C200&organizationNumEmployeesRanges[]=201%2C500&"
+    "organizationNumEmployeesRanges[]=10001&organizationNumEmployeesRanges[]=5001%2C10000&"
+    "organizationNumEmployeesRanges[]=2001%2C5000&organizationNumEmployeesRanges[]=501%2C1000&"
+    "organizationNumEmployeesRanges[]=1001%2C2000&organizationNumEmployeesRanges[]=51%2C100&"
+    "organizationLocations[]=United%20States&organizationTradingStatus[]=public&"
+    "prospectedByCurrentTeam[]=no&sortAscending=false&sortByField=sanitized_organization_name_unanalyzed"
+)
+
+def get_next_run_output_file(output_dir, stem):
+    """Return the next numbered output path, e.g. apollo_records_companies_3.csv."""
+    pattern = re.compile(re.escape(stem) + r"_(\d+)\.csv$")
+    max_run = 0
+    if os.path.isdir(output_dir):
+        for filename in os.listdir(output_dir):
+            match = pattern.match(filename)
+            if match:
+                max_run = max(max_run, int(match.group(1)))
+    next_run = max_run + 1
+    return os.path.join(output_dir, f"{stem}_{next_run}.csv")
 
 def setup_virtual_display():
     """Set up virtual display for headless environment."""
@@ -58,15 +84,18 @@ def add_random_delays():
     """Add random delay between actions."""
     time.sleep(random.uniform(2, 5))
 
-def save_page_html(driver, page_number, base_folder="/home/wynt3r/networking_pipeline/company_people_extractions/apollo_extractions/apollo_html"):
+def save_page_html(driver, page_number, base_folder=None):
     """Save the current page HTML to a file."""
     try:
+        if base_folder is None:
+            base_folder = APOLLO_HTML_DIR
         # Create directory if it doesn't exist
         os.makedirs(base_folder, exist_ok=True)
         
         # Generate filename with timestamp
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        filename = os.path.join(base_folder, f"apollo_companies_page_{page_number}_{timestamp}.html")
+        html_prefix = os.getenv("HTML_PREFIX", "apollo_companies_page_")
+        filename = os.path.join(base_folder, f"{html_prefix}{page_number}_{timestamp}.html")
         
         # Save the page source
         with open(filename, 'w', encoding='utf-8') as f:
@@ -143,9 +172,10 @@ def load_cookies(driver, cookie_file=None):
         
         # Click the Google login button
         selectors = [
-            "button[type='button'][class='zp-button zp_GGHzP zp_Kbe5T zp_PLp2D zp_rduLJ zp_g5xYz']",
-            "//button[.//div[@class='zp_lVtbq' and text()='Log In with Google']]",
-            "//button[.//img[contains(@src, 'google')] and .//div[contains(@class, 'zp_lVtbq')]]"
+            "//button[contains(normalize-space(.), 'Log In with Google')]",
+            "//button[.//*[normalize-space(text())='Log In with Google']]",
+            "button[data-cta-variant='secondary'][type='button']",
+            "button[type='button']",
         ]
         
         google_login_button = None
@@ -159,8 +189,8 @@ def load_cookies(driver, cookie_file=None):
                 if elements:
                     for element in elements:
                         try:
-                            html = element.get_attribute('innerHTML')
-                            if 'google' in html.lower() and 'Log In with Google' in html:
+                            text = element.get_attribute('textContent') or element.text or ''
+                            if 'log in with google' in text.strip().lower():
                                 google_login_button = element
                                 break
                         except:
@@ -194,15 +224,18 @@ def load_cookies(driver, cookie_file=None):
         logging.error(f"Error in cookie loading process: {e}")
         raise
 
-def save_page_screenshot(driver, page_number, base_folder="/home/wynt3r/networking_pipeline/company_people_extractions/apollo_extractions/apollo_html"):
+def save_page_screenshot(driver, page_number, base_folder=None):
     """Save a screenshot of the current page."""
     try:
+        if base_folder is None:
+            base_folder = APOLLO_HTML_DIR
         # Create directory if it doesn't exist
         os.makedirs(base_folder, exist_ok=True)
         
         # Generate filename with timestamp
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        filename = os.path.join(base_folder, f"apollo_companies_page_{page_number}_{timestamp}.png")
+        html_prefix = os.getenv("HTML_PREFIX", "apollo_companies_page_")
+        filename = os.path.join(base_folder, f"{html_prefix}{page_number}_{timestamp}.png")
         
         # Save the screenshot
         driver.save_screenshot(filename)
@@ -210,6 +243,70 @@ def save_page_screenshot(driver, page_number, base_folder="/home/wynt3r/networki
         
     except Exception as e:
         logging.error(f"Error saving screenshot: {e}")
+
+def get_progress_text(driver):
+    """Read Apollo's table pagination scope, e.g. '1 - 25 of 9,150'."""
+    progress_pattern = re.compile(r"\d+\s*-\s*\d+\s+of\s+[\d,]+")
+    selectors = [
+        (
+            By.XPATH,
+            "//*[@data-interaction-boundary='Table Pagination']"
+            "//*[contains(normalize-space(.), ' of ')]",
+        ),
+        (By.XPATH, "//*[contains(normalize-space(.), ' of ')]"),
+    ]
+
+    for by, selector in selectors:
+        for element in driver.find_elements(by, selector):
+            text = element.text or element.get_attribute("textContent") or ""
+            match = progress_pattern.search(" ".join(text.split()))
+            if match:
+                return match.group(0)
+
+    return "Progress counter not found"
+
+def parse_progress_stats(progress_text):
+    """Parse progress text like '1 - 25 of 9,150'."""
+    match = re.search(r"(\d+)\s*-\s*(\d+)\s+of\s+([\d,]+)", progress_text or "")
+    if not match:
+        return None
+
+    start_row = int(match.group(1))
+    end_row = int(match.group(2))
+    total_rows = int(match.group(3).replace(",", ""))
+    page_size = max(1, end_row - start_row + 1)
+
+    return {
+        "start_row": start_row,
+        "end_row": end_row,
+        "total_rows": total_rows,
+        "page_size": page_size,
+        "total_pages": max(1, math.ceil(total_rows / page_size)),
+    }
+
+def get_current_page_number(driver):
+    """Read the current page number from Apollo's table pagination controls."""
+    selectors = [
+        (
+            By.XPATH,
+            "//*[@data-interaction-boundary='Table Pagination']"
+            "//*[@role='combobox' and @aria-label='Current page']",
+        ),
+        (
+            By.XPATH,
+            "//*[@data-interaction-boundary='Table Pagination']"
+            "//*[@data-name='items' and @aria-label='Current page']",
+        ),
+    ]
+
+    for by, selector in selectors:
+        for element in driver.find_elements(by, selector):
+            text = element.text or element.get_attribute("textContent") or ""
+            match = re.search(r"\d+", text)
+            if match:
+                return int(match.group(0))
+
+    return None
 
 def navigate_to_page(driver, target_page):
     """Navigate to a specific page using direct URL."""
@@ -234,15 +331,16 @@ def navigate_to_page(driver, target_page):
                 EC.presence_of_element_located((By.CSS_SELECTOR, "div[role='rowgroup']"))
             )
             
-            # Verify we're on the correct page by checking the page number text
-            current_page_element = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "span.zp_jzp8p"))
+            # Verify we're on the correct page by checking the pagination control.
+            WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located(
+                    (By.CSS_SELECTOR, "[data-interaction-boundary='Table Pagination']")
+                )
             )
-            
-            actual_page = current_page_element.text.strip()
+            actual_page = get_current_page_number(driver)
             logging.info(f"Current page shows: {actual_page}, Target was: {target_page}")
             
-            if str(target_page) == actual_page:
+            if target_page == actual_page:
                 logging.info(f"Successfully navigated to page {target_page}")
                 return True
             else:
@@ -261,58 +359,134 @@ def navigate_to_page(driver, target_page):
         save_page_html(driver, f"page_{target_page}_error")
         return False
 
-def click_net_new_button(driver):
-    """Click the Net New button in the filter section."""
-    try:
-        logging.info("Looking for Net New button...")
-        wait = WebDriverWait(driver, DEFAULT_TIMEOUT)
-        
-        # Wait for the radio button group to be present
-        radio_group = wait.until(
-            EC.presence_of_element_located((By.XPATH, "//div[@role='radiogroup' and contains(@class, 'zp_mmM2U')]"))
-        )
-        
-        # Find the Net New button within the radio group
-        net_new_button = radio_group.find_element(By.XPATH, ".//label[.//div[contains(text(), 'Net New')]]")
-        
-        # Scroll the button into view and click with retry logic
-        driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", net_new_button)
-        time.sleep(CLICK_WAIT)
-        
-        try:
-            net_new_button.click()
-        except Exception as e:
-            try:
-                driver.execute_script("arguments[0].click();", net_new_button)
-            except Exception as js_error:
-                raise WebDriverException(f"Failed to click Net New button: {e}, {js_error}")
-        
-        # Wait for the filter to apply
-        time.sleep(PAGE_LOAD_WAIT)
-        logging.info("Clicked Net New button successfully")
-        
-    except Exception as e:
-        logging.error(f"Error clicking Net New button: {e}")
-        raise
+def build_companies_url(start_page: int) -> str:
+    """Build the companies URL for either saved-list mode or default search filters."""
+    list_url = os.getenv("APOLLO_LIST_URL", "").strip()
+    if list_url:
+        if re.search(r"[?&]page=\d+", list_url):
+            url = re.sub(r"page=\d+", f"page={start_page}", list_url)
+        elif "?" in list_url:
+            url = f"{list_url}&page={start_page}"
+        else:
+            url = f"{list_url}?page={start_page}"
+        logging.info(f"Using saved-list URL mode (page={start_page})")
+        return url
 
-def process_record(driver, record, index, output_file, current_page, total_records, page_records):
-    """Process a single record with proper error handling."""
-    try:
-        # Find and click the Save button for this record with retry logic
-        try:
-            save_button = record.find_element(By.XPATH, ".//button[.//span[text()='Save']]")
-            driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", save_button)
-            time.sleep(CLICK_WAIT)
-            
+    return f"{DEFAULT_SEARCH_URL_TEMPLATE}&page={start_page}"
+
+
+def click_net_new_button(driver):
+    """Activate the Net New tab/filter (unsaved rows in a list or search)."""
+    logging.info("Ensuring Net New view is selected...")
+    selectors = [
+        (By.XPATH, "//div[@role='radiogroup']//label[.//div[normalize-space(text())='Net New']]"),
+        (By.XPATH, "//div[@role='tablist']//*[@role='tab' and contains(normalize-space(.), 'Net New')]"),
+        (By.XPATH, "//*[@role='tab' and contains(normalize-space(.), 'Net New')]"),
+        (By.XPATH, "//label[.//div[normalize-space(text())='Net New']]"),
+        (By.XPATH, "//button[contains(normalize-space(.), 'Net New')]"),
+    ]
+
+    for by, selector in selectors:
+        for element in driver.find_elements(by, selector):
             try:
-                save_button.click()
+                if not element.is_displayed():
+                    continue
+                driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", element)
+                time.sleep(CLICK_WAIT)
+                try:
+                    element.click()
+                except Exception:
+                    driver.execute_script("arguments[0].click();", element)
+                time.sleep(PAGE_LOAD_WAIT)
+                logging.info("Net New view selected")
+                return True
             except Exception:
-                driver.execute_script("arguments[0].click();", save_button)
-            
-            time.sleep(CLICK_WAIT)
-            logging.info(f"Clicked Save button for record {index}")
-        except Exception as e:
-            logging.warning(f"Could not click Save button for record {index}: {e}")
+                continue
+
+    logging.warning("Could not click Net New tab/filter; continuing with current view.")
+    return False
+
+
+def extract_tag_values(record, driver, colindex=None):
+    """Extract tag chips from industry/keywords columns, expanding +N popups when present."""
+    visible_tags = []
+    try:
+        if colindex is not None:
+            base_xpath = f".//div[@role='gridcell' and @aria-colindex='{colindex}']"
+        else:
+            base_xpath = "."
+
+        tag_elements = record.find_elements(
+            By.XPATH, f"{base_xpath}//span[contains(@class, 'zp_z4aAi')]"
+        )
+        for element in tag_elements:
+            try:
+                tag_text = element.text.strip()
+                if tag_text and not tag_text.startswith('+'):
+                    visible_tags.append(tag_text)
+            except StaleElementReferenceException:
+                continue
+
+        more_button = record.find_elements(
+            By.XPATH,
+            f"{base_xpath}//span[contains(@class, 'zp_z4aAi') and starts-with(text(), '+')]",
+        )
+        if more_button:
+            try:
+                driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", more_button[0])
+                time.sleep(CLICK_WAIT)
+                driver.execute_script("arguments[0].click();", more_button[0])
+                time.sleep(1)
+                popup_tags = WebDriverWait(driver, 5).until(
+                    EC.presence_of_all_elements_located(
+                        (By.XPATH, "//div[contains(@class, 'zp_RF8MX')]//span[contains(@class, 'zp_z4aAi')]")
+                    )
+                )
+                for tag in popup_tags:
+                    tag_text = tag.text.strip()
+                    if tag_text and tag_text not in visible_tags and not tag_text.startswith('+'):
+                        visible_tags.append(tag_text)
+                driver.execute_script("document.elementFromPoint(0, 0).click();")
+                time.sleep(CLICK_WAIT)
+            except Exception as e:
+                logging.debug(f"Could not expand tag popup: {e}")
+    except Exception as e:
+        logging.debug(f"Error extracting tags: {e}")
+
+    return visible_tags
+
+
+def process_record(driver, record, index, output_file, current_page, total_records, page_records, missing_counts=None):
+    """Process a single record with proper error handling."""
+    def mark_missing(field_name):
+        if missing_counts is not None:
+            missing_counts[field_name] = missing_counts.get(field_name, 0) + 1
+
+    try:
+        save_clicked = False
+        skip_save = os.getenv("SKIP_SAVE", "").lower() in ("1", "true", "yes")
+        save_button_selectors = [] if skip_save else [
+            ".//button[.//span[normalize-space(text())='Save']]",
+            ".//button[.//span[contains(text(), 'Save')]]",
+            ".//button[contains(normalize-space(.), 'Save')]",
+        ]
+        for selector in save_button_selectors:
+            try:
+                save_button = record.find_element(By.XPATH, selector)
+                driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", save_button)
+                time.sleep(CLICK_WAIT)
+                try:
+                    save_button.click()
+                except Exception:
+                    driver.execute_script("arguments[0].click();", save_button)
+                time.sleep(CLICK_WAIT)
+                save_clicked = True
+                logging.info(f"Clicked Save for record {index}")
+                break
+            except NoSuchElementException:
+                continue
+        if not save_clicked:
+            logging.debug(f"No Save button for record {index} (may already be saved)")
 
         # Extract data with proper error handling
         data = {
@@ -324,97 +498,74 @@ def process_record(driver, record, index, output_file, current_page, total_recor
             'keywords': "N/A"
         }
 
-        # Company name
+        # Company name (col 1)
         try:
             data['company'] = record.find_element(
-                By.XPATH, ".//a[@data-link-variant='default']/span"
+                By.XPATH,
+                ".//div[@role='gridcell' and @aria-colindex='1']//a[@data-link-variant='default']/span",
             ).text.strip()
         except NoSuchElementException:
-            logging.warning(f"Company name not found for record {index}")
+            try:
+                data['company'] = record.find_element(
+                    By.XPATH,
+                    ".//div[@role='gridcell' and @aria-colindex='1']//span[contains(@class, 'zp_CaeaN')]",
+                ).text.strip()
+            except NoSuchElementException:
+                mark_missing("Company")
+                logging.debug(f"Company name not found for record {index}")
 
         # LinkedIn URL
         try:
-            links_element = record.find_element(By.XPATH, ".//a[contains(@href, 'linkedin')]")
+            links_element = record.find_element(By.XPATH, ".//a[contains(@href, 'linkedin.com/company')]")
             data['links'] = links_element.get_attribute("href")
         except NoSuchElementException:
-            logging.warning(f"LinkedIn URL not found for record {index}")
+            try:
+                links_element = record.find_element(By.XPATH, ".//a[contains(@href, 'linkedin')]")
+                data['links'] = links_element.get_attribute("href")
+            except NoSuchElementException:
+                mark_missing("LinkedIn URL")
+                logging.debug(f"LinkedIn URL not found for record {index}")
 
-        # Location
+        # Location (col 7)
         try:
             data['location'] = record.find_element(
-                By.XPATH, ".//span[contains(@class, 'zp_xvo3G') and contains(text(), ',')]"
+                By.XPATH,
+                ".//div[@role='gridcell' and @aria-colindex='7']//span[contains(@class, 'zp_FEm_X')]",
             ).text.strip()
         except NoSuchElementException:
-            logging.warning(f"Location not found for record {index}")
+            mark_missing("Location")
+            logging.debug(f"Location not found for record {index}")
 
-        # Employee count
+        # Employee count (col 4)
         try:
             data['employees'] = record.find_element(
-                By.XPATH, ".//span[contains(@data-count-size, 'small')]"
-            ).text.strip()
-        except NoSuchElementException:
-            logging.warning(f"Employee count not found for record {index}")
-
-        # Industry with popup handling
-        try:
-            industry_elements = record.find_elements(By.XPATH, ".//span[contains(@class, 'zp_CEZf9')]")
-            visible_industries = []
-            
-            for element in industry_elements:
-                try:
-                    industry_text = element.text.strip()
-                    if industry_text and not industry_text.startswith('+'):
-                        visible_industries.append(industry_text)
-                except StaleElementReferenceException:
-                    continue
-
-            # Handle "+X" button for additional industries
-            more_industries_button = record.find_elements(
                 By.XPATH,
-                ".//button[contains(@class, 'zp_qe0Li')]//span[contains(@class, 'zp_CEZf9') and starts-with(text(), '+')]"
-            )
-            
-            if more_industries_button:
-                try:
-                    driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", more_industries_button[0])
-                    time.sleep(CLICK_WAIT)
-                    driver.execute_script("arguments[0].click();", more_industries_button[0])
-                    time.sleep(1)
-                    
-                    wait = WebDriverWait(driver, 5)
-                    popup_industries = wait.until(
-                        EC.presence_of_all_elements_located(
-                            (By.XPATH, "//div[contains(@class, 'zp_RF8MX')]//button//span[@class='zp_CEZf9']")
-                        )
-                    )
-                    
-                    for industry in popup_industries:
-                        try:
-                            industry_text = industry.text.strip()
-                            if industry_text and industry_text not in visible_industries and not industry_text.startswith('+'):
-                                visible_industries.append(industry_text)
-                        except StaleElementReferenceException:
-                            continue
-                    
-                    # Click elsewhere to close popup
-                    driver.execute_script("document.elementFromPoint(0, 0).click();")
-                    time.sleep(CLICK_WAIT)
-                    
-                except Exception as e:
-                    logging.warning(f"Error getting additional industries: {e}")
-            
-            data['industry'] = '; '.join(visible_industries) if visible_industries else "N/A"
-            
-        except Exception as e:
-            logging.warning(f"Error processing industries for record {index}: {e}")
-
-        # Keywords
-        try:
-            data['keywords'] = record.find_element(
-                By.XPATH, ".//div[contains(@class, 'zp_ofXB9')]//span[contains(@class, 'zp_CEZf9')]"
+                ".//div[@role='gridcell' and @aria-colindex='4']//span[@data-count-size]",
             ).text.strip()
         except NoSuchElementException:
-            logging.warning(f"Keywords not found for record {index}")
+            try:
+                data['employees'] = record.find_element(
+                    By.XPATH, ".//span[@data-count-size]"
+                ).text.strip()
+            except NoSuchElementException:
+                mark_missing("Employee count")
+                logging.debug(f"Employee count not found for record {index}")
+
+        # Industry (col 5)
+        industry_tags = extract_tag_values(record, driver, colindex="5")
+        if industry_tags:
+            data['industry'] = '; '.join(industry_tags)
+        else:
+            mark_missing("Industry")
+            logging.debug(f"Industry not found for record {index}")
+
+        # Keywords (col 6)
+        keyword_tags = extract_tag_values(record, driver, colindex="6")
+        if keyword_tags:
+            data['keywords'] = '; '.join(keyword_tags)
+        else:
+            mark_missing("Keywords")
+            logging.debug(f"Keywords not found for record {index}")
 
         # Write data to CSV file with proper error handling
         try:
@@ -442,11 +593,16 @@ def navigate_to_next_page(driver, current_page):
     """Navigate to the next page with proper error handling."""
     try:
         wait = WebDriverWait(driver, DEFAULT_TIMEOUT)
+        old_progress = get_progress_text(driver)
         
         # Find and click the Next button
         next_button = wait.until(
             EC.element_to_be_clickable(
-                (By.XPATH, "//button[@aria-label='Next' and contains(@class, 'zp_qe0Li')]")
+                (
+                    By.XPATH,
+                    "//*[@data-interaction-boundary='Table Pagination']"
+                    "//button[@aria-label='Next' and not(@disabled) and not(@aria-disabled='true')]",
+                )
             )
         )
         
@@ -460,21 +616,25 @@ def navigate_to_next_page(driver, current_page):
         except Exception:
             driver.execute_script("arguments[0].click();", next_button)
         
-        # Wait for the page to load with random delay
-        time.sleep(random.uniform(10, 15))
+        # Wait for Apollo to update the current page or pagination scope.
+        expected_page = current_page + 1
+        wait.until(
+            lambda d: (
+                get_current_page_number(d) == expected_page
+                or get_progress_text(d) != old_progress
+            )
+        )
+        time.sleep(random.uniform(2, 4))
         
         # Verify page changed
         try:
-            current_page_element = wait.until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, "span.zp_jzp8p"))
-            )
-            new_page = current_page_element.text.strip()
+            new_page = get_current_page_number(driver)
             
-            if str(current_page + 1) == new_page:
+            if new_page == expected_page:
                 logging.info(f"Successfully navigated to page {new_page}")
-                return True, int(new_page)
+                return True, new_page
             else:
-                logging.error(f"Navigation failed - Expected page {current_page + 1}, but found page {new_page}")
+                logging.error(f"Navigation failed - Expected page {expected_page}, but found page {new_page}")
                 return False, current_page
                 
         except TimeoutException:
@@ -490,20 +650,50 @@ def main():
     display = None
     temp_dir = None
     try:
-        # Get start and end page from environment variables with validation
+        # Get start page from environment variables with validation
         try:
             start_page = int(os.getenv('START_PAGE', '1'))
-            end_page = int(os.getenv('END_PAGE', '100'))
-            if start_page < 1 or end_page < start_page:
-                raise ValueError("Invalid page range")
+            if start_page < 1:
+                raise ValueError("START_PAGE must be >= 1")
         except ValueError as e:
             logging.error(f"Invalid page numbers: {e}")
             return
-        
-        logging.info(f"Starting extraction from page {start_page} to page {end_page}")
+
+        # Optional explicit end page (if omitted, we auto-detect final page)
+        end_page_env = os.getenv('END_PAGE')
+        explicit_end_page = None
+        if end_page_env:
+            try:
+                explicit_end_page = int(end_page_env)
+                if explicit_end_page < start_page:
+                    raise ValueError("END_PAGE must be >= START_PAGE")
+            except ValueError as e:
+                logging.error(f"Invalid END_PAGE: {e}")
+                return
+
+        # Randomized anti-rate-limit break controls.
+        try:
+            break_every_min_pages = int(os.getenv("BREAK_EVERY_MIN_PAGES", "3"))
+            break_every_max_pages = int(os.getenv("BREAK_EVERY_MAX_PAGES", "8"))
+            break_min_seconds = int(os.getenv("BREAK_MIN_SECONDS", "20"))
+            break_max_seconds = int(os.getenv("BREAK_MAX_SECONDS", "60"))
+            if break_every_min_pages < 1 or break_every_max_pages < break_every_min_pages:
+                raise ValueError("Invalid BREAK_EVERY_* values")
+            if break_min_seconds < 1 or break_max_seconds < break_min_seconds:
+                raise ValueError("Invalid BREAK_*_SECONDS values")
+        except ValueError as e:
+            logging.error(f"Invalid break configuration: {e}")
+            return
+
+        collect_html_only = os.getenv("COLLECT_HTML_ONLY", "").lower() in ("1", "true", "yes")
+
+        logging.info(f"Starting extraction from page {start_page}")
+        if collect_html_only:
+            logging.info("COLLECT_HTML_ONLY mode: saving page HTML only (no Save clicks, reparse later).")
+        logging.info("Tip: run 'python3 check_progress.py --pipeline companies' to see resume guidance.")
         
         display = setup_virtual_display()
-        driver, temp_dir = create_driver(profile_name="apollo_companies")
+        driver = create_driver(profile_name="apollo_companies")
         
         # Add random delay before starting
         time.sleep(random.uniform(1, 3))
@@ -512,44 +702,72 @@ def main():
         load_cookies(driver)
         
         # Navigate directly to filtered URL for companies
-        filtered_url = f"https://app.apollo.io/#/companies?organizationNumEmployeesRanges[]=101%2C200&organizationNumEmployeesRanges[]=201%2C500&organizationNumEmployeesRanges[]=10001&organizationNumEmployeesRanges[]=5001%2C10000&organizationNumEmployeesRanges[]=2001%2C5000&organizationNumEmployeesRanges[]=501%2C1000&organizationNumEmployeesRanges[]=1001%2C2000&organizationNumEmployeesRanges[]=51%2C100&organizationLocations[]=United%20States&organizationTradingStatus[]=public&prospectedByCurrentTeam[]=no&sortAscending=false&sortByField=sanitized_organization_name_unanalyzed&page={start_page}"
-        logging.info("Navigating to filtered Companies page...")
+        filtered_url = build_companies_url(start_page)
+        logging.info("Navigating to Companies page...")
         driver.get(filtered_url)
         time.sleep(10)  # Wait for page load
         
-        # Click Net New button if not already selected
-        try:
-            net_new_button = WebDriverWait(driver, 10).until(
-                EC.presence_of_element_located((By.XPATH, "//label[@for='m5sbretq']"))
+        skip_net_new = os.getenv("SKIP_NET_NEW", "").lower() in ("1", "true", "yes")
+        if skip_net_new:
+            logging.info("SKIP_NET_NEW set: extracting full result set (not just Net New).")
+        elif os.getenv("APOLLO_LIST_URL") or os.getenv("FORCE_NET_NEW", "").lower() in ("1", "true", "yes"):
+            click_net_new_button(driver)
+        else:
+            try:
+                net_new_button = WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.XPATH, "//label[@for='m5sbretq']"))
+                )
+                if "zp_Tt1XI" not in (net_new_button.get_attribute("class") or ""):
+                    logging.info("Clicking Net New button...")
+                    driver.execute_script("arguments[0].click();", net_new_button)
+                    time.sleep(5)
+            except Exception as e:
+                logging.error(f"Error clicking Net New button: {e}")
+
+        # Determine total pages from pagination scope.
+        progress_text = get_progress_text(driver)
+        progress_stats = parse_progress_stats(progress_text)
+        if not progress_stats:
+            logging.error(
+                f"Could not parse pagination progress text: '{progress_text}'. "
+                "Set END_PAGE manually and retry."
             )
-            if not "zp_Tt1XI" in net_new_button.get_attribute("class"):
-                logging.info("Clicking Net New button...")
-                driver.execute_script("arguments[0].click();", net_new_button)
-                time.sleep(5)
-        except Exception as e:
-            logging.error(f"Error clicking Net New button: {e}")
+            return
+
+        detected_end_page = progress_stats["total_pages"]
+        end_page = min(explicit_end_page, detected_end_page) if explicit_end_page else detected_end_page
+        if start_page > end_page:
+            logging.info(
+                f"START_PAGE={start_page} is beyond detected pages ({end_page}); nothing to process."
+            )
+            return
+
+        logging.info(
+            f"Detected total rows: {progress_stats['total_rows']}, page size: {progress_stats['page_size']}, "
+            f"total pages: {detected_end_page}. Processing through page {end_page}."
+        )
 
         # Update output file path with error handling
-        output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "companies")
+        output_dir = os.getenv("OUTPUT_DIR")
+        if output_dir:
+            output_dir = output_dir if os.path.isabs(output_dir) else os.path.join(script_dir, output_dir)
+        else:
+            output_dir = os.path.join(script_dir, "companies")
         try:
             os.makedirs(output_dir, exist_ok=True)
         except OSError as e:
             logging.error(f"Failed to create output directory: {e}")
             raise
             
-        output_file = os.path.join(output_dir, 'apollo_records_companies_2.csv')
+        output_stem = os.getenv("OUTPUT_STEM", "apollo_records_companies")
+        output_file = get_next_run_output_file(output_dir, output_stem)
         logging.info(f"Output file will be saved to: {output_file}")
 
-        # Test file write access
         try:
-            file_exists = os.path.isfile(output_file)
-            with open(output_file, mode='a', newline='', encoding='utf-8') as file:
+            with open(output_file, mode='w', newline='', encoding='utf-8') as file:
                 writer = csv.writer(file)
-                if not file_exists:
-                    writer.writerow(["Company", "LinkedIn URL", "Location", "# Employees", "Industry", "Keywords"])
-                    logging.info("Created new CSV file with headers")
-                else:
-                    logging.info("Existing CSV file found, will append data")
+                writer.writerow(["Company", "LinkedIn URL", "Location", "# Employees", "Industry", "Keywords"])
+            logging.info(f"Created new CSV file with headers (run {os.path.basename(output_file)})")
         except Exception as e:
             logging.error(f"Failed to access output file: {e}")
             raise
@@ -559,15 +777,18 @@ def main():
         total_records = 0
         consecutive_errors = 0
         MAX_CONSECUTIVE_ERRORS = 3
+        next_break_page = current_page + random.randint(break_every_min_pages, break_every_max_pages)
         
         while current_page <= end_page:
             try:
                 # Get the progress counter text
                 try:
-                    progress_element = WebDriverWait(driver, 10).until(
-                        EC.presence_of_element_located((By.CSS_SELECTOR, "div.zp_xAPpZ"))
+                    WebDriverWait(driver, 10).until(
+                        EC.presence_of_element_located(
+                            (By.CSS_SELECTOR, "[data-interaction-boundary='Table Pagination']")
+                        )
                     )
-                    progress_text = progress_element.text  # e.g., "1226 - 1250 of 7,747"
+                    progress_text = get_progress_text(driver)
                     logging.info(f"Progress: {progress_text}")
                 except Exception as e:
                     progress_text = "Progress counter not found"
@@ -581,9 +802,40 @@ def main():
                 
                 # Save the HTML for this page
                 save_page_html(driver, current_page)
-                
+
+                # Fast path: collect raw HTML only, skip per-record extraction.
+                # All visible fields are recoverable later via the reparser.
+                if collect_html_only:
+                    logging.info(
+                        f"COLLECT_HTML_ONLY: saved page {current_page}/{end_page}; advancing."
+                    )
+                    consecutive_errors = 0
+                    if current_page < end_page:
+                        time.sleep(random.uniform(1.5, 3.5))
+                        success, new_page = navigate_to_next_page(driver, current_page)
+                        if success:
+                            current_page = new_page
+                            continue
+                        consecutive_errors += 1
+                        if consecutive_errors >= MAX_CONSECUTIVE_ERRORS:
+                            logging.error("Too many consecutive errors. Stopping execution.")
+                            break
+                        driver.refresh()
+                        time.sleep(PAGE_LOAD_WAIT)
+                        continue
+                    else:
+                        break
+
                 # Initialize counter for this page
                 page_records = 0
+                missing_counts = {
+                    "Company": 0,
+                    "LinkedIn URL": 0,
+                    "Location": 0,
+                    "Employee count": 0,
+                    "Industry": 0,
+                    "Keywords": 0,
+                }
                 
                 # Wait until all rows on the page are present
                 try:
@@ -606,7 +858,16 @@ def main():
                             record = driver.find_element(By.XPATH, record_xpath)
                             
                             # Process the record
-                            if process_record(driver, record, index, output_file, current_page, total_records, page_records):
+                            if process_record(
+                                driver,
+                                record,
+                                index,
+                                output_file,
+                                current_page,
+                                total_records,
+                                page_records,
+                                missing_counts,
+                            ):
                                 total_records += 1
                                 page_records += 1
                                 consecutive_errors = 0  # Reset error counter on success
@@ -626,8 +887,35 @@ def main():
                             continue
 
                     # Report progress for this page
-                    logging.info(f"Page {current_page} complete - Collected {page_records} companies (Total: {total_records})")
-                    print(f"Page {current_page} complete - Collected {page_records} companies (Total: {total_records})")
+                    missing_summary = ", ".join(
+                        f"{field}: {count}" for field, count in missing_counts.items() if count
+                    )
+                    if missing_summary:
+                        logging.info(f"Missing fields on page {current_page}: {missing_summary}")
+                        print(f"Missing fields on page {current_page}: {missing_summary}")
+                    else:
+                        logging.info(f"Missing fields on page {current_page}: none")
+                        print(f"Missing fields on page {current_page}: none")
+
+                    logging.info(
+                        f"Page {current_page} complete - {progress_text} - "
+                        f"Collected {page_records} companies (Total: {total_records})"
+                    )
+                    print(
+                        f"Page {current_page} complete - {progress_text} - "
+                        f"Collected {page_records} companies (Total: {total_records})"
+                    )
+
+                    if current_page >= next_break_page and current_page < end_page:
+                        break_seconds = random.randint(break_min_seconds, break_max_seconds)
+                        logging.info(
+                            f"Taking random cooldown break for {break_seconds}s "
+                            f"after page {current_page}."
+                        )
+                        time.sleep(break_seconds)
+                        next_break_page = current_page + random.randint(
+                            break_every_min_pages, break_every_max_pages
+                        )
 
                     # Navigate to next page if not on last page
                     if current_page < end_page:
@@ -662,7 +950,7 @@ def main():
                     break
                 continue
 
-        logging.info(f"Total pages processed: {current_page - 1}")
+        logging.info(f"Total pages processed up to: {current_page}")
         logging.info(f"Total records collected: {total_records}")
 
     except Exception as e:
@@ -672,7 +960,7 @@ def main():
             save_page_html(driver, "error")
     finally:
         if driver:
-            cleanup_driver(driver, temp_dir)
+            cleanup_driver(driver)
             logging.info("Driver closed")
         if display:
             display.stop()

@@ -1,0 +1,8 @@
+{
+  "MajorCompanies": {
+    "description": "US public companies (51+ employees) — Net New via prospectedByCurrentTeam[]=no. Save + extract unsaved rows.",
+    "url": "https://app.apollo.io/#/companies?sortAscending=false&sortByField=%5Bnone%5D&page=1&organizationLocations[]=United%20States&organizationNumEmployeesRanges[]=101%2C200&organizationNumEmployeesRanges[]=201%2C500&organizationNumEmployeesRanges[]=10001&organizationNumEmployeesRanges[]=5001%2C10000&organizationNumEmployeesRanges[]=2001%2C5000&organizationNumEmployeesRanges[]=501%2C1000&organizationNumEmployeesRanges[]=1001%2C2000&organizationNumEmployeesRanges[]=51%2C100&organizationTradingStatus[]=public&prospectedByCurrentTeam[]=no",
+    "output_stem": "apollo_records_majorcompanies_net_new",
+    "output_dir": "companies/lists/MajorCompanies"
+  }
+}

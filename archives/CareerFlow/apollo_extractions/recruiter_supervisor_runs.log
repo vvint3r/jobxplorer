@@ -1,0 +1,2427 @@
+
+===== attempt 1 START_PAGE=19 @ 2026-06-02 00:53:44.298169 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 00:53:44 - INFO - Starting recruiter extraction from page 19
+2026-06-02 00:53:44 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 00:53:44 - INFO - Virtual display started
+2026-06-02 00:53:44 - INFO - Browser headless=True
+2026-06-02 00:53:44 - INFO - Using existing DISPLAY=:3
+2026-06-02 00:53:44 - INFO - Detected Chrome version: 141
+2026-06-02 00:53:45 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 00:53:47 - INFO - Created Chrome driver on port 9950 with profile dir /tmp/apollo_recruiters_9950
+2026-06-02 00:53:49 - INFO - Cookie file read successfully
+2026-06-02 00:53:49 - INFO - Successfully parsed 47 cookies
+2026-06-02 00:53:49 - INFO - Successfully loaded 47 cookies
+2026-06-02 00:54:06 - INFO - Cookies applied successfully
+2026-06-02 00:54:12 - INFO - Using saved-list URL mode (page=19)
+2026-06-02 00:54:12 - INFO - Navigating to filtered People page...
+2026-06-02 00:54:23 - INFO - Ensuring Net New view is selected...
+2026-06-02 00:54:28 - INFO - Net New view selected
+2026-06-02 00:54:29 - INFO - Detected total rows: 463, page size: 13, total pages: 36. Processing through page 36.
+2026-06-02 00:54:29 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersTargetOrgs/apollo_recruiter_records_technical_target_orgs_net_new_1.csv
+2026-06-02 00:54:29 - INFO - Resuming into existing CSV (apollo_recruiter_records_technical_target_orgs_net_new_1.csv)
+2026-06-02 00:54:29 - INFO - Processing page 19 of 36 (451 - 463 of 463)
+
+==================================================
+Processing page 19 of 36
+Progress: 451 - 463 of 463
+==================================================
+
+2026-06-02 00:54:29 - INFO - Saved HTML for page 19 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_19_20260602_005429.html
+2026-06-02 00:54:29 - INFO - Saved screenshot for page 19 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_19_20260602_005429.png
+2026-06-02 00:54:29 - INFO - Found 13 records on page 19
+2026-06-02 00:54:31 - INFO - Email via API for row 1: cristal.gonzalez@doordash.com
+2026-06-02 00:54:45 - INFO - Collected record 1: Cristal Gonzalez | Technical Sourcer | DoorDash | cristal.gonzalez@doordash.com
+2026-06-02 00:54:48 - INFO - Email via API for row 2: asamuel@meta.com
+2026-06-02 00:55:02 - INFO - Collected record 2: Samuel Albino | Technical Sourcer | Meta | asamuel@meta.com
+2026-06-02 00:55:04 - WARNING - Prospect API returned no email for person 5ab60305a6da98b68196bebe
+2026-06-02 00:55:34 - INFO - Ensuring Net New view is selected...
+2026-06-02 00:55:40 - INFO - Net New view selected
+2026-06-02 00:55:40 - ERROR - Error processing record 2: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-06-02 00:55:42 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47207): Failed to establish a new connection: [Errno 111] Connection refused")': /session/e4fcce1567b050e7973281e996a5ff8c/element
+2026-06-02 00:55:42 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47207): Failed to establish a new connection: [Errno 111] Connection refused")': /session/e4fcce1567b050e7973281e996a5ff8c/element
+2026-06-02 00:55:42 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47207): Failed to establish a new connection: [Errno 111] Connection refused")': /session/e4fcce1567b050e7973281e996a5ff8c/element
+2026-06-02 00:55:42 - ERROR - Unexpected error on page 19: HTTPConnectionPool(host='localhost', port=47207): Max retries exceeded with url: /session/e4fcce1567b050e7973281e996a5ff8c/element (Caused by NewConnectionError("HTTPConnection(host='localhost', port=47207): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-06-02 00:55:42 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47207): Failed to establish a new connection: [Errno 111] Connection refused")': /session/e4fcce1567b050e7973281e996a5ff8c/element
+2026-06-02 00:55:42 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47207): Failed to establish a new connection: [Errno 111] Connection refused")': /session/e4fcce1567b050e7973281e996a5ff8c/element
+2026-06-02 00:55:42 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47207): Failed to establish a new connection: [Errno 111] Connection refused")': /session/e4fcce1567b050e7973281e996a5ff8c/element
+2026-06-02 00:55:42 - INFO - Processing page 19 of 36 (Progress counter not found)
+
+==================================================
+Processing page 19 of 36
+Progress: Progress counter not found
+==================================================
+
+2026-06-02 00:55:42 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47207): Failed to establish a new connection: [Errno 111] Connection refused")': /session/e4fcce1567b050e7973281e996a5ff8c/source
+2026-06-02 00:55:42 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47207): Failed to establish a new connection: [Errno 111] Connection refused")': /session/e4fcce1567b050e7973281e996a5ff8c/source
+2026-06-02 00:55:42 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47207): Failed to establish a new connection: [Errno 111] Connection refused")': /session/e4fcce1567b050e7973281e996a5ff8c/source
+2026-06-02 00:55:42 - ERROR - Error saving page HTML: HTTPConnectionPool(host='localhost', port=47207): Max retries exceeded with url: /session/e4fcce1567b050e7973281e996a5ff8c/source (Caused by NewConnectionError("HTTPConnection(host='localhost', port=47207): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-06-02 00:55:42 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47207): Failed to establish a new connection: [Errno 111] Connection refused")': /session/e4fcce1567b050e7973281e996a5ff8c/screenshot
+2026-06-02 00:55:42 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47207): Failed to establish a new connection: [Errno 111] Connection refused")': /session/e4fcce1567b050e7973281e996a5ff8c/screenshot
+2026-06-02 00:55:42 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47207): Failed to establish a new connection: [Errno 111] Connection refused")': /session/e4fcce1567b050e7973281e996a5ff8c/screenshot
+2026-06-02 00:55:42 - ERROR - Error saving screenshot: HTTPConnectionPool(host='localhost', port=47207): Max retries exceeded with url: /session/e4fcce1567b050e7973281e996a5ff8c/screenshot (Caused by NewConnectionError("HTTPConnection(host='localhost', port=47207): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-06-02 00:55:42 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47207): Failed to establish a new connection: [Errno 111] Connection refused")': /session/e4fcce1567b050e7973281e996a5ff8c/elements
+2026-06-02 00:55:42 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47207): Failed to establish a new connection: [Errno 111] Connection refused")': /session/e4fcce1567b050e7973281e996a5ff8c/elements
+2026-06-02 00:55:42 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=47207): Failed to establish a new connection: [Errno 111] Connection refused")': /session/e4fcce1567b050e7973281e996a5ff8c/elements
+2026-06-02 00:55:42 - ERROR - Unexpected error on page 19: HTTPConnectionPool(host='localhost', port=47207): Max retries exceeded with url: /session/e4fcce1567b050e7973281e996a5ff8c/elements (Caused by NewConnectionError("HTTPConnection(host='localhost', port=47207): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-06-02 00:55:42 - INFO - Total pages processed up to: 19
+2026-06-02 00:55:42 - INFO - Total records collected: 2
+2026-06-02 00:55:42 - INFO - Driver closed successfully
+2026-06-02 00:55:42 - INFO - Driver closed
+2026-06-02 00:55:42 - INFO - Virtual display stopped
+
+===== attempt 2 START_PAGE=19 @ 2026-06-02 00:55:51.067169 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 00:55:51 - INFO - Starting recruiter extraction from page 19
+2026-06-02 00:55:51 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 00:55:51 - INFO - Virtual display started
+2026-06-02 00:55:51 - INFO - Browser headless=True
+2026-06-02 00:55:51 - INFO - Using existing DISPLAY=:3
+2026-06-02 00:55:51 - INFO - Detected Chrome version: 141
+2026-06-02 00:55:52 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 00:55:54 - INFO - Created Chrome driver on port 9980 with profile dir /tmp/apollo_recruiters_9980
+2026-06-02 00:55:56 - INFO - Cookie file read successfully
+2026-06-02 00:55:56 - INFO - Successfully parsed 47 cookies
+2026-06-02 00:55:56 - INFO - Successfully loaded 47 cookies
+2026-06-02 00:56:14 - INFO - Cookies applied successfully
+2026-06-02 00:56:20 - INFO - Using saved-list URL mode (page=19)
+2026-06-02 00:56:20 - INFO - Navigating to filtered People page...
+2026-06-02 00:56:31 - INFO - Ensuring Net New view is selected...
+2026-06-02 00:56:37 - INFO - Net New view selected
+2026-06-02 00:56:37 - INFO - Detected total rows: 460, page size: 10, total pages: 46. Processing through page 46.
+2026-06-02 00:56:37 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersTargetOrgs/apollo_recruiter_records_technical_target_orgs_net_new_1.csv
+2026-06-02 00:56:37 - INFO - Resuming into existing CSV (apollo_recruiter_records_technical_target_orgs_net_new_1.csv)
+2026-06-02 00:56:37 - INFO - Processing page 19 of 46 (451 - 460 of 460)
+
+==================================================
+Processing page 19 of 46
+Progress: 451 - 460 of 460
+==================================================
+
+2026-06-02 00:56:37 - INFO - Saved HTML for page 19 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_19_20260602_005637.html
+2026-06-02 00:56:38 - INFO - Saved screenshot for page 19 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_19_20260602_005637.png
+2026-06-02 00:56:38 - INFO - Found 10 records on page 19
+2026-06-02 00:56:39 - WARNING - Prospect API returned no email for person 5d5b473bf65125d3f814fae0
+2026-06-02 00:57:04 - INFO - Ensuring Net New view is selected...
+2026-06-02 00:57:10 - INFO - Net New view selected
+2026-06-02 00:57:10 - ERROR - Error processing record 0: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5a3db3aa9fea <unknown>
+#1 0x5a3db3527d06 <unknown>
+#2 0x5a3db352e9af <unknown>
+#3 0x5a3db3531148 <unknown>
+#4 0x5a3db35311d3 <unknown>
+#5 0x5a3db357994f <unknown>
+#6 0x5a3db357a101 <unknown>
+#7 0x5a3db356dbf6 <unknown>
+#8 0x5a3db359fe3d <unknown>
+#9 0x5a3db356dae7 <unknown>
+#10 0x5a3db359ffde <unknown>
+#11 0x5a3db35c5b3b <unknown>
+#12 0x5a3db359fbe3 <unknown>
+#13 0x5a3db356c2d2 <unknown>
+#14 0x5a3db356cf91 <unknown>
+#15 0x5a3db3a6d9e8 <unknown>
+#16 0x5a3db3a7184f <unknown>
+#17 0x5a3db3a54ec9 <unknown>
+#18 0x5a3db3a723f5 <unknown>
+#19 0x5a3db3a3a74f <unknown>
+#20 0x5a3db3a96cc8 <unknown>
+#21 0x5a3db3a96ea3 <unknown>
+#22 0x5a3db3aa8f83 <unknown>
+#23 0x7f7daba9caa4 <unknown>
+#24 0x7f7dabb29c6c <unknown>
+
+2026-06-02 00:57:12 - WARNING - Prospect API returned no email for person 688a7b95a84a290001edae8d
+2026-06-02 00:57:34 - INFO - Ensuring Net New view is selected...
+2026-06-02 00:57:40 - INFO - Net New view selected
+2026-06-02 00:57:40 - ERROR - Error processing record 1: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5a3db3aa9fea <unknown>
+#1 0x5a3db3527d06 <unknown>
+#2 0x5a3db352e9af <unknown>
+#3 0x5a3db3531148 <unknown>
+#4 0x5a3db35311d3 <unknown>
+#5 0x5a3db357994f <unknown>
+#6 0x5a3db357a101 <unknown>
+#7 0x5a3db356dbf6 <unknown>
+#8 0x5a3db359fe3d <unknown>
+#9 0x5a3db356dae7 <unknown>
+#10 0x5a3db359ffde <unknown>
+#11 0x5a3db35c5b3b <unknown>
+#12 0x5a3db359fbe3 <unknown>
+#13 0x5a3db356c2d2 <unknown>
+#14 0x5a3db356cf91 <unknown>
+#15 0x5a3db3a6d9e8 <unknown>
+#16 0x5a3db3a7184f <unknown>
+#17 0x5a3db3a54ec9 <unknown>
+#18 0x5a3db3a723f5 <unknown>
+#19 0x5a3db3a3a74f <unknown>
+#20 0x5a3db3a96cc8 <unknown>
+#21 0x5a3db3a96ea3 <unknown>
+#22 0x5a3db3aa8f83 <unknown>
+#23 0x7f7daba9caa4 <unknown>
+#24 0x7f7dabb29c6c <unknown>
+
+2026-06-02 00:57:42 - WARNING - Prospect API returned no email for person 5ddcaab5357341000167eb75
+2026-06-02 00:58:00 - INFO - Ensuring Net New view is selected...
+2026-06-02 00:58:05 - INFO - Net New view selected
+2026-06-02 00:58:05 - ERROR - Error processing record 2: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5a3db3aa9fea <unknown>
+#1 0x5a3db3527d06 <unknown>
+#2 0x5a3db352e9af <unknown>
+#3 0x5a3db3531148 <unknown>
+#4 0x5a3db35311d3 <unknown>
+#5 0x5a3db357994f <unknown>
+#6 0x5a3db357a101 <unknown>
+#7 0x5a3db356dbf6 <unknown>
+#8 0x5a3db359fe3d <unknown>
+#9 0x5a3db356dae7 <unknown>
+#10 0x5a3db359ffde <unknown>
+#11 0x5a3db35c5b3b <unknown>
+#12 0x5a3db359fbe3 <unknown>
+#13 0x5a3db356c2d2 <unknown>
+#14 0x5a3db356cf91 <unknown>
+#15 0x5a3db3a6d9e8 <unknown>
+#16 0x5a3db3a7184f <unknown>
+#17 0x5a3db3a54ec9 <unknown>
+#18 0x5a3db3a723f5 <unknown>
+#19 0x5a3db3a3a74f <unknown>
+#20 0x5a3db3a96cc8 <unknown>
+#21 0x5a3db3a96ea3 <unknown>
+#22 0x5a3db3aa8f83 <unknown>
+#23 0x7f7daba9caa4 <unknown>
+#24 0x7f7dabb29c6c <unknown>
+
+2026-06-02 00:58:05 - ERROR - Too many consecutive errors. Stopping execution.
+2026-06-02 00:58:06 - INFO - Driver closed successfully
+2026-06-02 00:58:06 - INFO - Driver closed
+2026-06-02 00:58:06 - INFO - Virtual display stopped
+
+===== attempt 1 START_PAGE=19 @ 2026-06-02 00:59:24.205368 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 00:59:24 - INFO - Starting recruiter extraction from page 19
+2026-06-02 00:59:24 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 00:59:25 - INFO - Virtual display started
+2026-06-02 00:59:25 - INFO - Browser headless=True
+2026-06-02 00:59:25 - INFO - Using existing DISPLAY=:3
+2026-06-02 00:59:25 - INFO - Detected Chrome version: 141
+2026-06-02 00:59:25 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 00:59:27 - INFO - Created Chrome driver on port 9478 with profile dir /tmp/apollo_recruiters_9478
+2026-06-02 00:59:29 - INFO - Cookie file read successfully
+2026-06-02 00:59:29 - INFO - Successfully parsed 47 cookies
+2026-06-02 00:59:29 - INFO - Successfully loaded 47 cookies
+2026-06-02 00:59:47 - INFO - Cookies applied successfully
+2026-06-02 00:59:53 - INFO - Using saved-list URL mode (page=19)
+2026-06-02 00:59:53 - INFO - Navigating to filtered People page...
+2026-06-02 01:00:04 - INFO - Ensuring Net New view is selected...
+2026-06-02 01:00:10 - INFO - Net New view selected
+2026-06-02 01:00:10 - INFO - Detected total rows: 457, page size: 7, total pages: 66. Processing through page 66.
+2026-06-02 01:00:10 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersTargetOrgs/apollo_recruiter_records_technical_target_orgs_net_new_1.csv
+2026-06-02 01:00:10 - INFO - Resuming into existing CSV (apollo_recruiter_records_technical_target_orgs_net_new_1.csv)
+2026-06-02 01:00:10 - INFO - Processing page 19 of 66 (451 - 457 of 457)
+
+==================================================
+Processing page 19 of 66
+Progress: 451 - 457 of 457
+==================================================
+
+2026-06-02 01:00:10 - INFO - Saved HTML for page 19 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_19_20260602_010010.html
+2026-06-02 01:00:10 - INFO - Saved screenshot for page 19 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_19_20260602_010010.png
+2026-06-02 01:00:10 - INFO - Found 7 records on page 19
+2026-06-02 01:00:12 - WARNING - Prospect API returned no email for person 6728b78517d46a0001b9482c
+2026-06-02 01:00:35 - INFO - Ensuring Net New view is selected...
+2026-06-02 01:00:41 - INFO - Net New view selected
+2026-06-02 01:00:41 - ERROR - Error processing record 0: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-06-02 01:00:43 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37277): Failed to establish a new connection: [Errno 111] Connection refused")': /session/061bce4988c0313b81a4242d5406a5b1/element
+2026-06-02 01:00:43 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37277): Failed to establish a new connection: [Errno 111] Connection refused")': /session/061bce4988c0313b81a4242d5406a5b1/element
+2026-06-02 01:00:43 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37277): Failed to establish a new connection: [Errno 111] Connection refused")': /session/061bce4988c0313b81a4242d5406a5b1/element
+2026-06-02 01:00:43 - ERROR - Unexpected error on page 19: HTTPConnectionPool(host='localhost', port=37277): Max retries exceeded with url: /session/061bce4988c0313b81a4242d5406a5b1/element (Caused by NewConnectionError("HTTPConnection(host='localhost', port=37277): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-06-02 01:00:43 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37277): Failed to establish a new connection: [Errno 111] Connection refused")': /session/061bce4988c0313b81a4242d5406a5b1/element
+2026-06-02 01:00:43 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37277): Failed to establish a new connection: [Errno 111] Connection refused")': /session/061bce4988c0313b81a4242d5406a5b1/element
+2026-06-02 01:00:43 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37277): Failed to establish a new connection: [Errno 111] Connection refused")': /session/061bce4988c0313b81a4242d5406a5b1/element
+2026-06-02 01:00:43 - INFO - Processing page 19 of 66 (Progress counter not found)
+
+==================================================
+Processing page 19 of 66
+Progress: Progress counter not found
+==================================================
+
+2026-06-02 01:00:43 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37277): Failed to establish a new connection: [Errno 111] Connection refused")': /session/061bce4988c0313b81a4242d5406a5b1/source
+2026-06-02 01:00:43 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37277): Failed to establish a new connection: [Errno 111] Connection refused")': /session/061bce4988c0313b81a4242d5406a5b1/source
+2026-06-02 01:00:43 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37277): Failed to establish a new connection: [Errno 111] Connection refused")': /session/061bce4988c0313b81a4242d5406a5b1/source
+2026-06-02 01:00:43 - ERROR - Error saving page HTML: HTTPConnectionPool(host='localhost', port=37277): Max retries exceeded with url: /session/061bce4988c0313b81a4242d5406a5b1/source (Caused by NewConnectionError("HTTPConnection(host='localhost', port=37277): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-06-02 01:00:43 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37277): Failed to establish a new connection: [Errno 111] Connection refused")': /session/061bce4988c0313b81a4242d5406a5b1/screenshot
+2026-06-02 01:00:43 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37277): Failed to establish a new connection: [Errno 111] Connection refused")': /session/061bce4988c0313b81a4242d5406a5b1/screenshot
+2026-06-02 01:00:43 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37277): Failed to establish a new connection: [Errno 111] Connection refused")': /session/061bce4988c0313b81a4242d5406a5b1/screenshot
+2026-06-02 01:00:43 - ERROR - Error saving screenshot: HTTPConnectionPool(host='localhost', port=37277): Max retries exceeded with url: /session/061bce4988c0313b81a4242d5406a5b1/screenshot (Caused by NewConnectionError("HTTPConnection(host='localhost', port=37277): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-06-02 01:00:43 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37277): Failed to establish a new connection: [Errno 111] Connection refused")': /session/061bce4988c0313b81a4242d5406a5b1/elements
+2026-06-02 01:00:43 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37277): Failed to establish a new connection: [Errno 111] Connection refused")': /session/061bce4988c0313b81a4242d5406a5b1/elements
+2026-06-02 01:00:43 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37277): Failed to establish a new connection: [Errno 111] Connection refused")': /session/061bce4988c0313b81a4242d5406a5b1/elements
+2026-06-02 01:00:43 - ERROR - Unexpected error on page 19: HTTPConnectionPool(host='localhost', port=37277): Max retries exceeded with url: /session/061bce4988c0313b81a4242d5406a5b1/elements (Caused by NewConnectionError("HTTPConnection(host='localhost', port=37277): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-06-02 01:00:43 - INFO - Total pages processed up to: 19
+2026-06-02 01:00:43 - INFO - Total records collected: 0
+2026-06-02 01:00:43 - INFO - Driver closed successfully
+2026-06-02 01:00:43 - INFO - Driver closed
+2026-06-02 01:00:43 - INFO - Virtual display stopped
+
+===== attempt 2 START_PAGE=19 @ 2026-06-02 01:00:51.941552 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 01:00:52 - INFO - Starting recruiter extraction from page 19
+2026-06-02 01:00:52 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 01:00:52 - INFO - Virtual display started
+2026-06-02 01:00:52 - INFO - Browser headless=True
+2026-06-02 01:00:52 - INFO - Using existing DISPLAY=:3
+2026-06-02 01:00:52 - INFO - Detected Chrome version: 141
+2026-06-02 01:00:53 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 01:00:55 - INFO - Created Chrome driver on port 9320 with profile dir /tmp/apollo_recruiters_9320
+2026-06-02 01:00:58 - INFO - Cookie file read successfully
+2026-06-02 01:00:58 - INFO - Successfully parsed 47 cookies
+2026-06-02 01:00:58 - INFO - Successfully loaded 47 cookies
+2026-06-02 01:01:14 - INFO - Cookies applied successfully
+2026-06-02 01:01:21 - INFO - Using saved-list URL mode (page=19)
+2026-06-02 01:01:21 - INFO - Navigating to filtered People page...
+2026-06-02 01:01:32 - INFO - Ensuring Net New view is selected...
+2026-06-02 01:01:38 - INFO - Net New view selected
+2026-06-02 01:01:38 - INFO - Detected total rows: 456, page size: 6, total pages: 76. Processing through page 76.
+2026-06-02 01:01:38 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersTargetOrgs/apollo_recruiter_records_technical_target_orgs_net_new_1.csv
+2026-06-02 01:01:38 - INFO - Resuming into existing CSV (apollo_recruiter_records_technical_target_orgs_net_new_1.csv)
+2026-06-02 01:01:38 - INFO - Processing page 19 of 76 (451 - 456 of 456)
+
+==================================================
+Processing page 19 of 76
+Progress: 451 - 456 of 456
+==================================================
+
+2026-06-02 01:01:38 - INFO - Saved HTML for page 19 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_19_20260602_010138.html
+2026-06-02 01:01:39 - INFO - Saved screenshot for page 19 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_19_20260602_010138.png
+2026-06-02 01:01:39 - INFO - Found 6 records on page 19
+2026-06-02 01:01:40 - WARNING - Prospect API returned no email for person 54a28a6d7468692e71be072b
+2026-06-02 01:01:55 - INFO - Ensuring Net New view is selected...
+2026-06-02 01:02:01 - INFO - Net New view selected
+2026-06-02 01:02:01 - ERROR - Error processing record 0: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x57755b0d1fea <unknown>
+#1 0x57755ab4fd06 <unknown>
+#2 0x57755ab569af <unknown>
+#3 0x57755ab59148 <unknown>
+#4 0x57755ab591d3 <unknown>
+#5 0x57755aba194f <unknown>
+#6 0x57755aba2101 <unknown>
+#7 0x57755ab95bf6 <unknown>
+#8 0x57755abc7e3d <unknown>
+#9 0x57755ab95ae7 <unknown>
+#10 0x57755abc7fde <unknown>
+#11 0x57755abedb3b <unknown>
+#12 0x57755abc7be3 <unknown>
+#13 0x57755ab942d2 <unknown>
+#14 0x57755ab94f91 <unknown>
+#15 0x57755b0959e8 <unknown>
+#16 0x57755b09984f <unknown>
+#17 0x57755b07cec9 <unknown>
+#18 0x57755b09a3f5 <unknown>
+#19 0x57755b06274f <unknown>
+#20 0x57755b0becc8 <unknown>
+#21 0x57755b0beea3 <unknown>
+#22 0x57755b0d0f83 <unknown>
+#23 0x7082c669caa4 <unknown>
+#24 0x7082c6729c6c <unknown>
+
+2026-06-02 01:02:04 - WARNING - Prospect API returned no email for person 608b0f651151be0001cc8047
+2026-06-02 01:02:42 - INFO - Ensuring Net New view is selected...
+2026-06-02 01:02:48 - INFO - Net New view selected
+2026-06-02 01:02:48 - ERROR - Error processing record 1: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x57755b0d1fea <unknown>
+#1 0x57755ab4fd06 <unknown>
+#2 0x57755ab569af <unknown>
+#3 0x57755ab59148 <unknown>
+#4 0x57755ab591d3 <unknown>
+#5 0x57755aba194f <unknown>
+#6 0x57755aba2101 <unknown>
+#7 0x57755ab95bf6 <unknown>
+#8 0x57755abc7e3d <unknown>
+#9 0x57755ab95ae7 <unknown>
+#10 0x57755abc7fde <unknown>
+#11 0x57755abedb3b <unknown>
+#12 0x57755abc7be3 <unknown>
+#13 0x57755ab942d2 <unknown>
+#14 0x57755ab94f91 <unknown>
+#15 0x57755b0959e8 <unknown>
+#16 0x57755b09984f <unknown>
+#17 0x57755b07cec9 <unknown>
+#18 0x57755b09a3f5 <unknown>
+#19 0x57755b06274f <unknown>
+#20 0x57755b0becc8 <unknown>
+#21 0x57755b0beea3 <unknown>
+#22 0x57755b0d0f83 <unknown>
+#23 0x7082c669caa4 <unknown>
+#24 0x7082c6729c6c <unknown>
+
+2026-06-02 01:02:51 - WARNING - Prospect API returned no email for person 616902ea25e3dd0001597f4d
+2026-06-02 01:03:17 - INFO - Ensuring Net New view is selected...
+2026-06-02 01:03:23 - INFO - Net New view selected
+2026-06-02 01:03:23 - ERROR - Error processing record 2: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x57755b0d1fea <unknown>
+#1 0x57755ab4fd06 <unknown>
+#2 0x57755ab569af <unknown>
+#3 0x57755ab59148 <unknown>
+#4 0x57755ab591d3 <unknown>
+#5 0x57755aba194f <unknown>
+#6 0x57755aba2101 <unknown>
+#7 0x57755ab95bf6 <unknown>
+#8 0x57755abc7e3d <unknown>
+#9 0x57755ab95ae7 <unknown>
+#10 0x57755abc7fde <unknown>
+#11 0x57755abedb3b <unknown>
+#12 0x57755abc7be3 <unknown>
+#13 0x57755ab942d2 <unknown>
+#14 0x57755ab94f91 <unknown>
+#15 0x57755b0959e8 <unknown>
+#16 0x57755b09984f <unknown>
+#17 0x57755b07cec9 <unknown>
+#18 0x57755b09a3f5 <unknown>
+#19 0x57755b06274f <unknown>
+#20 0x57755b0becc8 <unknown>
+#21 0x57755b0beea3 <unknown>
+#22 0x57755b0d0f83 <unknown>
+#23 0x7082c669caa4 <unknown>
+#24 0x7082c6729c6c <unknown>
+
+2026-06-02 01:03:23 - ERROR - Too many consecutive errors. Stopping execution.
+2026-06-02 01:03:23 - INFO - Driver closed successfully
+2026-06-02 01:03:23 - INFO - Driver closed
+2026-06-02 01:03:23 - INFO - Virtual display stopped
+
+===== attempt 3 START_PAGE=19 @ 2026-06-02 01:03:32.349831 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 01:03:32 - INFO - Starting recruiter extraction from page 19
+2026-06-02 01:03:32 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 01:03:32 - INFO - Virtual display started
+2026-06-02 01:03:32 - INFO - Browser headless=True
+2026-06-02 01:03:32 - INFO - Using existing DISPLAY=:3
+2026-06-02 01:03:32 - INFO - Detected Chrome version: 141
+2026-06-02 01:03:33 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 01:03:36 - INFO - Created Chrome driver on port 9493 with profile dir /tmp/apollo_recruiters_9493
+2026-06-02 01:03:37 - INFO - Cookie file read successfully
+2026-06-02 01:03:37 - INFO - Successfully parsed 47 cookies
+2026-06-02 01:03:37 - INFO - Successfully loaded 47 cookies
+2026-06-02 01:03:54 - INFO - Cookies applied successfully
+2026-06-02 01:04:01 - INFO - Using saved-list URL mode (page=19)
+2026-06-02 01:04:01 - INFO - Navigating to filtered People page...
+2026-06-02 01:04:11 - INFO - Ensuring Net New view is selected...
+2026-06-02 01:04:16 - INFO - Net New view selected
+2026-06-02 01:04:16 - INFO - Detected total rows: 453, page size: 3, total pages: 151. Processing through page 151.
+2026-06-02 01:04:16 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersTargetOrgs/apollo_recruiter_records_technical_target_orgs_net_new_1.csv
+2026-06-02 01:04:16 - INFO - Resuming into existing CSV (apollo_recruiter_records_technical_target_orgs_net_new_1.csv)
+2026-06-02 01:04:16 - INFO - Processing page 19 of 151 (451 - 453 of 453)
+
+==================================================
+Processing page 19 of 151
+Progress: 451 - 453 of 453
+==================================================
+
+2026-06-02 01:04:17 - INFO - Saved HTML for page 19 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_19_20260602_010416.html
+2026-06-02 01:04:17 - INFO - Saved screenshot for page 19 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_19_20260602_010417.png
+2026-06-02 01:04:17 - INFO - Found 3 records on page 19
+2026-06-02 01:04:18 - INFO - Email via API for row 1: sgao46@apple.com
+2026-06-02 01:04:26 - INFO - Collected record 1: Shine Gao | Technical Recruiting | Apple | sgao46@apple.com
+2026-06-02 01:04:29 - WARNING - Prospect API returned no email for person 673bd1813aecd000013d373a
+2026-06-02 01:05:05 - INFO - Ensuring Net New view is selected...
+2026-06-02 01:05:11 - INFO - Net New view selected
+2026-06-02 01:05:11 - ERROR - Error processing record 1: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x6377e11effea <unknown>
+#1 0x6377e0c6dd06 <unknown>
+#2 0x6377e0c749af <unknown>
+#3 0x6377e0c77148 <unknown>
+#4 0x6377e0c771d3 <unknown>
+#5 0x6377e0cbf94f <unknown>
+#6 0x6377e0cc0101 <unknown>
+#7 0x6377e0cb3bf6 <unknown>
+#8 0x6377e0ce5e3d <unknown>
+#9 0x6377e0cb3ae7 <unknown>
+#10 0x6377e0ce5fde <unknown>
+#11 0x6377e0d0bb3b <unknown>
+#12 0x6377e0ce5be3 <unknown>
+#13 0x6377e0cb22d2 <unknown>
+#14 0x6377e0cb2f91 <unknown>
+#15 0x6377e11b39e8 <unknown>
+#16 0x6377e11b784f <unknown>
+#17 0x6377e119aec9 <unknown>
+#18 0x6377e11b83f5 <unknown>
+#19 0x6377e118074f <unknown>
+#20 0x6377e11dccc8 <unknown>
+#21 0x6377e11dcea3 <unknown>
+#22 0x6377e11eef83 <unknown>
+#23 0x76a6a5e9caa4 <unknown>
+#24 0x76a6a5f29c6c <unknown>
+
+2026-06-02 01:05:12 - ERROR - Unexpected error on page 19: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='table-row-2']"}
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+#0 0x6377e11effea <unknown>
+#1 0x6377e0c6dd06 <unknown>
+#2 0x6377e0cbfe6d <unknown>
+#3 0x6377e0cc0101 <unknown>
+#4 0x6377e0d0e6b4 <unknown>
+#5 0x6377e0ce5e3d <unknown>
+#6 0x6377e0d0bb3b <unknown>
+#7 0x6377e0ce5be3 <unknown>
+#8 0x6377e0cb22d2 <unknown>
+#9 0x6377e0cb2f91 <unknown>
+#10 0x6377e11b39e8 <unknown>
+#11 0x6377e11b784f <unknown>
+#12 0x6377e119aec9 <unknown>
+#13 0x6377e11b83f5 <unknown>
+#14 0x6377e118074f <unknown>
+#15 0x6377e11dccc8 <unknown>
+#16 0x6377e11dcea3 <unknown>
+#17 0x6377e11eef83 <unknown>
+#18 0x76a6a5e9caa4 <unknown>
+#19 0x76a6a5f29c6c <unknown>
+
+2026-06-02 01:05:12 - INFO - Processing page 19 of 151 (451 - 451 of 451)
+
+==================================================
+Processing page 19 of 151
+Progress: 451 - 451 of 451
+==================================================
+
+2026-06-02 01:05:12 - INFO - Saved HTML for page 19 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_19_20260602_010512.html
+2026-06-02 01:05:12 - INFO - Saved screenshot for page 19 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_19_20260602_010512.png
+2026-06-02 01:05:12 - INFO - Found 1 records on page 19
+2026-06-02 01:05:13 - WARNING - Prospect API returned no email for person 63474b5e2864ae0001803bb2
+2026-06-02 01:05:34 - INFO - Ensuring Net New view is selected...
+2026-06-02 01:05:39 - INFO - Net New view selected
+2026-06-02 01:05:39 - ERROR - Error processing record 0: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x6377e11effea <unknown>
+#1 0x6377e0c6dd06 <unknown>
+#2 0x6377e0c749af <unknown>
+#3 0x6377e0c77148 <unknown>
+#4 0x6377e0c771d3 <unknown>
+#5 0x6377e0cbf94f <unknown>
+#6 0x6377e0cc0101 <unknown>
+#7 0x6377e0cb3bf6 <unknown>
+#8 0x6377e0ce5e3d <unknown>
+#9 0x6377e0cb3ae7 <unknown>
+#10 0x6377e0ce5fde <unknown>
+#11 0x6377e0d0bb3b <unknown>
+#12 0x6377e0ce5be3 <unknown>
+#13 0x6377e0cb22d2 <unknown>
+#14 0x6377e0cb2f91 <unknown>
+#15 0x6377e11b39e8 <unknown>
+#16 0x6377e11b784f <unknown>
+#17 0x6377e119aec9 <unknown>
+#18 0x6377e11b83f5 <unknown>
+#19 0x6377e118074f <unknown>
+#20 0x6377e11dccc8 <unknown>
+#21 0x6377e11dcea3 <unknown>
+#22 0x6377e11eef83 <unknown>
+#23 0x76a6a5e9caa4 <unknown>
+#24 0x76a6a5f29c6c <unknown>
+
+2026-06-02 01:05:39 - ERROR - Too many consecutive errors. Stopping execution.
+2026-06-02 01:05:40 - INFO - Driver closed successfully
+2026-06-02 01:05:40 - INFO - Driver closed
+2026-06-02 01:05:40 - INFO - Virtual display stopped
+
+===== attempt 4 START_PAGE=19 @ 2026-06-02 01:05:48.677020 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 01:05:49 - INFO - Starting recruiter extraction from page 19
+2026-06-02 01:05:49 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 01:05:49 - INFO - Virtual display started
+2026-06-02 01:05:49 - INFO - Browser headless=True
+2026-06-02 01:05:49 - INFO - Using existing DISPLAY=:3
+2026-06-02 01:05:49 - INFO - Detected Chrome version: 141
+2026-06-02 01:05:50 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 01:05:52 - INFO - Created Chrome driver on port 9519 with profile dir /tmp/apollo_recruiters_9519
+2026-06-02 01:05:55 - INFO - Cookie file read successfully
+2026-06-02 01:05:55 - INFO - Successfully parsed 47 cookies
+2026-06-02 01:05:55 - INFO - Successfully loaded 47 cookies
+2026-06-02 01:06:13 - INFO - Cookies applied successfully
+2026-06-02 01:06:19 - INFO - Using saved-list URL mode (page=19)
+2026-06-02 01:06:19 - INFO - Navigating to filtered People page...
+2026-06-02 01:06:30 - INFO - Ensuring Net New view is selected...
+2026-06-02 01:06:36 - INFO - Net New view selected
+2026-06-02 01:06:37 - ERROR - Could not parse pagination progress text: 'Progress counter not found'. Set END_PAGE manually and retry.
+2026-06-02 01:06:37 - INFO - Driver closed successfully
+2026-06-02 01:06:37 - INFO - Driver closed
+2026-06-02 01:06:37 - INFO - Virtual display stopped
+
+===== attempt 5 START_PAGE=19 @ 2026-06-02 01:06:46.333673 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 01:06:46 - INFO - Starting recruiter extraction from page 19
+2026-06-02 01:06:46 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 01:06:46 - INFO - Virtual display started
+2026-06-02 01:06:46 - INFO - Browser headless=True
+2026-06-02 01:06:46 - INFO - Using existing DISPLAY=:3
+2026-06-02 01:06:46 - INFO - Detected Chrome version: 141
+2026-06-02 01:06:47 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 01:06:51 - INFO - Created Chrome driver on port 9727 with profile dir /tmp/apollo_recruiters_9727
+2026-06-02 01:06:52 - INFO - Cookie file read successfully
+2026-06-02 01:06:52 - INFO - Successfully parsed 47 cookies
+2026-06-02 01:06:52 - INFO - Successfully loaded 47 cookies
+2026-06-02 01:07:09 - INFO - Cookies applied successfully
+2026-06-02 01:07:15 - INFO - Using saved-list URL mode (page=19)
+2026-06-02 01:07:15 - INFO - Navigating to filtered People page...
+2026-06-02 01:07:27 - INFO - Ensuring Net New view is selected...
+2026-06-02 01:07:32 - INFO - Net New view selected
+2026-06-02 01:07:33 - ERROR - Could not parse pagination progress text: 'Progress counter not found'. Set END_PAGE manually and retry.
+2026-06-02 01:07:33 - INFO - Driver closed successfully
+2026-06-02 01:07:33 - INFO - Driver closed
+2026-06-02 01:07:33 - INFO - Virtual display stopped
+
+===== attempt 6 START_PAGE=19 @ 2026-06-02 01:07:42.534228 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 01:07:43 - INFO - Starting recruiter extraction from page 19
+2026-06-02 01:07:43 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 01:07:43 - INFO - Virtual display started
+2026-06-02 01:07:43 - INFO - Browser headless=True
+2026-06-02 01:07:43 - INFO - Using existing DISPLAY=:3
+2026-06-02 01:07:43 - INFO - Detected Chrome version: 141
+2026-06-02 01:07:44 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 01:07:46 - INFO - Created Chrome driver on port 9951 with profile dir /tmp/apollo_recruiters_9951
+2026-06-02 01:07:48 - INFO - Cookie file read successfully
+2026-06-02 01:07:48 - INFO - Successfully parsed 47 cookies
+2026-06-02 01:07:48 - INFO - Successfully loaded 47 cookies
+2026-06-02 01:08:05 - INFO - Cookies applied successfully
+2026-06-02 01:08:11 - INFO - Using saved-list URL mode (page=19)
+2026-06-02 01:08:11 - INFO - Navigating to filtered People page...
+2026-06-02 01:08:22 - INFO - Ensuring Net New view is selected...
+2026-06-02 01:08:28 - INFO - Net New view selected
+2026-06-02 01:08:29 - ERROR - Could not parse pagination progress text: 'Progress counter not found'. Set END_PAGE manually and retry.
+2026-06-02 01:08:29 - INFO - Driver closed successfully
+2026-06-02 01:08:29 - INFO - Driver closed
+2026-06-02 01:08:29 - INFO - Virtual display stopped
+
+===== attempt 1 START_PAGE=1 @ 2026-06-02 01:53:21.244041 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 01:53:21 - INFO - Starting recruiter extraction from page 1
+2026-06-02 01:53:21 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 01:53:22 - INFO - Virtual display started
+2026-06-02 01:53:22 - INFO - Browser headless=True
+2026-06-02 01:53:22 - INFO - Using existing DISPLAY=:3
+2026-06-02 01:53:22 - INFO - Detected Chrome version: 141
+2026-06-02 01:53:22 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 01:53:25 - INFO - Created Chrome driver on port 9705 with profile dir /tmp/apollo_recruiters_9705
+2026-06-02 01:53:27 - INFO - Cookie file read successfully
+2026-06-02 01:53:27 - INFO - Successfully parsed 47 cookies
+2026-06-02 01:53:27 - INFO - Successfully loaded 47 cookies
+2026-06-02 01:53:44 - INFO - Cookies applied successfully
+2026-06-02 01:53:51 - INFO - Using saved-list URL mode (page=1)
+2026-06-02 01:53:51 - INFO - Navigating to filtered People page...
+2026-06-02 01:54:02 - INFO - Ensuring Net New view is selected...
+2026-06-02 01:54:10 - INFO - Net New view selected
+2026-06-02 01:54:10 - INFO - Detected total rows: 450, page size: 25, total pages: 18. Processing through page 1.
+2026-06-02 01:54:10 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersTargetOrgs/apollo_recruiter_records_technical_target_orgs_net_new_1.csv
+2026-06-02 01:54:10 - INFO - Resuming into existing CSV (apollo_recruiter_records_technical_target_orgs_net_new_1.csv)
+2026-06-02 01:54:10 - INFO - Processing page 1 of 1 (1 - 25 of 450)
+
+==================================================
+Processing page 1 of 1
+Progress: 1 - 25 of 450
+==================================================
+
+2026-06-02 01:54:10 - INFO - Saved HTML for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_015410.html
+2026-06-02 01:54:10 - INFO - Saved screenshot for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_015410.png
+2026-06-02 01:54:10 - INFO - Found 25 records on page 1
+2026-06-02 01:54:13 - INFO - Email via API for row 1: preeti.juneja@capitalone.com
+2026-06-02 01:54:20 - INFO - Collected record 1: Preeti Juneja | Technical Recruiter | Capital One | preeti.juneja@capitalone.com
+2026-06-02 01:54:22 - INFO - Email via API for row 2: delorian@meta.com
+2026-06-02 01:54:37 - INFO - Collected record 2: Delorian Bennett | Technical Recruiter | Meta | delorian@meta.com
+2026-06-02 01:54:41 - INFO - Email via API for row 3: adipawar@deloitte.com
+2026-06-02 01:54:56 - INFO - Collected record 3: Aditi Pawar | Technical Recruiter | Deloitte | adipawar@deloitte.com
+2026-06-02 01:54:59 - INFO - Email via API for row 4: jweiser@nvidia.com
+2026-06-02 01:55:13 - INFO - Collected record 4: Jen Dolan | Technical Recruiter | NVIDIA | jweiser@nvidia.com
+2026-06-02 01:55:16 - INFO - Email via API for row 5: apater@nvidia.com
+2026-06-02 01:55:31 - INFO - Collected record 5: Agnieszka Pater | Technical Recruiter | NVIDIA | apater@nvidia.com
+2026-06-02 01:55:35 - INFO - Email via API for row 6: daniellem@meta.com
+2026-06-02 01:55:49 - INFO - Collected record 6: Danielle Mendez | Technical Recruiter | Meta | daniellem@meta.com
+2026-06-02 01:55:51 - INFO - Email via API for row 7: o_mechkor@apple.com
+2026-06-02 01:55:59 - INFO - Collected record 7: Othman Mechkor | Technical Recruiter | Apple | o_mechkor@apple.com
+2026-06-02 01:56:02 - INFO - Email via API for row 8: andrewale@meta.com
+2026-06-02 01:56:17 - INFO - Collected record 8: Andrew Le | Technical Recruiter | Meta | andrewale@meta.com
+2026-06-02 01:56:21 - INFO - Email via API for row 9: scai@nvidia.com
+2026-06-02 01:56:35 - INFO - Collected record 9: Stephanie Cai | Technical Recruiter | NVIDIA | scai@nvidia.com
+2026-06-02 01:56:38 - INFO - Email via API for row 10: mike.f.galligan@gusto.com
+2026-06-02 01:56:53 - INFO - Collected record 10: Mike Galligan | Technical Recruiter | Gusto | mike.f.galligan@gusto.com
+2026-06-02 01:56:56 - INFO - Email via API for row 11: mollymcc9@meta.com
+2026-06-02 01:57:10 - INFO - Collected record 11: Molly Gonzalez | Technical Recruiter | Meta | mollymcc9@meta.com
+2026-06-02 01:57:14 - INFO - Email via API for row 12: a_rydberg@apple.com
+2026-06-02 01:57:21 - INFO - Collected record 12: Ashley Rydberg | Technical Recruiter | Apple | a_rydberg@apple.com
+2026-06-02 01:57:25 - INFO - Email via API for row 13: sjha@deloitte.com
+2026-06-02 01:57:39 - INFO - Collected record 13: Swaraj Jha | Technical Recruiter | Deloitte | sjha@deloitte.com
+2026-06-02 01:57:42 - INFO - Email via API for row 14: trevor.moore@applegreen.ie
+2026-06-02 01:57:50 - INFO - Collected record 14: Trevor Moore | Technical Recruiter | Apple | trevor.moore@applegreen.ie
+2026-06-02 01:57:54 - INFO - Email via API for row 15: grace.yun@databricks.com
+2026-06-02 01:58:09 - INFO - Collected record 15: Grace Yun | Technical Recruiter | Databricks | grace.yun@databricks.com
+2026-06-02 01:58:11 - INFO - Email via API for row 16: garyko@fb.com
+2026-06-02 01:58:26 - INFO - Collected record 16: Gary Ko | Technical Recruiter | Meta | garyko@fb.com
+2026-06-02 01:58:28 - INFO - Email via API for row 17: daniel.chin@databricks.com
+2026-06-02 01:58:42 - INFO - Collected record 17: Daniel Chin | Technical Recruiter | Databricks | daniel.chin@databricks.com
+2026-06-02 01:58:45 - INFO - Email via API for row 18: kyle.law@capitalone.com
+2026-06-02 01:58:53 - INFO - Collected record 18: Kyle Law | Technical Recruiter | Capital One | kyle.law@capitalone.com
+2026-06-02 01:58:56 - INFO - Email via API for row 19: mollymartin@fb.com
+2026-06-02 01:59:11 - INFO - Collected record 19: Molly Martin | Technical Recruiter | Meta | mollymartin@fb.com
+2026-06-02 01:59:15 - INFO - Email via API for row 20: rechellel@meta.com
+2026-06-02 01:59:30 - INFO - Collected record 20: Rechelle Lambert | Technical Recruiter | Meta | rechellel@meta.com
+2026-06-02 01:59:34 - INFO - Email via API for row 21: dascencio@paypal.com
+2026-06-02 01:59:48 - INFO - Collected record 21: Diego Ascencio | Technical Recruiter | PayPal | dascencio@paypal.com
+2026-06-02 01:59:50 - INFO - Email via API for row 22: sneha.raman@gm.com
+2026-06-02 02:00:07 - INFO - Collected record 22: Sneha Raman | Technical Recruiter | General Motors | sneha.raman@gm.com
+2026-06-02 02:00:10 - INFO - Email via API for row 23: geetha.d@verizon.com
+2026-06-02 02:00:24 - INFO - Collected record 23: Geetha D | Technical Recruiter | Verizon | geetha.d@verizon.com
+2026-06-02 02:00:27 - INFO - Email via API for row 24: kdoan@apple.com
+2026-06-02 02:00:35 - INFO - Collected record 24: Katherine Doan | Technical Recruiter | Apple | kdoan@apple.com
+2026-06-02 02:00:39 - INFO - Email via API for row 25: amiebox@meta.com
+2026-06-02 02:00:53 - INFO - Collected record 25: Amie Box | Technical Recruiter | Meta | amiebox@meta.com
+2026-06-02 02:00:54 - INFO - Missing fields on page 1: Industry: 13
+Missing fields on page 1: Industry: 13
+2026-06-02 02:00:54 - INFO - Page 1 complete - collected 25 recruiters (total: 25)
+Page 1 complete - collected 25 recruiters (total: 25)
+2026-06-02 02:00:54 - INFO - Total pages processed up to: 1
+2026-06-02 02:00:54 - INFO - Total records collected: 25
+2026-06-02 02:00:55 - INFO - Driver closed successfully
+2026-06-02 02:00:55 - INFO - Driver closed
+2026-06-02 02:00:55 - INFO - Virtual display stopped
+
+===== attempt 2 START_PAGE=1 @ 2026-06-02 02:01:03.698643 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 02:01:04 - INFO - Starting recruiter extraction from page 1
+2026-06-02 02:01:04 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 02:01:04 - INFO - Virtual display started
+2026-06-02 02:01:04 - INFO - Browser headless=True
+2026-06-02 02:01:04 - INFO - Using existing DISPLAY=:3
+2026-06-02 02:01:04 - INFO - Detected Chrome version: 141
+2026-06-02 02:01:05 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 02:01:06 - INFO - Created Chrome driver on port 9398 with profile dir /tmp/apollo_recruiters_9398
+2026-06-02 02:01:09 - INFO - Cookie file read successfully
+2026-06-02 02:01:09 - INFO - Successfully parsed 47 cookies
+2026-06-02 02:01:09 - INFO - Successfully loaded 47 cookies
+2026-06-02 02:01:27 - INFO - Cookies applied successfully
+2026-06-02 02:01:33 - INFO - Using saved-list URL mode (page=1)
+2026-06-02 02:01:33 - INFO - Navigating to filtered People page...
+2026-06-02 02:01:43 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:01:51 - INFO - Net New view selected
+2026-06-02 02:01:51 - INFO - Detected total rows: 425, page size: 25, total pages: 17. Processing through page 1.
+2026-06-02 02:01:51 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersTargetOrgs/apollo_recruiter_records_technical_target_orgs_net_new_1.csv
+2026-06-02 02:01:51 - INFO - Resuming into existing CSV (apollo_recruiter_records_technical_target_orgs_net_new_1.csv)
+2026-06-02 02:01:51 - INFO - Processing page 1 of 1 (1 - 25 of 425)
+
+==================================================
+Processing page 1 of 1
+Progress: 1 - 25 of 425
+==================================================
+
+2026-06-02 02:01:51 - INFO - Saved HTML for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_020151.html
+2026-06-02 02:01:52 - INFO - Saved screenshot for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_020151.png
+2026-06-02 02:01:52 - INFO - Found 25 records on page 1
+2026-06-02 02:01:54 - INFO - Email via API for row 1: lindzy_mccarty@apple.com
+2026-06-02 02:02:02 - INFO - Collected record 1: Lindzy McCarty | Technical Recruiter | Apple | lindzy_mccarty@apple.com
+2026-06-02 02:02:05 - INFO - Email via API for row 2: morea@meta.com
+2026-06-02 02:02:19 - INFO - Collected record 2: Arushi More | Technical Recruiter | Meta | morea@meta.com
+2026-06-02 02:02:23 - WARNING - Prospect API returned no email for person 6127de8e473f890001aaee9f
+2026-06-02 02:02:28 - WARNING - No Access email button on profile for person 6127de8e473f890001aaee9f
+2026-06-02 02:02:32 - WARNING - Prospect failed for record 3 (person_id=6127de8e473f890001aaee9f)
+2026-06-02 02:02:36 - ERROR - Error processing record 2: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5df4fca5afea <unknown>
+#1 0x5df4fc4d8d06 <unknown>
+#2 0x5df4fc4df9af <unknown>
+#3 0x5df4fc4e2148 <unknown>
+#4 0x5df4fc4e21d3 <unknown>
+#5 0x5df4fc52a94f <unknown>
+#6 0x5df4fc52b101 <unknown>
+#7 0x5df4fc51ebf6 <unknown>
+#8 0x5df4fc550e3d <unknown>
+#9 0x5df4fc51eae7 <unknown>
+#10 0x5df4fc550fde <unknown>
+#11 0x5df4fc576b3b <unknown>
+#12 0x5df4fc550be3 <unknown>
+#13 0x5df4fc51d2d2 <unknown>
+#14 0x5df4fc51df91 <unknown>
+#15 0x5df4fca1e9e8 <unknown>
+#16 0x5df4fca2284f <unknown>
+#17 0x5df4fca05ec9 <unknown>
+#18 0x5df4fca233f5 <unknown>
+#19 0x5df4fc9eb74f <unknown>
+#20 0x5df4fca47cc8 <unknown>
+#21 0x5df4fca47ea3 <unknown>
+#22 0x5df4fca59f83 <unknown>
+#23 0x70551489caa4 <unknown>
+#24 0x705514929c6c <unknown>
+
+2026-06-02 02:02:39 - INFO - Email via API for row 4: josephf@nvidia.com
+2026-06-02 02:02:53 - INFO - Collected record 4: Joseph Folarin | Technical Recruiter | NVIDIA | josephf@nvidia.com
+2026-06-02 02:02:56 - INFO - Email via API for row 5: clarence.wilson@doordash.com
+2026-06-02 02:03:11 - INFO - Collected record 5: Clarence Wilson | Technical Recruiter | DoorDash | clarence.wilson@doordash.com
+2026-06-02 02:03:15 - INFO - Email via API for row 6: ckuhn@apple.com
+2026-06-02 02:03:24 - INFO - Collected record 6: Clayton Kuhn | Technical Recruiter | Apple | ckuhn@apple.com
+2026-06-02 02:03:26 - INFO - Email via API for row 7: karic@meta.com
+2026-06-02 02:03:41 - INFO - Collected record 7: Kari Chachkes | Leadership Recruiter | Meta | karic@meta.com
+2026-06-02 02:03:44 - INFO - Email via API for row 8: t.nguyen@bofa.com
+2026-06-02 02:03:52 - INFO - Collected record 8: Tina Nguyen | Technical Recruiter | Bank of America | t.nguyen@bofa.com
+2026-06-02 02:03:55 - INFO - Email via API for row 9: mmagan6@ext.uber.com
+2026-06-02 02:04:09 - INFO - Collected record 9: Mani Maganti | Technical Recruiter | Uber | mmagan6@ext.uber.com
+2026-06-02 02:04:13 - INFO - Email via API for row 10: vernitahubbard@meta.com
+2026-06-02 02:04:27 - INFO - Collected record 10: Vernita Hubbard | Technical Recruiter | Meta | vernitahubbard@meta.com
+2026-06-02 02:04:30 - INFO - Email via API for row 11: kpal@deloitte.com
+2026-06-02 02:04:44 - INFO - Collected record 11: Kunal Pal | Technical Recruiter | Deloitte | kpal@deloitte.com
+2026-06-02 02:04:49 - INFO - Email via API for row 12: katherine.turner@databricks.com
+2026-06-02 02:05:03 - INFO - Collected record 12: Katherine Turner | Technical Recruiter | Databricks | katherine.turner@databricks.com
+2026-06-02 02:05:06 - INFO - Email via API for row 13: sw@apple.com
+2026-06-02 02:05:14 - INFO - Collected record 13: Seth W | Technical Recruiter | Apple | sw@apple.com
+2026-06-02 02:05:17 - INFO - Email via API for row 14: drshaw@deloitte.com
+2026-06-02 02:05:32 - INFO - Collected record 14: Drishti Shaw | Technical Recruiter | Deloitte | drshaw@deloitte.com
+2026-06-02 02:05:35 - INFO - Email via API for row 15: simon.d@capitalone.com
+2026-06-02 02:05:43 - INFO - Collected record 15: Dario Simon | Tech Recruiter | Capital One | simon.d@capitalone.com
+2026-06-02 02:05:47 - INFO - Email via API for row 16: smb@deloitte.com
+2026-06-02 02:06:01 - INFO - Collected record 16: Shanmukesh Mb | Technical Recruiter | Deloitte | smb@deloitte.com
+2026-06-02 02:06:04 - INFO - Email via API for row 17: n_sterling@apple.com
+2026-06-02 02:06:11 - INFO - Collected record 17: Nicki Sterling | Technical Recruiter | Apple | n_sterling@apple.com
+2026-06-02 02:06:15 - INFO - Email via API for row 18: j1.jang@samsung.com
+2026-06-02 02:06:30 - INFO - Collected record 18: Jamie Jang | Technical Recruiter | Samsung Electronics | j1.jang@samsung.com
+2026-06-02 02:06:34 - INFO - Email via API for row 19: gracemcgregor@fb.com
+2026-06-02 02:06:48 - INFO - Collected record 19: Grace McGregor | Technical Recruiter | Meta | gracemcgregor@fb.com
+2026-06-02 02:06:52 - INFO - Email via API for row 20: ms@paypal.com
+2026-06-02 02:07:06 - INFO - Collected record 20: Michele S | Technical Recruiter | PayPal | ms@paypal.com
+2026-06-02 02:07:09 - INFO - Email via API for row 21: alysasanchez@meta.com
+2026-06-02 02:07:23 - INFO - Collected record 21: Alysa Sanchez | Technical Recruiter | Meta | alysasanchez@meta.com
+2026-06-02 02:07:26 - INFO - Email via API for row 22: d.min@samsung.com
+2026-06-02 02:07:41 - INFO - Collected record 22: Daehong Min | Tech Recruiter | Samsung Electronics | d.min@samsung.com
+2026-06-02 02:07:45 - WARNING - Prospect API returned no email for person 5acb0754a6da98c5dc62ac8e
+2026-06-02 02:08:09 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:08:18 - INFO - Net New view selected
+2026-06-02 02:08:18 - ERROR - Error processing record 22: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5df4fca5afea <unknown>
+#1 0x5df4fc4d8d06 <unknown>
+#2 0x5df4fc4df9af <unknown>
+#3 0x5df4fc4e2148 <unknown>
+#4 0x5df4fc4e21d3 <unknown>
+#5 0x5df4fc52a94f <unknown>
+#6 0x5df4fc52b101 <unknown>
+#7 0x5df4fc51ebf6 <unknown>
+#8 0x5df4fc550e3d <unknown>
+#9 0x5df4fc51eae7 <unknown>
+#10 0x5df4fc550fde <unknown>
+#11 0x5df4fc576b3b <unknown>
+#12 0x5df4fc550be3 <unknown>
+#13 0x5df4fc51d2d2 <unknown>
+#14 0x5df4fc51df91 <unknown>
+#15 0x5df4fca1e9e8 <unknown>
+#16 0x5df4fca2284f <unknown>
+#17 0x5df4fca05ec9 <unknown>
+#18 0x5df4fca233f5 <unknown>
+#19 0x5df4fc9eb74f <unknown>
+#20 0x5df4fca47cc8 <unknown>
+#21 0x5df4fca47ea3 <unknown>
+#22 0x5df4fca59f83 <unknown>
+#23 0x70551489caa4 <unknown>
+#24 0x705514929c6c <unknown>
+
+2026-06-02 02:08:22 - WARNING - Prospect API returned no email for person 60c591d6ce7e3600016b1937
+2026-06-02 02:08:43 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:08:52 - INFO - Net New view selected
+2026-06-02 02:08:52 - ERROR - Error processing record 23: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5df4fca5afea <unknown>
+#1 0x5df4fc4d8d06 <unknown>
+#2 0x5df4fc4df9af <unknown>
+#3 0x5df4fc4e2148 <unknown>
+#4 0x5df4fc4e21d3 <unknown>
+#5 0x5df4fc52a94f <unknown>
+#6 0x5df4fc52b101 <unknown>
+#7 0x5df4fc51ebf6 <unknown>
+#8 0x5df4fc550e3d <unknown>
+#9 0x5df4fc51eae7 <unknown>
+#10 0x5df4fc550fde <unknown>
+#11 0x5df4fc576b3b <unknown>
+#12 0x5df4fc550be3 <unknown>
+#13 0x5df4fc51d2d2 <unknown>
+#14 0x5df4fc51df91 <unknown>
+#15 0x5df4fca1e9e8 <unknown>
+#16 0x5df4fca2284f <unknown>
+#17 0x5df4fca05ec9 <unknown>
+#18 0x5df4fca233f5 <unknown>
+#19 0x5df4fc9eb74f <unknown>
+#20 0x5df4fca47cc8 <unknown>
+#21 0x5df4fca47ea3 <unknown>
+#22 0x5df4fca59f83 <unknown>
+#23 0x70551489caa4 <unknown>
+#24 0x705514929c6c <unknown>
+
+2026-06-02 02:08:55 - INFO - Email via API for row 25: nickm@meta.com
+2026-06-02 02:09:10 - INFO - Collected record 25: Nick Munez | Technical Recruiter | Meta | nickm@meta.com
+2026-06-02 02:09:11 - INFO - Missing fields on page 1: Email: 1, Location: 1, Industry: 11
+Missing fields on page 1: Email: 1, Location: 1, Industry: 11
+2026-06-02 02:09:11 - INFO - Page 1 complete - collected 22 recruiters (total: 22)
+Page 1 complete - collected 22 recruiters (total: 22)
+2026-06-02 02:09:11 - INFO - Total pages processed up to: 1
+2026-06-02 02:09:11 - INFO - Total records collected: 22
+2026-06-02 02:09:12 - INFO - Driver closed successfully
+2026-06-02 02:09:12 - INFO - Driver closed
+2026-06-02 02:09:12 - INFO - Virtual display stopped
+
+===== attempt 3 START_PAGE=1 @ 2026-06-02 02:09:20.809291 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 02:09:21 - INFO - Starting recruiter extraction from page 1
+2026-06-02 02:09:21 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 02:09:21 - INFO - Virtual display started
+2026-06-02 02:09:21 - INFO - Browser headless=True
+2026-06-02 02:09:21 - INFO - Using existing DISPLAY=:3
+2026-06-02 02:09:21 - INFO - Detected Chrome version: 141
+2026-06-02 02:09:22 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 02:09:24 - INFO - Created Chrome driver on port 9852 with profile dir /tmp/apollo_recruiters_9852
+2026-06-02 02:09:27 - INFO - Cookie file read successfully
+2026-06-02 02:09:27 - INFO - Successfully parsed 47 cookies
+2026-06-02 02:09:27 - INFO - Successfully loaded 47 cookies
+2026-06-02 02:09:44 - INFO - Cookies applied successfully
+2026-06-02 02:09:50 - INFO - Using saved-list URL mode (page=1)
+2026-06-02 02:09:50 - INFO - Navigating to filtered People page...
+2026-06-02 02:10:01 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:10:07 - INFO - Net New view selected
+2026-06-02 02:10:07 - INFO - Detected total rows: 400, page size: 25, total pages: 16. Processing through page 1.
+2026-06-02 02:10:07 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersTargetOrgs/apollo_recruiter_records_technical_target_orgs_net_new_1.csv
+2026-06-02 02:10:07 - INFO - Resuming into existing CSV (apollo_recruiter_records_technical_target_orgs_net_new_1.csv)
+2026-06-02 02:10:08 - INFO - Processing page 1 of 1 (1 - 25 of 400)
+
+==================================================
+Processing page 1 of 1
+Progress: 1 - 25 of 400
+==================================================
+
+2026-06-02 02:10:08 - INFO - Saved HTML for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_021008.html
+2026-06-02 02:10:08 - INFO - Saved screenshot for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_021008.png
+2026-06-02 02:10:08 - INFO - Found 25 records on page 1
+2026-06-02 02:10:10 - INFO - Email via API for row 1: pearl.t@capitalone.com
+2026-06-02 02:10:17 - INFO - Collected record 1: Pearl T | Technical Recruiter | Capital One | pearl.t@capitalone.com
+2026-06-02 02:10:20 - INFO - Email via API for row 2: rvenugopal@deloitte.com
+2026-06-02 02:10:35 - INFO - Collected record 2: Rashmi Venugopal | Technical Recruiter | Deloitte | rvenugopal@deloitte.com
+2026-06-02 02:10:38 - INFO - Email via API for row 3: jenny_chiu@apple.com
+2026-06-02 02:10:46 - INFO - Collected record 3: Jenny Chiu | Technical Recruiter | Apple | jenny_chiu@apple.com
+2026-06-02 02:10:48 - INFO - Email via API for row 4: pmaria@deloitte.com
+2026-06-02 02:11:03 - INFO - Collected record 4: Maria Popa | Technical Recruiter | Deloitte | pmaria@deloitte.com
+2026-06-02 02:11:06 - INFO - Email via API for row 5: ramya.shree@capitalone.com
+2026-06-02 02:11:14 - INFO - Collected record 5: Ramya Shree | Technical Recruiter | Capital One | ramya.shree@capitalone.com
+2026-06-02 02:11:18 - WARNING - Prospect API returned no email for person 54a423cd74686938acd0f62f
+2026-06-02 02:11:40 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:11:51 - INFO - Net New view selected
+2026-06-02 02:11:51 - ERROR - Error processing record 5: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5c5c6e5b8fea <unknown>
+#1 0x5c5c6e036d06 <unknown>
+#2 0x5c5c6e03d9af <unknown>
+#3 0x5c5c6e040148 <unknown>
+#4 0x5c5c6e0401d3 <unknown>
+#5 0x5c5c6e08894f <unknown>
+#6 0x5c5c6e089101 <unknown>
+#7 0x5c5c6e07cbf6 <unknown>
+#8 0x5c5c6e0aee3d <unknown>
+#9 0x5c5c6e07cae7 <unknown>
+#10 0x5c5c6e0aefde <unknown>
+#11 0x5c5c6e0d4b3b <unknown>
+#12 0x5c5c6e0aebe3 <unknown>
+#13 0x5c5c6e07b2d2 <unknown>
+#14 0x5c5c6e07bf91 <unknown>
+#15 0x5c5c6e57c9e8 <unknown>
+#16 0x5c5c6e58084f <unknown>
+#17 0x5c5c6e563ec9 <unknown>
+#18 0x5c5c6e5813f5 <unknown>
+#19 0x5c5c6e54974f <unknown>
+#20 0x5c5c6e5a5cc8 <unknown>
+#21 0x5c5c6e5a5ea3 <unknown>
+#22 0x5c5c6e5b7f83 <unknown>
+#23 0x78cdeb09caa4 <unknown>
+#24 0x78cdeb129c6c <unknown>
+
+2026-06-02 02:11:56 - WARNING - Prospect API returned no email for person 62132990e252590001586a33
+2026-06-02 02:12:17 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:12:26 - INFO - Net New view selected
+2026-06-02 02:12:26 - ERROR - Error processing record 6: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5c5c6e5b8fea <unknown>
+#1 0x5c5c6e036d06 <unknown>
+#2 0x5c5c6e03d9af <unknown>
+#3 0x5c5c6e040148 <unknown>
+#4 0x5c5c6e0401d3 <unknown>
+#5 0x5c5c6e08894f <unknown>
+#6 0x5c5c6e089101 <unknown>
+#7 0x5c5c6e07cbf6 <unknown>
+#8 0x5c5c6e0aee3d <unknown>
+#9 0x5c5c6e07cae7 <unknown>
+#10 0x5c5c6e0aefde <unknown>
+#11 0x5c5c6e0d4b3b <unknown>
+#12 0x5c5c6e0aebe3 <unknown>
+#13 0x5c5c6e07b2d2 <unknown>
+#14 0x5c5c6e07bf91 <unknown>
+#15 0x5c5c6e57c9e8 <unknown>
+#16 0x5c5c6e58084f <unknown>
+#17 0x5c5c6e563ec9 <unknown>
+#18 0x5c5c6e5813f5 <unknown>
+#19 0x5c5c6e54974f <unknown>
+#20 0x5c5c6e5a5cc8 <unknown>
+#21 0x5c5c6e5a5ea3 <unknown>
+#22 0x5c5c6e5b7f83 <unknown>
+#23 0x78cdeb09caa4 <unknown>
+#24 0x78cdeb129c6c <unknown>
+
+2026-06-02 02:12:29 - INFO - Email via API for row 8: kdubey@deloitte.com
+2026-06-02 02:12:45 - INFO - Collected record 8: Kavita Dubey | Technical Recruiter | Deloitte | kdubey@deloitte.com
+2026-06-02 02:12:49 - WARNING - Prospect API returned no email for person 66d187c550e3c5000195dc7d
+2026-06-02 02:13:31 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:13:42 - INFO - Net New view selected
+2026-06-02 02:13:42 - ERROR - Error processing record 8: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5c5c6e5b8fea <unknown>
+#1 0x5c5c6e036d06 <unknown>
+#2 0x5c5c6e03d9af <unknown>
+#3 0x5c5c6e040148 <unknown>
+#4 0x5c5c6e0401d3 <unknown>
+#5 0x5c5c6e08894f <unknown>
+#6 0x5c5c6e089101 <unknown>
+#7 0x5c5c6e07cbf6 <unknown>
+#8 0x5c5c6e0aee3d <unknown>
+#9 0x5c5c6e07cae7 <unknown>
+#10 0x5c5c6e0aefde <unknown>
+#11 0x5c5c6e0d4b3b <unknown>
+#12 0x5c5c6e0aebe3 <unknown>
+#13 0x5c5c6e07b2d2 <unknown>
+#14 0x5c5c6e07bf91 <unknown>
+#15 0x5c5c6e57c9e8 <unknown>
+#16 0x5c5c6e58084f <unknown>
+#17 0x5c5c6e563ec9 <unknown>
+#18 0x5c5c6e5813f5 <unknown>
+#19 0x5c5c6e54974f <unknown>
+#20 0x5c5c6e5a5cc8 <unknown>
+#21 0x5c5c6e5a5ea3 <unknown>
+#22 0x5c5c6e5b7f83 <unknown>
+#23 0x78cdeb09caa4 <unknown>
+#24 0x78cdeb129c6c <unknown>
+
+2026-06-02 02:13:44 - WARNING - Prospect API returned no email for person 5e5cedaa2770720001ffa8a8
+2026-06-02 02:14:04 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:14:15 - INFO - Net New view selected
+2026-06-02 02:14:15 - ERROR - Error processing record 9: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5c5c6e5b8fea <unknown>
+#1 0x5c5c6e036d06 <unknown>
+#2 0x5c5c6e03d9af <unknown>
+#3 0x5c5c6e040148 <unknown>
+#4 0x5c5c6e0401d3 <unknown>
+#5 0x5c5c6e08894f <unknown>
+#6 0x5c5c6e089101 <unknown>
+#7 0x5c5c6e07cbf6 <unknown>
+#8 0x5c5c6e0aee3d <unknown>
+#9 0x5c5c6e07cae7 <unknown>
+#10 0x5c5c6e0aefde <unknown>
+#11 0x5c5c6e0d4b3b <unknown>
+#12 0x5c5c6e0aebe3 <unknown>
+#13 0x5c5c6e07b2d2 <unknown>
+#14 0x5c5c6e07bf91 <unknown>
+#15 0x5c5c6e57c9e8 <unknown>
+#16 0x5c5c6e58084f <unknown>
+#17 0x5c5c6e563ec9 <unknown>
+#18 0x5c5c6e5813f5 <unknown>
+#19 0x5c5c6e54974f <unknown>
+#20 0x5c5c6e5a5cc8 <unknown>
+#21 0x5c5c6e5a5ea3 <unknown>
+#22 0x5c5c6e5b7f83 <unknown>
+#23 0x78cdeb09caa4 <unknown>
+#24 0x78cdeb129c6c <unknown>
+
+2026-06-02 02:14:18 - INFO - Email via API for row 11: rrandhawa@deloitte.com
+2026-06-02 02:14:34 - INFO - Collected record 11: Ruchi Randhawa | Technical Recruiter | Deloitte | rrandhawa@deloitte.com
+2026-06-02 02:14:37 - WARNING - Prospect API returned no email for person 673eb3aa523b9b0001242cfd
+2026-06-02 02:14:59 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:15:45 - INFO - Net New view selected
+2026-06-02 02:15:45 - ERROR - Error processing record 11: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5c5c6e5b8fea <unknown>
+#1 0x5c5c6e036d06 <unknown>
+#2 0x5c5c6e03d9af <unknown>
+#3 0x5c5c6e040148 <unknown>
+#4 0x5c5c6e0401d3 <unknown>
+#5 0x5c5c6e08894f <unknown>
+#6 0x5c5c6e089101 <unknown>
+#7 0x5c5c6e07cbf6 <unknown>
+#8 0x5c5c6e0aee3d <unknown>
+#9 0x5c5c6e07cae7 <unknown>
+#10 0x5c5c6e0aefde <unknown>
+#11 0x5c5c6e0d4b3b <unknown>
+#12 0x5c5c6e0aebe3 <unknown>
+#13 0x5c5c6e07b2d2 <unknown>
+#14 0x5c5c6e07bf91 <unknown>
+#15 0x5c5c6e57c9e8 <unknown>
+#16 0x5c5c6e58084f <unknown>
+#17 0x5c5c6e563ec9 <unknown>
+#18 0x5c5c6e5813f5 <unknown>
+#19 0x5c5c6e54974f <unknown>
+#20 0x5c5c6e5a5cc8 <unknown>
+#21 0x5c5c6e5a5ea3 <unknown>
+#22 0x5c5c6e5b7f83 <unknown>
+#23 0x78cdeb09caa4 <unknown>
+#24 0x78cdeb129c6c <unknown>
+
+2026-06-02 02:15:48 - WARNING - Prospect API returned no email for person 5d4c0fa780f93ebb02608531
+2026-06-02 02:16:10 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:16:57 - INFO - Net New view selected
+2026-06-02 02:16:57 - ERROR - Error processing record 12: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5c5c6e5b8fea <unknown>
+#1 0x5c5c6e036d06 <unknown>
+#2 0x5c5c6e03d9af <unknown>
+#3 0x5c5c6e040148 <unknown>
+#4 0x5c5c6e0401d3 <unknown>
+#5 0x5c5c6e08894f <unknown>
+#6 0x5c5c6e089101 <unknown>
+#7 0x5c5c6e07cbf6 <unknown>
+#8 0x5c5c6e0aee3d <unknown>
+#9 0x5c5c6e07cae7 <unknown>
+#10 0x5c5c6e0aefde <unknown>
+#11 0x5c5c6e0d4b3b <unknown>
+#12 0x5c5c6e0aebe3 <unknown>
+#13 0x5c5c6e07b2d2 <unknown>
+#14 0x5c5c6e07bf91 <unknown>
+#15 0x5c5c6e57c9e8 <unknown>
+#16 0x5c5c6e58084f <unknown>
+#17 0x5c5c6e563ec9 <unknown>
+#18 0x5c5c6e5813f5 <unknown>
+#19 0x5c5c6e54974f <unknown>
+#20 0x5c5c6e5a5cc8 <unknown>
+#21 0x5c5c6e5a5ea3 <unknown>
+#22 0x5c5c6e5b7f83 <unknown>
+#23 0x78cdeb09caa4 <unknown>
+#24 0x78cdeb129c6c <unknown>
+
+2026-06-02 02:17:01 - INFO - Email via API for row 14: pnag@deloitte.com
+2026-06-02 02:17:16 - INFO - Collected record 14: Pandu Nag | Technical Recruiter | Deloitte | pnag@deloitte.com
+2026-06-02 02:17:19 - WARNING - Prospect API returned no email for person 641058f98918990001163cf3
+2026-06-02 02:18:03 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:18:51 - INFO - Net New view selected
+2026-06-02 02:18:51 - ERROR - Error processing record 14: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5c5c6e5b8fea <unknown>
+#1 0x5c5c6e036d06 <unknown>
+#2 0x5c5c6e03d9af <unknown>
+#3 0x5c5c6e040148 <unknown>
+#4 0x5c5c6e0401d3 <unknown>
+#5 0x5c5c6e08894f <unknown>
+#6 0x5c5c6e089101 <unknown>
+#7 0x5c5c6e07cbf6 <unknown>
+#8 0x5c5c6e0aee3d <unknown>
+#9 0x5c5c6e07cae7 <unknown>
+#10 0x5c5c6e0aefde <unknown>
+#11 0x5c5c6e0d4b3b <unknown>
+#12 0x5c5c6e0aebe3 <unknown>
+#13 0x5c5c6e07b2d2 <unknown>
+#14 0x5c5c6e07bf91 <unknown>
+#15 0x5c5c6e57c9e8 <unknown>
+#16 0x5c5c6e58084f <unknown>
+#17 0x5c5c6e563ec9 <unknown>
+#18 0x5c5c6e5813f5 <unknown>
+#19 0x5c5c6e54974f <unknown>
+#20 0x5c5c6e5a5cc8 <unknown>
+#21 0x5c5c6e5a5ea3 <unknown>
+#22 0x5c5c6e5b7f83 <unknown>
+#23 0x78cdeb09caa4 <unknown>
+#24 0x78cdeb129c6c <unknown>
+
+2026-06-02 02:18:55 - WARNING - Prospect API returned no email for person 613a0473d56541000139f305
+2026-06-02 02:19:21 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:20:06 - INFO - Net New view selected
+2026-06-02 02:20:07 - ERROR - Error processing record 15: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5c5c6e5b8fea <unknown>
+#1 0x5c5c6e036d06 <unknown>
+#2 0x5c5c6e03d9af <unknown>
+#3 0x5c5c6e040148 <unknown>
+#4 0x5c5c6e0401d3 <unknown>
+#5 0x5c5c6e08894f <unknown>
+#6 0x5c5c6e089101 <unknown>
+#7 0x5c5c6e07cbf6 <unknown>
+#8 0x5c5c6e0aee3d <unknown>
+#9 0x5c5c6e07cae7 <unknown>
+#10 0x5c5c6e0aefde <unknown>
+#11 0x5c5c6e0d4b3b <unknown>
+#12 0x5c5c6e0aebe3 <unknown>
+#13 0x5c5c6e07b2d2 <unknown>
+#14 0x5c5c6e07bf91 <unknown>
+#15 0x5c5c6e57c9e8 <unknown>
+#16 0x5c5c6e58084f <unknown>
+#17 0x5c5c6e563ec9 <unknown>
+#18 0x5c5c6e5813f5 <unknown>
+#19 0x5c5c6e54974f <unknown>
+#20 0x5c5c6e5a5cc8 <unknown>
+#21 0x5c5c6e5a5ea3 <unknown>
+#22 0x5c5c6e5b7f83 <unknown>
+#23 0x78cdeb09caa4 <unknown>
+#24 0x78cdeb129c6c <unknown>
+
+2026-06-02 02:20:10 - WARNING - Prospect API returned no email for person 69901d5954312d0001ce88cc
+2026-06-02 02:20:32 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:21:18 - INFO - Net New view selected
+2026-06-02 02:21:18 - ERROR - Error processing record 16: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-06-02 02:21:18 - ERROR - Too many consecutive errors. Stopping execution.
+2026-06-02 02:21:18 - INFO - Driver closed successfully
+2026-06-02 02:21:18 - INFO - Driver closed
+2026-06-02 02:21:18 - INFO - Virtual display stopped
+
+===== attempt 4 START_PAGE=1 @ 2026-06-02 02:21:27.331314 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 02:21:28 - INFO - Starting recruiter extraction from page 1
+2026-06-02 02:21:28 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 02:21:28 - INFO - Virtual display started
+2026-06-02 02:21:28 - INFO - Browser headless=True
+2026-06-02 02:21:28 - INFO - Using existing DISPLAY=:3
+2026-06-02 02:21:28 - INFO - Detected Chrome version: 141
+2026-06-02 02:21:28 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 02:21:30 - INFO - Created Chrome driver on port 9704 with profile dir /tmp/apollo_recruiters_9704
+2026-06-02 02:21:31 - INFO - Cookie file read successfully
+2026-06-02 02:21:31 - INFO - Successfully parsed 47 cookies
+2026-06-02 02:21:31 - INFO - Successfully loaded 47 cookies
+2026-06-02 02:21:48 - INFO - Cookies applied successfully
+2026-06-02 02:21:55 - INFO - Using saved-list URL mode (page=1)
+2026-06-02 02:21:55 - INFO - Navigating to filtered People page...
+2026-06-02 02:22:05 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:22:14 - INFO - Net New view selected
+2026-06-02 02:22:14 - INFO - Detected total rows: 383, page size: 25, total pages: 16. Processing through page 1.
+2026-06-02 02:22:14 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersTargetOrgs/apollo_recruiter_records_technical_target_orgs_net_new_1.csv
+2026-06-02 02:22:14 - INFO - Resuming into existing CSV (apollo_recruiter_records_technical_target_orgs_net_new_1.csv)
+2026-06-02 02:22:14 - INFO - Processing page 1 of 1 (1 - 25 of 383)
+
+==================================================
+Processing page 1 of 1
+Progress: 1 - 25 of 383
+==================================================
+
+2026-06-02 02:22:14 - INFO - Saved HTML for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_022214.html
+2026-06-02 02:22:14 - INFO - Saved screenshot for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_022214.png
+2026-06-02 02:22:14 - INFO - Found 25 records on page 1
+2026-06-02 02:22:16 - INFO - Email via API for row 1: jaclyn.nguyen@capitalone.com
+2026-06-02 02:22:24 - INFO - Collected record 1: Jaclyn Nguyen | Technical Recruiter | Capital One | jaclyn.nguyen@capitalone.com
+2026-06-02 02:22:28 - WARNING - Prospect API returned no email for person 5fcd3fc1ef1f7700011cafe2
+2026-06-02 02:22:49 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:23:03 - INFO - Net New view selected
+2026-06-02 02:23:03 - ERROR - Error processing record 1: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5e81999f3fea <unknown>
+#1 0x5e8199471d06 <unknown>
+#2 0x5e81994789af <unknown>
+#3 0x5e819947b148 <unknown>
+#4 0x5e819947b1d3 <unknown>
+#5 0x5e81994c394f <unknown>
+#6 0x5e81994c4101 <unknown>
+#7 0x5e81994b7bf6 <unknown>
+#8 0x5e81994e9e3d <unknown>
+#9 0x5e81994b7ae7 <unknown>
+#10 0x5e81994e9fde <unknown>
+#11 0x5e819950fb3b <unknown>
+#12 0x5e81994e9be3 <unknown>
+#13 0x5e81994b62d2 <unknown>
+#14 0x5e81994b6f91 <unknown>
+#15 0x5e81999b79e8 <unknown>
+#16 0x5e81999bb84f <unknown>
+#17 0x5e819999eec9 <unknown>
+#18 0x5e81999bc3f5 <unknown>
+#19 0x5e819998474f <unknown>
+#20 0x5e81999e0cc8 <unknown>
+#21 0x5e81999e0ea3 <unknown>
+#22 0x5e81999f2f83 <unknown>
+#23 0x71c4c709caa4 <unknown>
+#24 0x71c4c7129c6c <unknown>
+
+2026-06-02 02:23:07 - INFO - Email via API for row 3: alacson@meta.com
+2026-06-02 02:23:21 - INFO - Collected record 3: Antoinette Lacson | Tech Recruiter | Meta | alacson@meta.com
+2026-06-02 02:23:26 - WARNING - Prospect API returned no email for person 6357df1a159b0900012b80be
+2026-06-02 02:23:47 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:23:58 - INFO - Net New view selected
+2026-06-02 02:23:58 - ERROR - Error processing record 3: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5e81999f3fea <unknown>
+#1 0x5e8199471d06 <unknown>
+#2 0x5e81994789af <unknown>
+#3 0x5e819947b148 <unknown>
+#4 0x5e819947b1d3 <unknown>
+#5 0x5e81994c394f <unknown>
+#6 0x5e81994c4101 <unknown>
+#7 0x5e81994b7bf6 <unknown>
+#8 0x5e81994e9e3d <unknown>
+#9 0x5e81994b7ae7 <unknown>
+#10 0x5e81994e9fde <unknown>
+#11 0x5e819950fb3b <unknown>
+#12 0x5e81994e9be3 <unknown>
+#13 0x5e81994b62d2 <unknown>
+#14 0x5e81994b6f91 <unknown>
+#15 0x5e81999b79e8 <unknown>
+#16 0x5e81999bb84f <unknown>
+#17 0x5e819999eec9 <unknown>
+#18 0x5e81999bc3f5 <unknown>
+#19 0x5e819998474f <unknown>
+#20 0x5e81999e0cc8 <unknown>
+#21 0x5e81999e0ea3 <unknown>
+#22 0x5e81999f2f83 <unknown>
+#23 0x71c4c709caa4 <unknown>
+#24 0x71c4c7129c6c <unknown>
+
+2026-06-02 02:24:03 - INFO - Email via API for row 5: sbayya@deloitte.com
+2026-06-02 02:24:18 - INFO - Collected record 5: Shefali Bayya | Technical Recruiter | Deloitte | sbayya@deloitte.com
+2026-06-02 02:24:21 - WARNING - Prospect API returned no email for person 63223d6c8186de00017c1dc6
+2026-06-02 02:25:00 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:25:44 - INFO - Net New view selected
+2026-06-02 02:25:44 - ERROR - Error processing record 5: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5e81999f3fea <unknown>
+#1 0x5e8199471d06 <unknown>
+#2 0x5e81994789af <unknown>
+#3 0x5e819947b148 <unknown>
+#4 0x5e819947b1d3 <unknown>
+#5 0x5e81994c394f <unknown>
+#6 0x5e81994c4101 <unknown>
+#7 0x5e81994b7bf6 <unknown>
+#8 0x5e81994e9e3d <unknown>
+#9 0x5e81994b7ae7 <unknown>
+#10 0x5e81994e9fde <unknown>
+#11 0x5e819950fb3b <unknown>
+#12 0x5e81994e9be3 <unknown>
+#13 0x5e81994b62d2 <unknown>
+#14 0x5e81994b6f91 <unknown>
+#15 0x5e81999b79e8 <unknown>
+#16 0x5e81999bb84f <unknown>
+#17 0x5e819999eec9 <unknown>
+#18 0x5e81999bc3f5 <unknown>
+#19 0x5e819998474f <unknown>
+#20 0x5e81999e0cc8 <unknown>
+#21 0x5e81999e0ea3 <unknown>
+#22 0x5e81999f2f83 <unknown>
+#23 0x71c4c709caa4 <unknown>
+#24 0x71c4c7129c6c <unknown>
+
+2026-06-02 02:25:49 - WARNING - Prospect API returned no email for person 54c16c707468697af713f10b
+2026-06-02 02:26:19 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:27:03 - INFO - Net New view selected
+2026-06-02 02:27:03 - ERROR - Error processing record 6: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5e81999f3fea <unknown>
+#1 0x5e8199471d06 <unknown>
+#2 0x5e81994789af <unknown>
+#3 0x5e819947b148 <unknown>
+#4 0x5e819947b1d3 <unknown>
+#5 0x5e81994c394f <unknown>
+#6 0x5e81994c4101 <unknown>
+#7 0x5e81994b7bf6 <unknown>
+#8 0x5e81994e9e3d <unknown>
+#9 0x5e81994b7ae7 <unknown>
+#10 0x5e81994e9fde <unknown>
+#11 0x5e819950fb3b <unknown>
+#12 0x5e81994e9be3 <unknown>
+#13 0x5e81994b62d2 <unknown>
+#14 0x5e81994b6f91 <unknown>
+#15 0x5e81999b79e8 <unknown>
+#16 0x5e81999bb84f <unknown>
+#17 0x5e819999eec9 <unknown>
+#18 0x5e81999bc3f5 <unknown>
+#19 0x5e819998474f <unknown>
+#20 0x5e81999e0cc8 <unknown>
+#21 0x5e81999e0ea3 <unknown>
+#22 0x5e81999f2f83 <unknown>
+#23 0x71c4c709caa4 <unknown>
+#24 0x71c4c7129c6c <unknown>
+
+2026-06-02 02:27:07 - INFO - Email via API for row 8: v.lassyah@verizon.com
+2026-06-02 02:27:23 - INFO - Collected record 8: V Lassyah | Technical Recruiter | Verizon | v.lassyah@verizon.com
+2026-06-02 02:27:26 - INFO - Email via API for row 9: anna.morgeili@databricks.com
+2026-06-02 02:27:40 - INFO - Collected record 9: Anna Morgeili | Technical Recruiter | Databricks | anna.morgeili@databricks.com
+2026-06-02 02:27:44 - WARNING - Prospect API returned no email for person 63287088b94af30001e7e8d2
+2026-06-02 02:28:10 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:28:55 - INFO - Net New view selected
+2026-06-02 02:28:55 - ERROR - Error processing record 9: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5e81999f3fea <unknown>
+#1 0x5e8199471d06 <unknown>
+#2 0x5e81994789af <unknown>
+#3 0x5e819947b148 <unknown>
+#4 0x5e819947b1d3 <unknown>
+#5 0x5e81994c394f <unknown>
+#6 0x5e81994c4101 <unknown>
+#7 0x5e81994b7bf6 <unknown>
+#8 0x5e81994e9e3d <unknown>
+#9 0x5e81994b7ae7 <unknown>
+#10 0x5e81994e9fde <unknown>
+#11 0x5e819950fb3b <unknown>
+#12 0x5e81994e9be3 <unknown>
+#13 0x5e81994b62d2 <unknown>
+#14 0x5e81994b6f91 <unknown>
+#15 0x5e81999b79e8 <unknown>
+#16 0x5e81999bb84f <unknown>
+#17 0x5e819999eec9 <unknown>
+#18 0x5e81999bc3f5 <unknown>
+#19 0x5e819998474f <unknown>
+#20 0x5e81999e0cc8 <unknown>
+#21 0x5e81999e0ea3 <unknown>
+#22 0x5e81999f2f83 <unknown>
+#23 0x71c4c709caa4 <unknown>
+#24 0x71c4c7129c6c <unknown>
+
+2026-06-02 02:29:00 - INFO - Email via API for row 11: smenon@atlassian.com
+2026-06-02 02:29:08 - INFO - Collected record 11: Shweta Menon | Global Tech Recruiter | Atlassian | smenon@atlassian.com
+2026-06-02 02:29:12 - INFO - Email via API for row 12: shaswati.sen@databricks.com
+2026-06-02 02:29:26 - INFO - Collected record 12: Shaswati Sen | Staff Tech Recruiter | Databricks | shaswati.sen@databricks.com
+2026-06-02 02:29:31 - INFO - Email via API for row 13: pwojciuk@netflix.com
+2026-06-02 02:29:38 - INFO - Collected record 13: Patrycja Wojciuk | Tech Recruiter, CEE | Netflix | pwojciuk@netflix.com
+2026-06-02 02:29:41 - INFO - Email via API for row 14: glenn.galbaugh@databricks.com
+2026-06-02 02:29:56 - INFO - Collected record 14: Glenn Galbaugh | Staff Technical Recruiter | Databricks | glenn.galbaugh@databricks.com
+2026-06-02 02:30:01 - INFO - Email via API for row 15: harmony.gleason@databricks.com
+2026-06-02 02:30:15 - INFO - Collected record 15: Harmony Gleason | Staff Technical Recruiter | Databricks | harmony.gleason@databricks.com
+2026-06-02 02:30:19 - INFO - Email via API for row 16: ben_j_lal@apple.com
+2026-06-02 02:30:26 - INFO - Collected record 16: Ben Lal | Hardware Technical Recruiter | Apple | ben_j_lal@apple.com
+2026-06-02 02:30:30 - INFO - Email via API for row 17: rhosfelt@apple.com
+2026-06-02 02:30:38 - INFO - Collected record 17: Ryan Hosfelt | Technical Recruiter - AIML | Apple | rhosfelt@apple.com
+2026-06-02 02:30:40 - INFO - Email via API for row 18: swathig@meta.com
+2026-06-02 02:30:56 - INFO - Collected record 18: Swathi Gorla | Technical Recruiter/ Sourcer | Meta | swathig@meta.com
+2026-06-02 02:31:00 - INFO - Email via API for row 19: h_adesina@apple.com
+2026-06-02 02:31:07 - INFO - Collected record 19: Helen Adesina | Emeia Tech Recruiter | Apple | h_adesina@apple.com
+2026-06-02 02:31:09 - INFO - Email via API for row 20: jon.moon@databricks.com
+2026-06-02 02:31:24 - INFO - Collected record 20: Jon Moon | Staff Technical Recruiter | Databricks | jon.moon@databricks.com
+2026-06-02 02:31:29 - INFO - Email via API for row 21: pierina.cabrera@databricks.com
+2026-06-02 02:31:43 - INFO - Collected record 21: Pierina Cabrera | Staff Technical Recruiter | Databricks | pierina.cabrera@databricks.com
+2026-06-02 02:31:48 - INFO - Email via API for row 22: kristin_lukich@intuit.com
+2026-06-02 02:32:01 - INFO - Collected record 22: Kristin Berkowitz | Staff Technical Recruiter | Intuit | kristin_lukich@intuit.com
+2026-06-02 02:32:06 - WARNING - Prospect API returned no email for person 54a237a974686938252ef316
+2026-06-02 02:33:06 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:33:53 - INFO - Net New view selected
+2026-06-02 02:33:53 - ERROR - Error processing record 22: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5e81999f3fea <unknown>
+#1 0x5e8199471d06 <unknown>
+#2 0x5e81994789af <unknown>
+#3 0x5e819947b148 <unknown>
+#4 0x5e819947b1d3 <unknown>
+#5 0x5e81994c394f <unknown>
+#6 0x5e81994c4101 <unknown>
+#7 0x5e81994b7bf6 <unknown>
+#8 0x5e81994e9e3d <unknown>
+#9 0x5e81994b7ae7 <unknown>
+#10 0x5e81994e9fde <unknown>
+#11 0x5e819950fb3b <unknown>
+#12 0x5e81994e9be3 <unknown>
+#13 0x5e81994b62d2 <unknown>
+#14 0x5e81994b6f91 <unknown>
+#15 0x5e81999b79e8 <unknown>
+#16 0x5e81999bb84f <unknown>
+#17 0x5e819999eec9 <unknown>
+#18 0x5e81999bc3f5 <unknown>
+#19 0x5e819998474f <unknown>
+#20 0x5e81999e0cc8 <unknown>
+#21 0x5e81999e0ea3 <unknown>
+#22 0x5e81999f2f83 <unknown>
+#23 0x71c4c709caa4 <unknown>
+#24 0x71c4c7129c6c <unknown>
+
+2026-06-02 02:33:57 - INFO - Email via API for row 24: matthew.smith4@capitalone.com
+2026-06-02 02:34:05 - INFO - Collected record 24: Matthew Smith | Lead Technical Recruiter | Capital One | matthew.smith4@capitalone.com
+2026-06-02 02:34:09 - INFO - Email via API for row 25: lcherry@nvidia.com
+2026-06-02 02:34:24 - INFO - Collected record 25: Lacey Cherry | Senior Technical Recruiter | NVIDIA | lcherry@nvidia.com
+2026-06-02 02:34:25 - INFO - Missing fields on page 1: Industry: 10, Keywords: 1
+Missing fields on page 1: Industry: 10, Keywords: 1
+2026-06-02 02:34:25 - INFO - Page 1 complete - collected 19 recruiters (total: 19)
+Page 1 complete - collected 19 recruiters (total: 19)
+2026-06-02 02:34:25 - INFO - Total pages processed up to: 1
+2026-06-02 02:34:25 - INFO - Total records collected: 19
+2026-06-02 02:34:26 - INFO - Driver closed successfully
+2026-06-02 02:34:26 - INFO - Driver closed
+2026-06-02 02:34:26 - INFO - Virtual display stopped
+
+===== attempt 5 START_PAGE=1 @ 2026-06-02 02:34:34.910406 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 02:34:35 - INFO - Starting recruiter extraction from page 1
+2026-06-02 02:34:35 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 02:34:35 - INFO - Virtual display started
+2026-06-02 02:34:35 - INFO - Browser headless=True
+2026-06-02 02:34:35 - INFO - Using existing DISPLAY=:3
+2026-06-02 02:34:35 - INFO - Detected Chrome version: 141
+2026-06-02 02:34:36 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 02:34:38 - INFO - Created Chrome driver on port 9810 with profile dir /tmp/apollo_recruiters_9810
+2026-06-02 02:34:40 - INFO - Cookie file read successfully
+2026-06-02 02:34:40 - INFO - Successfully parsed 47 cookies
+2026-06-02 02:34:40 - INFO - Successfully loaded 47 cookies
+2026-06-02 02:34:57 - INFO - Cookies applied successfully
+2026-06-02 02:35:04 - INFO - Using saved-list URL mode (page=1)
+2026-06-02 02:35:04 - INFO - Navigating to filtered People page...
+2026-06-02 02:35:20 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:35:26 - INFO - Net New view selected
+2026-06-02 02:35:26 - INFO - Detected total rows: 358, page size: 25, total pages: 15. Processing through page 1.
+2026-06-02 02:35:26 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersTargetOrgs/apollo_recruiter_records_technical_target_orgs_net_new_1.csv
+2026-06-02 02:35:26 - INFO - Resuming into existing CSV (apollo_recruiter_records_technical_target_orgs_net_new_1.csv)
+2026-06-02 02:35:26 - INFO - Processing page 1 of 1 (1 - 25 of 358)
+
+==================================================
+Processing page 1 of 1
+Progress: 1 - 25 of 358
+==================================================
+
+2026-06-02 02:35:27 - INFO - Saved HTML for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_023526.html
+2026-06-02 02:35:27 - INFO - Saved screenshot for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_023527.png
+2026-06-02 02:35:27 - INFO - Found 25 records on page 1
+2026-06-02 02:35:29 - WARNING - Prospect API returned no email for person 60e39f107e875f0001fa565e
+2026-06-02 02:35:50 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:36:00 - INFO - Net New view selected
+2026-06-02 02:36:00 - ERROR - Error processing record 0: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5873e3eeffea <unknown>
+#1 0x5873e396dd06 <unknown>
+#2 0x5873e39749af <unknown>
+#3 0x5873e3977148 <unknown>
+#4 0x5873e39771d3 <unknown>
+#5 0x5873e39bf94f <unknown>
+#6 0x5873e39c0101 <unknown>
+#7 0x5873e39b3bf6 <unknown>
+#8 0x5873e39e5e3d <unknown>
+#9 0x5873e39b3ae7 <unknown>
+#10 0x5873e39e5fde <unknown>
+#11 0x5873e3a0bb3b <unknown>
+#12 0x5873e39e5be3 <unknown>
+#13 0x5873e39b22d2 <unknown>
+#14 0x5873e39b2f91 <unknown>
+#15 0x5873e3eb39e8 <unknown>
+#16 0x5873e3eb784f <unknown>
+#17 0x5873e3e9aec9 <unknown>
+#18 0x5873e3eb83f5 <unknown>
+#19 0x5873e3e8074f <unknown>
+#20 0x5873e3edccc8 <unknown>
+#21 0x5873e3edcea3 <unknown>
+#22 0x5873e3eeef83 <unknown>
+#23 0x72b30909caa4 <unknown>
+#24 0x72b309129c6c <unknown>
+
+2026-06-02 02:36:04 - INFO - Email via API for row 2: suma.latha@verizon.com
+2026-06-02 02:36:18 - INFO - Collected record 2: Suma Latha | Technical Recruiter | Verizon | suma.latha@verizon.com
+2026-06-02 02:36:22 - INFO - Email via API for row 3: srrajkumar@deloitte.com
+2026-06-02 02:36:36 - INFO - Collected record 3: Raj Kumar | Technical Recruiter | Deloitte | srrajkumar@deloitte.com
+2026-06-02 02:36:38 - WARNING - Prospect API returned no email for person 605a72d1541a3700014aa733
+2026-06-02 02:36:58 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:37:08 - INFO - Net New view selected
+2026-06-02 02:37:08 - ERROR - Error processing record 3: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5873e3eeffea <unknown>
+#1 0x5873e396dd06 <unknown>
+#2 0x5873e39749af <unknown>
+#3 0x5873e3977148 <unknown>
+#4 0x5873e39771d3 <unknown>
+#5 0x5873e39bf94f <unknown>
+#6 0x5873e39c0101 <unknown>
+#7 0x5873e39b3bf6 <unknown>
+#8 0x5873e39e5e3d <unknown>
+#9 0x5873e39b3ae7 <unknown>
+#10 0x5873e39e5fde <unknown>
+#11 0x5873e3a0bb3b <unknown>
+#12 0x5873e39e5be3 <unknown>
+#13 0x5873e39b22d2 <unknown>
+#14 0x5873e39b2f91 <unknown>
+#15 0x5873e3eb39e8 <unknown>
+#16 0x5873e3eb784f <unknown>
+#17 0x5873e3e9aec9 <unknown>
+#18 0x5873e3eb83f5 <unknown>
+#19 0x5873e3e8074f <unknown>
+#20 0x5873e3edccc8 <unknown>
+#21 0x5873e3edcea3 <unknown>
+#22 0x5873e3eeef83 <unknown>
+#23 0x72b30909caa4 <unknown>
+#24 0x72b309129c6c <unknown>
+
+2026-06-02 02:37:13 - WARNING - Prospect API returned no email for person 6899833b172a020001afa05e
+2026-06-02 02:37:28 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:37:36 - INFO - Net New view selected
+2026-06-02 02:37:36 - ERROR - Error processing record 4: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5873e3eeffea <unknown>
+#1 0x5873e396dd06 <unknown>
+#2 0x5873e39749af <unknown>
+#3 0x5873e3977148 <unknown>
+#4 0x5873e39771d3 <unknown>
+#5 0x5873e39bf94f <unknown>
+#6 0x5873e39c0101 <unknown>
+#7 0x5873e39b3bf6 <unknown>
+#8 0x5873e39e5e3d <unknown>
+#9 0x5873e39b3ae7 <unknown>
+#10 0x5873e39e5fde <unknown>
+#11 0x5873e3a0bb3b <unknown>
+#12 0x5873e39e5be3 <unknown>
+#13 0x5873e39b22d2 <unknown>
+#14 0x5873e39b2f91 <unknown>
+#15 0x5873e3eb39e8 <unknown>
+#16 0x5873e3eb784f <unknown>
+#17 0x5873e3e9aec9 <unknown>
+#18 0x5873e3eb83f5 <unknown>
+#19 0x5873e3e8074f <unknown>
+#20 0x5873e3edccc8 <unknown>
+#21 0x5873e3edcea3 <unknown>
+#22 0x5873e3eeef83 <unknown>
+#23 0x72b30909caa4 <unknown>
+#24 0x72b309129c6c <unknown>
+
+2026-06-02 02:37:40 - INFO - Email via API for row 6: alexaj@nvidia.com
+2026-06-02 02:37:55 - INFO - Collected record 6: Alexa Johnson | PhD Technical Recruiter | NVIDIA | alexaj@nvidia.com
+2026-06-02 02:37:58 - WARNING - Prospect API returned no email for person 67ad97d769b1a500019e8ad0
+2026-06-02 02:38:19 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:38:29 - INFO - Net New view selected
+2026-06-02 02:38:30 - ERROR - Error processing record 6: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5873e3eeffea <unknown>
+#1 0x5873e396dd06 <unknown>
+#2 0x5873e39749af <unknown>
+#3 0x5873e3977148 <unknown>
+#4 0x5873e39771d3 <unknown>
+#5 0x5873e39bf94f <unknown>
+#6 0x5873e39c0101 <unknown>
+#7 0x5873e39b3bf6 <unknown>
+#8 0x5873e39e5e3d <unknown>
+#9 0x5873e39b3ae7 <unknown>
+#10 0x5873e39e5fde <unknown>
+#11 0x5873e3a0bb3b <unknown>
+#12 0x5873e39e5be3 <unknown>
+#13 0x5873e39b22d2 <unknown>
+#14 0x5873e39b2f91 <unknown>
+#15 0x5873e3eb39e8 <unknown>
+#16 0x5873e3eb784f <unknown>
+#17 0x5873e3e9aec9 <unknown>
+#18 0x5873e3eb83f5 <unknown>
+#19 0x5873e3e8074f <unknown>
+#20 0x5873e3edccc8 <unknown>
+#21 0x5873e3edcea3 <unknown>
+#22 0x5873e3eeef83 <unknown>
+#23 0x72b30909caa4 <unknown>
+#24 0x72b309129c6c <unknown>
+
+2026-06-02 02:38:32 - INFO - Email via API for row 8: maggie.scott@capitalone.com
+2026-06-02 02:38:40 - INFO - Collected record 8: Maggie Scott | Technical Recruiter - Dexian | Capital One | maggie.scott@capitalone.com
+2026-06-02 02:38:44 - WARNING - Prospect API returned no email for person 651d37a7ae8d5700017e5085
+2026-06-02 02:39:04 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:39:15 - INFO - Net New view selected
+2026-06-02 02:39:15 - ERROR - Error processing record 8: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5873e3eeffea <unknown>
+#1 0x5873e396dd06 <unknown>
+#2 0x5873e39749af <unknown>
+#3 0x5873e3977148 <unknown>
+#4 0x5873e39771d3 <unknown>
+#5 0x5873e39bf94f <unknown>
+#6 0x5873e39c0101 <unknown>
+#7 0x5873e39b3bf6 <unknown>
+#8 0x5873e39e5e3d <unknown>
+#9 0x5873e39b3ae7 <unknown>
+#10 0x5873e39e5fde <unknown>
+#11 0x5873e3a0bb3b <unknown>
+#12 0x5873e39e5be3 <unknown>
+#13 0x5873e39b22d2 <unknown>
+#14 0x5873e39b2f91 <unknown>
+#15 0x5873e3eb39e8 <unknown>
+#16 0x5873e3eb784f <unknown>
+#17 0x5873e3e9aec9 <unknown>
+#18 0x5873e3eb83f5 <unknown>
+#19 0x5873e3e8074f <unknown>
+#20 0x5873e3edccc8 <unknown>
+#21 0x5873e3edcea3 <unknown>
+#22 0x5873e3eeef83 <unknown>
+#23 0x72b30909caa4 <unknown>
+#24 0x72b309129c6c <unknown>
+
+2026-06-02 02:39:18 - INFO - Email via API for row 10: mwalia@atlassian.com
+2026-06-02 02:39:27 - INFO - Collected record 10: Manrit Walia | Senior Technical Recruiter | Atlassian | mwalia@atlassian.com
+2026-06-02 02:39:31 - INFO - Email via API for row 11: shilsingh@paypal.com
+2026-06-02 02:39:45 - INFO - Collected record 11: Shilpa Singh | Senior Technical Recruiter | PayPal | shilsingh@paypal.com
+2026-06-02 02:39:48 - INFO - Email via API for row 12: robynk@meta.com
+2026-06-02 02:40:03 - INFO - Collected record 12: Robyn Kwon | Principal Technical Recruiter | Meta | robynk@meta.com
+2026-06-02 02:40:06 - INFO - Email via API for row 13: nbezugam@digitalocean.com
+2026-06-02 02:40:14 - INFO - Collected record 13: Nishanth Bezugam | Lead Technical Recruiter | DigitalOcean | nbezugam@digitalocean.com
+2026-06-02 02:40:17 - INFO - Email via API for row 14: nroos@nvidia.com
+2026-06-02 02:40:32 - INFO - Collected record 14: Nadine Roos | Sr. Technical Recruiter | NVIDIA | nroos@nvidia.com
+2026-06-02 02:40:35 - INFO - Email via API for row 15: achartrand@apple.com
+2026-06-02 02:40:43 - INFO - Collected record 15: Angel Chartrand | Technical Recruiter - Hardware Technology | Apple | achartrand@apple.com
+2026-06-02 02:40:46 - INFO - Email via API for row 16: ecastro@atlassian.com
+2026-06-02 02:40:53 - INFO - Collected record 16: Emily Castro-Knightley | Lead Technical Recruiter | Atlassian | ecastro@atlassian.com
+2026-06-02 02:40:56 - INFO - Email via API for row 17: dsmith@meta.com
+2026-06-02 02:41:11 - INFO - Collected record 17: DD Smith | Senior Technical Recruiter | Meta | dsmith@meta.com
+2026-06-02 02:41:13 - INFO - Email via API for row 18: akulkarni5@atlassian.com
+2026-06-02 02:41:21 - INFO - Collected record 18: Anagha Kulkarni | Senior Technical Recruiter | Atlassian | akulkarni5@atlassian.com
+2026-06-02 02:41:24 - INFO - Email via API for row 19: baron.ford@capitalone.com
+2026-06-02 02:41:31 - INFO - Collected record 19: Baron Ford | Senior Technical Recruiter | Capital One | baron.ford@capitalone.com
+2026-06-02 02:41:35 - INFO - Email via API for row 20: hratra@atlassian.com
+2026-06-02 02:41:42 - INFO - Collected record 20: Harpreet Ratra | Senior Technical Recruiter | Atlassian | hratra@atlassian.com
+2026-06-02 02:41:45 - INFO - Email via API for row 21: filipe.pimentel@doordash.com
+2026-06-02 02:41:59 - INFO - Collected record 21: Filipe Pimentel | Senior Technical Recruiter | DoorDash | filipe.pimentel@doordash.com
+2026-06-02 02:42:02 - INFO - Email via API for row 22: bella.miranda@capitalone.com
+2026-06-02 02:42:10 - INFO - Collected record 22: Bella Miranda | Senior Technical Recruiter | Capital One | bella.miranda@capitalone.com
+2026-06-02 02:42:13 - INFO - Email via API for row 23: sswain@deloitte.com
+2026-06-02 02:42:28 - INFO - Collected record 23: Shivangi Swain | Sr. Technical Recruiter | Deloitte | sswain@deloitte.com
+2026-06-02 02:42:31 - INFO - Email via API for row 24: daynaw@nvidia.com
+2026-06-02 02:42:46 - INFO - Collected record 24: Dayna Wu | Sr. Technical Recruiter | NVIDIA | daynaw@nvidia.com
+2026-06-02 02:42:49 - INFO - Email via API for row 25: bob@apple.com
+2026-06-02 02:42:57 - INFO - Collected record 25: Robert Desrosiers | Senior Technical Recruiter | Apple | bob@apple.com
+2026-06-02 02:42:58 - INFO - Missing fields on page 1: Industry: 5
+Missing fields on page 1: Industry: 5
+2026-06-02 02:42:58 - INFO - Page 1 complete - collected 20 recruiters (total: 20)
+Page 1 complete - collected 20 recruiters (total: 20)
+2026-06-02 02:42:58 - INFO - Total pages processed up to: 1
+2026-06-02 02:42:58 - INFO - Total records collected: 20
+2026-06-02 02:42:59 - INFO - Driver closed successfully
+2026-06-02 02:42:59 - INFO - Driver closed
+2026-06-02 02:42:59 - INFO - Virtual display stopped
+
+===== attempt 6 START_PAGE=1 @ 2026-06-02 02:43:07.851532 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 02:43:08 - INFO - Starting recruiter extraction from page 1
+2026-06-02 02:43:08 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 02:43:08 - INFO - Virtual display started
+2026-06-02 02:43:08 - INFO - Browser headless=True
+2026-06-02 02:43:08 - INFO - Using existing DISPLAY=:3
+2026-06-02 02:43:08 - INFO - Detected Chrome version: 141
+2026-06-02 02:43:09 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 02:43:11 - INFO - Created Chrome driver on port 9838 with profile dir /tmp/apollo_recruiters_9838
+2026-06-02 02:43:13 - INFO - Cookie file read successfully
+2026-06-02 02:43:13 - INFO - Successfully parsed 47 cookies
+2026-06-02 02:43:13 - INFO - Successfully loaded 47 cookies
+2026-06-02 02:43:30 - INFO - Cookies applied successfully
+2026-06-02 02:43:37 - INFO - Using saved-list URL mode (page=1)
+2026-06-02 02:43:37 - INFO - Navigating to filtered People page...
+2026-06-02 02:43:48 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:43:54 - INFO - Net New view selected
+2026-06-02 02:43:54 - INFO - Detected total rows: 333, page size: 25, total pages: 14. Processing through page 1.
+2026-06-02 02:43:54 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersTargetOrgs/apollo_recruiter_records_technical_target_orgs_net_new_1.csv
+2026-06-02 02:43:54 - INFO - Resuming into existing CSV (apollo_recruiter_records_technical_target_orgs_net_new_1.csv)
+2026-06-02 02:43:54 - INFO - Processing page 1 of 1 (1 - 25 of 333)
+
+==================================================
+Processing page 1 of 1
+Progress: 1 - 25 of 333
+==================================================
+
+2026-06-02 02:43:54 - INFO - Saved HTML for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_024354.html
+2026-06-02 02:43:55 - INFO - Saved screenshot for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_024354.png
+2026-06-02 02:43:55 - INFO - Found 25 records on page 1
+2026-06-02 02:43:57 - WARNING - Prospect API returned no email for person 5570aa4d7369646e19f93e00
+2026-06-02 02:44:14 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:44:23 - INFO - Net New view selected
+2026-06-02 02:44:23 - ERROR - Error processing record 0: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x59e76e4defea <unknown>
+#1 0x59e76df5cd06 <unknown>
+#2 0x59e76df639af <unknown>
+#3 0x59e76df66148 <unknown>
+#4 0x59e76df661d3 <unknown>
+#5 0x59e76dfae94f <unknown>
+#6 0x59e76dfaf101 <unknown>
+#7 0x59e76dfa2bf6 <unknown>
+#8 0x59e76dfd4e3d <unknown>
+#9 0x59e76dfa2ae7 <unknown>
+#10 0x59e76dfd4fde <unknown>
+#11 0x59e76dffab3b <unknown>
+#12 0x59e76dfd4be3 <unknown>
+#13 0x59e76dfa12d2 <unknown>
+#14 0x59e76dfa1f91 <unknown>
+#15 0x59e76e4a29e8 <unknown>
+#16 0x59e76e4a684f <unknown>
+#17 0x59e76e489ec9 <unknown>
+#18 0x59e76e4a73f5 <unknown>
+#19 0x59e76e46f74f <unknown>
+#20 0x59e76e4cbcc8 <unknown>
+#21 0x59e76e4cbea3 <unknown>
+#22 0x59e76e4ddf83 <unknown>
+#23 0x79725b89caa4 <unknown>
+#24 0x79725b929c6c <unknown>
+
+2026-06-02 02:44:27 - WARNING - Prospect API returned no email for person 6735e75352e3fc0001315177
+2026-06-02 02:45:11 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:45:23 - INFO - Net New view selected
+2026-06-02 02:45:23 - ERROR - Error processing record 1: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-06-02 02:45:24 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=51333): Failed to establish a new connection: [Errno 111] Connection refused")': /session/30ac65598c1965c07846537e3957a30a/element
+2026-06-02 02:45:24 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=51333): Failed to establish a new connection: [Errno 111] Connection refused")': /session/30ac65598c1965c07846537e3957a30a/element
+2026-06-02 02:45:24 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=51333): Failed to establish a new connection: [Errno 111] Connection refused")': /session/30ac65598c1965c07846537e3957a30a/element
+2026-06-02 02:45:24 - ERROR - Unexpected error on page 1: HTTPConnectionPool(host='localhost', port=51333): Max retries exceeded with url: /session/30ac65598c1965c07846537e3957a30a/element (Caused by NewConnectionError("HTTPConnection(host='localhost', port=51333): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-06-02 02:45:24 - INFO - Total pages processed up to: 1
+2026-06-02 02:45:24 - INFO - Total records collected: 0
+2026-06-02 02:45:24 - INFO - Driver closed successfully
+2026-06-02 02:45:24 - INFO - Driver closed
+2026-06-02 02:45:24 - INFO - Virtual display stopped
+
+===== attempt 7 START_PAGE=1 @ 2026-06-02 02:45:33.132926 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 02:45:33 - INFO - Starting recruiter extraction from page 1
+2026-06-02 02:45:33 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 02:45:33 - INFO - Virtual display started
+2026-06-02 02:45:33 - INFO - Browser headless=True
+2026-06-02 02:45:33 - INFO - Using existing DISPLAY=:3
+2026-06-02 02:45:33 - INFO - Detected Chrome version: 141
+2026-06-02 02:45:34 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 02:45:36 - INFO - Created Chrome driver on port 9466 with profile dir /tmp/apollo_recruiters_9466
+2026-06-02 02:45:38 - INFO - Cookie file read successfully
+2026-06-02 02:45:38 - INFO - Successfully parsed 47 cookies
+2026-06-02 02:45:38 - INFO - Successfully loaded 47 cookies
+2026-06-02 02:45:55 - INFO - Cookies applied successfully
+2026-06-02 02:46:01 - INFO - Using saved-list URL mode (page=1)
+2026-06-02 02:46:01 - INFO - Navigating to filtered People page...
+2026-06-02 02:46:11 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:46:51 - INFO - Net New view selected
+2026-06-02 02:46:51 - INFO - Detected total rows: 331, page size: 25, total pages: 14. Processing through page 1.
+2026-06-02 02:46:51 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersTargetOrgs/apollo_recruiter_records_technical_target_orgs_net_new_1.csv
+2026-06-02 02:46:51 - INFO - Resuming into existing CSV (apollo_recruiter_records_technical_target_orgs_net_new_1.csv)
+2026-06-02 02:46:51 - INFO - Processing page 1 of 1 (1 - 25 of 331)
+
+==================================================
+Processing page 1 of 1
+Progress: 1 - 25 of 331
+==================================================
+
+2026-06-02 02:46:51 - INFO - Saved HTML for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_024651.html
+2026-06-02 02:46:52 - INFO - Saved screenshot for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_024651.png
+2026-06-02 02:46:52 - INFO - Found 25 records on page 1
+2026-06-02 02:46:55 - INFO - Email via API for row 1: d.min@samsung.com
+2026-06-02 02:47:10 - INFO - Collected record 1: Dae-Hong Min | Technical Recruiter | Samsung Electronics | d.min@samsung.com
+2026-06-02 02:47:13 - WARNING - Prospect API returned no email for person 6742d55edbaac50001895146
+2026-06-02 02:47:29 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:48:15 - INFO - Net New view selected
+2026-06-02 02:48:15 - ERROR - Error processing record 1: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-06-02 02:48:17 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48157): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf72ef19389a77da8961d08d330f092f/element
+2026-06-02 02:48:17 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48157): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf72ef19389a77da8961d08d330f092f/element
+2026-06-02 02:48:17 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48157): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf72ef19389a77da8961d08d330f092f/element
+2026-06-02 02:48:17 - ERROR - Unexpected error on page 1: HTTPConnectionPool(host='localhost', port=48157): Max retries exceeded with url: /session/bf72ef19389a77da8961d08d330f092f/element (Caused by NewConnectionError("HTTPConnection(host='localhost', port=48157): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-06-02 02:48:17 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48157): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf72ef19389a77da8961d08d330f092f/element
+2026-06-02 02:48:17 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48157): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf72ef19389a77da8961d08d330f092f/element
+2026-06-02 02:48:17 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48157): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf72ef19389a77da8961d08d330f092f/element
+2026-06-02 02:48:17 - INFO - Processing page 1 of 1 (Progress counter not found)
+
+==================================================
+Processing page 1 of 1
+Progress: Progress counter not found
+==================================================
+
+2026-06-02 02:48:17 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48157): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf72ef19389a77da8961d08d330f092f/source
+2026-06-02 02:48:17 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48157): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf72ef19389a77da8961d08d330f092f/source
+2026-06-02 02:48:17 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48157): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf72ef19389a77da8961d08d330f092f/source
+2026-06-02 02:48:17 - ERROR - Error saving page HTML: HTTPConnectionPool(host='localhost', port=48157): Max retries exceeded with url: /session/bf72ef19389a77da8961d08d330f092f/source (Caused by NewConnectionError("HTTPConnection(host='localhost', port=48157): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-06-02 02:48:17 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48157): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf72ef19389a77da8961d08d330f092f/screenshot
+2026-06-02 02:48:17 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48157): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf72ef19389a77da8961d08d330f092f/screenshot
+2026-06-02 02:48:17 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48157): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf72ef19389a77da8961d08d330f092f/screenshot
+2026-06-02 02:48:17 - ERROR - Error saving screenshot: HTTPConnectionPool(host='localhost', port=48157): Max retries exceeded with url: /session/bf72ef19389a77da8961d08d330f092f/screenshot (Caused by NewConnectionError("HTTPConnection(host='localhost', port=48157): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-06-02 02:48:17 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48157): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf72ef19389a77da8961d08d330f092f/elements
+2026-06-02 02:48:17 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48157): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf72ef19389a77da8961d08d330f092f/elements
+2026-06-02 02:48:17 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=48157): Failed to establish a new connection: [Errno 111] Connection refused")': /session/bf72ef19389a77da8961d08d330f092f/elements
+2026-06-02 02:48:17 - ERROR - Unexpected error on page 1: HTTPConnectionPool(host='localhost', port=48157): Max retries exceeded with url: /session/bf72ef19389a77da8961d08d330f092f/elements (Caused by NewConnectionError("HTTPConnection(host='localhost', port=48157): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-06-02 02:48:17 - INFO - Total pages processed up to: 1
+2026-06-02 02:48:17 - INFO - Total records collected: 1
+2026-06-02 02:48:17 - INFO - Driver closed successfully
+2026-06-02 02:48:17 - INFO - Driver closed
+2026-06-02 02:48:17 - INFO - Virtual display stopped
+
+===== attempt 8 START_PAGE=1 @ 2026-06-02 02:48:26.087896 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 02:48:26 - INFO - Starting recruiter extraction from page 1
+2026-06-02 02:48:26 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 02:48:26 - INFO - Virtual display started
+2026-06-02 02:48:26 - INFO - Browser headless=True
+2026-06-02 02:48:26 - INFO - Using existing DISPLAY=:3
+2026-06-02 02:48:26 - INFO - Detected Chrome version: 141
+2026-06-02 02:48:27 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 02:48:29 - INFO - Created Chrome driver on port 9426 with profile dir /tmp/apollo_recruiters_9426
+2026-06-02 02:48:32 - INFO - Cookie file read successfully
+2026-06-02 02:48:32 - INFO - Successfully parsed 47 cookies
+2026-06-02 02:48:32 - INFO - Successfully loaded 47 cookies
+2026-06-02 02:48:49 - INFO - Cookies applied successfully
+2026-06-02 02:48:56 - INFO - Using saved-list URL mode (page=1)
+2026-06-02 02:48:56 - INFO - Navigating to filtered People page...
+2026-06-02 02:49:06 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:49:12 - INFO - Net New view selected
+2026-06-02 02:49:12 - INFO - Detected total rows: 329, page size: 25, total pages: 14. Processing through page 1.
+2026-06-02 02:49:12 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersTargetOrgs/apollo_recruiter_records_technical_target_orgs_net_new_1.csv
+2026-06-02 02:49:12 - INFO - Resuming into existing CSV (apollo_recruiter_records_technical_target_orgs_net_new_1.csv)
+2026-06-02 02:49:12 - INFO - Processing page 1 of 1 (1 - 25 of 329)
+
+==================================================
+Processing page 1 of 1
+Progress: 1 - 25 of 329
+==================================================
+
+2026-06-02 02:49:12 - INFO - Saved HTML for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_024912.html
+2026-06-02 02:49:12 - INFO - Saved screenshot for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_024912.png
+2026-06-02 02:49:12 - INFO - Found 25 records on page 1
+2026-06-02 02:49:15 - INFO - Email via API for row 1: aju_john@intuit.com
+2026-06-02 02:49:29 - INFO - Collected record 1: Aju John | Staff Technical Recruiter | Intuit | aju_john@intuit.com
+2026-06-02 02:49:33 - INFO - Email via API for row 2: gjohns@fb.com
+2026-06-02 02:49:47 - INFO - Collected record 2: Genea Johns | Technical Recruiter, TPM | Meta | gjohns@fb.com
+2026-06-02 02:49:50 - WARNING - Prospect API returned no email for person 60c2236b0061930001f51f18
+2026-06-02 02:50:23 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:50:35 - INFO - Net New view selected
+2026-06-02 02:50:35 - ERROR - Error processing record 2: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5c8b4fcaffea <unknown>
+#1 0x5c8b4f72dd06 <unknown>
+#2 0x5c8b4f7349af <unknown>
+#3 0x5c8b4f737148 <unknown>
+#4 0x5c8b4f7371d3 <unknown>
+#5 0x5c8b4f77f94f <unknown>
+#6 0x5c8b4f780101 <unknown>
+#7 0x5c8b4f773bf6 <unknown>
+#8 0x5c8b4f7a5e3d <unknown>
+#9 0x5c8b4f773ae7 <unknown>
+#10 0x5c8b4f7a5fde <unknown>
+#11 0x5c8b4f7cbb3b <unknown>
+#12 0x5c8b4f7a5be3 <unknown>
+#13 0x5c8b4f7722d2 <unknown>
+#14 0x5c8b4f772f91 <unknown>
+#15 0x5c8b4fc739e8 <unknown>
+#16 0x5c8b4fc7784f <unknown>
+#17 0x5c8b4fc5aec9 <unknown>
+#18 0x5c8b4fc783f5 <unknown>
+#19 0x5c8b4fc4074f <unknown>
+#20 0x5c8b4fc9ccc8 <unknown>
+#21 0x5c8b4fc9cea3 <unknown>
+#22 0x5c8b4fcaef83 <unknown>
+#23 0x7e25b7c9caa4 <unknown>
+#24 0x7e25b7d29c6c <unknown>
+
+2026-06-02 02:50:38 - INFO - Email via API for row 4: rvincent@atlassian.com
+2026-06-02 02:50:46 - INFO - Collected record 4: Richard Vincent | Senior Technical Recruiter | Atlassian | rvincent@atlassian.com
+2026-06-02 02:50:50 - INFO - Email via API for row 5: eric.williams@capitalone.com
+2026-06-02 02:50:57 - INFO - Collected record 5: Eric Williams | Principal Technical Recruiter | Capital One | eric.williams@capitalone.com
+2026-06-02 02:51:00 - INFO - Email via API for row 6: donald.kelly@capitalone.com
+2026-06-02 02:51:07 - INFO - Collected record 6: Donald Kelly | Senior Technical Recruiter | Capital One | donald.kelly@capitalone.com
+2026-06-02 02:51:10 - INFO - Email via API for row 7: ellison.decastro@gusto.com
+2026-06-02 02:51:26 - INFO - Collected record 7: Ellison Decastro | Lead Technical Recruiter | Gusto | ellison.decastro@gusto.com
+2026-06-02 02:51:29 - INFO - Email via API for row 8: vlad.cabrera@airbnb.com
+2026-06-02 02:51:43 - INFO - Collected record 8: Vladimir Cabrera | Senior Technical Recruiter | Airbnb | vlad.cabrera@airbnb.com
+2026-06-02 02:51:47 - INFO - Email via API for row 9: courtney.morgan@capitalone.com
+2026-06-02 02:51:54 - INFO - Collected record 9: Courtney Morgan | Senior Technical Recruiter | Capital One | courtney.morgan@capitalone.com
+2026-06-02 02:51:58 - INFO - Email via API for row 10: archanah@meta.com
+2026-06-02 02:52:12 - INFO - Collected record 10: Archana Heda | Senior Technical Recruiter | Meta | archanah@meta.com
+2026-06-02 02:52:15 - INFO - Email via API for row 11: lara.portugal@doordash.com
+2026-06-02 02:52:32 - INFO - Collected record 11: Lara Portugal | Senior Technical Recruiter | DoorDash | lara.portugal@doordash.com
+2026-06-02 02:52:35 - INFO - Email via API for row 12: dominique.segatti@databricks.com
+2026-06-02 02:52:49 - INFO - Collected record 12: Dominique Segatti | Senior Technical Recruiter | Databricks | dominique.segatti@databricks.com
+2026-06-02 02:52:53 - INFO - Email via API for row 13: evan.johnson@capitalone.com
+2026-06-02 02:53:00 - INFO - Collected record 13: Evan Johnson | Senior Technical Recruiter | Capital One | evan.johnson@capitalone.com
+2026-06-02 02:53:04 - INFO - Email via API for row 14: ililyana@meta.com
+2026-06-02 02:53:18 - INFO - Collected record 14: Intan Lilyana | Senior Technical Recruiter | Meta | ililyana@meta.com
+2026-06-02 02:53:22 - INFO - Email via API for row 15: jgriffith@netflix.com
+2026-06-02 02:53:30 - INFO - Collected record 15: Joe Griffith | Sr. Technical Recruiter | Netflix | jgriffith@netflix.com
+2026-06-02 02:53:32 - INFO - Email via API for row 16: dania.reed@airbnb.com
+2026-06-02 02:53:47 - INFO - Collected record 16: Dania Reed | Senior Technical Recruiter | Airbnb | dania.reed@airbnb.com
+2026-06-02 02:53:50 - INFO - Email via API for row 17: pchittoria@deloitte.com
+2026-06-02 02:54:05 - INFO - Collected record 17: Priyanka Chittoria | IT Recruiter | Deloitte | pchittoria@deloitte.com
+2026-06-02 02:54:09 - INFO - Email via API for row 18: tamara.novkovic@databricks.com
+2026-06-02 02:54:23 - INFO - Collected record 18: Tamara Novkovic | Senior Technical Recruiter | Databricks | tamara.novkovic@databricks.com
+2026-06-02 02:54:27 - INFO - Email via API for row 19: rpafredi@fb.com
+2026-06-02 02:54:41 - INFO - Collected record 19: Raheba Afredi | Senior Technical Recruiter | Meta | rpafredi@fb.com
+2026-06-02 02:54:44 - INFO - Email via API for row 20: smikol@nvidia.com
+2026-06-02 02:54:59 - INFO - Collected record 20: Sara Mikol | Senior Technical Recruiter | NVIDIA | smikol@nvidia.com
+2026-06-02 02:55:03 - INFO - Email via API for row 21: lschiro@meta.com
+2026-06-02 02:55:18 - INFO - Collected record 21: Lauren Schiro | Senior Technical Recruiter | Meta | lschiro@meta.com
+2026-06-02 02:55:21 - INFO - Email via API for row 22: jaqueline.gross@databricks.com
+2026-06-02 02:55:35 - INFO - Collected record 22: Jaqueline Gross | Senior Technical Recruiter | Databricks | jaqueline.gross@databricks.com
+2026-06-02 02:55:39 - INFO - Email via API for row 23: samdymant@meta.com
+2026-06-02 02:55:53 - INFO - Collected record 23: Samantha Dymant | Senior Technical Recruiter | Meta | samdymant@meta.com
+2026-06-02 02:55:56 - INFO - Email via API for row 24: aubreyk@fb.com
+2026-06-02 02:56:10 - INFO - Collected record 24: Aubrey Khaleel | Senior Technical Recruiter | Meta | aubreyk@fb.com
+2026-06-02 02:56:13 - INFO - Email via API for row 25: adrienne.atchley@doordash.com
+2026-06-02 02:56:28 - INFO - Collected record 25: Adrienne Atchley | Technical Recruiter-III | DoorDash | adrienne.atchley@doordash.com
+2026-06-02 02:56:30 - INFO - Missing fields on page 1: Industry: 16, Keywords: 1
+Missing fields on page 1: Industry: 16, Keywords: 1
+2026-06-02 02:56:30 - INFO - Page 1 complete - collected 24 recruiters (total: 24)
+Page 1 complete - collected 24 recruiters (total: 24)
+2026-06-02 02:56:30 - INFO - Total pages processed up to: 1
+2026-06-02 02:56:30 - INFO - Total records collected: 24
+2026-06-02 02:56:30 - INFO - Driver closed successfully
+2026-06-02 02:56:30 - INFO - Driver closed
+2026-06-02 02:56:30 - INFO - Virtual display stopped
+
+===== attempt 9 START_PAGE=1 @ 2026-06-02 02:56:39.088482 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 02:56:39 - INFO - Starting recruiter extraction from page 1
+2026-06-02 02:56:39 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 02:56:39 - INFO - Virtual display started
+2026-06-02 02:56:39 - INFO - Browser headless=True
+2026-06-02 02:56:39 - INFO - Using existing DISPLAY=:3
+2026-06-02 02:56:39 - INFO - Detected Chrome version: 141
+2026-06-02 02:56:40 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 02:56:42 - INFO - Created Chrome driver on port 9351 with profile dir /tmp/apollo_recruiters_9351
+2026-06-02 02:56:44 - INFO - Cookie file read successfully
+2026-06-02 02:56:44 - INFO - Successfully parsed 47 cookies
+2026-06-02 02:56:44 - INFO - Successfully loaded 47 cookies
+2026-06-02 02:57:01 - INFO - Cookies applied successfully
+2026-06-02 02:57:07 - INFO - Using saved-list URL mode (page=1)
+2026-06-02 02:57:07 - INFO - Navigating to filtered People page...
+2026-06-02 02:57:18 - INFO - Ensuring Net New view is selected...
+2026-06-02 02:57:25 - INFO - Net New view selected
+2026-06-02 02:57:25 - INFO - Detected total rows: 304, page size: 25, total pages: 13. Processing through page 1.
+2026-06-02 02:57:25 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersTargetOrgs/apollo_recruiter_records_technical_target_orgs_net_new_1.csv
+2026-06-02 02:57:25 - INFO - Resuming into existing CSV (apollo_recruiter_records_technical_target_orgs_net_new_1.csv)
+2026-06-02 02:57:25 - INFO - Processing page 1 of 1 (1 - 25 of 304)
+
+==================================================
+Processing page 1 of 1
+Progress: 1 - 25 of 304
+==================================================
+
+2026-06-02 02:57:25 - INFO - Saved HTML for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_025725.html
+2026-06-02 02:57:26 - INFO - Saved screenshot for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_025725.png
+2026-06-02 02:57:26 - INFO - Found 25 records on page 1
+2026-06-02 02:57:27 - INFO - Email via API for row 1: niall.duffy@mongodb.com
+2026-06-02 02:57:42 - INFO - Collected record 1: Niall Duffy | Senior Technical Recruiter | MongoDB | niall.duffy@mongodb.com
+2026-06-02 02:57:46 - INFO - Email via API for row 2: egandotra@atlassian.com
+2026-06-02 02:57:54 - INFO - Collected record 2: Esha Gandotra | Senior Technical Recruiter | Atlassian | egandotra@atlassian.com
+2026-06-02 02:57:57 - INFO - Email via API for row 3: salim.hamid@doordash.com
+2026-06-02 02:58:11 - INFO - Collected record 3: Salim Hamid | Senior Technical Recruiter | DoorDash | salim.hamid@doordash.com
+2026-06-02 02:58:15 - INFO - Email via API for row 4: jeremy.murdy@gusto.com
+2026-06-02 02:58:29 - INFO - Collected record 4: Jeremy Murdy | Lead Technical Recruiter | Gusto | jeremy.murdy@gusto.com
+2026-06-02 02:58:32 - INFO - Email via API for row 5: jcavalcanti@deloitte.com
+2026-06-02 02:58:46 - INFO - Collected record 5: Julia Cavalcanti | Tech Recruiter PL | Deloitte | jcavalcanti@deloitte.com
+2026-06-02 02:58:50 - INFO - Email via API for row 6: shiraoatis@meta.com
+2026-06-02 02:59:05 - INFO - Collected record 6: Shira Oatis | Senior Technical Recruiter | Meta | shiraoatis@meta.com
+2026-06-02 02:59:08 - INFO - Email via API for row 7: crogers@atlassian.com
+2026-06-02 02:59:15 - INFO - Collected record 7: Cathal Rogers | Senior Technical Recruiter | Atlassian | crogers@atlassian.com
+2026-06-02 02:59:19 - INFO - Email via API for row 8: abby.wagner@gusto.com
+2026-06-02 02:59:34 - INFO - Collected record 8: Abby Wagner | Lead Technical Recruiter | Gusto | abby.wagner@gusto.com
+2026-06-02 02:59:36 - INFO - Email via API for row 9: alex.verkunich@databricks.com
+2026-06-02 02:59:51 - INFO - Collected record 9: Alex Verkunich | Sr. Technical Recruiter | Databricks | alex.verkunich@databricks.com
+2026-06-02 02:59:54 - INFO - Email via API for row 10: ceaton@atlassian.com
+2026-06-02 03:00:01 - INFO - Collected record 10: Clayton Eaton | Principal Tech Recruiter | Atlassian | ceaton@atlassian.com
+2026-06-02 03:00:05 - INFO - Email via API for row 11: rose.fadawi@gusto.com
+2026-06-02 03:00:19 - INFO - Collected record 11: Rose Fadawi | Senior Technical Recruiter | Gusto | rose.fadawi@gusto.com
+2026-06-02 03:00:22 - INFO - Email via API for row 12: hbisrat@mozilla.com
+2026-06-02 03:00:37 - INFO - Collected record 12: Heran Bisrat | Senior Technical Recruiter | Mozilla | hbisrat@mozilla.com
+2026-06-02 03:00:40 - INFO - Email via API for row 13: megan.weaver@doordash.com
+2026-06-02 03:00:55 - INFO - Collected record 13: Megan Weaver | Lead Technical Recruiter | DoorDash | megan.weaver@doordash.com
+2026-06-02 03:00:58 - INFO - Email via API for row 14: jdovalina@meta.com
+2026-06-02 03:01:12 - INFO - Collected record 14: Jason Dovalina | Senior Technical Recruiter - Hardware | Anduril Industries | jdovalina@meta.com
+2026-06-02 03:01:16 - INFO - Email via API for row 15: deepalij@meta.com
+2026-06-02 03:01:30 - INFO - Collected record 15: Deepali Joshi | Sr Technical Recruiter | Meta | deepalij@meta.com
+2026-06-02 03:01:34 - INFO - Email via API for row 16: kburke@fb.com
+2026-06-02 03:01:48 - INFO - Collected record 16: Kirsten Burke | Senior Technical Recruiter | Meta | kburke@fb.com
+2026-06-02 03:01:52 - INFO - Email via API for row 17: nalimu@nvidia.com
+2026-06-02 03:02:06 - INFO - Collected record 17: Nadila Alimu | Senior Technical Recruiter | NVIDIA | nalimu@nvidia.com
+2026-06-02 03:02:10 - INFO - Email via API for row 18: lorraine_young@intuit.com
+2026-06-02 03:02:24 - INFO - Collected record 18: Lorraine Young | Senior Technical Recruiter | Intuit | lorraine_young@intuit.com
+2026-06-02 03:02:27 - INFO - Email via API for row 19: nico.watson@gusto.com
+2026-06-02 03:02:41 - INFO - Collected record 19: Nico Watson | Senior Technical Recruiter | Gusto | nico.watson@gusto.com
+2026-06-02 03:02:45 - INFO - Email via API for row 20: bbass@meta.com
+2026-06-02 03:02:59 - INFO - Collected record 20: Belinda Bass | Senior Technical Recruiter | Meta | bbass@meta.com
+2026-06-02 03:03:02 - INFO - Email via API for row 21: pjha2@atlassian.com
+2026-06-02 03:03:10 - INFO - Collected record 21: Priyanka Jha | Senior Technical Recruiter | Atlassian | pjha2@atlassian.com
+2026-06-02 03:03:13 - INFO - Email via API for row 22: ivasconcelos@deloitte.com
+2026-06-02 03:03:27 - INFO - Collected record 22: Isadora Vasconcelos | Tech Recruiter Senior | Deloitte | ivasconcelos@deloitte.com
+2026-06-02 03:03:30 - INFO - Email via API for row 23: gkalangi@digitalocean.com
+2026-06-02 03:03:38 - INFO - Collected record 23: Nithya Kalangi | Senior Technical Recruiter | DigitalOcean | gkalangi@digitalocean.com
+2026-06-02 03:03:41 - INFO - Email via API for row 24: rubybarry@meta.com
+2026-06-02 03:03:56 - INFO - Collected record 24: Ruby Barry | Senior Technical Recruiter | Meta | rubybarry@meta.com
+2026-06-02 03:04:01 - INFO - Email via API for row 25: vanessab@meta.com
+2026-06-02 03:04:15 - INFO - Collected record 25: Vanessa Bacorn | Senior Technical Recruiter | Meta | vanessab@meta.com
+2026-06-02 03:04:16 - INFO - Missing fields on page 1: Industry: 16
+Missing fields on page 1: Industry: 16
+2026-06-02 03:04:16 - INFO - Page 1 complete - collected 25 recruiters (total: 25)
+Page 1 complete - collected 25 recruiters (total: 25)
+2026-06-02 03:04:16 - INFO - Total pages processed up to: 1
+2026-06-02 03:04:16 - INFO - Total records collected: 25
+2026-06-02 03:04:17 - INFO - Driver closed successfully
+2026-06-02 03:04:17 - INFO - Driver closed
+2026-06-02 03:04:17 - INFO - Virtual display stopped
+
+===== attempt 10 START_PAGE=1 @ 2026-06-02 03:04:25.879527 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 03:04:26 - INFO - Starting recruiter extraction from page 1
+2026-06-02 03:04:26 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 03:04:26 - INFO - Virtual display started
+2026-06-02 03:04:26 - INFO - Browser headless=True
+2026-06-02 03:04:26 - INFO - Using existing DISPLAY=:3
+2026-06-02 03:04:26 - INFO - Detected Chrome version: 141
+2026-06-02 03:04:27 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 03:04:30 - INFO - Created Chrome driver on port 9410 with profile dir /tmp/apollo_recruiters_9410
+2026-06-02 03:04:33 - INFO - Cookie file read successfully
+2026-06-02 03:04:33 - INFO - Successfully parsed 47 cookies
+2026-06-02 03:04:33 - INFO - Successfully loaded 47 cookies
+2026-06-02 03:04:50 - INFO - Cookies applied successfully
+2026-06-02 03:04:56 - INFO - Using saved-list URL mode (page=1)
+2026-06-02 03:04:56 - INFO - Navigating to filtered People page...
+2026-06-02 03:05:08 - INFO - Ensuring Net New view is selected...
+2026-06-02 03:05:16 - INFO - Net New view selected
+2026-06-02 03:05:16 - INFO - Detected total rows: 279, page size: 25, total pages: 12. Processing through page 1.
+2026-06-02 03:05:16 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersTargetOrgs/apollo_recruiter_records_technical_target_orgs_net_new_1.csv
+2026-06-02 03:05:16 - INFO - Resuming into existing CSV (apollo_recruiter_records_technical_target_orgs_net_new_1.csv)
+2026-06-02 03:05:16 - INFO - Processing page 1 of 1 (1 - 25 of 279)
+
+==================================================
+Processing page 1 of 1
+Progress: 1 - 25 of 279
+==================================================
+
+2026-06-02 03:05:16 - INFO - Saved HTML for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_030516.html
+2026-06-02 03:05:16 - INFO - Saved screenshot for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_030516.png
+2026-06-02 03:05:16 - INFO - Found 25 records on page 1
+2026-06-02 03:05:18 - INFO - Email via API for row 1: kdelaguila@fb.com
+2026-06-02 03:05:33 - INFO - Collected record 1: Kevin Aguila | Senior Technical Recruiter | Meta | kdelaguila@fb.com
+2026-06-02 03:05:37 - INFO - Email via API for row 2: kmichelle@meta.com
+2026-06-02 03:05:51 - INFO - Collected record 2: Michelle Kempner | Senior Technical Recruiter | Meta | kmichelle@meta.com
+2026-06-02 03:05:54 - INFO - Email via API for row 3: fandoh@apple.com
+2026-06-02 03:06:03 - INFO - Collected record 3: Franklin Andoh | Senior Technical Recruiter | Apple | fandoh@apple.com
+2026-06-02 03:06:06 - INFO - Email via API for row 4: stephanie.rivenburg@capitalone.com
+2026-06-02 03:06:13 - INFO - Collected record 4: Stephanie Rivenburg | Senior Technical Recruiter | Capital One | stephanie.rivenburg@capitalone.com
+2026-06-02 03:06:15 - INFO - Email via API for row 5: charles.brennan@mongodb.com
+2026-06-02 03:06:30 - INFO - Collected record 5: Charles Brennan | Senior Technical Recruiter | MongoDB | charles.brennan@mongodb.com
+2026-06-02 03:06:33 - INFO - Email via API for row 6: james.leonard@capitalone.com
+2026-06-02 03:06:41 - INFO - Collected record 6: James Leonard | Sr Technical Recruiter | Capital One | james.leonard@capitalone.com
+2026-06-02 03:06:45 - INFO - Email via API for row 7: tondosteeleja@fb.com
+2026-06-02 03:07:01 - INFO - Collected record 7: Jacquelyn Tondo-Steele | Senior Technical Recruiter | Meta | tondosteeleja@fb.com
+2026-06-02 03:07:05 - INFO - Email via API for row 8: ctanner@atlassian.com
+2026-06-02 03:07:12 - INFO - Collected record 8: Cecil Tanner | Senior Technical Recruiter | Atlassian | ctanner@atlassian.com
+2026-06-02 03:07:15 - INFO - Email via API for row 9: christina_fischer1@intuit.com
+2026-06-02 03:07:30 - INFO - Collected record 9: Christina Fischer | Senior Technical Recruiter | Intuit | christina_fischer1@intuit.com
+2026-06-02 03:07:32 - INFO - Email via API for row 10: rose@apple.com
+2026-06-02 03:07:40 - INFO - Collected record 10: Rosie O'Callaghan | Senior Technical Recruiter | Apple | rose@apple.com
+2026-06-02 03:07:43 - INFO - Email via API for row 11: mefrancis@deloitte.com
+2026-06-02 03:07:57 - INFO - Collected record 11: Mercina Francis | Senior Technical Recruiter | Deloitte | mefrancis@deloitte.com
+2026-06-02 03:08:00 - INFO - Email via API for row 12: jordane@meta.com
+2026-06-02 03:08:14 - INFO - Collected record 12: Jordan Edwards | Senior Technical Recruiter | Meta | jordane@meta.com
+2026-06-02 03:08:17 - INFO - Email via API for row 13: mbrady6@apple.com
+2026-06-02 03:08:25 - INFO - Collected record 13: Monique Brady | Senior Technical Recruiter | Apple | mbrady6@apple.com
+2026-06-02 03:08:28 - INFO - Email via API for row 14: orojcova@atlassian.com
+2026-06-02 03:08:35 - INFO - Collected record 14: Oxana Rojcova | Senior Technical Recruiter | Atlassian | orojcova@atlassian.com
+2026-06-02 03:08:39 - INFO - Email via API for row 15: quinn.miller@instacart.com
+2026-06-02 03:08:53 - INFO - Collected record 15: Quinn Miller | Senior Technical Recruiter | Instacart | quinn.miller@instacart.com
+2026-06-02 03:08:56 - INFO - Email via API for row 16: jennifer_serluco@intuit.com
+2026-06-02 03:09:11 - INFO - Collected record 16: Jen Serluco | Senior Technical Recruiter | Intuit | jennifer_serluco@intuit.com
+2026-06-02 03:09:14 - INFO - Email via API for row 17: neeki.zohadi@doordash.com
+2026-06-02 03:09:29 - INFO - Collected record 17: Neeki McCune | Senior Technical Recruiter | DoorDash | neeki.zohadi@doordash.com
+2026-06-02 03:09:31 - INFO - Email via API for row 18: karah.duke@capitalone.com
+2026-06-02 03:09:39 - INFO - Collected record 18: Karah Duke | Senior Technical Recruiter | Capital One | karah.duke@capitalone.com
+2026-06-02 03:09:42 - INFO - Email via API for row 19: mollygildea@meta.com
+2026-06-02 03:09:57 - INFO - Collected record 19: Molly Gildea | Senior Technical Recruiter | Meta | mollygildea@meta.com
+2026-06-02 03:10:00 - INFO - Email via API for row 20: luis.aguayo@capitalone.com
+2026-06-02 03:10:08 - INFO - Collected record 20: Luis Aguayo | Principal Technical Recruiter | Capital One | luis.aguayo@capitalone.com
+2026-06-02 03:10:11 - INFO - Email via API for row 21: anwar.hussain@databricks.com
+2026-06-02 03:10:25 - INFO - Collected record 21: Anwar Hussain | Senior Technical Recruiter | Databricks | anwar.hussain@databricks.com
+2026-06-02 03:10:28 - INFO - Email via API for row 22: collindr@meta.com
+2026-06-02 03:10:43 - INFO - Collected record 22: Collin Raphael | Senior Technical Recruiter | Meta | collindr@meta.com
+2026-06-02 03:10:45 - INFO - Email via API for row 23: jesses@zillowgroup.com
+2026-06-02 03:10:53 - INFO - Collected record 23: Jesse Sanborn | Sr. Technical Recruiter | Zillow | jesses@zillowgroup.com
+2026-06-02 03:10:56 - INFO - Email via API for row 24: ryan.gore@capitalone.com
+2026-06-02 03:11:04 - INFO - Collected record 24: Ryan Gore | Senior Technical Recruiter | Capital One | ryan.gore@capitalone.com
+2026-06-02 03:11:07 - INFO - Email via API for row 25: miperalta@nvidia.com
+2026-06-02 03:11:21 - INFO - Collected record 25: Mitchell Peralta | Senior Technical Recruiter | NVIDIA | miperalta@nvidia.com
+2026-06-02 03:11:22 - INFO - Missing fields on page 1: Industry: 12
+Missing fields on page 1: Industry: 12
+2026-06-02 03:11:22 - INFO - Page 1 complete - collected 25 recruiters (total: 25)
+Page 1 complete - collected 25 recruiters (total: 25)
+2026-06-02 03:11:22 - INFO - Total pages processed up to: 1
+2026-06-02 03:11:22 - INFO - Total records collected: 25
+2026-06-02 03:11:23 - INFO - Driver closed successfully
+2026-06-02 03:11:23 - INFO - Driver closed
+2026-06-02 03:11:23 - INFO - Virtual display stopped
+
+===== attempt 11 START_PAGE=1 @ 2026-06-02 03:11:31.781443 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 03:11:32 - INFO - Starting recruiter extraction from page 1
+2026-06-02 03:11:32 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 03:11:32 - INFO - Virtual display started
+2026-06-02 03:11:32 - INFO - Browser headless=True
+2026-06-02 03:11:32 - INFO - Using existing DISPLAY=:3
+2026-06-02 03:11:32 - INFO - Detected Chrome version: 141
+2026-06-02 03:11:33 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 03:11:34 - INFO - Created Chrome driver on port 9826 with profile dir /tmp/apollo_recruiters_9826
+2026-06-02 03:11:37 - INFO - Cookie file read successfully
+2026-06-02 03:11:37 - INFO - Successfully parsed 47 cookies
+2026-06-02 03:11:37 - INFO - Successfully loaded 47 cookies
+2026-06-02 03:11:54 - INFO - Cookies applied successfully
+2026-06-02 03:12:01 - INFO - Using saved-list URL mode (page=1)
+2026-06-02 03:12:01 - INFO - Navigating to filtered People page...
+2026-06-02 03:12:11 - INFO - Ensuring Net New view is selected...
+2026-06-02 03:12:17 - INFO - Net New view selected
+2026-06-02 03:12:17 - INFO - Detected total rows: 254, page size: 25, total pages: 11. Processing through page 1.
+2026-06-02 03:12:17 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersTargetOrgs/apollo_recruiter_records_technical_target_orgs_net_new_1.csv
+2026-06-02 03:12:17 - INFO - Resuming into existing CSV (apollo_recruiter_records_technical_target_orgs_net_new_1.csv)
+2026-06-02 03:12:17 - INFO - Processing page 1 of 1 (1 - 25 of 254)
+
+==================================================
+Processing page 1 of 1
+Progress: 1 - 25 of 254
+==================================================
+
+2026-06-02 03:12:18 - INFO - Saved HTML for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_031217.html
+2026-06-02 03:12:18 - INFO - Saved screenshot for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_1_20260602_031218.png
+2026-06-02 03:12:18 - INFO - Found 25 records on page 1
+2026-06-02 03:12:20 - INFO - Email via API for row 1: jose.rodriguez@capitalone.com
+2026-06-02 03:12:28 - INFO - Collected record 1: Jose Rodriguez | Senior Technical Recruiter | Capital One | jose.rodriguez@capitalone.com
+2026-06-02 03:12:31 - INFO - Email via API for row 2: jl@doordash.com
+2026-06-02 03:12:46 - INFO - Collected record 2: JL Ivory | Senior Technical Recruiter | DoorDash | jl@doordash.com
+2026-06-02 03:12:48 - INFO - Email via API for row 3: maloasem@meta.com
+2026-06-02 03:13:03 - INFO - Collected record 3: Maloase Mogodi | Senior Technical Recruiter | Meta | maloasem@meta.com
+2026-06-02 03:13:06 - INFO - Email via API for row 4: tkhampa@atlassian.com
+2026-06-02 03:13:14 - INFO - Collected record 4: Tenzing Khampa | Senior Technical Recruiter | Atlassian | tkhampa@atlassian.com
+2026-06-02 03:13:17 - INFO - Email via API for row 5: elizabeth.karras@capitalone.com
+2026-06-02 03:13:25 - INFO - Collected record 5: Liza Karras | Principal Technical Recruiter | Capital One | elizabeth.karras@capitalone.com
+2026-06-02 03:13:28 - INFO - Email via API for row 6: evargas@nvidia.com
+2026-06-02 03:13:43 - INFO - Collected record 6: Eric Vargas | Sr. Technical Recruiter | NVIDIA | evargas@nvidia.com
+2026-06-02 03:13:47 - INFO - Email via API for row 7: alisonleavy@meta.com
+2026-06-02 03:14:02 - INFO - Collected record 7: Alison Leavy | Senior Technical Recruiter | Meta | alisonleavy@meta.com
+2026-06-02 03:14:04 - INFO - Email via API for row 8: a_sunwoo@apple.com
+2026-06-02 03:14:12 - INFO - Collected record 8: Andie Sunwoo | Senior Technical Recruiter | Apple | a_sunwoo@apple.com
+2026-06-02 03:14:14 - INFO - Email via API for row 9: saili.karpe@airbnb.com
+2026-06-02 03:14:29 - INFO - Collected record 9: Saili Karpe | Sr. Technical Recruiter | Airbnb | saili.karpe@airbnb.com
+2026-06-02 03:14:32 - INFO - Email via API for row 10: hp@deloitte.com
+2026-06-02 03:14:46 - INFO - Collected record 10: Harini P | Senior Technical Recruiter | Deloitte | hp@deloitte.com
+2026-06-02 03:14:49 - INFO - Email via API for row 11: emma.stewart@capitalone.com
+2026-06-02 03:14:56 - INFO - Collected record 11: Emma Stewart | Senior Technical Recruiter | Capital One | emma.stewart@capitalone.com
+2026-06-02 03:14:59 - INFO - Email via API for row 12: courtney.hui@instacart.com
+2026-06-02 03:15:14 - INFO - Collected record 12: Courtney Hui | Senior Technical Recruiter | Instacart | courtney.hui@instacart.com
+2026-06-02 03:15:17 - INFO - Email via API for row 13: bryam.rodas@ext.doordash.com
+2026-06-02 03:15:31 - INFO - Collected record 13: Bryam Rodas | Information Technology Recruiter | DoorDash | bryam.rodas@ext.doordash.com
+2026-06-02 03:15:35 - INFO - Email via API for row 14: manishadalal@meta.com
+2026-06-02 03:15:49 - INFO - Collected record 14: Manisha Dalal | Lead Technical Recruiter | Meta | manishadalal@meta.com
+2026-06-02 03:15:52 - INFO - Email via API for row 15: tylerbasti@meta.com
+2026-06-02 03:16:07 - INFO - Collected record 15: Tyler Basti | Senior Technical Recruiter | Meta | tylerbasti@meta.com
+2026-06-02 03:16:09 - INFO - Email via API for row 16: molly.gigantino@meta.com
+2026-06-02 03:16:24 - INFO - Collected record 16: Molly Gigantino | Senior Technical Recruiter | Meta | molly.gigantino@meta.com
+2026-06-02 03:16:27 - INFO - Email via API for row 17: justin_williams3@intuit.com
+2026-06-02 03:16:42 - INFO - Collected record 17: Justin Williams | Sr. Technical Recruiter | Intuit | justin_williams3@intuit.com
+2026-06-02 03:16:44 - INFO - Email via API for row 18: reggie.miller@capitalone.com
+2026-06-02 03:16:52 - INFO - Collected record 18: Reggie Miller | Principal Technical Recruiter | Capital One | reggie.miller@capitalone.com
+2026-06-02 03:16:55 - INFO - Email via API for row 19: chicho.varghese@capitalone.com
+2026-06-02 03:17:03 - INFO - Collected record 19: Chicho Varghese | Senior Technical Recruiter | Capital One | chicho.varghese@capitalone.com
+2026-06-02 03:17:07 - INFO - Email via API for row 20: brian_hill@intuit.com
+2026-06-02 03:17:21 - INFO - Collected record 20: Brian Hill | Sr. Technical Recruiter | Intuit | brian_hill@intuit.com
+2026-06-02 03:17:24 - INFO - Email via API for row 21: kevin.fitzgerald@mongodb.com
+2026-06-02 03:17:38 - INFO - Collected record 21: Kevin Fitzgerald | Senior Technical Recruiter | MongoDB | kevin.fitzgerald@mongodb.com
+2026-06-02 03:17:41 - INFO - Email via API for row 22: kaitlyn.s@doordash.com
+2026-06-02 03:17:56 - INFO - Collected record 22: Kaitlyn S | Senior Technical Recruiter | DoorDash | kaitlyn.s@doordash.com
+2026-06-02 03:17:58 - INFO - Email via API for row 23: shriya_deshpande@intuit.com
+2026-06-02 03:18:13 - INFO - Collected record 23: Shriya Deshpande | Sr.Technical Recruiter | Intuit | shriya_deshpande@intuit.com
+2026-06-02 03:18:16 - INFO - Email via API for row 24: ctan@atlassian.com
+2026-06-02 03:18:24 - INFO - Collected record 24: Crystal Tan | Senior Technical Recruiter | Atlassian | ctan@atlassian.com
+2026-06-02 03:18:26 - INFO - Email via API for row 25: vantey_ryazanov@vanguard.com
+2026-06-02 03:18:34 - INFO - Collected record 25: Vantey Ryazanov | IT Recruiter | Vanguard | vantey_ryazanov@vanguard.com
+2026-06-02 03:18:36 - INFO - Missing fields on page 1: Industry: 14
+Missing fields on page 1: Industry: 14
+2026-06-02 03:18:36 - INFO - Page 1 complete - collected 25 recruiters (total: 25)
+Page 1 complete - collected 25 recruiters (total: 25)
+2026-06-02 03:18:36 - INFO - Total pages processed up to: 1
+2026-06-02 03:18:36 - INFO - Total records collected: 25
+2026-06-02 03:18:36 - INFO - Driver closed successfully
+2026-06-02 03:18:36 - INFO - Driver closed
+2026-06-02 03:18:36 - INFO - Virtual display stopped
+
+===== attempt 12 START_PAGE=1 @ 2026-06-02 03:18:45.278614 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 03:18:46 - INFO - Starting recruiter extraction from page 1
+2026-06-02 03:18:46 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 03:18:46 - INFO - Virtual display started
+2026-06-02 03:18:46 - INFO - Browser headless=True
+2026-06-02 03:18:46 - INFO - Using existing DISPLAY=:3
+2026-06-02 03:18:46 - INFO - Detected Chrome version: 141
+2026-06-02 03:18:46 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 03:18:50 - INFO - Created Chrome driver on port 9512 with profile dir /tmp/apollo_recruiters_9512
+2026-06-02 03:18:52 - INFO - Cookie file read successfully
+2026-06-02 03:18:52 - INFO - Successfully parsed 47 cookies
+2026-06-02 03:18:52 - INFO - Successfully loaded 47 cookies
+2026-06-02 03:19:10 - INFO - Cookies applied successfully
+2026-06-02 03:19:17 - INFO - Using saved-list URL mode (page=1)
+2026-06-02 03:19:17 - INFO - Navigating to filtered People page...
+2026-06-02 03:19:27 - INFO - Ensuring Net New view is selected...
+2026-06-02 03:19:27 - WARNING - Could not click Net New tab/filter; continuing with current view.
+2026-06-02 03:19:28 - ERROR - Could not parse pagination progress text: 'Progress counter not found'. Set END_PAGE manually and retry.
+2026-06-02 03:19:28 - INFO - Driver closed successfully
+2026-06-02 03:19:28 - INFO - Driver closed
+2026-06-02 03:19:28 - INFO - Virtual display stopped
+
+===== attempt 13 START_PAGE=1 @ 2026-06-02 03:19:37.216096 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 03:19:37 - INFO - Starting recruiter extraction from page 1
+2026-06-02 03:19:37 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 03:19:37 - INFO - Virtual display started
+2026-06-02 03:19:37 - INFO - Browser headless=True
+2026-06-02 03:19:37 - INFO - Using existing DISPLAY=:3
+2026-06-02 03:19:37 - INFO - Detected Chrome version: 141
+2026-06-02 03:19:38 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 03:19:41 - INFO - Created Chrome driver on port 9978 with profile dir /tmp/apollo_recruiters_9978
+2026-06-02 03:19:42 - INFO - Cookie file read successfully
+2026-06-02 03:19:42 - INFO - Successfully parsed 47 cookies
+2026-06-02 03:19:42 - INFO - Successfully loaded 47 cookies
+2026-06-02 03:20:00 - INFO - Cookies applied successfully
+2026-06-02 03:20:07 - INFO - Using saved-list URL mode (page=1)
+2026-06-02 03:20:07 - INFO - Navigating to filtered People page...
+2026-06-02 03:20:17 - INFO - Ensuring Net New view is selected...
+2026-06-02 03:20:17 - WARNING - Could not click Net New tab/filter; continuing with current view.
+2026-06-02 03:20:18 - ERROR - Could not parse pagination progress text: 'Progress counter not found'. Set END_PAGE manually and retry.
+2026-06-02 03:20:18 - INFO - Driver closed successfully
+2026-06-02 03:20:18 - INFO - Driver closed
+2026-06-02 03:20:18 - INFO - Virtual display stopped
+
+===== attempt 14 START_PAGE=1 @ 2026-06-02 03:20:27.250680 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 03:20:27 - INFO - Starting recruiter extraction from page 1
+2026-06-02 03:20:27 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 03:20:27 - INFO - Virtual display started
+2026-06-02 03:20:27 - INFO - Browser headless=True
+2026-06-02 03:20:27 - INFO - Using existing DISPLAY=:3
+2026-06-02 03:20:27 - INFO - Detected Chrome version: 141
+2026-06-02 03:20:28 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 03:20:31 - INFO - Created Chrome driver on port 9771 with profile dir /tmp/apollo_recruiters_9771
+2026-06-02 03:20:33 - INFO - Cookie file read successfully
+2026-06-02 03:20:33 - INFO - Successfully parsed 47 cookies
+2026-06-02 03:20:33 - INFO - Successfully loaded 47 cookies
+2026-06-02 03:20:50 - INFO - Cookies applied successfully
+2026-06-02 03:20:56 - INFO - Using saved-list URL mode (page=1)
+2026-06-02 03:20:56 - INFO - Navigating to filtered People page...
+2026-06-02 03:21:07 - INFO - Ensuring Net New view is selected...
+2026-06-02 03:21:07 - WARNING - Could not click Net New tab/filter; continuing with current view.
+2026-06-02 03:21:07 - ERROR - Could not parse pagination progress text: 'Progress counter not found'. Set END_PAGE manually and retry.
+2026-06-02 03:21:07 - INFO - Driver closed successfully
+2026-06-02 03:21:07 - INFO - Driver closed
+2026-06-02 03:21:07 - INFO - Virtual display stopped
+
+===== attempt 15 START_PAGE=1 @ 2026-06-02 03:21:16.578205 =====
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-06-02 03:21:17 - INFO - Starting recruiter extraction from page 1
+2026-06-02 03:21:17 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-06-02 03:21:17 - INFO - Virtual display started
+2026-06-02 03:21:17 - INFO - Browser headless=True
+2026-06-02 03:21:17 - INFO - Using existing DISPLAY=:3
+2026-06-02 03:21:17 - INFO - Detected Chrome version: 141
+2026-06-02 03:21:18 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 03:21:21 - INFO - Created Chrome driver on port 9859 with profile dir /tmp/apollo_recruiters_9859
+2026-06-02 03:21:23 - INFO - Cookie file read successfully
+2026-06-02 03:21:23 - INFO - Successfully parsed 47 cookies
+2026-06-02 03:21:23 - INFO - Successfully loaded 47 cookies
+2026-06-02 03:21:41 - INFO - Cookies applied successfully
+2026-06-02 03:21:48 - INFO - Using saved-list URL mode (page=1)
+2026-06-02 03:21:48 - INFO - Navigating to filtered People page...
+2026-06-02 03:21:58 - INFO - Ensuring Net New view is selected...
+2026-06-02 03:21:58 - WARNING - Could not click Net New tab/filter; continuing with current view.
+2026-06-02 03:21:59 - ERROR - Could not parse pagination progress text: 'Progress counter not found'. Set END_PAGE manually and retry.
+2026-06-02 03:21:59 - INFO - Driver closed successfully
+2026-06-02 03:21:59 - INFO - Driver closed
+2026-06-02 03:21:59 - INFO - Virtual display stopped

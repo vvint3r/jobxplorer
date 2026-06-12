@@ -1,0 +1,368 @@
+2026-05-24 11:46:15 - INFO - Starting recruiter extraction from page 1 to page 1
+2026-05-24 11:46:15 - INFO - Virtual display started
+2026-05-24 11:46:15 - INFO - Using existing DISPLAY=:0
+2026-05-24 11:46:15 - INFO - Detected Chrome version: 141
+2026-05-24 11:46:18 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-05-24 11:46:21 - INFO - Created Chrome driver on port 9753 with profile dir /tmp/apollo_recruiters_9753
+2026-05-24 11:46:23 - INFO - Cookie file read successfully
+2026-05-24 11:46:23 - INFO - Successfully parsed 47 cookies
+2026-05-24 11:46:23 - INFO - Successfully loaded 47 cookies
+2026-05-24 11:46:42 - INFO - Cookies applied successfully
+2026-05-24 11:46:48 - INFO - Navigating to filtered People page...
+2026-05-24 11:46:58 - INFO - Looking for Net New button...
+2026-05-24 11:47:18 - WARNING - Could not confirm Net New filter via radiogroup: Message: 
+Stacktrace:
+#0 0x5fc34e011fea <unknown>
+#1 0x5fc34da8fd06 <unknown>
+#2 0x5fc34dae1e6d <unknown>
+#3 0x5fc34dae2101 <unknown>
+#4 0x5fc34db306b4 <unknown>
+#5 0x5fc34db07e3d <unknown>
+#6 0x5fc34db2db3b <unknown>
+#7 0x5fc34db07be3 <unknown>
+#8 0x5fc34dad42d2 <unknown>
+#9 0x5fc34dad4f91 <unknown>
+#10 0x5fc34dfd59e8 <unknown>
+#11 0x5fc34dfd984f <unknown>
+#12 0x5fc34dfbcec9 <unknown>
+#13 0x5fc34dfda3f5 <unknown>
+#14 0x5fc34dfa274f <unknown>
+#15 0x5fc34dffecc8 <unknown>
+#16 0x5fc34dffeea3 <unknown>
+#17 0x5fc34e010f83 <unknown>
+#18 0x7e89e4a9caa4 <unknown>
+#19 0x7e89e4b29c6c <unknown>
+
+2026-05-24 11:47:29 - ERROR - Error clicking Net New button: Message: 
+Stacktrace:
+#0 0x5fc34e011fea <unknown>
+#1 0x5fc34da8fd06 <unknown>
+#2 0x5fc34dae1e6d <unknown>
+#3 0x5fc34dae2101 <unknown>
+#4 0x5fc34db306b4 <unknown>
+#5 0x5fc34db07e3d <unknown>
+#6 0x5fc34db2db3b <unknown>
+#7 0x5fc34db07be3 <unknown>
+#8 0x5fc34dad42d2 <unknown>
+#9 0x5fc34dad4f91 <unknown>
+#10 0x5fc34dfd59e8 <unknown>
+#11 0x5fc34dfd984f <unknown>
+#12 0x5fc34dfbcec9 <unknown>
+#13 0x5fc34dfda3f5 <unknown>
+#14 0x5fc34dfa274f <unknown>
+#15 0x5fc34dffecc8 <unknown>
+#16 0x5fc34dffeea3 <unknown>
+#17 0x5fc34e010f83 <unknown>
+#18 0x7e89e4a9caa4 <unknown>
+#19 0x7e89e4b29c6c <unknown>
+
+2026-05-24 11:47:29 - INFO - Processing page 1 of 1 (1 - 25 of 2,607)
+2026-05-24 11:47:29 - INFO - Saved HTML for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_recruiters_page_1_20260524_114729.html
+2026-05-24 11:47:29 - INFO - Saved screenshot for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_recruiters_page_1_20260524_114729.png
+2026-05-24 11:47:29 - INFO - Found 25 records on page 1
+2026-05-24 11:47:30 - INFO - Collected record 1: Anne Appleton | N/A | N/A | N/A
+2026-05-24 11:47:31 - INFO - Collected record 2: Milena Milchov | N/A | N/A | N/A
+2026-05-24 11:47:33 - INFO - Collected record 3: Ken McKoon | N/A | N/A | N/A
+2026-05-24 11:47:35 - INFO - Collected record 4: Camilo Garcia | N/A | N/A | N/A
+2026-05-24 11:47:37 - INFO - Collected record 5: Uthraa Manohar | N/A | N/A | N/A
+2026-05-24 11:47:39 - INFO - Collected record 6: Tricia Barbier | N/A | N/A | N/A
+2026-05-24 11:47:41 - INFO - Collected record 7: David Cook | N/A | N/A | N/A
+2026-05-24 11:47:43 - INFO - Collected record 8: Brent Cannon | N/A | N/A | N/A
+2026-05-24 11:47:44 - INFO - Collected record 9: Cherry Daniels | N/A | N/A | N/A
+2026-05-24 11:47:47 - INFO - Collected record 10: Adrianne Butler | N/A | N/A | N/A
+2026-05-24 11:47:49 - INFO - Collected record 11: Rubi Adams | N/A | N/A | N/A
+2026-05-24 11:47:50 - INFO - Collected record 12: Mariah Mansuo | N/A | N/A | N/A
+2026-05-24 11:47:52 - INFO - Collected record 13: Jesse Sanborn | N/A | N/A | N/A
+2026-05-24 11:47:54 - INFO - Collected record 14: Stewart Vaughan | N/A | N/A | N/A
+2026-05-24 11:47:56 - INFO - Collected record 15: Derick Xavier | N/A | N/A | N/A
+2026-05-24 11:47:58 - INFO - Collected record 16: Juan Pablo | N/A | N/A | N/A
+2026-05-24 11:47:59 - INFO - Collected record 17: Lela Wall | N/A | N/A | N/A
+2026-05-24 11:48:01 - INFO - Collected record 18: Hannah Petersen | N/A | N/A | N/A
+2026-05-24 11:48:03 - INFO - Collected record 19: Lindsey Shah | N/A | N/A | N/A
+2026-05-24 11:48:05 - INFO - Collected record 20: Nivetha Nagappan | N/A | N/A | N/A
+2026-05-24 11:48:07 - INFO - Collected record 21: Samson Gadamandla | N/A | N/A | N/A
+2026-05-24 11:48:09 - INFO - Collected record 22: B B | N/A | N/A | N/A
+2026-05-24 11:48:10 - INFO - Collected record 23: Manjunath K | N/A | N/A | N/A
+2026-05-24 11:48:12 - INFO - Collected record 24: Prithviraj Mandula | N/A | N/A | N/A
+2026-05-24 11:48:13 - INFO - Collected record 25: Sandeep Komuroju | N/A | N/A | N/A
+2026-05-24 11:48:15 - INFO - Missing fields on page 1: Company: 25, Email: 25, Location: 25, # Employees: 25, Industry: 25, Keywords: 25
+2026-05-24 11:48:15 - INFO - Page 1 complete - collected 25 recruiters (total: 25)
+2026-05-24 11:48:15 - INFO - Total pages processed up to: 1
+2026-05-24 11:48:15 - INFO - Total records collected: 25
+2026-05-24 11:48:15 - INFO - Driver closed successfully
+2026-05-24 11:48:15 - INFO - Driver closed
+2026-05-24 11:48:15 - INFO - Virtual display stopped
+2026-05-24 11:50:02 - INFO - Starting recruiter extraction from page 1 to page 1
+2026-05-24 11:50:02 - INFO - Virtual display started
+2026-05-24 11:50:02 - INFO - Using existing DISPLAY=:0
+2026-05-24 11:50:02 - INFO - Detected Chrome version: 141
+2026-05-24 11:50:03 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-05-24 11:50:06 - INFO - Created Chrome driver on port 9669 with profile dir /tmp/apollo_recruiters_9669
+2026-05-24 11:50:07 - INFO - Cookie file read successfully
+2026-05-24 11:50:07 - INFO - Successfully parsed 47 cookies
+2026-05-24 11:50:07 - INFO - Successfully loaded 47 cookies
+2026-05-24 11:50:25 - INFO - Cookies applied successfully
+2026-05-24 11:50:35 - INFO - Navigating to filtered People page...
+2026-05-24 11:50:47 - INFO - Looking for Net New button...
+2026-05-24 11:51:07 - WARNING - Could not confirm Net New filter via radiogroup: Message: 
+Stacktrace:
+#0 0x58b45fbecfea <unknown>
+#1 0x58b45f66ad06 <unknown>
+#2 0x58b45f6bce6d <unknown>
+#3 0x58b45f6bd101 <unknown>
+#4 0x58b45f70b6b4 <unknown>
+#5 0x58b45f6e2e3d <unknown>
+#6 0x58b45f708b3b <unknown>
+#7 0x58b45f6e2be3 <unknown>
+#8 0x58b45f6af2d2 <unknown>
+#9 0x58b45f6aff91 <unknown>
+#10 0x58b45fbb09e8 <unknown>
+#11 0x58b45fbb484f <unknown>
+#12 0x58b45fb97ec9 <unknown>
+#13 0x58b45fbb53f5 <unknown>
+#14 0x58b45fb7d74f <unknown>
+#15 0x58b45fbd9cc8 <unknown>
+#16 0x58b45fbd9ea3 <unknown>
+#17 0x58b45fbebf83 <unknown>
+#18 0x75ca1c89caa4 <unknown>
+#19 0x75ca1c929c6c <unknown>
+
+2026-05-24 11:51:17 - ERROR - Error clicking Net New button: Message: 
+Stacktrace:
+#0 0x58b45fbecfea <unknown>
+#1 0x58b45f66ad06 <unknown>
+#2 0x58b45f6bce6d <unknown>
+#3 0x58b45f6bd101 <unknown>
+#4 0x58b45f70b6b4 <unknown>
+#5 0x58b45f6e2e3d <unknown>
+#6 0x58b45f708b3b <unknown>
+#7 0x58b45f6e2be3 <unknown>
+#8 0x58b45f6af2d2 <unknown>
+#9 0x58b45f6aff91 <unknown>
+#10 0x58b45fbb09e8 <unknown>
+#11 0x58b45fbb484f <unknown>
+#12 0x58b45fb97ec9 <unknown>
+#13 0x58b45fbb53f5 <unknown>
+#14 0x58b45fb7d74f <unknown>
+#15 0x58b45fbd9cc8 <unknown>
+#16 0x58b45fbd9ea3 <unknown>
+#17 0x58b45fbebf83 <unknown>
+#18 0x75ca1c89caa4 <unknown>
+#19 0x75ca1c929c6c <unknown>
+
+2026-05-24 11:51:17 - INFO - Processing page 1 of 1 (1 - 25 of 2,607)
+2026-05-24 11:51:18 - INFO - Saved HTML for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_recruiters_page_1_20260524_115117.html
+2026-05-24 11:51:18 - INFO - Saved screenshot for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_recruiters_page_1_20260524_115118.png
+2026-05-24 11:51:18 - INFO - Found 25 records on page 1
+2026-05-24 11:51:33 - INFO - Collected record 1: Anne Appleton | Senior Recruiter, Technical Sales & GTM | Zscaler | N/A
+2026-05-24 11:51:48 - INFO - Collected record 2: Milena Milchov | Staff Recruiter Technology and Engineering, EMEA | Zscaler | N/A
+2026-05-24 11:52:04 - INFO - Collected record 3: Ken McKoon | Senior Technical Recruiter | Zscaler | N/A
+2026-05-24 11:52:20 - INFO - Collected record 4: Camilo Garcia | Global Recruiter | ERP | Tech & SaaS | Multi Region Remote Hiring | AI-Driven Sourcing | Executive Search | Scaling Global Teams | Bilingual - Multilingual | Zoom | N/A
+2026-05-24 11:52:35 - INFO - Collected record 5: Uthraa Manohar | Technical Sourcer | Zoom | N/A
+2026-05-24 11:52:51 - INFO - Collected record 6: Tricia Barbier | Lead IT Recruiter | Zones, LLC | N/A
+2026-05-24 11:53:00 - INFO - Collected record 7: David Cook | Senior Technical Recruiter | Zoetis | N/A
+2026-05-24 11:53:09 - INFO - Collected record 8: Brent Cannon | Technology Recruiter | Zions Bancorporation | N/A
+2026-05-24 11:53:18 - INFO - Collected record 9: Cherry Daniels | Senior Technical Recruiter (Design, Research & Insights, Engineering, Product, & Program Management) | Zillow | N/A
+2026-05-24 11:53:27 - INFO - Collected record 10: Adrianne Butler | Technical Sourcer | Zillow | N/A
+2026-05-24 11:53:36 - INFO - Collected record 11: Rubi Adams | Principal Technical Recruiter | Zillow | N/A
+2026-05-24 11:53:45 - INFO - Collected record 12: Mariah Mansuo | North America Technical Recruiter | Zillow | N/A
+2026-05-24 11:53:54 - INFO - Collected record 13: Jesse Sanborn | Sr. Technical Recruiter | Zillow | N/A
+2026-05-24 11:54:03 - INFO - Collected record 14: Stewart Vaughan | Senior Technical Recruiter | Zillow | N/A
+2026-05-24 11:54:19 - INFO - Collected record 15: Derick Xavier | Sr. HR Technical Recruiter | Zebra Technologies | N/A
+2026-05-24 11:54:34 - INFO - Collected record 16: Juan Pablo | Senior Technical Recruiter | Yext | N/A
+2026-05-24 11:54:44 - INFO - Collected record 17: Lela Wall | Senior Technical Recruiter | YETI | N/A
+2026-05-24 11:54:52 - INFO - Collected record 18: Hannah Petersen | Head of Technical Recruiting - Europe | Yelp | N/A
+2026-05-24 11:55:00 - INFO - Collected record 19: Lindsey Shah | Technical Recruiting Coordinator Manager | Yelp | N/A
+2026-05-24 11:55:08 - INFO - Collected record 20: Nivetha Nagappan | Senior Technical Recruiter | Xylem | N/A
+2026-05-24 11:55:17 - INFO - Collected record 21: Samson Gadamandla | Senior Lead US IT Technical Recruiter | XTGlobal, Inc. | N/A
+2026-05-24 11:55:26 - INFO - Collected record 22: B B | Lead Bench Sales/US IT Recruiter | XTGlobal, Inc. | N/A
+2026-05-24 11:55:35 - INFO - Collected record 23: Manjunath K | US IT Recruiter | XTGlobal, Inc. | N/A
+2026-05-24 11:55:44 - INFO - Collected record 24: Prithviraj Mandula | Technical Recruiter | XTGlobal, Inc. | N/A
+2026-05-24 11:55:53 - INFO - Collected record 25: Sandeep Komuroju | IT Recruiter | XTGlobal, Inc. | N/A
+2026-05-24 11:55:55 - INFO - Missing fields on page 1: Email: 25, Industry: 8, Keywords: 9
+2026-05-24 11:55:55 - INFO - Page 1 complete - collected 25 recruiters (total: 25)
+2026-05-24 11:55:55 - INFO - Total pages processed up to: 1
+2026-05-24 11:55:55 - INFO - Total records collected: 25
+2026-05-24 11:55:55 - INFO - Driver closed successfully
+2026-05-24 11:55:55 - INFO - Driver closed
+2026-05-24 11:55:55 - INFO - Virtual display stopped
+2026-05-24 11:56:38 - INFO - Starting recruiter extraction from page 1 to page 1
+2026-05-24 11:56:38 - INFO - Virtual display started
+2026-05-24 11:56:38 - INFO - Using existing DISPLAY=:0
+2026-05-24 11:56:38 - INFO - Detected Chrome version: 141
+2026-05-24 11:56:39 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-05-24 11:56:41 - INFO - Created Chrome driver on port 9288 with profile dir /tmp/apollo_recruiters_9288
+2026-05-24 11:56:42 - INFO - Cookie file read successfully
+2026-05-24 11:56:42 - INFO - Successfully parsed 47 cookies
+2026-05-24 11:56:42 - INFO - Successfully loaded 47 cookies
+2026-05-24 11:56:59 - INFO - Cookies applied successfully
+2026-05-24 11:57:08 - INFO - Navigating to filtered People page...
+2026-05-24 11:57:20 - INFO - Looking for Net New button...
+2026-05-24 11:57:40 - WARNING - Could not confirm Net New filter via radiogroup: Message: 
+Stacktrace:
+#0 0x5e410212efea <unknown>
+#1 0x5e4101bacd06 <unknown>
+#2 0x5e4101bfee6d <unknown>
+#3 0x5e4101bff101 <unknown>
+#4 0x5e4101c4d6b4 <unknown>
+#5 0x5e4101c24e3d <unknown>
+#6 0x5e4101c4ab3b <unknown>
+#7 0x5e4101c24be3 <unknown>
+#8 0x5e4101bf12d2 <unknown>
+#9 0x5e4101bf1f91 <unknown>
+#10 0x5e41020f29e8 <unknown>
+#11 0x5e41020f684f <unknown>
+#12 0x5e41020d9ec9 <unknown>
+#13 0x5e41020f73f5 <unknown>
+#14 0x5e41020bf74f <unknown>
+#15 0x5e410211bcc8 <unknown>
+#16 0x5e410211bea3 <unknown>
+#17 0x5e410212df83 <unknown>
+#18 0x70be66a9caa4 <unknown>
+#19 0x70be66b29c6c <unknown>
+
+2026-05-24 11:57:51 - ERROR - Error clicking Net New button: Message: 
+Stacktrace:
+#0 0x5e410212efea <unknown>
+#1 0x5e4101bacd06 <unknown>
+#2 0x5e4101bfee6d <unknown>
+#3 0x5e4101bff101 <unknown>
+#4 0x5e4101c4d6b4 <unknown>
+#5 0x5e4101c24e3d <unknown>
+#6 0x5e4101c4ab3b <unknown>
+#7 0x5e4101c24be3 <unknown>
+#8 0x5e4101bf12d2 <unknown>
+#9 0x5e4101bf1f91 <unknown>
+#10 0x5e41020f29e8 <unknown>
+#11 0x5e41020f684f <unknown>
+#12 0x5e41020d9ec9 <unknown>
+#13 0x5e41020f73f5 <unknown>
+#14 0x5e41020bf74f <unknown>
+#15 0x5e410211bcc8 <unknown>
+#16 0x5e410211bea3 <unknown>
+#17 0x5e410212df83 <unknown>
+#18 0x70be66a9caa4 <unknown>
+#19 0x70be66b29c6c <unknown>
+
+2026-05-24 11:57:51 - INFO - Processing page 1 of 1 (1 - 25 of 2,607)
+2026-05-24 11:57:51 - INFO - Saved HTML for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_recruiters_page_1_20260524_115751.html
+2026-05-24 11:57:51 - INFO - Saved screenshot for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_recruiters_page_1_20260524_115751.png
+2026-05-24 11:57:51 - INFO - Found 25 records on page 1
+2026-05-24 11:59:01 - INFO - Collected record 1: Anne Appleton | Senior Recruiter, Technical Sales & GTM | Zscaler | N/A
+2026-05-24 12:00:12 - INFO - Collected record 2: Milena Milchov | Staff Recruiter Technology and Engineering, EMEA | Zscaler | N/A
+2026-05-24 12:00:14 - INFO - Reached MAX_RECORDS limit (2)
+2026-05-24 12:00:14 - INFO - Missing fields on page 2: Email: 2, Industry: 2
+2026-05-24 12:00:14 - INFO - Page 2 complete - collected 2 recruiters (total: 2)
+2026-05-24 12:00:14 - INFO - Total pages processed up to: 2
+2026-05-24 12:00:14 - INFO - Total records collected: 2
+2026-05-24 12:00:14 - INFO - Driver closed successfully
+2026-05-24 12:00:14 - INFO - Driver closed
+2026-05-24 12:00:14 - INFO - Virtual display stopped
+2026-05-24 12:01:05 - INFO - Virtual display started
+2026-05-24 12:01:05 - INFO - Using existing DISPLAY=:0
+2026-05-24 12:01:05 - INFO - Detected Chrome version: 141
+2026-05-24 12:01:05 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-05-24 12:01:08 - INFO - Created Chrome driver on port 9745 with profile dir /tmp/apollo_recruiters_debug_9745
+2026-05-24 12:01:08 - INFO - Cookie file read successfully
+2026-05-24 12:01:08 - INFO - Successfully parsed 47 cookies
+2026-05-24 12:01:08 - INFO - Successfully loaded 47 cookies
+2026-05-24 12:01:25 - INFO - Cookies applied successfully
+2026-05-24 12:02:01 - INFO - Driver closed successfully
+2026-05-24 12:02:18 - INFO - Virtual display started
+2026-05-24 12:02:18 - INFO - Using existing DISPLAY=:0
+2026-05-24 12:02:18 - INFO - Detected Chrome version: 141
+2026-05-24 12:02:19 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-05-24 12:02:21 - INFO - Created Chrome driver on port 9713 with profile dir /tmp/apollo_recruiters_debug2_9713
+2026-05-24 12:02:21 - INFO - Cookie file read successfully
+2026-05-24 12:02:21 - INFO - Successfully parsed 47 cookies
+2026-05-24 12:02:21 - INFO - Successfully loaded 47 cookies
+2026-05-24 12:02:38 - INFO - Cookies applied successfully
+2026-05-24 12:03:32 - INFO - Driver closed successfully
+2026-05-24 12:04:04 - INFO - Virtual display started
+2026-05-24 12:04:04 - INFO - Using existing DISPLAY=:0
+2026-05-24 12:04:04 - INFO - Detected Chrome version: 141
+2026-05-24 12:04:05 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-05-24 12:04:07 - INFO - Created Chrome driver on port 9418 with profile dir /tmp/apollo_recruiters_debug3_9418
+2026-05-24 12:04:07 - INFO - Cookie file read successfully
+2026-05-24 12:04:07 - INFO - Successfully parsed 47 cookies
+2026-05-24 12:04:07 - INFO - Successfully loaded 47 cookies
+2026-05-24 12:04:24 - INFO - Cookies applied successfully
+2026-05-24 12:05:36 - INFO - Driver closed successfully
+2026-05-31 12:07:39 - INFO - Virtual display started
+2026-05-31 12:07:39 - INFO - Using existing DISPLAY=:2
+2026-05-31 12:07:39 - INFO - Detected Chrome version: 141
+2026-05-31 12:07:40 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-05-31 12:07:43 - INFO - Created Chrome driver on port 9882 with profile dir /tmp/apollo_email_debug2_9882
+2026-05-31 12:07:43 - INFO - Cookie file read successfully
+2026-05-31 12:07:43 - INFO - Successfully parsed 47 cookies
+2026-05-31 12:07:43 - INFO - Successfully loaded 47 cookies
+2026-05-31 12:08:01 - INFO - Cookies applied successfully
+2026-05-31 12:08:22 - INFO - Ensuring Net New view is selected...
+2026-05-31 12:08:29 - INFO - Net New view selected
+2026-05-31 12:09:31 - INFO - Driver closed successfully
+2026-05-31 12:09:48 - INFO - Virtual display started
+2026-05-31 12:09:48 - INFO - Using existing DISPLAY=:2
+2026-05-31 12:09:48 - INFO - Detected Chrome version: 141
+2026-05-31 12:09:49 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-05-31 12:09:51 - INFO - Created Chrome driver on port 9279 with profile dir /tmp/apollo_email_debug2_9279
+2026-05-31 12:09:51 - INFO - Cookie file read successfully
+2026-05-31 12:09:51 - INFO - Successfully parsed 47 cookies
+2026-05-31 12:09:51 - INFO - Successfully loaded 47 cookies
+2026-05-31 12:10:08 - INFO - Cookies applied successfully
+2026-05-31 12:10:17 - INFO - Using saved-list URL mode (page=1)
+2026-05-31 12:10:30 - INFO - Ensuring Net New view is selected...
+2026-05-31 12:10:36 - INFO - Net New view selected
+2026-05-31 12:11:24 - INFO - Driver closed successfully
+2026-05-31 12:11:43 - INFO - Virtual display started
+2026-05-31 12:11:43 - INFO - Using existing DISPLAY=:2
+2026-05-31 12:11:43 - INFO - Detected Chrome version: 141
+2026-05-31 12:11:44 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-05-31 12:11:47 - INFO - Created Chrome driver on port 9529 with profile dir /tmp/apollo_profile_test_9529
+2026-05-31 12:11:47 - INFO - Cookie file read successfully
+2026-05-31 12:11:47 - INFO - Successfully parsed 47 cookies
+2026-05-31 12:11:47 - INFO - Successfully loaded 47 cookies
+2026-05-31 12:12:05 - INFO - Cookies applied successfully
+2026-05-31 12:12:17 - INFO - Using saved-list URL mode (page=1)
+2026-05-31 12:12:29 - INFO - Ensuring Net New view is selected...
+2026-05-31 12:12:36 - INFO - Net New view selected
+2026-05-31 12:12:56 - INFO - Driver closed successfully
+2026-05-31 12:13:13 - INFO - Virtual display started
+2026-05-31 12:13:13 - INFO - Using existing DISPLAY=:2
+2026-05-31 12:13:13 - INFO - Detected Chrome version: 141
+2026-05-31 12:13:14 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-05-31 12:13:16 - INFO - Created Chrome driver on port 9520 with profile dir /tmp/apollo_req_capture_9520
+2026-05-31 12:13:16 - INFO - Cookie file read successfully
+2026-05-31 12:13:16 - INFO - Successfully parsed 47 cookies
+2026-05-31 12:13:16 - INFO - Successfully loaded 47 cookies
+2026-05-31 12:13:35 - INFO - Cookies applied successfully
+2026-05-31 12:13:44 - INFO - Using saved-list URL mode (page=1)
+2026-05-31 12:13:56 - INFO - Ensuring Net New view is selected...
+2026-05-31 12:14:03 - INFO - Net New view selected
+2026-05-31 12:14:16 - INFO - Using saved-list URL mode (page=1)
+2026-05-31 12:14:22 - INFO - Ensuring Net New view is selected...
+2026-05-31 12:14:31 - INFO - Net New view selected
+2026-05-31 12:14:33 - INFO - Driver closed successfully
+2026-06-02 10:50:32 - INFO - Virtual display started
+2026-06-02 10:50:32 - INFO - Using existing DISPLAY=:3
+2026-06-02 10:50:32 - INFO - Detected Chrome version: 141
+2026-06-02 10:50:33 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 10:50:35 - INFO - Created Chrome driver on port 9378 with profile dir /tmp/netnew_check_9378
+2026-06-02 10:50:35 - INFO - Cookie file read successfully
+2026-06-02 10:50:35 - INFO - Successfully parsed 47 cookies
+2026-06-02 10:50:35 - INFO - Successfully loaded 47 cookies
+2026-06-02 10:50:52 - INFO - Cookies applied successfully
+2026-06-02 10:50:59 - INFO - Using saved-list URL mode (page=1)
+2026-06-02 10:51:07 - INFO - Ensuring Net New view is selected...
+2026-06-02 10:51:07 - WARNING - Could not click Net New tab/filter; continuing with current view.
+2026-06-02 10:51:38 - INFO - Driver closed successfully
+2026-06-02 10:52:13 - INFO - Virtual display started
+2026-06-02 10:52:13 - INFO - Using existing DISPLAY=:3
+2026-06-02 10:52:13 - INFO - Detected Chrome version: 141
+2026-06-02 10:52:13 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-06-02 10:52:16 - INFO - Created Chrome driver on port 9342 with profile dir /tmp/diag_check_9342
+2026-06-02 10:52:16 - INFO - Cookie file read successfully
+2026-06-02 10:52:16 - INFO - Successfully parsed 47 cookies
+2026-06-02 10:52:16 - INFO - Successfully loaded 47 cookies
+2026-06-02 10:52:32 - INFO - Cookies applied successfully
+2026-06-02 10:52:39 - INFO - Using saved-list URL mode (page=1)
+2026-06-02 10:52:50 - INFO - Driver closed successfully

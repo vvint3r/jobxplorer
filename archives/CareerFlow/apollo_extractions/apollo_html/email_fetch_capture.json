@@ -1,0 +1,42 @@
+[
+  {
+    "body": "success",
+    "status": 200,
+    "url": "https://api-sr.amplitude.com/sessions/v2/track?device_id=0e1880c8-bb4a-4308-bf89-3717c3ce12c7&session_id=1780229409583&type=replay"
+  },
+  {
+    "body": "success",
+    "status": 200,
+    "url": "https://api-sr.amplitude.com/sessions/v2/track?device_id=0e1880c8-bb4a-4308-bf89-3717c3ce12c7&session_id=1780229409583&type=interaction"
+  },
+  {
+    "body": "success",
+    "status": 200,
+    "url": "https://api-sr.amplitude.com/sessions/v2/track?device_id=0e1880c8-bb4a-4308-bf89-3717c3ce12c7&session_id=1780229409583&type=replay"
+  },
+  {
+    "body": "{\"code\":200,\"server_upload_time\":1780229433050,\"payload_size_bytes\":846,\"events_ingested\":1}",
+    "status": 200,
+    "url": "https://www.apollo.io/amp-outbound2/"
+  },
+  {
+    "body": "{\"sample_accounts_in_dangerous_stages\":[],\"sample_dangerous_accounts_stages\":[],\"num_people_in_dangerous_account_stages\":0,\"show_warning\":false,\"num_total_dangerous_contacts\":0}",
+    "status": 200,
+    "url": "https://app.apollo.io/api/v1/mixed_people/safety_check"
+  },
+  {
+    "body": "{\"vid\":\"309ee0e3-f771-44d0-beb8-5d816a63980b\",\"questions\":[],\"delay\":null,\"locale\":\"en\",\"productConfig\":{\"framePosition\":\"bottomLeft\"},\"uuid\":\"309ee0e3-f771-44d0-beb8-5d816a63980b\",\"invalidPreviewKey\":false}",
+    "status": 200,
+    "url": "https://api.sprig.com/sdk/1/visitors/309ee0e3-f771-44d0-beb8-5d816a63980b/events"
+  },
+  {
+    "body": "success",
+    "status": 200,
+    "url": "https://api-sr.amplitude.com/sessions/v2/track?device_id=0e1880c8-bb4a-4308-bf89-3717c3ce12c7&session_id=1780229409583&type=replay"
+  },
+  {
+    "body": "{\"code\":200,\"server_upload_time\":1780229440145,\"payload_size_bytes\":2283,\"events_ingested\":3}",
+    "status": 200,
+    "url": "https://www.apollo.io/amp-outbound2/"
+  }
+]

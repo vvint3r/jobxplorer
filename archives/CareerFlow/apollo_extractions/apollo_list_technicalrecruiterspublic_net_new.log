@@ -1,0 +1,68 @@
+2026-05-30 16:48:12 - INFO - Starting recruiter extraction from page 1
+2026-05-30 16:48:12 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-05-30 16:48:12 - INFO - Virtual display started
+2026-05-30 16:48:12 - INFO - Using existing DISPLAY=:0
+2026-05-30 16:48:12 - INFO - Detected Chrome version: 141
+2026-05-30 16:48:13 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-05-30 16:48:15 - INFO - Created Chrome driver on port 9755 with profile dir /tmp/apollo_recruiters_9755
+2026-05-30 16:48:17 - INFO - Cookie file read successfully
+2026-05-30 16:48:17 - INFO - Successfully parsed 47 cookies
+2026-05-30 16:48:17 - INFO - Successfully loaded 47 cookies
+2026-05-30 16:48:38 - INFO - Cookies applied successfully
+2026-05-30 16:48:46 - INFO - Using saved-list URL mode (page=1)
+2026-05-30 16:48:46 - INFO - Navigating to filtered People page...
+2026-05-30 16:48:56 - INFO - Ensuring Net New view is selected...
+2026-05-30 16:49:05 - INFO - Net New view selected
+2026-05-30 16:49:05 - INFO - Detected total rows: 2590, page size: 25, total pages: 104. Processing through page 104.
+2026-05-30 16:49:05 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersPublic/apollo_recruiter_records_technical_public_net_new_1.csv
+2026-05-30 16:49:05 - INFO - Created new CSV file with headers (run apollo_recruiter_records_technical_public_net_new_1.csv)
+2026-05-30 16:49:05 - INFO - Processing page 1 of 104 (1 - 25 of 2,590)
+2026-05-30 16:49:05 - INFO - Saved HTML for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterspublic_net_new_page_1_20260530_164905.html
+2026-05-30 16:49:06 - INFO - Saved screenshot for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterspublic_net_new_page_1_20260530_164905.png
+2026-05-30 16:49:06 - INFO - Found 25 records on page 1
+2026-05-30 16:49:54 - WARNING - Email lookup timed out for row table-row-0. Apollo may be out of credits or the lookup is stuck on 'Trying Apollo...'.
+2026-05-30 16:49:54 - INFO - Collected record 1: Komal Mundhra | Technical Recruiter | Uber | N/A
+2026-05-30 16:50:45 - WARNING - Email lookup timed out for row table-row-1. Apollo may be out of credits or the lookup is stuck on 'Trying Apollo...'.
+2026-05-30 16:50:45 - INFO - Collected record 2: Indumathi M | Technical Recruiter | Microsoft | N/A
+2026-05-30 16:50:58 - INFO - Driver closed successfully
+2026-05-30 16:50:58 - INFO - Driver closed
+2026-05-30 16:50:58 - INFO - Virtual display stopped
+2026-05-30 17:16:54 - INFO - Starting recruiter extraction from page 1
+2026-05-30 17:16:54 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-05-30 17:16:54 - INFO - Virtual display started
+2026-05-30 17:16:54 - INFO - Using existing DISPLAY=:0
+2026-05-30 17:16:54 - INFO - Detected Chrome version: 141
+2026-05-30 17:16:55 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-05-30 17:16:58 - INFO - Created Chrome driver on port 9779 with profile dir /tmp/apollo_recruiters_9779
+2026-05-30 17:17:00 - INFO - Cookie file read successfully
+2026-05-30 17:17:00 - INFO - Successfully parsed 47 cookies
+2026-05-30 17:17:00 - INFO - Successfully loaded 47 cookies
+2026-05-30 17:17:18 - INFO - Cookies applied successfully
+2026-05-30 17:17:24 - INFO - Using saved-list URL mode (page=1)
+2026-05-30 17:17:24 - INFO - Navigating to filtered People page...
+2026-05-30 17:17:40 - INFO - Ensuring Net New view is selected...
+2026-05-30 17:17:49 - INFO - Net New view selected
+2026-05-30 17:17:49 - INFO - Detected total rows: 2588, page size: 25, total pages: 104. Processing through page 1.
+2026-05-30 17:17:49 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersPublic/apollo_recruiter_records_technical_public_net_new_2.csv
+2026-05-30 17:17:49 - INFO - Created new CSV file with headers (run apollo_recruiter_records_technical_public_net_new_2.csv)
+2026-05-30 17:17:49 - INFO - Processing page 1 of 1 (1 - 25 of 2,588)
+2026-05-30 17:17:49 - INFO - Saved HTML for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterspublic_net_new_page_1_20260530_171749.html
+2026-05-30 17:17:49 - INFO - Saved screenshot for page 1 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterspublic_net_new_page_1_20260530_171749.png
+2026-05-30 17:17:49 - INFO - Found 25 records on page 1
+2026-05-30 17:17:52 - INFO - Clicked Access email for record 1
+2026-05-30 17:17:53 - INFO - Access email cleared for record 1; treating as prospected
+2026-05-30 17:18:08 - INFO - Collected record 1: Komal Mundhra | Technical Recruiter | Uber | N/A
+2026-05-30 17:18:11 - INFO - Clicked Access email for record 2
+2026-05-30 17:18:12 - INFO - Access email cleared for record 2; treating as prospected
+2026-05-30 17:18:27 - INFO - Collected record 2: Indumathi M | Technical Recruiter | Microsoft | N/A
+2026-05-30 17:18:32 - INFO - Clicked Access email for record 3
+2026-05-30 17:18:33 - INFO - Access email cleared for record 3; treating as prospected
+2026-05-30 17:18:48 - INFO - Collected record 3: Kannepalli Teja | Tech Recruiter | Booking Holdings (NASDAQ: BKNG) | N/A
+2026-05-30 17:18:50 - INFO - Reached MAX_RECORDS limit (3)
+2026-05-30 17:18:50 - INFO - Missing fields on page 1: Email: 3, Industry: 2
+2026-05-30 17:18:50 - INFO - Page 1 complete - collected 3 recruiters (total: 3)
+2026-05-30 17:18:50 - INFO - Total pages processed up to: 1
+2026-05-30 17:18:50 - INFO - Total records collected: 3
+2026-05-30 17:18:50 - INFO - Driver closed successfully
+2026-05-30 17:18:50 - INFO - Driver closed
+2026-05-30 17:18:50 - INFO - Virtual display stopped

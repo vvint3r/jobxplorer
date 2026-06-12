@@ -1,0 +1,14 @@
+{"ts": "2026-05-31 12:02:41.632146", "event": "page_start", "page": 1, "progress": "1 - 25 of 568"}
+{"ts": "2026-05-31 12:02:42.185586", "event": "row_html_saved", "page": 1, "row": 1, "label": "before_click", "path": "/home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/audit/20260531_120151/p1_r1_before_click.html"}
+{"ts": "2026-05-31 12:02:42.632488", "event": "prospect_start", "page": 1, "row": 1, "row_id": "table-row-0", "state": {"email": null, "cell_text": "Access email", "has_access_button": true, "has_verified_cell": false}}
+{"ts": "2026-05-31 12:02:45.275289", "event": "access_email_clicked", "page": 1, "row": 1, "row_id": "table-row-0", "selector": ".//button[@data-people-tour='home-hub-save-prospect-access-email']"}
+{"ts": "2026-05-31 12:02:46.421401", "event": "row_screenshot_saved", "page": 1, "row": 1, "label": "after_click", "path": "/home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/audit/20260531_120151/p1_r1_after_click.png"}
+{"ts": "2026-05-31 12:02:46.450996", "event": "row_html_saved", "page": 1, "row": 1, "label": "after_click", "path": "/home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/audit/20260531_120151/p1_r1_after_click.html"}
+{"ts": "2026-05-31 12:02:47.094024", "event": "email_cell_state", "page": 1, "row": 1, "email": null, "cell_text": "Trying Apollo...", "has_access_button": false, "has_verified_cell": false}
+{"ts": "2026-05-31 12:02:47.109105", "event": "row_html_saved", "page": 1, "row": 1, "label": "state_trying_apollo_", "path": "/home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/audit/20260531_120151/p1_r1_state_trying_apollo_.html"}
+{"ts": "2026-05-31 12:03:12.438061", "event": "retry_wait", "page": 1, "row": 1, "waited_seconds": 25.289440631866455}
+{"ts": "2026-05-31 12:03:12.807481", "event": "row_screenshot_saved", "page": 1, "row": 1, "label": "trying_apollo_retry", "path": "/home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/audit/20260531_120151/p1_r1_trying_apollo_retry.png"}
+{"ts": "2026-05-31 12:04:17.078129", "event": "email_timeout", "page": 1, "row": 1, "cell_text": "Trying Apollo..."}
+{"ts": "2026-05-31 12:04:17.449713", "event": "row_screenshot_saved", "page": 1, "row": 1, "label": "timeout", "path": "/home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/audit/20260531_120151/p1_r1_timeout.png"}
+{"ts": "2026-05-31 12:04:17.467072", "event": "row_html_saved", "page": 1, "row": 1, "label": "timeout", "path": "/home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/audit/20260531_120151/p1_r1_timeout.html"}
+{"ts": "2026-05-31 12:04:33.898732", "event": "page_complete", "page": 1, "page_records": 1, "total_records": 1, "progress": "1 - 25 of 568"}

@@ -1,0 +1,351 @@
+Recruiter list mode: TechnicalRecruitersTargetOrgs
+URL: https://app.apollo.io/#/people?personTitles[]=technical%20recruiter&organizationIds[]=5e57fdec4ab14d00019d74ca&organizat...
+Output stem: apollo_recruiter_records_technical_target_orgs_net_new
+Log file: apollo_list_technicalrecruiterstargetorgs_net_new.log
+
+2026-05-31 21:38:46 - INFO - Starting recruiter extraction from page 16
+2026-05-31 21:38:46 - INFO - Tip: run 'python3 check_progress.py --pipeline recruiters' to see resume guidance.
+2026-05-31 21:38:46 - INFO - Virtual display started
+2026-05-31 21:38:46 - INFO - Browser headless=True
+2026-05-31 21:38:46 - INFO - Using existing DISPLAY=:2
+2026-05-31 21:38:46 - INFO - Detected Chrome version: 141
+2026-05-31 21:38:47 - INFO - patching driver executable /home/wynt3r/.local/share/undetected_chromedriver/undetected_chromedriver
+2026-05-31 21:38:50 - INFO - Created Chrome driver on port 9384 with profile dir /tmp/apollo_recruiters_9384
+2026-05-31 21:38:52 - INFO - Cookie file read successfully
+2026-05-31 21:38:52 - INFO - Successfully parsed 47 cookies
+2026-05-31 21:38:52 - INFO - Successfully loaded 47 cookies
+2026-05-31 21:39:10 - INFO - Cookies applied successfully
+2026-05-31 21:39:16 - INFO - Using saved-list URL mode (page=16)
+2026-05-31 21:39:16 - INFO - Navigating to filtered People page...
+2026-05-31 21:39:30 - INFO - Ensuring Net New view is selected...
+2026-05-31 21:39:37 - INFO - Net New view selected
+2026-05-31 21:39:37 - INFO - Detected total rows: 562, page size: 25, total pages: 23. Processing through page 23.
+2026-05-31 21:39:37 - INFO - Output file will be saved to: /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_recruiters/lists/TechnicalRecruitersTargetOrgs/apollo_recruiter_records_technical_target_orgs_net_new_1.csv
+2026-05-31 21:39:37 - INFO - Resuming into existing CSV (apollo_recruiter_records_technical_target_orgs_net_new_1.csv)
+2026-05-31 21:39:37 - INFO - Processing page 16 of 23 (376 - 400 of 562)
+
+==================================================
+Processing page 16 of 23
+Progress: 376 - 400 of 562
+==================================================
+
+2026-05-31 21:39:37 - INFO - Saved HTML for page 16 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_16_20260531_213937.html
+2026-05-31 21:39:37 - INFO - Saved screenshot for page 16 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_16_20260531_213937.png
+2026-05-31 21:39:37 - INFO - Found 25 records on page 16
+2026-05-31 21:39:40 - INFO - Email via API for row 1: laura.naw@databricks.com
+2026-05-31 21:39:56 - INFO - Collected record 1: Laura Naw-Crisostomo | Staff Recruiter, Tech | Databricks | laura.naw@databricks.com
+2026-05-31 21:39:59 - INFO - Email via API for row 2: l_pavia@apple.com
+2026-05-31 21:40:07 - INFO - Collected record 2: Enzo Pavia | Technical, Design & Creative Recruiter | Apple | l_pavia@apple.com
+2026-05-31 21:40:10 - INFO - Email via API for row 3: katerina.lakka@databricks.com
+2026-05-31 21:40:26 - INFO - Collected record 3: Katerina Lakka | Technical Sourcing Recruiter | Databricks | katerina.lakka@databricks.com
+2026-05-31 21:40:29 - INFO - Email via API for row 4: cherrya@zillowgroup.com
+2026-05-31 21:40:37 - INFO - Collected record 4: Cherry Daniels | Senior Technical Recruiter (Design, Research & Insights, Engineering, Product, & Program Management) | Zillow | cherrya@zillowgroup.com
+2026-05-31 21:40:40 - INFO - Email via API for row 5: tatiana.suriano@doordash.com
+2026-05-31 21:40:55 - INFO - Collected record 5: Tatiana Suriano | Lead Recruiter, Specialized Tech | DoorDash | tatiana.suriano@doordash.com
+2026-05-31 21:40:58 - INFO - Email via API for row 6: kriziatorres@meta.com
+2026-05-31 21:41:13 - INFO - Collected record 6: Krizia Doyle | Technical Full Cycle Recruiter | Meta | kriziatorres@meta.com
+2026-05-31 21:41:16 - WARNING - Prospect API returned no email for person 61141fb01422210001df43ad
+2026-05-31 21:42:15 - INFO - Ensuring Net New view is selected...
+2026-05-31 21:42:24 - INFO - Net New view selected
+2026-05-31 21:42:24 - WARNING - Prospect failed for record 7 (person_id=61141fb01422210001df43ad)
+2026-05-31 21:42:24 - ERROR - Error processing record 6: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5a6253eddfea <unknown>
+#1 0x5a625395bd06 <unknown>
+#2 0x5a62539629af <unknown>
+#3 0x5a6253965148 <unknown>
+#4 0x5a62539651d3 <unknown>
+#5 0x5a62539ad94f <unknown>
+#6 0x5a62539ae101 <unknown>
+#7 0x5a62539a1bf6 <unknown>
+#8 0x5a62539d3e3d <unknown>
+#9 0x5a62539a1ae7 <unknown>
+#10 0x5a62539d3fde <unknown>
+#11 0x5a62539f9b3b <unknown>
+#12 0x5a62539d3be3 <unknown>
+#13 0x5a62539a02d2 <unknown>
+#14 0x5a62539a0f91 <unknown>
+#15 0x5a6253ea19e8 <unknown>
+#16 0x5a6253ea584f <unknown>
+#17 0x5a6253e88ec9 <unknown>
+#18 0x5a6253ea63f5 <unknown>
+#19 0x5a6253e6e74f <unknown>
+#20 0x5a6253ecacc8 <unknown>
+#21 0x5a6253ecaea3 <unknown>
+#22 0x5a6253edcf83 <unknown>
+#23 0x78bd12c9caa4 <unknown>
+#24 0x78bd12d29c6c <unknown>
+
+2026-05-31 21:42:27 - INFO - Email via API for row 8: t_fehrenbach@apple.com
+2026-05-31 21:42:35 - INFO - Collected record 8: Tina Fehrenbach | Senior Technical Sourcing Recruiter | Apple | t_fehrenbach@apple.com
+2026-05-31 21:42:38 - INFO - Email via API for row 9: catherine.carmichael@capitalone.com
+2026-05-31 21:42:46 - INFO - Collected record 9: Catherine Carmichael | Principal Recruiter, Tech Recruiting | Capital One | catherine.carmichael@capitalone.com
+2026-05-31 21:42:49 - INFO - Email via API for row 10: sandra.lovik@gartner.com
+2026-05-31 21:43:03 - INFO - Collected record 10: Sandra Lovik | Global Tech Sales Recruiter | Gartner | sandra.lovik@gartner.com
+2026-05-31 21:43:08 - INFO - Email via API for row 11: k_esquibel@apple.com
+2026-05-31 21:43:16 - INFO - Collected record 11: Katherine Esquibel | Technical University Relations Recruiter | Apple | k_esquibel@apple.com
+2026-05-31 21:43:20 - INFO - Email via API for row 12: jburley@deloitte.com
+2026-05-31 21:43:35 - INFO - Collected record 12: Jane Burley | Corporate Recruiter - Technology & Transformation | Deloitte | jburley@deloitte.com
+2026-05-31 21:43:39 - WARNING - Prospect API returned no email for person 54a2d61274686935bea34440
+2026-05-31 21:43:52 - INFO - Ensuring Net New view is selected...
+2026-05-31 21:44:04 - INFO - Net New view selected
+2026-05-31 21:44:04 - ERROR - Error processing record 12: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.76); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+#0 0x5a6253eddfea <unknown>
+#1 0x5a625395bd06 <unknown>
+#2 0x5a62539629af <unknown>
+#3 0x5a6253965148 <unknown>
+#4 0x5a62539651d3 <unknown>
+#5 0x5a62539ad94f <unknown>
+#6 0x5a62539ae101 <unknown>
+#7 0x5a62539a1bf6 <unknown>
+#8 0x5a62539d3e3d <unknown>
+#9 0x5a62539a1ae7 <unknown>
+#10 0x5a62539d3fde <unknown>
+#11 0x5a62539f9b3b <unknown>
+#12 0x5a62539d3be3 <unknown>
+#13 0x5a62539a02d2 <unknown>
+#14 0x5a62539a0f91 <unknown>
+#15 0x5a6253ea19e8 <unknown>
+#16 0x5a6253ea584f <unknown>
+#17 0x5a6253e88ec9 <unknown>
+#18 0x5a6253ea63f5 <unknown>
+#19 0x5a6253e6e74f <unknown>
+#20 0x5a6253ecacc8 <unknown>
+#21 0x5a6253ecaea3 <unknown>
+#22 0x5a6253edcf83 <unknown>
+#23 0x78bd12c9caa4 <unknown>
+#24 0x78bd12d29c6c <unknown>
+
+2026-05-31 21:44:07 - INFO - Email via API for row 14: clarks@deloitte.com
+2026-05-31 21:44:23 - INFO - Collected record 14: Sharon Clark | Senior Recruiter Technology & Transformation / SAP | Deloitte | clarks@deloitte.com
+2026-05-31 21:44:26 - INFO - Email via API for row 15: lsilie@deloitte.com
+2026-05-31 21:44:41 - INFO - Collected record 15: Lyall Silie | Senior Corporate Recruiter Tax & Technology | Deloitte | lsilie@deloitte.com
+2026-05-31 21:44:45 - INFO - Email via API for row 16: imani.davis@capitalone.com
+2026-05-31 21:44:52 - INFO - Collected record 16: Imani Davis | Senior Tech Grad Recruiter (ARIP) | Capital One | imani.davis@capitalone.com
+2026-05-31 21:44:54 - INFO - Email via API for row 17: steph.scagnegatti@gartner.com
+2026-05-31 21:45:10 - INFO - Collected record 17: Stephanie Scagnegatti | Recruiter- High Tech & Invest Large Enterprise Global Technology | Gartner | steph.scagnegatti@gartner.com
+2026-05-31 21:45:13 - INFO - Email via API for row 18: timothy.endter@gartner.com
+2026-05-31 21:45:28 - INFO - Collected record 18: Timothy Endter | Senior Sales Recruiter | Global Technology Sales | Gartner | timothy.endter@gartner.com
+2026-05-31 21:45:31 - INFO - Email via API for row 19: briand@netflix.com
+2026-05-31 21:45:39 - INFO - Collected record 19: Brian Downey | Technical Sourcer/Recruiter (Gen AI) | Netflix | briand@netflix.com
+2026-05-31 21:45:42 - INFO - Email via API for row 20: danielle.caldwell@gartner.com
+2026-05-31 21:45:56 - INFO - Collected record 20: Danielle Caldwell | Senior Sales Recruiter - Global Technology Sales | Gartner | danielle.caldwell@gartner.com
+2026-05-31 21:45:59 - INFO - Email via API for row 21: masihkabir@meta.com
+2026-05-31 21:46:13 - INFO - Collected record 21: Masih Kabir | Principal Leadership Recruiter - Product and Tech XFN | Meta | masihkabir@meta.com
+2026-05-31 21:46:16 - INFO - Email via API for row 22: anisen@meta.com
+2026-05-31 21:46:31 - INFO - Collected record 22: Anindita Sen | Technical Sourcing Recruiter @ Meta | Ex-Amazon, Talent Acquisition | Meta | anisen@meta.com
+2026-05-31 21:46:34 - INFO - Email via API for row 23: lauren.edsel@gartner.com
+2026-05-31 21:46:49 - INFO - Collected record 23: Lauren Edsel | Senior Recruiter, Business and Technology Insights (NA & EMEA) | Gartner | lauren.edsel@gartner.com
+2026-05-31 21:46:51 - INFO - Email via API for row 24: vanessar@fb.com
+2026-05-31 21:47:06 - INFO - Collected record 24: Vanessa Cicco | Recruiter for Global Communications, Policy, Finance & Tech | Meta | vanessar@fb.com
+2026-05-31 21:47:09 - INFO - Email via API for row 25: erika.glander@bofa.com
+2026-05-31 21:47:17 - INFO - Collected record 25: Erika Glander | AVP, Global Technology Campus Recruiter | Bank of America | erika.glander@bofa.com
+2026-05-31 21:47:18 - INFO - Missing fields on page 16: Email: 1, Industry: 7, Keywords: 1
+Missing fields on page 16: Email: 1, Industry: 7, Keywords: 1
+2026-05-31 21:47:18 - INFO - Page 16 complete - collected 23 recruiters (total: 23)
+Page 16 complete - collected 23 recruiters (total: 23)
+2026-05-31 21:47:33 - INFO - Successfully navigated to page 17
+2026-05-31 21:47:33 - INFO - Processing page 17 of 23 (401 - 425 of 537)
+
+==================================================
+Processing page 17 of 23
+Progress: 401 - 425 of 537
+==================================================
+
+2026-05-31 21:47:33 - INFO - Saved HTML for page 17 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_17_20260531_214733.html
+2026-05-31 21:47:33 - INFO - Saved screenshot for page 17 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_17_20260531_214733.png
+2026-05-31 21:47:33 - INFO - Found 25 records on page 17
+2026-05-31 21:47:35 - INFO - Email via API for row 1: ishihov@deloitte.com
+2026-05-31 21:47:50 - INFO - Collected record 1: Igor Shihov | Tech Recruitment Consultant | Deloitte | ishihov@deloitte.com
+2026-05-31 21:47:53 - INFO - Email via API for row 2: lloera@netflix.com
+2026-05-31 21:48:02 - INFO - Collected record 2: Lauren Loera | Technical Recruiting Researcher | Netflix | lloera@netflix.com
+2026-05-31 21:48:06 - INFO - Email via API for row 3: bfong@netflix.com
+2026-05-31 21:48:14 - INFO - Collected record 3: Brittney Fong | Technical Recruiting Researcher | Netflix | bfong@netflix.com
+2026-05-31 21:48:16 - INFO - Email via API for row 4: csmittle@apple.com
+2026-05-31 21:48:24 - INFO - Collected record 4: Cherie Smittle | Sr. Technical Talent Sourcer | Apple | csmittle@apple.com
+2026-05-31 21:48:29 - INFO - Email via API for row 5: sajnar@netflix.com
+2026-05-31 21:48:38 - INFO - Collected record 5: Sajna Raj | Tech Recruiting Partner EMEA | Netflix | sajnar@netflix.com
+2026-05-31 21:48:41 - INFO - Email via API for row 6: raymond_chen@apple.com
+2026-05-31 21:48:48 - INFO - Collected record 6: Raymond Chen | Technical Recruiting | Apple | raymond_chen@apple.com
+2026-05-31 21:48:52 - INFO - Email via API for row 7: lindsey.mason@doordash.com
+2026-05-31 21:49:07 - INFO - Collected record 7: Lindsey Mason | Technical Recruiting | DoorDash | lindsey.mason@doordash.com
+2026-05-31 21:49:10 - INFO - Email via API for row 8: mlazo@meta.com
+2026-05-31 21:49:25 - INFO - Collected record 8: Michael Lazo | Technical Sourcer | Meta | mlazo@meta.com
+2026-05-31 21:49:28 - INFO - Email via API for row 9: elvertaw@meta.com
+2026-05-31 21:49:43 - INFO - Collected record 9: Elverta Whitaker | Software & Systems Engineering Recruiter | Meta | elvertaw@meta.com
+2026-05-31 21:49:46 - INFO - Email via API for row 10: stefcastillo@meta.com
+2026-05-31 21:50:01 - INFO - Collected record 10: Stef Castillo | Technical Sourcer | Meta | stefcastillo@meta.com
+2026-05-31 21:50:04 - INFO - Email via API for row 11: shannont@netflix.com
+2026-05-31 21:50:13 - INFO - Collected record 11: Shannon Thompson | Technical Recruiting Researcher | Netflix | shannont@netflix.com
+2026-05-31 21:50:16 - INFO - Email via API for row 12: nicole.zawacki@doordash.com
+2026-05-31 21:50:31 - INFO - Collected record 12: Nicole Zawacki | Technical Recruiting @ DoorDash | DoorDash | nicole.zawacki@doordash.com
+2026-05-31 21:50:33 - INFO - Email via API for row 13: c_benavides@apple.com
+2026-05-31 21:50:41 - INFO - Collected record 13: Cris Benavides | Hardware Technologies Recruiter | Apple | c_benavides@apple.com
+2026-05-31 21:50:43 - INFO - Email via API for row 14: damien.malsbury@doordash.com
+2026-05-31 21:50:58 - INFO - Collected record 14: Damien Malsbury | Technical Sourcer | DoorDash | damien.malsbury@doordash.com
+2026-05-31 21:51:01 - INFO - Email via API for row 15: jubutz@deloitte.com
+2026-05-31 21:51:17 - INFO - Collected record 15: Justin Butz | Team Lead - CBO Sourcing - Technical Recruiting | Deloitte | jubutz@deloitte.com
+2026-05-31 21:51:20 - INFO - Email via API for row 16: cherrie_jones2@apple.com
+2026-05-31 21:51:28 - INFO - Collected record 16: Cherrie Jones | Hardware Technologies | Technical Recruiting Sourcer | Apple | cherrie_jones2@apple.com
+2026-05-31 21:51:30 - INFO - Email via API for row 17: jazmin_rios@apple.com
+2026-05-31 21:51:39 - INFO - Collected record 17: Jazmin Rios | Technical Sourcer | Apple | jazmin_rios@apple.com
+2026-05-31 21:51:42 - INFO - Email via API for row 18: paisleyl@netflix.com
+2026-05-31 21:51:50 - INFO - Collected record 18: Paisley Leaf | Technical Recruiting Researcher | Netflix | paisleyl@netflix.com
+2026-05-31 21:51:53 - INFO - Email via API for row 19: nicolethomas@meta.com
+2026-05-31 21:52:08 - INFO - Collected record 19: Nicole Thomas | Technical Sourcer | Meta | nicolethomas@meta.com
+2026-05-31 21:52:11 - INFO - Email via API for row 20: sandy_santoscoyochoa@apple.com
+2026-05-31 21:52:19 - INFO - Collected record 20: Sandy Ochoa | Hardware Technologies | Technical Recruiting Source | Apple | sandy_santoscoyochoa@apple.com
+2026-05-31 21:52:22 - INFO - Email via API for row 21: ladams@apple.com
+2026-05-31 21:52:30 - INFO - Collected record 21: Leslie Adams | Technical Recruiting, ASE | Apple | ladams@apple.com
+2026-05-31 21:52:35 - INFO - Email via API for row 22: jcowans@netflix.com
+2026-05-31 21:52:42 - INFO - Collected record 22: Jessica Cowans | Technical Recruiting Researcher | Netflix | jcowans@netflix.com
+2026-05-31 21:52:46 - INFO - Email via API for row 23: mikaelapage@meta.com
+2026-05-31 21:53:00 - INFO - Collected record 23: Mikaela Page | Technical Recruiting | Meta | mikaelapage@meta.com
+2026-05-31 21:53:03 - INFO - Email via API for row 24: oneumann@pivotal.io
+2026-05-31 21:53:18 - INFO - Collected record 24: Oliver Neumann | Technical Recruiting - AI | Meta | oneumann@pivotal.io
+2026-05-31 21:53:21 - INFO - Email via API for row 25: matthewm@nvidia.com
+2026-05-31 21:53:36 - INFO - Collected record 25: Matthew Marshall | Technical Sourcer | NVIDIA | matthewm@nvidia.com
+2026-05-31 21:53:37 - INFO - Missing fields on page 17: Industry: 9, Keywords: 6
+Missing fields on page 17: Industry: 9, Keywords: 6
+2026-05-31 21:53:37 - INFO - Page 17 complete - collected 25 recruiters (total: 48)
+Page 17 complete - collected 25 recruiters (total: 48)
+2026-05-31 21:53:53 - INFO - Successfully navigated to page 18
+2026-05-31 21:53:53 - INFO - Processing page 18 of 23 (426 - 450 of 512)
+
+==================================================
+Processing page 18 of 23
+Progress: 426 - 450 of 512
+==================================================
+
+2026-05-31 21:53:53 - INFO - Saved HTML for page 18 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_18_20260531_215353.html
+2026-05-31 21:53:53 - INFO - Saved screenshot for page 18 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_18_20260531_215353.png
+2026-05-31 21:53:53 - INFO - Found 25 records on page 18
+2026-05-31 21:53:55 - INFO - Email via API for row 1: kely@netflix.com
+2026-05-31 21:54:03 - INFO - Collected record 1: Kaylie Ely | Technical Recruiting | Netflix | kely@netflix.com
+2026-05-31 21:54:05 - INFO - Email via API for row 2: rishiom@fb.com
+2026-05-31 21:54:20 - INFO - Collected record 2: Rishi Om | Technical Sourcer | Meta | rishiom@fb.com
+2026-05-31 21:54:23 - INFO - Email via API for row 3: jordayne@meta.com
+2026-05-31 21:54:38 - INFO - Collected record 3: Jordayne Henry | Technical Sourcer | Meta | jordayne@meta.com
+2026-05-31 21:54:41 - INFO - Email via API for row 4: soniasahney@meta.com
+2026-05-31 21:54:56 - INFO - Collected record 4: Sonia Sahney | Technical Recruiting Professional | Meta | soniasahney@meta.com
+2026-05-31 21:55:00 - INFO - Email via API for row 5: aavila@nvidia.com
+2026-05-31 21:55:14 - INFO - Collected record 5: Alexa Avila-Flores | University Recruiting Technical Sourcer | NVIDIA | aavila@nvidia.com
+2026-05-31 21:55:17 - INFO - Email via API for row 6: b_florez@apple.com
+2026-05-31 21:55:25 - INFO - Collected record 6: Bryant Florez | Technical Sourcer | Apple | b_florez@apple.com
+2026-05-31 21:55:28 - INFO - Email via API for row 7: gency@meta.com
+2026-05-31 21:55:43 - INFO - Collected record 7: Gency Alas | Technical Sourcer | Meta | gency@meta.com
+2026-05-31 21:55:46 - INFO - Email via API for row 8: mcinco@meta.com
+2026-05-31 21:56:01 - INFO - Collected record 8: Marthina Cinco | Technical Recruiting | Meta | mcinco@meta.com
+2026-05-31 21:56:05 - INFO - Email via API for row 9: alex.funchess@databricks.com
+2026-05-31 21:56:19 - INFO - Collected record 9: Alex Funchess | Technical Sourcer | Databricks | alex.funchess@databricks.com
+2026-05-31 21:56:22 - INFO - Email via API for row 10: katherine.ayres@doordash.com
+2026-05-31 21:56:38 - INFO - Collected record 10: Katherine Ayres | Executive Tech Sourcer | DoorDash | katherine.ayres@doordash.com
+2026-05-31 21:56:41 - INFO - Email via API for row 11: vdelatorre@netflix.com
+2026-05-31 21:56:48 - INFO - Collected record 11: Viviana Torre | Technical Recruiting Researcher | Netflix | vdelatorre@netflix.com
+2026-05-31 21:56:52 - INFO - Email via API for row 12: nicolai.talaugon@gusto.com
+2026-05-31 21:57:06 - INFO - Collected record 12: Nicolai Talaugon | Technical Sourcer | Gusto | nicolai.talaugon@gusto.com
+2026-05-31 21:57:09 - INFO - Email via API for row 13: noah.rooney@ext.doordash.com
+2026-05-31 21:57:24 - INFO - Collected record 13: Noah Rooney | Technical Sourcer | DoorDash | noah.rooney@ext.doordash.com
+2026-05-31 21:57:27 - INFO - Email via API for row 14: aloras@meta.com
+2026-05-31 21:57:42 - INFO - Collected record 14: Alora Servin | Technical Sourcer | Meta | aloras@meta.com
+2026-05-31 21:57:45 - INFO - Email via API for row 15: kevinwong@netflix.com
+2026-05-31 21:57:53 - INFO - Collected record 15: Kevin Wong | Technical Recruiting Researcher, Product | Data Science & Engineering | Netflix | kevinwong@netflix.com
+2026-05-31 21:57:56 - INFO - Email via API for row 16: sbenavides@meta.com
+2026-05-31 21:58:10 - INFO - Collected record 16: Stephanie Benavides | Technical Sourcer | Meta | sbenavides@meta.com
+2026-05-31 21:58:14 - INFO - Email via API for row 17: evachalek@netflix.com
+2026-05-31 21:58:22 - INFO - Collected record 17: Erica Vachalek | Technical Recruiting Researcher | Netflix | evachalek@netflix.com
+2026-05-31 21:58:25 - INFO - Email via API for row 18: cynthialee@meta.com
+2026-05-31 21:58:40 - INFO - Collected record 18: Cynthia Lee | Technical Sourcer | Meta | cynthialee@meta.com
+2026-05-31 21:58:42 - INFO - Email via API for row 19: nsingh6@atlassian.com
+2026-05-31 21:58:51 - INFO - Collected record 19: Natasha Singh | Technical Sourcer | Atlassian | nsingh6@atlassian.com
+2026-05-31 21:58:54 - INFO - Email via API for row 20: satia@deloitte.com
+2026-05-31 21:59:09 - INFO - Collected record 20: Sean Atia | 16K+ Followers | Talent Acquisition Specialist | Technical Recruiting | Deloitte | satia@deloitte.com
+2026-05-31 21:59:12 - INFO - Email via API for row 21: john.a@meta.com
+2026-05-31 21:59:27 - INFO - Collected record 21: John Aylward | Technical Sourcer | Meta | john.a@meta.com
+2026-05-31 21:59:31 - INFO - Email via API for row 22: rtruong@meta.com
+2026-05-31 21:59:45 - INFO - Collected record 22: Rebecca Truong | Technical Leadership Recruiting | Meta | rtruong@meta.com
+2026-05-31 21:59:48 - INFO - Email via API for row 23: domingo@apple.com
+2026-05-31 21:59:56 - INFO - Collected record 23: JC Domingo | Technical Sourcer | Apple | domingo@apple.com
+2026-05-31 21:59:58 - INFO - Email via API for row 24: dpmosely@apple.com
+2026-05-31 22:00:06 - INFO - Collected record 24: Darryl Mosely | Technical Sourcer | Apple | dpmosely@apple.com
+2026-05-31 22:00:10 - INFO - Email via API for row 25: mileung@nvidia.com
+2026-05-31 22:00:24 - INFO - Collected record 25: Michelle Leung | University Recruiting Technical Sourcer | NVIDIA | mileung@nvidia.com
+2026-05-31 22:00:26 - INFO - Missing fields on page 18: Industry: 14, Keywords: 4
+Missing fields on page 18: Industry: 14, Keywords: 4
+2026-05-31 22:00:26 - INFO - Page 18 complete - collected 25 recruiters (total: 73)
+Page 18 complete - collected 25 recruiters (total: 73)
+2026-05-31 22:00:42 - INFO - Successfully navigated to page 19
+2026-05-31 22:00:42 - INFO - Processing page 19 of 23 (451 - 475 of 487)
+
+==================================================
+Processing page 19 of 23
+Progress: 451 - 475 of 487
+==================================================
+
+2026-05-31 22:00:42 - INFO - Saved HTML for page 19 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_19_20260531_220042.html
+2026-05-31 22:00:43 - INFO - Saved screenshot for page 19 to /home/wynt3r/CareerOps/JobXplore/archives/CareerFlow/apollo_extractions/apollo_html/apollo_list_technicalrecruiterstargetorgs_net_new_page_19_20260531_220042.png
+2026-05-31 22:00:43 - INFO - Found 25 records on page 19
+2026-05-31 22:00:45 - INFO - Email via API for row 1: dlin@fb.com
+2026-05-31 22:00:59 - INFO - Collected record 1: Derek Lin | Technical Recruiting at Meta | Meta | dlin@fb.com
+2026-05-31 22:01:03 - INFO - Email via API for row 2: st@apple.com
+2026-05-31 22:01:10 - INFO - Collected record 2: Todd S | Technical Sourcer | Apple | st@apple.com
+2026-05-31 22:01:13 - INFO - Email via API for row 3: yasmine.armanios@ext.doordash.com
+2026-05-31 22:01:28 - INFO - Collected record 3: Yasmine Armanios | Technical Sourcer | DoorDash | yasmine.armanios@ext.doordash.com
+2026-05-31 22:01:31 - INFO - Email via API for row 4: brerwin@fb.com
+2026-05-31 22:01:46 - INFO - Collected record 4: Brett Erwin | Technical Recruiting | Meta | brerwin@fb.com
+2026-05-31 22:01:50 - INFO - Email via API for row 5: adogan@atlassian.com
+2026-05-31 22:01:57 - INFO - Collected record 5: Ayse Dogan | Technical MatchMaker | Atlassian | adogan@atlassian.com
+2026-05-31 22:02:01 - INFO - Email via API for row 6: chiuyi@meta.com
+2026-05-31 22:02:16 - INFO - Collected record 6: Chiuyi Leung | Technical Sourcer | Meta | chiuyi@meta.com
+2026-05-31 22:02:19 - INFO - Email via API for row 7: caitlin.rogers@ext.doordash.com
+2026-05-31 22:02:35 - INFO - Collected record 7: Caitlin Rogers | Technical Sourcer | DoorDash | caitlin.rogers@ext.doordash.com
+2026-05-31 22:02:38 - INFO - Email via API for row 8: brolfs@meta.com
+2026-05-31 22:02:53 - INFO - Collected record 8: Bridget Rolfs | Technical Sourcer | Meta | brolfs@meta.com
+2026-05-31 22:02:56 - INFO - Email via API for row 9: clynshue@apple.com
+2026-05-31 22:03:03 - INFO - Collected record 9: Carene Lyn-Shue | Tech Professional Looking | Apple | clynshue@apple.com
+2026-05-31 22:03:06 - INFO - Email via API for row 10: lfreitas@fb.com
+2026-05-31 22:03:21 - INFO - Collected record 10: Lauren Freitas | Former Technical Sourcer | Meta | lfreitas@fb.com
+2026-05-31 22:03:25 - INFO - Email via API for row 11: avnikaben.zala@ext.doordash.com
+2026-05-31 22:03:40 - INFO - Collected record 11: Avnika Zala | Technical Recruiting Associate | DoorDash | avnikaben.zala@ext.doordash.com
+2026-05-31 22:03:44 - INFO - Email via API for row 12: victorjonesii@meta.com
+2026-05-31 22:03:58 - INFO - Collected record 12: Victor Jones | Technical Sourcer | Meta | victorjonesii@meta.com
+2026-05-31 22:04:01 - INFO - Email via API for row 13: teddynorman@meta.com
+2026-05-31 22:04:16 - INFO - Collected record 13: Teddy Norman | Technical Recruiting | Meta | teddynorman@meta.com
+2026-05-31 22:04:20 - WARNING - Prospect API returned no email for person 54a1394b69702db45dac2600
+2026-05-31 22:04:37 - INFO - Ensuring Net New view is selected...
+2026-05-31 22:04:46 - INFO - Net New view selected
+2026-05-31 22:04:46 - ERROR - Error processing record 13: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-05-31 22:04:48 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37007): Failed to establish a new connection: [Errno 111] Connection refused")': /session/fa6044d837512b9ac8bf6357f4ba656c/element
+2026-05-31 22:04:48 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37007): Failed to establish a new connection: [Errno 111] Connection refused")': /session/fa6044d837512b9ac8bf6357f4ba656c/element
+2026-05-31 22:04:48 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37007): Failed to establish a new connection: [Errno 111] Connection refused")': /session/fa6044d837512b9ac8bf6357f4ba656c/element
+2026-05-31 22:04:48 - ERROR - Unexpected error on page 19: HTTPConnectionPool(host='localhost', port=37007): Max retries exceeded with url: /session/fa6044d837512b9ac8bf6357f4ba656c/element (Caused by NewConnectionError("HTTPConnection(host='localhost', port=37007): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-05-31 22:04:48 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37007): Failed to establish a new connection: [Errno 111] Connection refused")': /session/fa6044d837512b9ac8bf6357f4ba656c/element
+2026-05-31 22:04:48 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37007): Failed to establish a new connection: [Errno 111] Connection refused")': /session/fa6044d837512b9ac8bf6357f4ba656c/element
+2026-05-31 22:04:48 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37007): Failed to establish a new connection: [Errno 111] Connection refused")': /session/fa6044d837512b9ac8bf6357f4ba656c/element
+2026-05-31 22:04:48 - INFO - Processing page 19 of 23 (Progress counter not found)
+
+==================================================
+Processing page 19 of 23
+Progress: Progress counter not found
+==================================================
+
+2026-05-31 22:04:48 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37007): Failed to establish a new connection: [Errno 111] Connection refused")': /session/fa6044d837512b9ac8bf6357f4ba656c/source
+2026-05-31 22:04:48 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37007): Failed to establish a new connection: [Errno 111] Connection refused")': /session/fa6044d837512b9ac8bf6357f4ba656c/source
+2026-05-31 22:04:48 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37007): Failed to establish a new connection: [Errno 111] Connection refused")': /session/fa6044d837512b9ac8bf6357f4ba656c/source
+2026-05-31 22:04:48 - ERROR - Error saving page HTML: HTTPConnectionPool(host='localhost', port=37007): Max retries exceeded with url: /session/fa6044d837512b9ac8bf6357f4ba656c/source (Caused by NewConnectionError("HTTPConnection(host='localhost', port=37007): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-05-31 22:04:48 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37007): Failed to establish a new connection: [Errno 111] Connection refused")': /session/fa6044d837512b9ac8bf6357f4ba656c/screenshot
+2026-05-31 22:04:48 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37007): Failed to establish a new connection: [Errno 111] Connection refused")': /session/fa6044d837512b9ac8bf6357f4ba656c/screenshot
+2026-05-31 22:04:48 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37007): Failed to establish a new connection: [Errno 111] Connection refused")': /session/fa6044d837512b9ac8bf6357f4ba656c/screenshot
+2026-05-31 22:04:48 - ERROR - Error saving screenshot: HTTPConnectionPool(host='localhost', port=37007): Max retries exceeded with url: /session/fa6044d837512b9ac8bf6357f4ba656c/screenshot (Caused by NewConnectionError("HTTPConnection(host='localhost', port=37007): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-05-31 22:04:48 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37007): Failed to establish a new connection: [Errno 111] Connection refused")': /session/fa6044d837512b9ac8bf6357f4ba656c/elements
+2026-05-31 22:04:48 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37007): Failed to establish a new connection: [Errno 111] Connection refused")': /session/fa6044d837512b9ac8bf6357f4ba656c/elements
+2026-05-31 22:04:48 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=37007): Failed to establish a new connection: [Errno 111] Connection refused")': /session/fa6044d837512b9ac8bf6357f4ba656c/elements
+2026-05-31 22:04:48 - ERROR - Unexpected error on page 19: HTTPConnectionPool(host='localhost', port=37007): Max retries exceeded with url: /session/fa6044d837512b9ac8bf6357f4ba656c/elements (Caused by NewConnectionError("HTTPConnection(host='localhost', port=37007): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-05-31 22:04:48 - INFO - Total pages processed up to: 19
+2026-05-31 22:04:48 - INFO - Total records collected: 86
+2026-05-31 22:04:48 - INFO - Driver closed successfully
+2026-05-31 22:04:48 - INFO - Driver closed
+2026-05-31 22:04:48 - INFO - Virtual display stopped

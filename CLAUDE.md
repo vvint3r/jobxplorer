@@ -98,3 +98,44 @@ Application results are tracked in `data/application_logs/applications.csv` via 
 ### Running scripts from the correct directory
 
 All `python3` invocations that reference `src/` modules expect `PYTHONPATH` to include `src/` and the working directory to be the project root. The shell scripts set this up automatically. When running modules directly, set `export PYTHONPATH="$(pwd)/src"` first.
+
+## Documentation Output Format
+
+### Format decision table
+
+| Output type | Format | Location |
+|---|---|---|
+| CLAUDE.md, CLAUDE.local.md | Markdown | project root / `.claude/` |
+| Memory files (MEMORY.md, topic files) | Markdown | `~/.claude/projects/.../memory/` |
+| Git-tracked reference docs (backlog, commands, setup refs) | Markdown | `docs/` |
+| Pipeline run reports | **HTML** | `docs/html/` |
+| Alignment score reports | **HTML** | `docs/html/` |
+| Project status / backlog boards | **HTML** | `docs/html/` |
+| Architecture overviews | **HTML** | `docs/html/` |
+| Interactive setup checklists | **HTML** | `docs/html/` |
+| JD insights / skill gap reports | **HTML** | `docs/html/` |
+
+**Rule:** if a human will read it and it contains tables, status data, or multi-section hierarchy → HTML. If a program, Claude, or git reads it → Markdown.
+
+### HTML generation
+
+Invoke with `/html-doc [type] [title]` or Claude auto-generates HTML when output is clearly a report/board.
+All HTML docs: single self-contained file, no external CDN, all CSS/JS inline.
+Naming: `docs/html/<type>-<slug>-<YYYYMMDD>.html`
+Design identity: dark slate + violet palette defined in `~/.claude/skills/html-doc/SKILL.md`.
+`docs/html/` is gitignored — commit selectively with `git add -f` when a report should persist.
+
+### `docs/` layout
+
+```
+docs/
+├── backlog.md              ← Markdown (machine-readable)
+├── commands.md             ← Markdown
+├── setup_checklist.md      ← Markdown
+├── setup_instructions/     ← Markdown
+└── html/                   ← HTML artifacts (gitignored, human-readable)
+    ├── pipeline-report-*.html
+    ├── status-board-*.html
+    ├── architecture-*.html
+    └── setup-checklist-*.html
+```
